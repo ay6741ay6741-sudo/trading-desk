@@ -74,6 +74,45 @@ def hourly():
     if lines:  # speak only if something happened
         report(f"## {datetime.now():%H:%M} desk run\n" + "\n".join(lines))
     write_status(state, sc)
+    eq = load_json("equity.json", [])
+    eq.append([int(time.time()), round(equity(state, sc), 2)])
+    save_json("equity.json", eq[-5000:])  # ~7 months of hourly points
+
+
+def equity(state, sc):
+    """Wallet + unrealized P&L of open paper trades at the scout's last price."""
+    open_pnl = sum(t["stake"] * ((-1 if t["is_short"] else 1) * (sc["pairs"][p]["last"] / t["open_rate"] - 1) - 2 * LIM["fee"])
+                   for p, t in state["open"].items() if p in sc["pairs"])
+    return state["wallet"] + open_pnl
+
+
+def tail_jsonl(name, n):
+    try:
+        return [json.loads(x) for x in (STATE / name).read_text().splitlines()[-n:] if x.strip()]
+    except OSError:
+        return []
+
+
+def write_dashboard():
+    """Everything the web dashboard (index.html) shows, in one file."""
+    state, sc = load_json("paper.json", None) or engine.new_state(), load_json("scout.json", {"pairs": {}, "ts": 0})
+    allsig = decisions(0)
+    closed = state["closed"]
+    recent, tuning = tail_jsonl("decisions.jsonl", 40), tail_jsonl("tuning.jsonl", 20)
+    days = sorted(REPORTS.glob("20*.md"))[-3:]
+    errors = (REPORTS / "errors.log").read_text()[-1500:] if (REPORTS / "errors.log").exists() else ""
+    save_json("dashboard.json", {
+        "updated": time.time(), "limits": LIM, "thresholds": gates.load_thresholds(),
+        "wallet": state["wallet"], "equity_now": equity(state, sc), "open": list(state["open"].values()),
+        "closed": closed[-100:], "equity": load_json("equity.json", []), "scout": sc,
+        "decisions": recent[::-1], "tuning": tuning,
+        "gate_counts": {c: sum(d["choice"] == c for d in allsig) for c in ("accept", "verify_more", "reject")},
+        "stats": {"trades": len(closed), "wins": sum(t["close_profit"] > 0 for t in closed),
+                  "best": max((t["close_profit"] for t in closed), default=0),
+                  "worst": min((t["close_profit"] for t in closed), default=0)},
+        "reports": [{"day": p.stem, "text": p.read_text(encoding="utf-8")} for p in days[::-1]],
+        "errors": errors,
+    })
 
 
 def write_status(state, sc):
@@ -199,6 +238,7 @@ def run():
             print(traceback.format_exc(), file=sys.stderr)
         runs[name] = now.timestamp()
     save_json("jobs.json", runs)
+    write_dashboard()
 
 
 if __name__ == "__main__":

@@ -5,3 +5,4 @@ __pycache__/
 *.tmp
 *.log
 !reports/errors.log
+.claude/
