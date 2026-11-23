@@ -4,7 +4,9 @@ Research -> decision gate -> paper engine executes -> human on the dangerous edg
 **Trades SOL only, in US dollars** (Coinbase SOL-USD prices). **Paper money only.** No exchange account or key exists anywhere in this project.
 Runs every hour on GitHub Actions (free), state and reports are committed back to this repo.
 
-**Check on it:** open [`reports/STATUS.md`](reports/STATUS.md) (wallet, open trades, last 10 closed).
+**Dashboard (live, animated):** https://ay6741ay6741-sudo.github.io/trading-desk/
+Live SOL price streams from Coinbase in the browser; desk data (`state/dashboard.json`) refreshes after every hourly run.
+Plain-text status: [`reports/STATUS.md`](reports/STATUS.md).
 Daily notes: `reports/YYYY-MM-DD.md`. Errors: `reports/errors.log`.
 
 | Seat | What | Where |
