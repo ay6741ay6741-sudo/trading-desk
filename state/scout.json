@@ -1,53 +1,53 @@
 {
- "ts": 1795440219.9348376,
+ "ts": 1795441439.5899105,
  "pairs": {
   "BONK/USD": {
-   "last": 2.18e-06,
-   "change_24h": 0.05314009661835728,
-   "funding": -7.96743837484e-05,
-   "open_interest": 542291200000.0
+   "last": 2.16e-06,
+   "change_24h": 0.04347826086956519,
+   "funding": -7.59712624073e-05,
+   "open_interest": 546589200000.0
   },
   "WIF/USD": {
-   "last": 0.1239,
-   "change_24h": 0.03224193951512122,
+   "last": 0.12341,
+   "change_24h": 0.02815962675997663,
    "funding": 5e-05,
-   "open_interest": 22245929.0
+   "open_interest": 22268504.0
   },
   "POPCAT/USD": {
-   "last": 0.02564,
-   "change_24h": 0.03554119547657497,
+   "last": 0.02571,
+   "change_24h": 0.038368336025848215,
    "funding": 5e-05,
-   "open_interest": 9604930.0
+   "open_interest": 9617250.0
   },
   "PENGU/USD": {
-   "last": 0.004373,
-   "change_24h": 0.022684752104770833,
+   "last": 0.004359,
+   "change_24h": 0.01941066417212345,
    "funding": 5e-05,
-   "open_interest": 1094448300.0
+   "open_interest": 1096479400.0
   },
   "TRUMP/USD": {
-   "last": 0.8967,
-   "change_24h": 0.002011397921555469,
-   "funding": 4.04417919793e-05,
-   "open_interest": 9125931.2
+   "last": 0.8946,
+   "change_24h": -0.0003352329869259485,
+   "funding": 4.13787478072e-05,
+   "open_interest": 9149543.1
   },
   "FARTCOIN/USD": {
-   "last": 0.08167,
-   "change_24h": 0.044239867024677304,
+   "last": 0.08143,
+   "change_24h": 0.04117120572816768,
    "funding": 5e-05,
-   "open_interest": 18774214.0
+   "open_interest": 18820058.0
   },
   "PNUT/USD": {
-   "last": 0.02661,
-   "change_24h": 0.012171928489920214,
+   "last": 0.02654,
+   "change_24h": 0.009509319132749994,
    "funding": 5e-05,
-   "open_interest": 26162670.0
+   "open_interest": 26057140.0
   },
   "MOODENG/USD": {
-   "last": 0.025903,
-   "change_24h": 0.033020937188434685,
+   "last": 0.025909,
+   "change_24h": 0.033260219341974206,
    "funding": 5e-05,
-   "open_interest": 25504920.0
+   "open_interest": 25477110.0
   }
  }
 }
