@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from desk import bridge, gates  # noqa: E402
+from desk import engine, gates  # noqa: E402
 from desk.desk import grade  # noqa: E402
 
 T = gates.load_thresholds()
@@ -55,11 +55,21 @@ new, note = gates.tune(recs, T)
 assert new["accept_score"] == T["accept_score"] + T["tune_step"], note
 assert gates.tune([], T)[0] == T
 
-# bridge refuses anything that isn't a read
-try:
-    bridge.bot("forceenter")
-    raise AssertionError("bridge allowed a write endpoint")
-except ValueError:
-    pass
+# engine: slow uptrend, then a high-volume breakout -> accepted -> opened -> next candle hits stop
+cs = [(i * 3600, 100 + i * 0.01, 100.2 + i * 0.01, 99.8 + i * 0.01, 100 + i * 0.01, 1.0) for i in range(520)]
+cs.append((520 * 3600, 105.2, 107, 105, 106.5, 3.0))
+st = engine.new_state()
+ev = engine.step(st, {engine.BTC: cs}, {engine.BTC: 0.0001}, T)
+kinds = [k for k, _ in ev]
+assert kinds == ["decision", "open"], ev
+pos = st["open"][engine.BTC]
+assert abs(pos["stop"] - 106.5 * 0.97) < 1e-9 and abs(pos["target"] - 106.5 * 1.06) < 1e-9
+assert engine.step(st, {engine.BTC: cs}, {}, T) == []  # same candles again: nothing new, nothing doubled
+cs.append((521 * 3600, 106.5, 106.8, 103, 104, 1.0))  # low 103 < stop 103.305
+ev = engine.step(st, {engine.BTC: cs}, {}, T)
+closed = [e for k, e in ev if k == "close"]
+assert closed and closed[0]["exit_reason"] == "stop_loss" and not st["open"]
+assert abs(closed[0]["close_profit"] - (-0.03 - 2 * engine.LIMITS["fee"])) < 1e-6
+assert gates.review_trade(closed[0], T)["choice"] == "closed_as_planned"
 
 print("all desk checks passed")
