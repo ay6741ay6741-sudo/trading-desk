@@ -1,5 +1,5 @@
 {
- "updated": 1795458825.7078278,
+ "updated": 1795458964.6572332,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -243,22 +243,26 @@
   [
    1795458822,
    1000
+  ],
+  [
+   1795458959,
+   1000
   ]
  ],
  "scout": {
-  "ts": 1795458817.0305974,
+  "ts": 1795458955.1022615,
   "pairs": {
    "BONK/USD": {
     "last": 2.2e-06,
     "change_24h": 0.06796116504854366,
-    "funding": 6.97829301265e-05,
-    "open_interest": 536925900000.0
+    "funding": 7.33174040081e-05,
+    "open_interest": 537151900000.0
    },
    "WIF/USD": {
-    "last": 0.12782,
-    "change_24h": 0.0712370097217565,
-    "funding": 4.53879563186e-05,
-    "open_interest": 22748301.0
+    "last": 0.1281,
+    "change_24h": 0.07358364063023792,
+    "funding": 4.21589995151e-05,
+    "open_interest": 22746976.0
    },
    "POPCAT/USD": {
     "last": 0.02632,
@@ -267,34 +271,34 @@
     "open_interest": 9276580.0
    },
    "PENGU/USD": {
-    "last": 0.004532,
-    "change_24h": 0.06760895170789172,
+    "last": 0.004538,
+    "change_24h": 0.06902237926972932,
     "funding": 5e-05,
-    "open_interest": 1081040400.0
+    "open_interest": 1081598100.0
    },
    "TRUMP/USD": {
-    "last": 0.9049,
-    "change_24h": 0.0161706906232455,
-    "funding": 4.41713396881e-05,
-    "open_interest": 9487654.0
+    "last": 0.9069,
+    "change_24h": 0.018416619876473916,
+    "funding": 4.69002413517e-05,
+    "open_interest": 9473047.2
    },
    "FARTCOIN/USD": {
-    "last": 0.08404,
-    "change_24h": 0.07826533230690291,
+    "last": 0.08405,
+    "change_24h": 0.07839363613035677,
     "funding": 5e-05,
-    "open_interest": 18781433.0
+    "open_interest": 18780242.0
    },
    "PNUT/USD": {
     "last": 0.02702,
     "change_24h": 0.029333333333333433,
     "funding": 5e-05,
-    "open_interest": 26334750.0
+    "open_interest": 26330130.0
    },
    "MOODENG/USD": {
     "last": 0.026406,
     "change_24h": 0.0401386536416275,
-    "funding": 4.4728192231e-05,
-    "open_interest": 26599530.0
+    "funding": 4.91824057619e-05,
+    "open_interest": 26589480.0
    }
   }
  },
@@ -1335,7 +1339,7 @@
    "paper_only": true
   },
   "wallet": 788.8779341787423,
-  "equity_now": 916.4494851449502,
+  "equity_now": 917.3188859936565,
   "open": [
    {
     "trade_id": 18,
@@ -1351,8 +1355,8 @@
     "entry_liquidity": 63622.05,
     "stop": 0.00055956525,
     "target": 0.0011191305,
-    "last_price": 0.0009685,
-    "last_liquidity": 74302.61
+    "last_price": 0.0009735,
+    "last_liquidity": 74504.53
    },
    {
     "trade_id": 21,
@@ -1368,8 +1372,8 @@
     "entry_liquidity": 67720.1,
     "stop": 0.00060334875,
     "target": 0.0012066975,
-    "last_price": 0.0007117,
-    "last_liquidity": 62955.4
+    "last_price": 0.0007149,
+    "last_liquidity": 63107.27
    },
    {
     "trade_id": 25,
@@ -1385,8 +1389,8 @@
     "entry_liquidity": 35657.88,
     "stop": 0.00011400375000000001,
     "target": 0.00022800750000000002,
-    "last_price": 0.0001507,
-    "last_liquidity": 36169.76
+    "last_price": 0.0001537,
+    "last_liquidity": 36559.11
    },
    {
     "trade_id": 26,
@@ -1402,7 +1406,8 @@
     "entry_liquidity": 29353.83,
     "stop": 0.00013400174999999998,
     "target": 0.00026800349999999996,
-    "last_price": 0.0001769
+    "last_price": 0.0001775,
+    "last_liquidity": 29402.58
    },
    {
     "trade_id": 27,
@@ -1418,7 +1423,8 @@
     "entry_liquidity": 26841.55,
     "stop": 0.00011082225000000001,
     "target": 0.00022164450000000002,
-    "last_price": 0.0001463
+    "last_price": 0.0001465,
+    "last_liquidity": 26863.11
    }
   ],
   "closed": [
@@ -2359,6 +2365,10 @@
    [
     1795458825,
     916.45
+   ],
+   [
+    1795458964,
+    917.32
    ]
   ],
   "checks": [
