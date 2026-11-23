@@ -1,5 +1,5 @@
 {
- "updated": 1795417102.7612598,
+ "updated": 1795418318.9840243,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -99,62 +99,153 @@
   [
    1795417099,
    1000
+  ],
+  [
+   1795418317,
+   1000
   ]
  ],
  "scout": {
-  "ts": 1795417093.7250276,
+  "ts": 1795418311.607606,
   "pairs": {
    "BONK/USD": {
     "last": 2.13e-06,
-    "change_24h": 0.049261083743842304,
-    "funding": -0.000214596834778,
-    "open_interest": 557884900000.0
+    "change_24h": 0.044117647058823595,
+    "funding": -0.000227359882074,
+    "open_interest": 557864200000.0
    },
    "WIF/USD": {
-    "last": 0.12362,
-    "change_24h": 0.06413015408453138,
+    "last": 0.12357,
+    "change_24h": 0.06086881868131866,
     "funding": 5e-05,
-    "open_interest": 22270944.0
+    "open_interest": 22289326.0
    },
    "POPCAT/USD": {
-    "last": 0.0251,
-    "change_24h": 0.0419261104192612,
+    "last": 0.0253,
+    "change_24h": 0.04416013206768454,
     "funding": 5e-05,
-    "open_interest": 9243490.0
+    "open_interest": 9327960.0
    },
    "PENGU/USD": {
-    "last": 0.004322,
-    "change_24h": 0.02831310968355938,
+    "last": 0.004333,
+    "change_24h": 0.03314258464473063,
     "funding": 5e-05,
-    "open_interest": 1083408800.0
+    "open_interest": 1081602900.0
    },
    "TRUMP/USD": {
-    "last": 0.9002,
-    "change_24h": 0.015912425234172245,
-    "funding": -4.63439932442e-05,
-    "open_interest": 9127076.3
+    "last": 0.9026,
+    "change_24h": 0.020002260142388817,
+    "funding": -4.85912486881e-05,
+    "open_interest": 9151376.9
    },
    "FARTCOIN/USD": {
-    "last": 0.08176,
-    "change_24h": 0.07240293809024134,
-    "funding": 4.84614877397e-05,
-    "open_interest": 19007002.0
+    "last": 0.08249,
+    "change_24h": 0.07675238219553582,
+    "funding": 4.19849297276e-05,
+    "open_interest": 18940306.0
    },
    "PNUT/USD": {
-    "last": 0.02686,
-    "change_24h": 0.051683633516053096,
-    "funding": -4.96411427936e-05,
-    "open_interest": 24989710.0
+    "last": 0.0268,
+    "change_24h": 0.04361370716510904,
+    "funding": -4.35542490832e-05,
+    "open_interest": 25063430.0
    },
    "MOODENG/USD": {
-    "last": 0.025774,
-    "change_24h": 0.060658436213991695,
+    "last": 0.025763,
+    "change_24h": 0.046298176501644805,
     "funding": 5e-05,
-    "open_interest": 24888790.0
+    "open_interest": 25055390.0
    }
   }
  },
  "decisions": [
+  {
+   "ts": 1795418317.3349292,
+   "gate": "check_signal",
+   "inputs": {
+    "pair": "FARTCOIN/USD",
+    "direction": "long",
+    "volume_ratio": 1.429,
+    "trend_ok": false,
+    "btc_conflict": false,
+    "funding": 4.19849297276e-05,
+    "candle_age_h": 0,
+    "whitelisted": true,
+    "price": 0.08141,
+    "candle_ts": 1795413600
+   },
+   "choice": "reject",
+   "probabilities": {
+    "verify_more": 0.175,
+    "reject": 0.786,
+    "accept": 0.039
+   },
+   "confidence": 0.786,
+   "reasons": [
+    "volume 1.43x 20-day avg",
+    "against trend",
+    "funding neutral 0.0042%"
+   ],
+   "score": 0.0
+  },
+  {
+   "ts": 1795418317.3346,
+   "gate": "check_signal",
+   "inputs": {
+    "pair": "POPCAT/USD",
+    "direction": "long",
+    "volume_ratio": 0.878,
+    "trend_ok": false,
+    "btc_conflict": false,
+    "funding": 5e-05,
+    "candle_age_h": 0,
+    "whitelisted": true,
+    "price": 0.0251,
+    "candle_ts": 1795413600
+   },
+   "choice": "reject",
+   "probabilities": {
+    "verify_more": 0.029,
+    "reject": 0.97,
+    "accept": 0.001
+   },
+   "confidence": 0.97,
+   "reasons": [
+    "volume only 0.88x avg",
+    "against trend",
+    "funding neutral 0.0050%"
+   ],
+   "score": -2.0
+  },
+  {
+   "ts": 1795418317.3341253,
+   "gate": "check_signal",
+   "inputs": {
+    "pair": "WIF/USD",
+    "direction": "long",
+    "volume_ratio": 0.611,
+    "trend_ok": false,
+    "btc_conflict": false,
+    "funding": 5e-05,
+    "candle_age_h": 0,
+    "whitelisted": true,
+    "price": 0.1234,
+    "candle_ts": 1795413600
+   },
+   "choice": "reject",
+   "probabilities": {
+    "verify_more": 0.029,
+    "reject": 0.97,
+    "accept": 0.001
+   },
+   "confidence": 0.97,
+   "reasons": [
+    "volume only 0.61x avg",
+    "against trend",
+    "funding neutral 0.0050%"
+   ],
+   "score": -2.0
+  },
   {
    "ts": 1795414666.119164,
    "gate": "check_signal",
@@ -351,7 +442,7 @@
  "gate_counts": {
   "accept": 0,
   "verify_more": 0,
-  "reject": 6
+  "reject": 9
  },
  "stats": {
   "trades": 0,
@@ -362,7 +453,7 @@
  "reports": [
   {
    "day": "2026-11-23",
-   "text": "## 00:57 launch desk\n- launch hCAT (3.1h old, liq $25,629): **accept** (66%) - 1h volume 1.2x liquidity, buyers 350 vs sellers 272, momentum +7% 1h, LP 98% locked\n\n## 01:17 desk run\n- signal BONK/USD long @ 2.12e-06: **reject** (79%) - volume 1.19x 20-day avg, against trend, funding neutral -0.0162%\n- signal WIF/USD long @ 0.12287: **reject** (79%) - volume 1.14x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08082: **reject** (79%) - volume 1.89x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02676: **reject** (97%) - volume only 0.63x avg, against trend, funding neutral -0.0061%\n- signal MOODENG/USD long @ 0.025673: **reject** (79%) - volume 2.45x 20-day avg, against trend, funding neutral 0.0050%\n\n## 01:17 launch desk\n- LAUNCH CLOSED #5 UCASH/USD: stop_loss, -28.00% ($-7.00)\n\n## 01:37 launch desk\n- launch PumpMeme (1.2h old, liq $85,794): **accept** (79%) - liquidity $85,794, 1h volume 5.0x liquidity, buyers 11744 vs sellers 5443, momentum +18% 1h, LP 100% locked\n- LAUNCH OPENED #9 PumpMeme/USD $25 @ $0.00144329\n\n## 01:58 launch desk\n- launch NOHR (39.6h old, liq $111,626): **accept** (79%) - liquidity $111,626, 1h volume 0.5x liquidity, buyers 489 vs sellers 249, momentum +26% 1h, LP 100% locked\n- LAUNCH OPENED #10 NOHR/USD $25 @ $0.00231088\n\n"
+   "text": "## 00:57 launch desk\n- launch hCAT (3.1h old, liq $25,629): **accept** (66%) - 1h volume 1.2x liquidity, buyers 350 vs sellers 272, momentum +7% 1h, LP 98% locked\n\n## 01:17 desk run\n- signal BONK/USD long @ 2.12e-06: **reject** (79%) - volume 1.19x 20-day avg, against trend, funding neutral -0.0162%\n- signal WIF/USD long @ 0.12287: **reject** (79%) - volume 1.14x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08082: **reject** (79%) - volume 1.89x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02676: **reject** (97%) - volume only 0.63x avg, against trend, funding neutral -0.0061%\n- signal MOODENG/USD long @ 0.025673: **reject** (79%) - volume 2.45x 20-day avg, against trend, funding neutral 0.0050%\n\n## 01:17 launch desk\n- LAUNCH CLOSED #5 UCASH/USD: stop_loss, -28.00% ($-7.00)\n\n## 01:37 launch desk\n- launch PumpMeme (1.2h old, liq $85,794): **accept** (79%) - liquidity $85,794, 1h volume 5.0x liquidity, buyers 11744 vs sellers 5443, momentum +18% 1h, LP 100% locked\n- LAUNCH OPENED #9 PumpMeme/USD $25 @ $0.00144329\n\n## 01:58 launch desk\n- launch NOHR (39.6h old, liq $111,626): **accept** (79%) - liquidity $111,626, 1h volume 0.5x liquidity, buyers 489 vs sellers 249, momentum +26% 1h, LP 100% locked\n- LAUNCH OPENED #10 NOHR/USD $25 @ $0.00231088\n\n## 02:18 desk run\n- signal WIF/USD long @ 0.1234: **reject** (97%) - volume only 0.61x avg, against trend, funding neutral 0.0050%\n- signal POPCAT/USD long @ 0.0251: **reject** (97%) - volume only 0.88x avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08141: **reject** (79%) - volume 1.43x 20-day avg, against trend, funding neutral 0.0042%\n\n"
   },
   {
    "day": "2026-11-22",
@@ -391,7 +482,7 @@
    "paper_only": true
   },
   "wallet": 808.5447181803288,
-  "equity_now": 974.0141777588558,
+  "equity_now": 970.5722808856992,
   "open": [
    {
     "trade_id": 1,
@@ -407,8 +498,8 @@
     "entry_liquidity": 216256.39,
     "stop": 0.0064182975,
     "target": 0.012836595,
-    "last_price": 0.01058,
-    "last_liquidity": 245750.88
+    "last_price": 0.01081,
+    "last_liquidity": 248860.45
    },
    {
     "trade_id": 2,
@@ -424,8 +515,8 @@
     "entry_liquidity": 120836.82,
     "stop": 0.00207858,
     "target": 0.00415716,
-    "last_price": 0.003316,
-    "last_liquidity": 135137.93
+    "last_price": 0.003075,
+    "last_liquidity": 130387.15
    },
    {
     "trade_id": 7,
@@ -441,8 +532,8 @@
     "entry_liquidity": 49276.65,
     "stop": 0.000358146,
     "target": 0.000716292,
-    "last_price": 0.0006424,
-    "last_liquidity": 58362.2
+    "last_price": 0.0005661,
+    "last_liquidity": 54850.31
    },
    {
     "trade_id": 8,
@@ -458,8 +549,8 @@
     "entry_liquidity": 33818.31,
     "stop": 0.00015460575,
     "target": 0.0003092115,
-    "last_price": 0.0001856,
-    "last_liquidity": 32677.3
+    "last_price": 0.0002029,
+    "last_liquidity": 34244.69
    },
    {
     "trade_id": 9,
@@ -475,8 +566,8 @@
     "entry_liquidity": 85794.24,
     "stop": 0.0010824674999999999,
     "target": 0.0021649349999999998,
-    "last_price": 0.001468,
-    "last_liquidity": 87304.66
+    "last_price": 0.001446,
+    "last_liquidity": 86842.19
    },
    {
     "trade_id": 10,
@@ -492,7 +583,8 @@
     "entry_liquidity": 111626.16,
     "stop": 0.00173316,
     "target": 0.00346632,
-    "last_price": 0.002288
+    "last_price": 0.002316,
+    "last_liquidity": 112588.01
    }
   ],
   "closed": [
@@ -677,6 +769,10 @@
    [
     1795417102,
     974.01
+   ],
+   [
+    1795418318,
+    970.57
    ]
   ],
   "checks": [
