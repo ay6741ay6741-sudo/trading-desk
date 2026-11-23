@@ -16,8 +16,8 @@
    "entry_liquidity": 85794.24,
    "stop": 0.0010824674999999999,
    "target": 0.0021649349999999998,
-   "last_price": 0.001165,
-   "last_liquidity": 81031.03
+   "last_price": 0.001238,
+   "last_liquidity": 83451.89
   },
   "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": {
    "trade_id": 18,
@@ -33,8 +33,8 @@
    "entry_liquidity": 63622.05,
    "stop": 0.00055956525,
    "target": 0.0011191305,
-   "last_price": 0.00066,
-   "last_liquidity": 61677.53
+   "last_price": 0.0006249,
+   "last_liquidity": 59902.28
   },
   "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": {
    "trade_id": 20,
@@ -50,8 +50,8 @@
    "entry_liquidity": 73112.43,
    "stop": 0.0006858405,
    "target": 0.001371681,
-   "last_price": 0.0008266,
-   "last_liquidity": 69638.92
+   "last_price": 0.0007789,
+   "last_liquidity": 67494.8
   },
   "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": {
    "trade_id": 21,
@@ -67,8 +67,8 @@
    "entry_liquidity": 67720.1,
    "stop": 0.00060334875,
    "target": 0.0012066975,
-   "last_price": 0.0007165,
-   "last_liquidity": 63914.76
+   "last_price": 0.0007094,
+   "last_liquidity": 63486.95
   },
   "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": {
    "trade_id": 23,
@@ -84,8 +84,8 @@
    "entry_liquidity": 144133.81,
    "stop": 0.0022444725,
    "target": 0.004488945,
-   "last_price": 0.002339,
-   "last_liquidity": 128133.97
+   "last_price": 0.00227,
+   "last_liquidity": 126136.61
   }
  },
  "closed": [
@@ -858,6 +858,10 @@
     [
      1795450310,
      0.003466
+    ],
+    [
+     1795451547,
+     0.003518
     ]
    ],
    "last_check": 1795449086.583558,
@@ -1022,6 +1026,10 @@
     [
      1795450310,
      0.0008266
+    ],
+    [
+     1795451547,
+     0.0007789
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -1186,6 +1194,10 @@
     [
      1795450310,
      0.0007165
+    ],
+    [
+     1795451547,
+     0.0007094
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -1350,6 +1362,10 @@
     [
      1795450310,
      0.0007926
+    ],
+    [
+     1795451547,
+     0.0007791
     ]
    ],
    "last_check": 1795431702.2421017,
@@ -1514,6 +1530,10 @@
     [
      1795450310,
      0.00066
+    ],
+    [
+     1795451547,
+     0.0006249
     ]
    ],
    "last_check": 1795440225.631872,
@@ -1678,6 +1698,10 @@
     [
      1795450310,
      1.168e-05
+    ],
+    [
+     1795451547,
+     1.224e-05
     ]
    ],
    "last_check": 1795450310.9555812,
@@ -1842,6 +1866,10 @@
     [
      1795450310,
      7.626e-05
+    ],
+    [
+     1795451547,
+     6.912e-05
     ]
    ],
    "last_check": 1795450310.9555812,
@@ -2042,6 +2070,10 @@
     [
      1795450310,
      0.002339
+    ],
+    [
+     1795451547,
+     0.00227
     ]
    ],
    "last_check": 1795449086.583558,
@@ -2201,6 +2233,10 @@
     ],
     [
      1795450310,
+     1.477e-06
+    ],
+    [
+     1795451547,
      1.477e-06
     ]
    ],
@@ -2362,6 +2398,10 @@
     [
      1795450310,
      5.479e-05
+    ],
+    [
+     1795451547,
+     6.077e-05
     ]
    ],
    "last_check": 1795450310.9555812,
@@ -2522,6 +2562,10 @@
     [
      1795450310,
      1.588e-06
+    ],
+    [
+     1795451547,
+     1.588e-06
     ]
    ],
    "last_check": 1795424401.7860253,
@@ -2658,6 +2702,10 @@
     [
      1795450310,
      4.006e-05
+    ],
+    [
+     1795451547,
+     3.471e-05
     ]
    ],
    "last_check": 1795450310.9555812,
@@ -2671,7 +2719,7 @@
    "first_seen": 1795405765.5923681,
    "symbol": "camel",
    "path": [],
-   "last_check": 1795447889.4935303,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -2703,7 +2751,7 @@
    "first_seen": 1795406821.376376,
    "symbol": "Wojak",
    "path": [],
-   "last_check": 1795445474.838147,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -2711,7 +2759,7 @@
    "first_seen": 1795406821.376376,
    "symbol": "MIKEDYSON",
    "path": [],
-   "last_check": 1795445474.838147,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -2847,7 +2895,7 @@
    "first_seen": 1795409802.829607,
    "symbol": "panel",
    "path": [],
-   "last_check": 1795445474.838147,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -2978,6 +3026,10 @@
     [
      1795450310,
      0.001165
+    ],
+    [
+     1795451547,
+     0.001238
     ]
    ],
    "last_check": 1795415869.5961523,
@@ -3142,6 +3194,10 @@
     [
      1795450310,
      0.001036
+    ],
+    [
+     1795451547,
+     0.001154
     ]
    ],
    "last_check": 1795445428.6195867,
@@ -3235,7 +3291,7 @@
    "first_seen": 1795424401.7860253,
    "symbol": "Shit",
    "path": [],
-   "last_check": 1795445474.838147,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -3267,7 +3323,7 @@
    "first_seen": 1795428051.1006272,
    "symbol": "HOLD",
    "path": [],
-   "last_check": 1795447889.4935303,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -3283,7 +3339,7 @@
    "first_seen": 1795428051.1006272,
    "symbol": "Loafing",
    "path": [],
-   "last_check": 1795447889.4935303,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -3307,7 +3363,7 @@
    "first_seen": 1795431702.2421017,
    "symbol": "BOBCAT",
    "path": [],
-   "last_check": 1795447889.4935303,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -3315,7 +3371,7 @@
    "first_seen": 1795432919.7346506,
    "symbol": "RAN",
    "path": [],
-   "last_check": 1795445474.838147,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -3371,7 +3427,7 @@
    "first_seen": 1795443787.8693235,
    "symbol": "JACKET",
    "path": [],
-   "last_check": 1795447889.4935303,
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   },
@@ -3414,6 +3470,10 @@
     [
      1795450310,
      1.554e-06
+    ],
+    [
+     1795451547,
+     1.555e-06
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -3444,6 +3504,22 @@
    "symbol": "HORSE",
    "path": [],
    "last_check": 1795450310.9555812,
+   "last_choice": "reject",
+   "final": false
+  },
+  "6oM2khHX4JJsnzBHBkQibewrbdcgQoEx1kFjEjJ9pump": {
+   "first_seen": 1795451547.2100868,
+   "symbol": "JENSEN",
+   "path": [],
+   "last_check": 1795451547.2100868,
+   "last_choice": "reject",
+   "final": false
+  },
+  "Ddnd1DGVjtE2DT3ZjDXZsNzu6oHbe3GEj5VE9x6avYsA": {
+   "first_seen": 1795451547.2100868,
+   "symbol": "TUGI",
+   "path": [],
+   "last_check": 1795451547.2100868,
    "last_choice": "reject",
    "final": false
   }
