@@ -1,0 +1,190 @@
+{
+ "wallet": 900,
+ "next_id": 5,
+ "open": {
+  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
+   "trade_id": 1,
+   "pair": "MINELIUS/USD",
+   "mint": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+   "url": "https://dexscreener.com/solana/7yjdp2vmgazvea6usbxm61usk5at3j4dzfajqvq2lnfz",
+   "is_short": false,
+   "open_rate": 0.00855773,
+   "open_ts": 1795399223.429615,
+   "stake": 25,
+   "amount": 2921.3354476011746,
+   "open_date": "2026-11-23T02:00:23.429615+00:00",
+   "entry_liquidity": 216256.39,
+   "stop": 0.0064182975,
+   "target": 0.012836595,
+   "last_price": 0.008473
+  },
+  "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": {
+   "trade_id": 2,
+   "pair": "FSDV15/USD",
+   "mint": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
+   "url": "https://dexscreener.com/solana/dxvpx5pnefcilvmucmuxrx2x7mgsdmtggmqgira2zv6w",
+   "is_short": false,
+   "open_rate": 0.00277144,
+   "open_ts": 1795399223.429615,
+   "stake": 25,
+   "amount": 9020.581358427387,
+   "open_date": "2026-11-23T02:00:23.429615+00:00",
+   "entry_liquidity": 120836.82,
+   "stop": 0.00207858,
+   "target": 0.00415716,
+   "last_price": 0.002744
+  },
+  "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": {
+   "trade_id": 3,
+   "pair": "COPIUM/USD",
+   "mint": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
+   "url": "https://dexscreener.com/solana/8rjw3dbbzfzkyf5tinesjqpyjtepzg8dz7dnb2sebupp",
+   "is_short": false,
+   "open_rate": 0.000737603,
+   "open_ts": 1795399223.429615,
+   "stake": 25,
+   "amount": 33893.57147408566,
+   "open_date": "2026-11-23T02:00:23.429615+00:00",
+   "entry_liquidity": 60930.1,
+   "stop": 0.00055320225,
+   "target": 0.0011064045,
+   "last_price": 0.0007303
+  },
+  "7S8k5qQfP2M48ixDLxDh6AgtwDo92eKxZ7WNmZt7pump": {
+   "trade_id": 4,
+   "pair": "Hedge/USD",
+   "mint": "7S8k5qQfP2M48ixDLxDh6AgtwDo92eKxZ7WNmZt7pump",
+   "url": "https://dexscreener.com/solana/627jqcnaggvvcchbmlkqdqk27ak4ncvyrdez8ecyympf",
+   "is_short": false,
+   "open_rate": 0.00013534000000000002,
+   "open_ts": 1795399223.429615,
+   "stake": 25,
+   "amount": 184719.9645337668,
+   "open_date": "2026-11-23T02:00:23.429615+00:00",
+   "entry_liquidity": 35496.61,
+   "stop": 0.00010150500000000001,
+   "target": 0.00020301000000000002,
+   "last_price": 0.000134
+  }
+ },
+ "closed": [],
+ "watch": {
+  "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
+   "first_seen": 1795399223.429615,
+   "symbol": "MINELIUS",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "accept",
+   "first_score": 4.5,
+   "first_choice": "accept",
+   "entry_price": 0.008473,
+   "final": false
+  },
+  "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": {
+   "first_seen": 1795399223.429615,
+   "symbol": "FSDV15",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "accept",
+   "first_score": 4.5,
+   "first_choice": "accept",
+   "entry_price": 0.002744,
+   "final": false
+  },
+  "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": {
+   "first_seen": 1795399223.429615,
+   "symbol": "cateball",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "reject",
+   "first_score": 2.5,
+   "first_choice": "reject",
+   "entry_price": 0.001767,
+   "final": false
+  },
+  "6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump": {
+   "first_seen": 1795399223.429615,
+   "symbol": "ROCKET",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "reject",
+   "first_score": 1.0,
+   "first_choice": "reject",
+   "entry_price": 0.0007898,
+   "final": false
+  },
+  "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": {
+   "first_seen": 1795399223.429615,
+   "symbol": "COPIUM",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "accept",
+   "first_score": 5.0,
+   "first_choice": "accept",
+   "entry_price": 0.0007303,
+   "final": false
+  },
+  "7S8k5qQfP2M48ixDLxDh6AgtwDo92eKxZ7WNmZt7pump": {
+   "first_seen": 1795399223.429615,
+   "symbol": "Hedge",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "accept",
+   "first_score": 4.0,
+   "first_choice": "accept",
+   "entry_price": 0.000134,
+   "final": false
+  },
+  "AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": {
+   "first_seen": 1795399223.429615,
+   "symbol": "ZOL",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "reject",
+   "first_score": 2.0,
+   "first_choice": "reject",
+   "entry_price": 0.0001591,
+   "final": false
+  },
+  "89DKn95R7QvjAcGSeqHvmj3pq7TJFbJcckURqjvuHsHp": {
+   "first_seen": 1795399223.429615,
+   "symbol": "PRIVI",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "reject",
+   "final": false
+  },
+  "DTsMPr9UAisgBkZ2WGjZipaoALuhuoYCbR6euExi5JAQ": {
+   "first_seen": 1795399223.429615,
+   "symbol": "ZCRYPT",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "reject",
+   "final": false
+  },
+  "APa2jK3ZRK9XhuKHGXSFNDohfU5RfZZKajiv26qSvX2X": {
+   "first_seen": 1795399223.429615,
+   "symbol": "CATEGIVING",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "reject",
+   "final": false
+  },
+  "E4KkMBqEpJbiD8bpifZu2JXKaLorMSHYFzMZY1fmpump": {
+   "first_seen": 1795399223.429615,
+   "symbol": "BAAAH",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "reject",
+   "final": false
+  },
+  "98YZ8JUNtzED41Nj9nZov4WnMJQt6E39TBJhaRxRMWYB": {
+   "first_seen": 1795399223.429615,
+   "symbol": "LilChud",
+   "path": [],
+   "last_check": 1795399223.429615,
+   "last_choice": "reject",
+   "final": false
+  }
+ }
+}
