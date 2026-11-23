@@ -29,9 +29,9 @@ def _decide(logits, reasons):
     return {"choice": choice, "probabilities": probs, "confidence": probs[choice], "reasons": reasons}
 
 
-def log_decision(gate, inputs, result):
+def log_decision(gate, inputs, result, file="decisions.jsonl"):
     STATE.mkdir(exist_ok=True)
-    with open(STATE / "decisions.jsonl", "a") as f:
+    with open(STATE / file, "a") as f:
         f.write(json.dumps({"ts": time.time(), "gate": gate, "inputs": inputs, **result}) + "\n")
 
 
@@ -80,6 +80,74 @@ def check_signal(ev, t=None):
     score, reasons, gaps = signal_score(ev, t)
     edge = score - t["accept_score"]
     out = _decide({"verify_more": t["gap_weight"] * len(gaps), "reject": -edge, "accept": edge}, reasons + gaps)
+    out["score"] = score
+    return out
+
+
+# --- check_launch: accept / verify_more / reject for brand-new tokens ----------
+
+def launch_score(ev, t, lim):
+    """Market-quality score for a new token. Max ~5."""
+    score, reasons = 0.0, []
+    liq, vol = ev["liquidity"], ev["vol_h1"]
+    if liq >= 2 * lim["min_liquidity"]:
+        score += 1
+        reasons.append(f"liquidity ${liq:,.0f}")
+    turnover = vol / liq if liq else 0
+    if turnover >= 0.3:
+        score += 1
+        reasons.append(f"1h volume {turnover:.1f}x liquidity")
+    elif turnover < 0.05:
+        score -= 1
+        reasons.append("dead volume")
+    buys, sells = ev["buys_h1"], ev["sells_h1"]
+    ratio = buys / sells if sells else (2.0 if buys else 0)
+    if ratio >= 1.2:
+        score += 1
+        reasons.append(f"buyers {buys} vs sellers {sells}")
+    elif ratio < 0.8:
+        score -= 1.5
+        reasons.append(f"sellers dominate ({sells} vs {buys})")
+    if ev["chg_h1"] > 0 and ev["chg_h6"] > 0:
+        score += 1
+        reasons.append(f"momentum +{ev['chg_h1']:.0f}% 1h")
+    elif ev["chg_h1"] < -10:
+        score -= 1
+        reasons.append(f"dumping {ev['chg_h1']:.0f}% 1h")
+    fdv_liq = ev["fdv"] / liq if liq else 99
+    if fdv_liq <= 15:
+        score += 0.5
+    elif fdv_liq > 50:
+        score -= 1
+        reasons.append(f"thin pool vs value ({fdv_liq:.0f}x)")
+    if (ev.get("lp_locked_pct") or 0) >= 80:
+        score += 0.5
+        reasons.append(f"LP {ev['lp_locked_pct']:.0f}% locked")
+    return score, reasons
+
+
+def check_launch(ev, t=None, lim=None):
+    """Rug gate first (hard rules), then market quality. ev comes from desk.launches."""
+    t, lim = t or load_thresholds(), lim or LIMITS_ALL["launches"]
+    menu = lambda pick, why: _decide({k: (4 if k == pick else 0) for k in ("reject", "verify_more", "accept")}, why) | {"score": None}
+    final = lambda why: menu("reject", why) | {"final": True}  # never re-checked
+    if ev["mint_authority"] or ev["freeze_authority"]:
+        return final(["dev can still " + ("mint more" if ev["mint_authority"] else "freeze wallets")])
+    if ev["rug_danger"]:
+        return final(["RugCheck danger: " + ", ".join(ev["rug_danger"][:3])])
+    if ev["dex"] not in lim["dexes"]:
+        return menu("reject", [f"not on a graduated pool ({ev['dex']})"])
+    if ev["liquidity"] < lim["min_liquidity"]:
+        return menu("reject", [f"liquidity ${ev['liquidity']:,.0f} < ${lim['min_liquidity']:,}"])
+    if ev["age_h"] > lim["max_age_h"]:
+        return final([f"too old for the launch desk ({ev['age_h']:.0f}h)"])
+    if ev["mint_authority"] is None or ev["rug_score"] is None:
+        return menu("verify_more", ["safety data unavailable"])
+    if ev["age_h"] * 60 < lim["min_age_min"]:
+        return menu("verify_more", [f"only {ev['age_h'] * 60:.0f} min old, watching"])
+    score, reasons = launch_score(ev, t, lim)
+    edge = score - t["launch_accept"]
+    out = _decide({"verify_more": 0.0, "reject": -edge, "accept": edge}, reasons or ["no edge"])
     out["score"] = score
     return out
 

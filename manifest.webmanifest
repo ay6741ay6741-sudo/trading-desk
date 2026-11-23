@@ -1,7 +1,7 @@
 {
-  "name": "SOL Paper Desk",
-  "short_name": "SOL Desk",
-  "description": "Paper trading desk for SOL in USD: live price, gate decisions, trades.",
+  "name": "Meme Paper Desk",
+  "short_name": "Meme Desk",
+  "description": "Paper trading desk for Solana memecoins and new launches, in USD.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

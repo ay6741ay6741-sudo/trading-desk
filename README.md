@@ -1,59 +1,57 @@
-# Trading desk in a box (paper trading, free, 24/7)
+# Meme paper desk (Solana memecoins, USD, free, 24/7)
+
+**Dashboard (live, animated, add to iPhone home screen via Safari > Share > Add to Home Screen):**
+https://ay6741ay6741-sudo.github.io/trading-desk/
+
+**Paper money only.** No exchange account, wallet or key exists anywhere in this project.
+Runs 3x per hour on GitHub Actions (free). State and reports are committed back to this repo.
 
 Research -> decision gate -> paper engine executes -> human on the dangerous edges.
-**Trades SOL only, in US dollars** (Coinbase SOL-USD prices). **Paper money only.** No exchange account or key exists anywhere in this project.
-Runs every hour on GitHub Actions (free), state and reports are committed back to this repo.
 
-**Dashboard (live, animated):** https://ay6741ay6741-sudo.github.io/trading-desk/
-Live SOL price streams from Coinbase in the browser; desk data (`state/dashboard.json`) refreshes after every hourly run.
-Plain-text status: [`reports/STATUS.md`](reports/STATUS.md).
-Daily notes: `reports/YYYY-MM-DD.md`. Errors: `reports/errors.log`.
-
-| Seat | What | Where |
+## Two desks
+| | Meme desk | Launch desk |
 |---|---|---|
-| SCOUT | SOL USD price + 24h move (Coinbase), perp funding + open interest as sentiment (OKX) | `desk/bridge.py` |
-| CHART | 24h channel breakouts on SOL-USD 1h candles, long and short (paper shorts); BTC-USD as regime filter | `desk/engine.py` |
-| Gates | Rules-only typed decisions with probabilities + confidence | `desk/gates.py` |
-| Engine | Paper ledger. The only thing that can open a (paper) trade | `desk/engine.py` + `desk/limits.json` |
-| DESK MANAGER | Hourly run, reports, weekly self-tuning. Never trades | `desk/desk.py` |
+| Trades | 8 established Solana memecoins: BONK, WIF, POPCAT, PENGU, TRUMP, FARTCOIN, PNUT, MOODENG | brand-new Solana tokens found on DexScreener |
+| Prices | Coinbase USD (1h candles) | DexScreener USD |
+| Setup | 24h channel breakout, long or short | survived its first 30 min, graduated pool, real flow |
+| Gate | `check_signal`: volume, trend, perp funding (OKX), BTC regime | `check_launch`: rug rules first (mint/freeze authority via Solana RPC, RugCheck danger flags, graduated DEX, liquidity), then quality score (liquidity, turnover, buyers vs sellers, momentum, value vs pool, LP lock) |
+| Limits | $1,000 wallet, $50/trade, max 3 open, stop -8%, target +16%, 0.05% fee/side | $1,000 wallet, $25/trade, max 5 open, stop -25%, target +50%, max hold 24h, 1%/side cost |
+| Exits | stop / target checked candle by candle, opposite breakout | stop / target / 24h time exit / rug exit if liquidity drops 70% |
+| Self-tuning | weekly: grades every signal 48h later, moves `accept_score` | weekly: grades every scored token 24h after first check, moves `launch_accept` |
 
-## Gates (pick one option from a fixed menu)
-- `check_signal` -> accept / verify_more / reject. Every breakout passes it; no accept, no trade.
-- `review_trade` -> closed_as_planned / verify_more / mismatch. No fill, no done.
-- `guard_action` -> allow / confirm / human_review / deny by action level. The engine asks it before every open.
-- `route_task` -> SCOUT / trading_bot / stand_down / human_review. Only offers seats that exist right now.
+Hard limits live in `desk/limits.json`; self-tuning only edits `desk/thresholds.json`. `paper_only: false` turns every trade into `human_review`, so nothing opens.
+
+## Gates (pick one option from a fixed menu, with probabilities + confidence)
+- `check_signal` / `check_launch` -> accept / verify_more / reject. No accept, no trade.
+- `review_trade` -> closed_as_planned / verify_more / mismatch. No fill, no done. Launch stops that gap past -26% show as mismatch on purpose.
+- `guard_action` -> allow / confirm / human_review / deny by action level (0 read, 1 prepare, 2 reversible, 3 trade, 4 money). Asked before every open.
+- `route_task` -> only offers seats that exist right now.
 
 Typed output does not mean the call is right. A gate, not an oracle.
 
-## Action levels
-| Level | Examples | Rule |
-|---|---|---|
-| 0 Read | prices, funding, status | automatic |
-| 1 Prepare | plans, reports | automatic |
-| 2 Reversible | pause entries, blacklist a pair | allowed + logged on paper, confirm when live |
-| 3 Trade | open a position inside the limits | paper: allowed. Live: human approval |
-| 4 Money / irreversible | stake, leverage, stop, keys, transfers, going live | human, always |
+## Backtest: meme desk (2025-10-01 to 2026-11-22, $1,000 wallet, $50/trade)
+| stop / target | gate | trades | avg/trade | total | win rate |
+|---|---|---|---|---|---|
+| -8% / +16% | on | 433 | +0.51% | +$110.37 (+11.0%) | 37.9% |
+| -8% / +16% | off | 656 | +0.07% | +$21.39 (+2.1%) | 34.5% |
+| -3% / +6% | on | 863 | +0.15% | +$62.59 | 35.8% |
+| -5% / +10% | on | 585 | +0.31% | +$91.27 | 36.6% |
+| -10% / +20% | on | 397 | +0.14% | +$27.81 | 36.0% |
 
-Hard limits live in `desk/limits.json` (paper_only, SOL/USD only, $1,000 wallet, $50 per trade, 1 trade at a time, -3% stop, +6% target, 0.05% fee per side). Self-tuning never edits it. Setting `paper_only` to false makes every trade `human_review`, so the engine stops opening trades.
+-8/+16 was picked from these 4 variants on the same data, so treat its result as optimistic. History is OKX USDT perps as a USD proxy. Funding is missing in backtests. Backtests are not forecasts.
+The launch desk has no backtest (no free history of new-token pools); it learns from its own graded tokens.
 
-## Schedule (New York time)
-- every hour, 3 min after the candle closes: scout, then the engine walks every candle since the last run (stops and targets are checked candle by candle, so a late run misses nothing; entries only on the newest candle)
-- 08:00 morning brief, 21:00 evening report (signals checked, trades closed with fill review, P&L)
-- Sunday 21:00 weekly review: grades every signal from the last 28 days against the next 48h (+2R target first, -1R stop first, 0 neither), then moves `accept_score` in `desk/thresholds.json` one step toward the best value. Needs 10+ graded signals before changing anything. History: `state/tuning.jsonl`.
+## Honest limits
+- Runs every ~20 min: the launch desk follows tokens that survived their first minutes. It cannot snipe, and stops fill at the next observed price.
+- GitHub can delay or drop scheduled runs; 3 runs/hour cover single drops.
+- Memecoins and new launches are extremely risky; most new tokens go to zero.
 
-## Backtest (SOL only, 1h, 2025-10-01 to 2026-11-22, same engine code, $1,000 wallet, $50 per trade)
-| | trades | avg/trade | total | win rate |
-|---|---|---|---|---|
-| gate on | 154 | +0.34% | +$26.35 (+2.63%) | 38.3% |
-| gate off | 271 | +0.08% | +$11.20 (+1.12%) | 33.6% |
-
-History replayed from OKX SOL-USDT (USDT ~ $1) as a USD proxy. Earlier 3-pair version vs Freqtrade on the same rules: 425 vs 426 trades, so the engine matches.
-Only 5% of the wallet is at risk per trade, so dollar results stay small; that is the $50 stake limit, not the strategy.
-Backtests are not forecasts. Funding data is missing in backtests, so the funding check only works live. Fills assume candle close / exact stop, no slippage.
+## Files
+- `desk/engine.py` meme paper engine · `desk/launches.py` launch scanner + ledger · `desk/gates.py` all gates + tuning
+- `desk/bridge.py` read-only market data · `desk/desk.py` run loop, reports, dashboard data · `index.html` dashboard
+- `state/` ledgers, decisions, equity · `reports/` daily notes, STATUS.md, errors.log
 
 ## Local
 - self-checks: `python tests/test_desk.py`
 - one run now: `python -m desk.desk`
-- backtest (needs `.venv` with pandas + downloaded data): `.venv\Scripts\python.exe tests\backtest.py [off]`
-
-Limits of the free host: GitHub can start scheduled runs 5-20 min late, and may pause workflows used as an app host. Not built yet: news feed, phone alerts, more pairs, live trading.
+- meme backtest (needs `.venv` + downloaded data): `.venv\Scripts\python.exe tests\backtest.py [off] [stop target]`

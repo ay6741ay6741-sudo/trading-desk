@@ -9,7 +9,7 @@ import time
 import traceback
 from datetime import datetime
 
-from desk import bridge, engine, gates
+from desk import bridge, engine, gates, launches
 
 REPORTS = gates.ROOT / "reports"
 STATE = gates.STATE
@@ -112,7 +112,50 @@ def write_dashboard():
                   "worst": min((t["close_profit"] for t in closed), default=0)},
         "reports": [{"day": p.stem, "text": p.read_text(encoding="utf-8")} for p in days[::-1]],
         "errors": errors,
+        "launches": launch_dash(),
     })
+
+
+def launch_dash():
+    st = load_json("launch.json", None) or launches.new_state()
+    checks = tail_jsonl("launch_decisions.jsonl", 40)[::-1]
+    closed = st["closed"]
+    return {"limits": launches.LIM, "wallet": st["wallet"], "equity_now": launch_equity(st), "open": list(st["open"].values()),
+            "closed": closed[-100:], "equity": load_json("equity_launch.json", []), "checks": checks,
+            "watching": len(st["watch"]), "graded": tail_jsonl("launch_graded.jsonl", 30)[::-1],
+            "stats": {"trades": len(closed), "wins": sum(t["close_profit"] > 0 for t in closed),
+                      "best": max((t["close_profit"] for t in closed), default=0),
+                      "worst": min((t["close_profit"] for t in closed), default=0)}}
+
+
+def launch_job():
+    st = load_json("launch.json", None) or launches.new_state()
+    events = launches.run(st)
+    save_json("launch.json", st)
+    lines = []
+    for kind, e in events:
+        if kind == "decision":
+            if e.pop("changed"):  # log first verdict per token and every change, not every re-check
+                gates.log_decision("check_launch", e["inputs"], {k: v for k, v in e.items() if k != "inputs"}, "launch_decisions.jsonl")
+            if e["choice"] == "accept":
+                i = e["inputs"]
+                lines.append(f"- launch {i['symbol']} ({i['age_h']:.1f}h old, liq ${i['liquidity']:,.0f}): **accept** "
+                             f"({e['confidence']:.0%}) - {', '.join(e['reasons'])}")
+        elif kind == "open":
+            lines.append(f"- LAUNCH OPENED #{e['trade_id']} {e['pair']} ${e['stake']:,.0f} @ ${e['open_rate']:.8g}")
+        else:
+            lines.append(f"- LAUNCH CLOSED #{e['trade_id']} {e['pair']}: {e['exit_reason']}, {e['close_profit']:+.2%} (${e['profit_abs']:+,.2f})")
+    if lines:
+        report(f"## {datetime.now():%H:%M} launch desk\n" + "\n".join(lines))
+    eq = load_json("equity_launch.json", [])
+    eq.append([int(time.time()), round(launch_equity(st), 2)])
+    save_json("equity_launch.json", eq[-15000:])
+
+
+def launch_equity(st):
+    """Cash + open launch positions at their last seen price (cost on exit included)."""
+    return st["wallet"] + sum(p["stake"] * ((p.get("last_price") or p["open_rate"]) * (1 - launches.LIM["cost"]) / p["open_rate"])
+                              for p in st["open"].values())
 
 
 def write_status(state, sc):
@@ -164,12 +207,20 @@ def job_evening():
              f"Signals checked: {len(sigs)} (accept {counts['accept']}, verify_more {counts['verify_more']}, reject {counts['reject']})",
              f"Trades closed today: {len(today)}, open now: {len(state['open'])}"]
     for t in today:
-        rv = gates.review_trade(t)
+        rv = gates.review_trade(t, stoploss=LIM["stoploss"])
         gates.log_decision("review_trade", {"trade_id": t["trade_id"]}, rv)
         lines.append(f"- #{t['trade_id']} {t['pair']} {side(t)}: {t['open_rate']:,.6g} -> {t['close_rate']:,.6g}, "
                      f"{t['close_profit']:+.2%} - **{rv['choice']}** ({rv['reasons'][0]})")
     pnl = state["wallet"] - LIM["wallet"]
     lines.append(f"Paper P&L all time: {pnl:+,.2f} USD ({pnl / LIM['wallet']:+.2%})")
+    lst = load_json("launch.json", None) or launches.new_state()
+    lt = [t for t in lst["closed"] if t["close_timestamp"] / 1000 >= start]
+    lch = [d for d in tail_jsonl("launch_decisions.jsonl", 5000) if d["ts"] >= start]
+    lines.append(f"Launch desk: {len(lch)} token checks ({sum(d['choice'] == 'accept' for d in lch)} accepted), "
+                 f"{len(lt)} closed today, {len(lst['open'])} open, equity ${launch_equity(lst):,.2f}")
+    for t in lt:
+        rv = gates.review_trade(t, stoploss=launches.LIM["stoploss"])
+        lines.append(f"- #{t['trade_id']} {t['pair']}: {t['exit_reason']} {t['close_profit']:+.2%} - **{rv['choice']}** ({rv['reasons'][0]})")
     blockers = [r for d in sigs if d["choice"] != "accept" for r in d["reasons"]]
     if blockers:
         top = max(set(blockers), key=blockers.count)
@@ -207,11 +258,15 @@ def job_weekly():
     lines = [f"## Weekly review {datetime.now():%H:%M}", f"Graded {len(records)} signal decisions (last 28 days, 48h hindsight)."]
     for c, rs in by_choice.items():
         lines.append(f"- {c}: {len(rs)} signals, avg {sum(rs) / len(rs):+.2f}R, {sum(r > 0 for r in rs)} hit target / {sum(r < 0 for r in rs)} hit stop")
-    lines.append(f"Self-tuning: {note}")
+    lines.append(f"Self-tuning (memes): {note}")
+    graded = [r for r in tail_jsonl("launch_graded.jsonl", 2000) if r["ts"] > time.time() - 28 * 86400]
+    new_t, lnote = gates.tune(graded, new_t, "launch_accept", "launch_grid")
+    lines.append(f"Launch desk: graded {len(graded)} tokens (24h after first check). Self-tuning (launches): {lnote}")
+    note = f"memes: {note}; launches: {lnote}"
     if new_t != t:
         gates.THRESHOLDS.write_text(json.dumps(new_t, indent=2) + "\n")
         with open(STATE / "tuning.jsonl", "a") as f:
-            f.write(json.dumps({"ts": time.time(), "note": note, "accept_score": new_t["accept_score"]}) + "\n")
+            f.write(json.dumps({"ts": time.time(), "note": note, "accept_score": new_t["accept_score"], "launch_accept": new_t["launch_accept"]}) + "\n")
     report("\n".join(lines))
 
 
@@ -228,7 +283,7 @@ JOBS = {"morning": (daily(8), job_morning), "evening": (daily(21), job_evening),
 def run():
     """One hourly run. Errors are logged, never fatal: one bad hour must not stop the next."""
     now, runs = datetime.now(), load_json("jobs.json", {})
-    for name, fn in [("hourly", hourly)] + [(n, f) for n, (due, f) in JOBS.items() if due(now, runs.get(n, 0))]:
+    for name, fn in [("hourly", hourly), ("launches", launch_job)] + [(n, f) for n, (due, f) in JOBS.items() if due(now, runs.get(n, 0))]:
         try:
             fn()
         except Exception:

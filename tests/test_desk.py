@@ -77,4 +77,25 @@ assert closed and closed[0]["exit_reason"] == "stop_loss" and not st["open"]
 assert abs(closed[0]["close_profit"] - (L["stoploss"] - 2 * L["fee"])) < 1e-6
 assert gates.review_trade(closed[0], T, L["stoploss"])["choice"] == "closed_as_planned"
 
+# check_launch: rug gate first, then market quality
+from desk import launches  # noqa: E402
+LL = launches.LIM
+GOODL = {"mint": "x", "symbol": "TEST", "dex": "raydium", "price": 0.001, "liquidity": 80000, "fdv": 600000,
+         "vol_h1": 40000, "buys_h1": 300, "sells_h1": 180, "chg_h1": 12, "chg_h6": 40, "age_h": 3,
+         "mint_authority": False, "freeze_authority": False, "rug_score": 2, "lp_locked_pct": 100, "rug_danger": []}
+assert gates.check_launch(GOODL, T, LL)["choice"] == "accept"
+r = gates.check_launch(GOODL | {"mint_authority": True}, T, LL)
+assert r["choice"] == "reject" and r.get("final")
+assert gates.check_launch(GOODL | {"freeze_authority": True}, T, LL).get("final")
+assert gates.check_launch(GOODL | {"rug_danger": ["Single holder ownership"]}, T, LL)["choice"] == "reject"
+r = gates.check_launch(GOODL | {"dex": "pumpfun"}, T, LL)
+assert r["choice"] == "reject" and not r.get("final")  # may graduate later, re-checked
+assert gates.check_launch(GOODL | {"liquidity": 5000}, T, LL)["choice"] == "reject"
+assert gates.check_launch(GOODL | {"age_h": 0.2}, T, LL)["choice"] == "verify_more"
+assert gates.check_launch(GOODL | {"mint_authority": None}, T, LL)["choice"] == "verify_more"
+assert gates.check_launch(GOODL | {"sells_h1": 600, "chg_h1": -20, "vol_h1": 1000}, T, LL)["choice"] == "reject"
+assert launches.grade_path(1.0, [[0, 1.1], [1, 1.6]]) == 2
+assert launches.grade_path(1.0, [[0, 0.7], [1, 1.6]]) == -1
+assert launches.grade_path(1.0, [[0, 1.2]]) == 0
+
 print("all desk checks passed")
