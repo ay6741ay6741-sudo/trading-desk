@@ -1,0 +1,11 @@
+{
+ "wallet": 1000,
+ "next_id": 1,
+ "open": {},
+ "closed": [],
+ "last_candle": {
+  "BTC/USDT:USDT": 1795388400,
+  "ETH/USDT:USDT": 1795388400,
+  "SOL/USDT:USDT": 1795388400
+ }
+}
