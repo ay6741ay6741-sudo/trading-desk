@@ -1,7 +1,7 @@
 name: desk
 on:
-  schedule:
-    - cron: "7,27,47 * * * *"  # 3x/hour: a dropped GitHub schedule is covered 20 min later; engine skips candles it already saw
+  # No schedule: GitHub never fired it for this repo. The owner's PC runs the desk every 20 min
+  # (meme-desk/run-forever.ps1) and pushes state. This workflow stays as a manual backup.
   workflow_dispatch:
 concurrency:
   group: desk
