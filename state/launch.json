@@ -16,8 +16,8 @@
    "entry_liquidity": 216256.39,
    "stop": 0.0064182975,
    "target": 0.012836595,
-   "last_price": 0.01021,
-   "last_liquidity": 241550.62
+   "last_price": 0.01263,
+   "last_liquidity": 268820.61
   },
   "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": {
    "trade_id": 2,
@@ -33,8 +33,8 @@
    "entry_liquidity": 120836.82,
    "stop": 0.00207858,
    "target": 0.00415716,
-   "last_price": 0.002941,
-   "last_liquidity": 127332.64
+   "last_price": 0.003046,
+   "last_liquidity": 129614.53
   },
   "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": {
    "trade_id": 7,
@@ -50,8 +50,8 @@
    "entry_liquidity": 49276.65,
    "stop": 0.000358146,
    "target": 0.000716292,
-   "last_price": 0.0006058,
-   "last_liquidity": 56741.41
+   "last_price": 0.0005953,
+   "last_liquidity": 56266.17
   },
   "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": {
    "trade_id": 8,
@@ -67,8 +67,8 @@
    "entry_liquidity": 33818.31,
    "stop": 0.00015460575,
    "target": 0.0003092115,
-   "last_price": 0.0002219,
-   "last_liquidity": 35889.39
+   "last_price": 0.0002465,
+   "last_liquidity": 37971.22
   },
   "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": {
    "trade_id": 9,
@@ -84,8 +84,8 @@
    "entry_liquidity": 85794.24,
    "stop": 0.0010824674999999999,
    "target": 0.0021649349999999998,
-   "last_price": 0.001277,
-   "last_liquidity": 81441.61
+   "last_price": 0.001391,
+   "last_liquidity": 85097.85
   },
   "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": {
    "trade_id": 10,
@@ -101,8 +101,8 @@
    "entry_liquidity": 111626.16,
    "stop": 0.00173316,
    "target": 0.00346632,
-   "last_price": 0.00235,
-   "last_liquidity": 113326.74
+   "last_price": 0.002487,
+   "last_liquidity": 116633.77
   }
  },
  "closed": [
@@ -295,6 +295,10 @@
     [
      1795419534,
      0.01021
+    ],
+    [
+     1795420751,
+     0.01263
     ]
    ],
    "last_check": 1795399223.429615,
@@ -355,6 +359,10 @@
     [
      1795419534,
      0.002941
+    ],
+    [
+     1795420751,
+     0.003046
     ]
    ],
    "last_check": 1795399223.429615,
@@ -415,9 +423,13 @@
     [
      1795419534,
      0.001056
+    ],
+    [
+     1795420751,
+     0.001058
     ]
    ],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "first_score": 2.5,
    "first_choice": "reject",
@@ -475,9 +487,13 @@
     [
      1795419534,
      0.000445
+    ],
+    [
+     1795420751,
+     0.0004785
     ]
    ],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "first_score": 1.0,
    "first_choice": "reject",
@@ -535,6 +551,10 @@
     [
      1795419534,
      0.0006058
+    ],
+    [
+     1795420751,
+     0.0005953
     ]
    ],
    "last_check": 1795405765.5923681,
@@ -595,9 +615,13 @@
     [
      1795419534,
      5.265e-05
+    ],
+    [
+     1795420751,
+     5.022e-05
     ]
    ],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "first_score": 4.0,
    "first_choice": "accept",
@@ -655,9 +679,13 @@
     [
      1795419534,
      0.0001395
+    ],
+    [
+     1795420751,
+     0.00015
     ]
    ],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "first_score": 2.0,
    "first_choice": "reject",
@@ -668,7 +696,7 @@
    "first_seen": 1795399223.429615,
    "symbol": "PRIVI",
    "path": [],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "final": false
   },
@@ -751,6 +779,10 @@
     [
      1795419534,
      0.0006152
+    ],
+    [
+     1795420751,
+     0.0005803
     ]
    ],
    "last_check": 1795418317.3371341,
@@ -807,9 +839,13 @@
     [
      1795419534,
      1.366e-06
+    ],
+    [
+     1795420751,
+     1.366e-06
     ]
    ],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "first_score": 5.0,
    "first_choice": "accept",
@@ -863,6 +899,10 @@
     [
      1795419534,
      0.0002219
+    ],
+    [
+     1795420751,
+     0.0002465
     ]
    ],
    "last_check": 1795409802.829607,
@@ -919,9 +959,13 @@
     [
      1795419534,
      8.865e-05
+    ],
+    [
+     1795420751,
+     1.524e-06
     ]
    ],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "first_score": 3.0,
    "first_choice": "verify_more",
@@ -951,9 +995,13 @@
     [
      1795419534,
      0.0001229
+    ],
+    [
+     1795420751,
+     0.0001212
     ]
    ],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "final": false,
    "first_score": 4.0,
@@ -964,7 +1012,7 @@
    "first_seen": 1795405765.5923681,
    "symbol": "camel",
    "path": [],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "final": false
   },
@@ -1140,7 +1188,7 @@
    "first_seen": 1795409802.829607,
    "symbol": "panel",
    "path": [],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "final": false
   },
@@ -1167,6 +1215,10 @@
     [
      1795419534,
      0.001277
+    ],
+    [
+     1795420751,
+     0.001391
     ]
    ],
    "last_check": 1795415869.5961523,
@@ -1227,6 +1279,10 @@
     [
      1795419534,
      0.00235
+    ],
+    [
+     1795420751,
+     0.002487
     ]
    ],
    "last_check": 1795417099.5269718,
@@ -1240,7 +1296,7 @@
    "first_seen": 1795417099.5269718,
    "symbol": "WALLSTFLY",
    "path": [],
-   "last_check": 1795417099.5269718,
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "final": false
   },
@@ -1281,6 +1337,14 @@
    "symbol": "WINU",
    "path": [],
    "last_check": 1795419534.1642983,
+   "last_choice": "reject",
+   "final": false
+  },
+  "97bpSxm7bG1ykabUAWEpk5pVkPKbQKCF7JQcJjDFpump": {
+   "first_seen": 1795420751.7547514,
+   "symbol": "TOGI",
+   "path": [],
+   "last_check": 1795420751.7547514,
    "last_choice": "reject",
    "final": false
   }
