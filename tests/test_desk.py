@@ -59,14 +59,16 @@ assert gates.tune([], T)[0] == T
 cs = [(i * 3600, 100 + i * 0.01, 100.2 + i * 0.01, 99.8 + i * 0.01, 100 + i * 0.01, 1.0) for i in range(520)]
 cs.append((520 * 3600, 105.2, 107, 105, 106.5, 3.0))
 st = engine.new_state()
-ev = engine.step(st, {engine.BTC: cs}, {engine.BTC: 0.0001}, T)
+SOL = engine.LIMITS["pairs"][0]
+ev = engine.step(st, {SOL: cs, engine.BTC: cs}, {SOL: 0.0001}, T)
 kinds = [k for k, _ in ev]
 assert kinds == ["decision", "open"], ev
-pos = st["open"][engine.BTC]
+pos = st["open"][SOL]
+assert engine.BTC not in st["open"] and len(st["open"]) == 1  # BTC is context only, never traded
 assert abs(pos["stop"] - 106.5 * 0.97) < 1e-9 and abs(pos["target"] - 106.5 * 1.06) < 1e-9
-assert engine.step(st, {engine.BTC: cs}, {}, T) == []  # same candles again: nothing new, nothing doubled
+assert engine.step(st, {SOL: cs, engine.BTC: cs}, {}, T) == []  # same candles again: nothing new, nothing doubled
 cs.append((521 * 3600, 106.5, 106.8, 103, 104, 1.0))  # low 103 < stop 103.305
-ev = engine.step(st, {engine.BTC: cs}, {}, T)
+ev = engine.step(st, {SOL: cs, engine.BTC: cs}, {}, T)
 closed = [e for k, e in ev if k == "close"]
 assert closed and closed[0]["exit_reason"] == "stop_loss" and not st["open"]
 assert abs(closed[0]["close_profit"] - (-0.03 - 2 * engine.LIMITS["fee"])) < 1e-6

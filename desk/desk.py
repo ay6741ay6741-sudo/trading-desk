@@ -54,7 +54,7 @@ def side(t):
 def hourly():
     sc = bridge.scout(LIM["pairs"])
     save_json("scout.json", sc)
-    data = {p: bridge.candles(p) for p in LIM["pairs"]}
+    data = {p: bridge.candles(p) for p in LIM["pairs"] + [engine.BTC]}
     state = load_json("paper.json", None) or engine.new_state()
     events = engine.step(state, data, {p: d["funding"] for p, d in sc["pairs"].items()})
     save_json("paper.json", state)
@@ -66,11 +66,11 @@ def hourly():
             lines.append(f"- signal {i['pair']} {i['direction']} @ {i['price']:,.6g}: **{e['choice']}** "
                          f"({e['confidence']:.0%}) - {', '.join(e['reasons'])}")
         elif kind == "open":
-            lines.append(f"- OPENED #{e['trade_id']} {e['pair']} {side(e)} @ {e['open_rate']:,.6g}, "
+            lines.append(f"- OPENED #{e['trade_id']} {e['pair']} {side(e)} ${e['stake']:,.0f} @ ${e['open_rate']:,.6g}, "
                          f"stop {e['stop']:,.6g}, target {e['target']:,.6g}")
         else:
             lines.append(f"- CLOSED #{e['trade_id']} {e['pair']} {side(e)}: {e['exit_reason']} @ {e['close_rate']:,.6g}, "
-                         f"{e['close_profit']:+.2%} ({e['profit_abs']:+.2f} USDT)")
+                         f"{e['close_profit']:+.2%} (${e['profit_abs']:+,.2f})")
     if lines:  # speak only if something happened
         report(f"## {datetime.now():%H:%M} desk run\n" + "\n".join(lines))
     write_status(state, sc)
@@ -80,7 +80,7 @@ def write_status(state, sc):
     last = {p: d["last"] for p, d in sc["pairs"].items()}
     pnl = state["wallet"] - LIM["wallet"]
     lines = [f"# Paper desk status", f"Updated {datetime.now():%Y-%m-%d %H:%M} (New York). Paper money only.", "",
-             f"Wallet: **{state['wallet']:,.2f} USDT** ({pnl:+.2f}, {pnl / LIM['wallet']:+.2%}) - "
+             f"Wallet: **${state['wallet']:,.2f}** ({pnl:+,.2f} USD, {pnl / LIM['wallet']:+.2%}) - "
              f"{len(state['closed'])} closed trades, {sum(t['close_profit'] > 0 for t in state['closed'])} wins", "",
              "## Open trades"]
     for p, t in state["open"].items():
@@ -130,7 +130,7 @@ def job_evening():
         lines.append(f"- #{t['trade_id']} {t['pair']} {side(t)}: {t['open_rate']:,.6g} -> {t['close_rate']:,.6g}, "
                      f"{t['close_profit']:+.2%} - **{rv['choice']}** ({rv['reasons'][0]})")
     pnl = state["wallet"] - LIM["wallet"]
-    lines.append(f"Paper P&L all time: {pnl:+.2f} USDT ({pnl / LIM['wallet']:+.2%})")
+    lines.append(f"Paper P&L all time: {pnl:+,.2f} USD ({pnl / LIM['wallet']:+.2%})")
     blockers = [r for d in sigs if d["choice"] != "accept" for r in d["reasons"]]
     if blockers:
         top = max(set(blockers), key=blockers.count)

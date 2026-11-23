@@ -13,7 +13,7 @@ from pathlib import Path
 from desk import gates
 
 LIMITS = json.loads(Path(__file__).with_name("limits.json").read_text())
-BTC = "BTC/USDT:USDT"
+BTC = "BTC/USD"  # regime filter only, never traded
 TS, O, H, L, C, V = range(6)  # candle = (ts_sec, open, high, low, close, volume), oldest first, closed only
 
 
@@ -95,6 +95,8 @@ def step(state, data, funding=None, t=None, whitelist=None):
     btc_map = btc_day_open_map(data.get(BTC, []))
     events = []
     for pair, cs in data.items():
+        if pair not in whitelist:
+            continue  # context data (BTC), not tradeable
         last_seen = state["last_candle"].get(pair, 0)
         new_idx = [i for i, c in enumerate(cs) if c[TS] > last_seen]
         if not new_idx:

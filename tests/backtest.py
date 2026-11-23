@@ -16,8 +16,9 @@ if "off" in sys.argv:
     t["accept_score"] = -99  # gate off baseline
 
 data = {}
-for pair in engine.LIMITS["pairs"]:
-    f = ROOT / "user_data/data/okx/futures" / (pair.replace("/", "_").replace(":", "_") + "-1h-futures.feather")
+for pair in engine.LIMITS["pairs"] + [engine.BTC]:
+    # ponytail: replays OKX USDT-perp history as a USD proxy (USDT ~ $1); swap for Coinbase history if the gap matters
+    f = ROOT / "user_data/data/okx/futures" / (pair.split("/")[0] + "_USDT_USDT-1h-futures.feather")
     df = pd.read_feather(f)
     data[pair] = list(zip(df["date"].map(lambda d: d.timestamp()), df["open"], df["high"], df["low"], df["close"], df["volume"]))
 

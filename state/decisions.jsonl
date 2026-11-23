@@ -1,1 +1,0 @@
-{"ts": 1795395425.5816922, "gate": "route_task", "inputs": {"brief_fresh": true}, "choice": "trading_bot", "probabilities": {"stand_down": 0.045, "SCOUT": 0.045, "trading_bot": 0.909}, "confidence": 0.909, "reasons": ["context fresh, bot running: bot trades, signal gate guards entries"]}
