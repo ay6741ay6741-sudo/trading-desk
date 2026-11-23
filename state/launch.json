@@ -1,5 +1,5 @@
 {
- "wallet": 840.5604312027906,
+ "wallet": 845.4029369330773,
  "next_id": 23,
  "open": {
   "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": {
@@ -16,8 +16,8 @@
    "entry_liquidity": 85794.24,
    "stop": 0.0010824674999999999,
    "target": 0.0021649349999999998,
-   "last_price": 0.001669,
-   "last_liquidity": 97461.39
+   "last_price": 0.001462,
+   "last_liquidity": 91393
   },
   "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
    "trade_id": 11,
@@ -33,8 +33,8 @@
    "entry_liquidity": 283305.47,
    "stop": 0.010605,
    "target": 0.02121,
-   "last_price": 0.01533,
-   "last_liquidity": 308168.05
+   "last_price": 0.01437,
+   "last_liquidity": 298961.3
   },
   "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": {
    "trade_id": 18,
@@ -50,8 +50,8 @@
    "entry_liquidity": 63622.05,
    "stop": 0.00055956525,
    "target": 0.0011191305,
-   "last_price": 0.0007224,
-   "last_liquidity": 64730.34
+   "last_price": 0.0008683,
+   "last_liquidity": 71289.32
   },
   "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": {
    "trade_id": 20,
@@ -67,7 +67,8 @@
    "entry_liquidity": 73112.43,
    "stop": 0.0006858405,
    "target": 0.001371681,
-   "last_price": 0.0009054
+   "last_price": 0.0008898,
+   "last_liquidity": 72669.28
   },
   "4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": {
    "trade_id": 21,
@@ -83,23 +84,8 @@
    "entry_liquidity": 67720.1,
    "stop": 0.00060334875,
    "target": 0.0012066975,
-   "last_price": 0.0007965
-  },
-  "13naDSyHxXexw6s35wcwiQJLgt6dHNNW5Lho9Ko9pump": {
-   "trade_id": 22,
-   "pair": "BONER/USD",
-   "mint": "13naDSyHxXexw6s35wcwiQJLgt6dHNNW5Lho9Ko9pump",
-   "url": "https://dexscreener.com/solana/6faqvp9pogqotfg87ybfjdq3t8rv7pizdea3xfgsxjis",
-   "is_short": false,
-   "open_rate": 0.000338552,
-   "open_ts": 1795446667.8262684,
-   "stake": 25,
-   "amount": 73843.8999031168,
-   "open_date": "2026-11-23T15:11:07.826268+00:00",
-   "entry_liquidity": 42692.63,
-   "stop": 0.000253914,
-   "target": 0.000507828,
-   "last_price": 0.0003352
+   "last_price": 0.0008115,
+   "last_liquidity": 68517.17
   }
  },
  "closed": [
@@ -646,6 +632,40 @@
      "filled": 16446.82740699319
     }
    ]
+  },
+  {
+   "trade_id": 22,
+   "pair": "BONER/USD",
+   "mint": "13naDSyHxXexw6s35wcwiQJLgt6dHNNW5Lho9Ko9pump",
+   "url": "https://dexscreener.com/solana/6faqvp9pogqotfg87ybfjdq3t8rv7pizdea3xfgsxjis",
+   "is_short": false,
+   "open_rate": 0.000338552,
+   "open_ts": 1795446667.8262684,
+   "stake": 25,
+   "amount": 73843.8999031168,
+   "open_date": "2026-11-23T15:11:07.826268+00:00",
+   "entry_liquidity": 42692.63,
+   "stop": 0.000253914,
+   "target": 0.000507828,
+   "last_price": 6.624e-05,
+   "last_liquidity": 19161.64,
+   "is_open": false,
+   "close_rate": 6.55776e-05,
+   "close_timestamp": 1795447889493.5303,
+   "close_date": "2026-11-23T15:31:29.493530+00:00",
+   "close_profit": -0.8063,
+   "profit_abs": -20.1575,
+   "exit_reason": "stop_loss",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 73843.8999031168
+    },
+    {
+     "status": "closed",
+     "filled": 73843.8999031168
+    }
+   ]
   }
  ],
  "watch": {
@@ -792,6 +812,10 @@
     [
      1795446667,
      0.01533
+    ],
+    [
+     1795447889,
+     0.01437
     ]
    ],
    "last_check": 1795421967.741361,
@@ -944,6 +968,10 @@
     [
      1795446667,
      0.0009054
+    ],
+    [
+     1795447889,
+     0.0008898
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -1096,6 +1124,10 @@
     [
      1795446667,
      0.0007965
+    ],
+    [
+     1795447889,
+     0.0008115
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -1248,6 +1280,10 @@
     [
      1795446667,
      0.0007619
+    ],
+    [
+     1795447889,
+     0.0007758
     ]
    ],
    "last_check": 1795431702.2421017,
@@ -1400,6 +1436,10 @@
     [
      1795446667,
      0.0007224
+    ],
+    [
+     1795447889,
+     0.0008683
     ]
    ],
    "last_check": 1795440225.631872,
@@ -1552,6 +1592,10 @@
     [
      1795446667,
      1.726e-05
+    ],
+    [
+     1795447889,
+     1.684e-05
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -1704,6 +1748,10 @@
     [
      1795446667,
      8.768e-05
+    ],
+    [
+     1795447889,
+     8.199e-05
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -1725,7 +1773,7 @@
    "first_seen": 1795399223.429615,
    "symbol": "ZCRYPT",
    "path": [],
-   "last_check": 1795443787.8693235,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -1892,6 +1940,10 @@
     [
      1795446667,
      0.003057
+    ],
+    [
+     1795447889,
+     0.002632
     ]
    ],
    "last_check": 1795445428.6195867,
@@ -2039,6 +2091,10 @@
     ],
     [
      1795446667,
+     1.477e-06
+    ],
+    [
+     1795447889,
      1.477e-06
     ]
    ],
@@ -2188,6 +2244,10 @@
     [
      1795446667,
      6.262e-05
+    ],
+    [
+     1795447889,
+     8.246e-05
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -2336,6 +2396,10 @@
     [
      1795446667,
      1.588e-06
+    ],
+    [
+     1795447889,
+     1.588e-06
     ]
    ],
    "last_check": 1795424401.7860253,
@@ -2460,6 +2524,10 @@
     [
      1795446667,
      4.081e-05
+    ],
+    [
+     1795447889,
+     3.054e-05
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -2473,7 +2541,7 @@
    "first_seen": 1795405765.5923681,
    "symbol": "camel",
    "path": [],
-   "last_check": 1795442662.958894,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -2489,7 +2557,7 @@
    "first_seen": 1795406821.376376,
    "symbol": "FOXE",
    "path": [],
-   "last_check": 1795443787.8693235,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -2529,7 +2597,7 @@
    "first_seen": 1795406821.376376,
    "symbol": "tailinu",
    "path": [],
-   "last_check": 1795443787.8693235,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -2768,6 +2836,10 @@
     [
      1795446667,
      0.001669
+    ],
+    [
+     1795447889,
+     0.001462
     ]
    ],
    "last_check": 1795415869.5961523,
@@ -2781,7 +2853,7 @@
    "first_seen": 1795412231.6946194,
    "symbol": "Nikumaru",
    "path": [],
-   "last_check": 1795443787.8693235,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -2920,6 +2992,10 @@
     [
      1795446667,
      0.0007409
+    ],
+    [
+     1795447889,
+     0.001274
     ]
    ],
    "last_check": 1795445428.6195867,
@@ -2941,7 +3017,7 @@
    "first_seen": 1795419534.1642983,
    "symbol": "milky",
    "path": [],
-   "last_check": 1795443787.8693235,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -2989,7 +3065,7 @@
    "first_seen": 1795423184.46089,
    "symbol": "\u24d7",
    "path": [],
-   "last_check": 1795443787.8693235,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -3029,7 +3105,7 @@
    "first_seen": 1795426834.772273,
    "symbol": "Holdsgiving",
    "path": [],
-   "last_check": 1795443787.8693235,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -3045,7 +3121,7 @@
    "first_seen": 1795428051.1006272,
    "symbol": "HOLD",
    "path": [],
-   "last_check": 1795442662.958894,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -3061,7 +3137,7 @@
    "first_seen": 1795428051.1006272,
    "symbol": "Loafing",
    "path": [],
-   "last_check": 1795442662.958894,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -3085,7 +3161,7 @@
    "first_seen": 1795431702.2421017,
    "symbol": "BOBCAT",
    "path": [],
-   "last_check": 1795442662.958894,
+   "last_check": 1795447889.4935303,
    "last_choice": "reject",
    "final": false
   },
@@ -3149,8 +3225,8 @@
    "first_seen": 1795443787.8693235,
    "symbol": "JACKET",
    "path": [],
-   "last_check": 1795443787.8693235,
-   "last_choice": "verify_more",
+   "last_check": 1795447889.4935303,
+   "last_choice": "reject",
    "final": false
   },
   "Dqotg1vothycy7Xa3Q2GEfFRzuzsp41jTw91dxjNwSEz": {
@@ -3180,7 +3256,12 @@
   "13naDSyHxXexw6s35wcwiQJLgt6dHNNW5Lho9Ko9pump": {
    "first_seen": 1795446667.8262684,
    "symbol": "BONER",
-   "path": [],
+   "path": [
+    [
+     1795447889,
+     6.624e-05
+    ]
+   ],
    "last_check": 1795446667.8262684,
    "last_choice": "accept",
    "first_score": 4.0,
