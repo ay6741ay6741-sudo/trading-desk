@@ -76,7 +76,7 @@ def hourly():
     write_status(state, sc)
     eq = load_json("equity.json", [])
     eq.append([int(time.time()), round(equity(state, sc), 2)])
-    save_json("equity.json", eq[-5000:])  # ~7 months of hourly points
+    save_json("equity.json", eq[-15000:])  # ~7 months at 3 runs/hour
 
 
 def equity(state, sc):

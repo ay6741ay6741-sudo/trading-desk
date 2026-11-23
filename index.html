@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SOL Paper Desk</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" href="icon-512.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SOL Desk">
+<meta name="theme-color" content="#07090f">
 <style>
 :root{--bg:#07090f;--panel:#0f1420cc;--line:#1d2636;--text:#e6ecf5;--dim:#7d8aa3;--up:#2bd48a;--down:#ff5b6e;--warn:#ffb648;--acc:#8b7cff;--acc2:#29c5f6}
 *{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
 body::before{content:"";position:fixed;inset:-20%;z-index:-1;background:radial-gradient(40% 35% at 20% 10%,#8b7cff22,transparent 70%),radial-gradient(35% 30% at 85% 20%,#29c5f61c,transparent 70%),radial-gradient(40% 40% at 60% 100%,#2bd48a14,transparent 70%);animation:drift 24s ease-in-out infinite alternate}
 @keyframes drift{to{transform:translate(3%,2%) scale(1.05)}}
 .num{font-variant-numeric:tabular-nums;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#07090fd9;backdrop-filter:blur(10px);z-index:5}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:calc(14px + env(safe-area-inset-top)) calc(22px + env(safe-area-inset-right)) 14px calc(22px + env(safe-area-inset-left));border-bottom:1px solid var(--line);position:sticky;top:0;background:#07090fd9;backdrop-filter:blur(10px);z-index:5}
 .brand{display:flex;gap:10px;align-items:center;font-weight:700;font-size:17px;letter-spacing:.2px}
 .logo{width:26px;height:26px;border-radius:8px;background:conic-gradient(from 200deg,var(--acc),var(--acc2),var(--up),var(--acc));animation:spin 8s linear infinite}
 @keyframes spin{to{filter:hue-rotate(360deg)}}
@@ -86,6 +94,8 @@ footer{max-width:1280px;margin:0 auto;padding:6px 20px 30px;color:var(--dim);fon
   <section class="card s4" style="animation-delay:.08s">
     <h2>Open position</h2>
     <div id="pos" class="pos"></div>
+    <h2 style="margin-top:18px">Live signal radar <span class="legend num" id="closes"></span></h2>
+    <div id="radar" class="pos"><div class="empty">loading candles…</div></div>
     <h2 style="margin-top:18px">Scout</h2>
     <div id="scout" class="pos"></div>
   </section>
@@ -157,10 +167,12 @@ function renderDesk() {
 function health() {
   if (!D) return;
   const age = Date.now() / 1000 - D.updated;
-  $("rundot").className = "dot " + (age < 4500 ? "ok" : age < 9000 ? "warn" : "bad");
-  $("runtxt").textContent = `desk ran ${ago(age)} ago` + (age > 9000 ? " (late!)" : "");
-  const now = new Date(), next = new Date(now); next.setUTCMinutes(3, 0, 0); if (next <= now) next.setUTCHours(next.getUTCHours() + 1);
-  const s = Math.round((next - now) / 1000);
+  $("rundot").className = "dot " + (age < 2700 ? "ok" : age < 5400 ? "warn" : "bad");
+  $("runtxt").textContent = `desk ran ${ago(age)} ago` + (age > 5400 ? " (late!)" : "");
+  const now = new Date(), next = new Date(now); next.setUTCSeconds(0, 0);
+  const m = now.getUTCMinutes(), nm = [7, 27, 47, 67].find(x => x > m || (x === m && now.getUTCSeconds() === 0));
+  next.setUTCMinutes(nm);  // 67 rolls into the next hour
+  const s = Math.max(0, Math.round((next - now) / 1000));
   $("next").textContent = `next run ~${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 }
 setInterval(health, 1000);
@@ -324,9 +336,61 @@ function connect() {
     clearTimeout(connect._t); connect._t = setTimeout(connect, wsBack = Math.min(wsBack * 2, 30000)); poll(); };
 }
 async function poll() { try { const t = await (await fetch("https://api.exchange.coinbase.com/products/SOL-USD/ticker")).json(); onPrice(+t.price); } catch {} }
+/* ---------- live signal radar: same rules as desk/gates.py check_signal, previewed on the forming candle ---------- */
+let btcVsOpen = null;
+function previewGate(ev, t) {
+  let score = 0; const reasons = [], gaps = [], long = ev.direction === "long";
+  if (ev.vr >= t.min_volume_ratio) { score += 1; reasons.push(`volume ${ev.vr.toFixed(2)}x`); } else { score -= 1; reasons.push(`volume ${ev.vr.toFixed(2)}x`); }
+  if (ev.trend_ok) { score += 1; reasons.push("trend agrees"); } else { score -= 1.5; reasons.push("against trend"); }
+  if (ev.funding == null) gaps.push("funding unknown");
+  else if (long ? ev.funding > t.max_funding : ev.funding < -t.max_funding) { score -= 1; reasons.push("crowded funding"); }
+  else { score += .5; reasons.push("funding ok"); }
+  if (ev.btc == null) gaps.push("BTC unknown"); else if (ev.btc) { score -= 1; reasons.push("BTC against"); }
+  const edge = score - t.accept_score, lg = {verify_more: t.gap_weight * gaps.length, reject: -edge, accept: edge};
+  const top = Math.max(...Object.values(lg)), ex = Object.fromEntries(Object.entries(lg).map(([k, v]) => [k, Math.exp(v - top)]));
+  const z = Object.values(ex).reduce((a, b) => a + b), choice = Object.keys(ex).reduce((a, b) => ex[b] > ex[a] ? b : a);
+  return {choice, conf: ex[choice] / z, reasons: reasons.concat(gaps)};
+}
+function ema(vals, n) { const k = 2 / (n + 1); let e = vals[0]; for (const v of vals.slice(1)) e += k * (v - e); return e; }
+function renderRadar() {
+  if (candles.length < 490 || !D) return;
+  const nowS = Date.now() / 1000, forming = candles.at(-1)[0] + 3600 > nowS ? candles.at(-1) : null;
+  const closed = forming ? candles.slice(0, -1) : candles, px = live ?? closed.at(-1)[4];
+  const prev = closed.slice(-24), hi = Math.max(...prev.map(k => k[2])), lo = Math.min(...prev.map(k => k[3]));
+  const closes = closed.slice(-600).map(k => k[4]).concat(px), up = ema(closes, 50) > ema(closes, 200);
+  const frac = forming ? Math.max(.05, (nowS - forming[0]) / 3600) : 1, volNow = forming ? (forming[5] || 0) / frac : closed.at(-1)[5];
+  const vols = closed.slice(-479).map(k => k[5]).concat(volNow), vr = volNow / (vols.reduce((a, b) => a + b, 0) / vols.length);
+  const funding = D.scout.pairs?.[D.limits.pairs[0]]?.funding ?? null, open = D.open.length > 0;
+  const row = (dir, trig) => {
+    const long = dir === "long", dist = long ? trig / px - 1 : 1 - trig / px, broken = long ? px > trig : px < trig;
+    const g = previewGate({direction: dir, vr, trend_ok: up === long, funding, btc: btcVsOpen == null ? null : (long ? btcVsOpen < 0 : btcVsOpen > 0)}, D.thresholds);
+    const fillW = Math.max(3, Math.min(100, 100 - Math.abs(dist) * 100 / 3 * 100));  // full bar = at trigger, empty = 3% away
+    return `<div><div class="row"><span><b style="color:var(--text)">${long ? "LONG" : "SHORT"}</b> ${long ? "above" : "below"} <b class="num" style="color:var(--text)">${usd(trig, 3)}</b>
+      <span class="num ${broken ? (long ? "up" : "down") : ""}">${broken ? "BROKEN" : (dist * 100).toFixed(2) + "% away"}</span></span>
+      <span class="tag t-${g.choice}" title="${esc(g.reasons.join(" · "))}">${g.choice.replace("_", " ")} ${(g.conf * 100).toFixed(0)}%</span></div>
+      <div class="pr" style="grid-template-columns:1fr"><div class="track"><div class="fill" style="width:${fillW}%;background:${long ? "var(--up)" : "var(--down)"}"></div></div></div></div>`;
+  };
+  $("radar").innerHTML = row("long", hi) + row("short", lo) + `
+    <div class="row"><span>Trend (EMA50 vs 200)</span><b class="${up ? "up" : "down"}">${up ? "up" : "down"}</b></div>
+    <div class="row"><span>Volume (projected, vs 20-day)</span><b class="num" style="color:${vr >= D.thresholds.min_volume_ratio ? "var(--up)" : "var(--dim)"}">${vr.toFixed(2)}x</b></div>
+    <div class="row"><span>BTC vs today's open</span><b class="num ${btcVsOpen == null ? "" : cls(btcVsOpen)}">${btcVsOpen == null ? "…" : pct(btcVsOpen)}</b></div>
+    <div class="row" style="font-size:11px"><span>${open ? "Position open: no new entries until it closes." : "Preview only. The desk decides when the candle closes."}</span></div>`;
+  const left = forming ? Math.max(0, forming[0] + 3600 - nowS) : 0;
+  $("closes").textContent = `candle closes in ${String(Math.floor(left / 60)).padStart(2, "0")}:${String(Math.floor(left % 60)).padStart(2, "0")}`;
+}
+setInterval(renderRadar, 1000);
+async function loadBtc() {
+  try { const r = await (await fetch("https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600")).json();
+    const day = Math.floor(Date.now() / 86400e3) * 86400, today = r.filter(k => k[0] >= day).sort((a, b) => a[0] - b[0]);
+    if (today.length) btcVsOpen = r[0][4] / today[0][3] - 1; } catch {}
+}
+loadBtc(); setInterval(loadBtc, 60000);
+
 async function loadCandles() {
-  try { const r = await (await fetch("https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=3600")).json();
-    candles = r.map(k => [k[0], k[3], k[2], k[1], k[4]]).sort((a, b) => a[0] - b[0]);
+  try { const iso = s => new Date(s * 1000).toISOString(), end = Math.floor(Date.now() / 3600e3) * 3600 + 3600;
+    const pages = await Promise.all([0, 300].map(o => fetch(`https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=3600&start=${iso(end - (o + 300) * 3600)}&end=${iso(end - o * 3600)}`).then(r => r.json())));
+    const byTs = {}; pages.flat().forEach(k => byTs[k[0]] = [k[0], k[3], k[2], k[1], k[4], k[5]]);
+    candles = Object.values(byTs).sort((a, b) => a[0] - b[0]);
     const s = await (await fetch("https://api.exchange.coinbase.com/products/SOL-USD/stats")).json(); open24 = +s.open;
     if (!live) onPrice(+s.last, +s.open);
   } catch (e) { $("wstxt").textContent = "price feed unavailable"; }
