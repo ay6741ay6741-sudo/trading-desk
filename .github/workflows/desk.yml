@@ -1,4 +1,4 @@
-name: desk
+﻿name: desk
 on:
   schedule:
     - cron: "3 * * * *"  # 3 min after every 1h candle closes
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Desk run (paper only, stdlib python)
         env:
           TZ: America/New_York
