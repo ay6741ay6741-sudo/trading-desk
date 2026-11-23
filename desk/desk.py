@@ -177,13 +177,13 @@ def job_evening():
     report("\n".join(lines))
 
 
-def grade(direction, price, cs, t):
+def grade(direction, price, cs, lim):
     """+2 if target hit first, -1 if stop hit first (same candle = stop), 0 if neither."""
     for _, hi, lo, _ in cs:
         if direction == "long":
-            stop, tgt = lo <= price * (1 + t["stoploss"]), hi >= price * (1 + t["target"])
+            stop, tgt = lo <= price * (1 + lim["stoploss"]), hi >= price * (1 + lim["target"])
         else:
-            stop, tgt = hi >= price * (1 - t["stoploss"]), lo <= price * (1 - t["target"])
+            stop, tgt = hi >= price * (1 - lim["stoploss"]), lo <= price * (1 - lim["target"])
         if stop:
             return -1
         if tgt:
@@ -199,7 +199,7 @@ def job_weekly():
         if "score" not in d or entry_ts > time.time() - 48 * 3600:
             continue  # needs 48h of hindsight
         ev = d["inputs"]
-        r = grade(ev["direction"], ev["price"], bridge.candles_after(ev["pair"], entry_ts), t)
+        r = grade(ev["direction"], ev["price"], bridge.candles_after(ev["pair"], entry_ts), LIM)
         records.append({"score": d["score"], "r": r})
         by_choice.setdefault(d["choice"], []).append(r)
         time.sleep(0.12)

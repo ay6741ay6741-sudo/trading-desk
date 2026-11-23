@@ -14,6 +14,9 @@ START = pd.Timestamp("2025-10-01", tz="UTC").timestamp()
 t = gates.load_thresholds()
 if "off" in sys.argv:
     t["accept_score"] = -99  # gate off baseline
+nums = [float(a) for a in sys.argv[1:] if a.replace(".", "").replace("-", "").isdigit()]
+if nums:  # try other stop/target: backtest.py -0.06 0.12
+    engine.LIMITS["stoploss"], engine.LIMITS["target"] = nums
 
 data = {}
 for pair in engine.LIMITS["pairs"] + [engine.BTC]:
@@ -37,6 +40,6 @@ closed = state["closed"]
 wins = sum(x["close_profit"] > 0 for x in closed)
 total = sum(x["profit_abs"] for x in closed)
 avg = sum(x["close_profit"] for x in closed) / max(1, len(closed))
-print(f"gate {'off' if 'off' in sys.argv else 'on'}: {len(closed)} trades, avg {avg:+.2%}, "
-      f"total {total:+.2f} USDT ({total / engine.LIMITS['wallet']:+.2%}), win {wins / max(1, len(closed)):.1%}, "
+print(f"stop {engine.LIMITS['stoploss']:.0%} target {engine.LIMITS['target']:.0%} gate {'off' if 'off' in sys.argv else 'on'}: {len(closed)} trades, avg {avg:+.2%}, "
+      f"total ${total:+.2f} ({total / engine.LIMITS['wallet']:+.2%}), win {wins / max(1, len(closed)):.1%}, "
       f"still open {len(state['open'])}")

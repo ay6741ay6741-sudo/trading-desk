@@ -12,7 +12,7 @@ from pathlib import Path
 
 from desk import gates
 
-LIMITS = json.loads(Path(__file__).with_name("limits.json").read_text())
+LIMITS = {**gates.LIMITS_ALL["memes"], "paper_only": gates.LIMITS_ALL["paper_only"]}
 BTC = "BTC/USD"  # regime filter only, never traded
 TS, O, H, L, C, V = range(6)  # candle = (ts_sec, open, high, low, close, volume), oldest first, closed only
 

@@ -1,9 +1,0 @@
-{
- "wallet": 1000,
- "next_id": 1,
- "open": {},
- "closed": [],
- "last_candle": {
-  "SOL/USD": 1795392000
- }
-}

@@ -7,6 +7,7 @@ from desk import engine, gates  # noqa: E402
 from desk.desk import grade  # noqa: E402
 
 T = gates.load_thresholds()
+LIM = {"stoploss": -0.03, "target": 0.06}  # fixed numbers for the grading checks
 GOOD = {"pair": "SOL/USDT:USDT", "direction": "long", "volume_ratio": 1.4, "trend_ok": True,
         "btc_conflict": False, "funding": 0.0001, "candle_age_h": 0.1, "whitelisted": True}
 
@@ -23,11 +24,12 @@ assert abs(sum(r["probabilities"].values()) - 1) < 0.01 and r["confidence"] == m
 # review_trade: no fill, no done
 fills = [{"status": "closed", "filled": 1}, {"status": "closed", "filled": 1}]
 closed = {"is_open": False, "close_rate": 10, "close_date": "x", "orders": fills, "close_profit": -0.031, "exit_reason": "stop_loss"}
-assert gates.review_trade(closed, T)["choice"] == "closed_as_planned"
-assert gates.review_trade(closed | {"is_open": True}, T)["choice"] == "verify_more"
-assert gates.review_trade(closed | {"orders": fills[:1]}, T)["choice"] == "verify_more"
-assert gates.review_trade(closed | {"close_profit": -0.08}, T)["choice"] == "mismatch"
-assert gates.review_trade(closed | {"exit_reason": "liquidation"}, T)["choice"] == "mismatch"
+SL = -0.03
+assert gates.review_trade(closed, T, SL)["choice"] == "closed_as_planned"
+assert gates.review_trade(closed | {"is_open": True}, T, SL)["choice"] == "verify_more"
+assert gates.review_trade(closed | {"orders": fills[:1]}, T, SL)["choice"] == "verify_more"
+assert gates.review_trade(closed | {"close_profit": -0.08}, T, SL)["choice"] == "mismatch"
+assert gates.review_trade(closed | {"exit_reason": "liquidation"}, T, SL)["choice"] == "mismatch"
 
 # guard_action
 assert gates.guard_action("read")["choice"] == "allow"
@@ -44,10 +46,10 @@ assert gates.route_task({"bot_reachable": True, "bot_state": "running", "brief_f
 assert gates.route_task({"bot_reachable": True, "bot_state": "running", "money_action_pending": True})["choice"] == "human_review"
 
 # grade: long 100, stop 97, target 106
-assert grade("long", 100, [(0, 101, 99, 100), (1, 107, 100, 106)], T) == 2
-assert grade("long", 100, [(0, 107, 96, 100)], T) == -1  # same candle -> stop
-assert grade("short", 100, [(0, 101, 93, 94)], T) == 2
-assert grade("long", 100, [(0, 101, 99, 100)], T) == 0
+assert grade("long", 100, [(0, 101, 99, 100), (1, 107, 100, 106)], LIM) == 2
+assert grade("long", 100, [(0, 107, 96, 100)], LIM) == -1  # same candle -> stop
+assert grade("short", 100, [(0, 101, 93, 94)], LIM) == 2
+assert grade("long", 100, [(0, 101, 99, 100)], LIM) == 0
 
 # tune: high scores win, low scores lose -> threshold moves up one step
 recs = [{"score": 2.5, "r": 2}] * 12 + [{"score": 1.75, "r": -1}] * 12 + [{"score": 1.0, "r": -1}] * 30
@@ -65,13 +67,14 @@ kinds = [k for k, _ in ev]
 assert kinds == ["decision", "open"], ev
 pos = st["open"][SOL]
 assert engine.BTC not in st["open"] and len(st["open"]) == 1  # BTC is context only, never traded
-assert abs(pos["stop"] - 106.5 * 0.97) < 1e-9 and abs(pos["target"] - 106.5 * 1.06) < 1e-9
+L = engine.LIMITS
+assert abs(pos["stop"] - 106.5 * (1 + L["stoploss"])) < 1e-9 and abs(pos["target"] - 106.5 * (1 + L["target"])) < 1e-9
 assert engine.step(st, {SOL: cs, engine.BTC: cs}, {}, T) == []  # same candles again: nothing new, nothing doubled
-cs.append((521 * 3600, 106.5, 106.8, 103, 104, 1.0))  # low 103 < stop 103.305
+cs.append((521 * 3600, 106.5, 106.8, pos["stop"] - 0.5, pos["stop"], 1.0))  # wick through the stop
 ev = engine.step(st, {SOL: cs, engine.BTC: cs}, {}, T)
 closed = [e for k, e in ev if k == "close"]
 assert closed and closed[0]["exit_reason"] == "stop_loss" and not st["open"]
-assert abs(closed[0]["close_profit"] - (-0.03 - 2 * engine.LIMITS["fee"])) < 1e-6
-assert gates.review_trade(closed[0], T)["choice"] == "closed_as_planned"
+assert abs(closed[0]["close_profit"] - (L["stoploss"] - 2 * L["fee"])) < 1e-6
+assert gates.review_trade(closed[0], T, L["stoploss"])["choice"] == "closed_as_planned"
 
 print("all desk checks passed")
