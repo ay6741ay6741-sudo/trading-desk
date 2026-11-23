@@ -1,0 +1,147 @@
+{
+ "updated": 1795398760.550334,
+ "limits": {
+  "pairs": [
+   "BONK/USD",
+   "WIF/USD",
+   "POPCAT/USD",
+   "PENGU/USD",
+   "TRUMP/USD",
+   "FARTCOIN/USD",
+   "PNUT/USD",
+   "MOODENG/USD"
+  ],
+  "wallet": 1000,
+  "stake": 50,
+  "max_open_trades": 3,
+  "stoploss": -0.08,
+  "target": 0.16,
+  "fee": 0.0005,
+  "paper_only": true
+ },
+ "thresholds": {
+  "accept_score": 1.5,
+  "min_volume_ratio": 1.0,
+  "max_funding": 0.0005,
+  "gap_weight": 0.3,
+  "slippage_tolerance": 0.01,
+  "tune_step": 0.5,
+  "tune_min_samples": 10,
+  "tune_grid": [
+   0.5,
+   1.0,
+   1.5,
+   2.0,
+   2.5
+  ],
+  "launch_accept": 3.0,
+  "launch_grid": [
+   2.0,
+   2.5,
+   3.0,
+   3.5,
+   4.0
+  ]
+ },
+ "wallet": 1000,
+ "equity_now": 1000,
+ "open": [],
+ "closed": [],
+ "equity": [
+  [
+   1795398760,
+   1000
+  ]
+ ],
+ "scout": {
+  "ts": 1795398755.4940658,
+  "pairs": {
+   "BONK/USD": {
+    "last": 2.05e-06,
+    "change_24h": 0.009852216748768461,
+    "funding": 0.0001,
+    "open_interest": 557940700000.0
+   },
+   "WIF/USD": {
+    "last": 0.11916,
+    "change_24h": 0.014386651911126203,
+    "funding": 5e-05,
+    "open_interest": 22781573.0
+   },
+   "POPCAT/USD": {
+    "last": 0.02415,
+    "change_24h": -0.013077237433592015,
+    "funding": -0.000165749856286,
+    "open_interest": 9294880.0
+   },
+   "PENGU/USD": {
+    "last": 0.004229,
+    "change_24h": -0.011915887850467266,
+    "funding": -1.003114407e-07,
+    "open_interest": 1076174200.0
+   },
+   "TRUMP/USD": {
+    "last": 0.8768,
+    "change_24h": -0.015605703379364622,
+    "funding": -9.79921389252e-05,
+    "open_interest": 9229759.1
+   },
+   "FARTCOIN/USD": {
+    "last": 0.0774,
+    "change_24h": 0.0018120631633444795,
+    "funding": 1.91016476136e-05,
+    "open_interest": 18572006.0
+   },
+   "PNUT/USD": {
+    "last": 0.02596,
+    "change_24h": -0.009160305343511421,
+    "funding": -6.85893439661e-05,
+    "open_interest": 25261560.0
+   },
+   "MOODENG/USD": {
+    "last": 0.025033,
+    "change_24h": 0.00292467948717956,
+    "funding": -4.55960986156e-05,
+    "open_interest": 24436800.0
+   }
+  }
+ },
+ "decisions": [
+  {
+   "ts": 1795398760.549769,
+   "gate": "route_task",
+   "inputs": {
+    "brief_fresh": true
+   },
+   "choice": "trading_bot",
+   "probabilities": {
+    "stand_down": 0.045,
+    "SCOUT": 0.045,
+    "trading_bot": 0.909
+   },
+   "confidence": 0.909,
+   "reasons": [
+    "context fresh, bot running: bot trades, signal gate guards entries"
+   ]
+  }
+ ],
+ "tuning": [],
+ "gate_counts": {
+  "accept": 0,
+  "verify_more": 0,
+  "reject": 0
+ },
+ "stats": {
+  "trades": 0,
+  "wins": 0,
+  "best": 0,
+  "worst": 0
+ },
+ "reports": [
+  {
+   "day": "2026-11-22",
+   "text": "## Morning brief 20:20\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| SOL/USD | 70.58 | +0.57% | -0.0034% | 3,023,882 |\n\n## Morning brief 20:52\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.05e-06 | +0.99% | +0.0100% | 557,940,700,000 |\n| WIF/USD | 0.11916 | +1.44% | +0.0050% | 22,781,573 |\n| POPCAT/USD | 0.02415 | -1.31% | -0.0166% | 9,294,880 |\n| PENGU/USD | 0.004229 | -1.19% | -0.0000% | 1,076,174,200 |\n| TRUMP/USD | 0.8768 | -1.56% | -0.0098% | 9,229,759 |\n| FARTCOIN/USD | 0.0774 | +0.18% | +0.0019% | 18,572,006 |\n| PNUT/USD | 0.02596 | -0.92% | -0.0069% | 25,261,560 |\n| MOODENG/USD | 0.025033 | +0.29% | -0.0046% | 24,436,800 |\n\n"
+  }
+ ],
+ "errors": ""
+}

@@ -1,0 +1,16 @@
+{
+ "wallet": 1000,
+ "next_id": 1,
+ "open": {},
+ "closed": [],
+ "last_candle": {
+  "BONK/USD": 1795392000,
+  "WIF/USD": 1795392000,
+  "POPCAT/USD": 1795392000,
+  "PENGU/USD": 1795392000,
+  "TRUMP/USD": 1795392000,
+  "FARTCOIN/USD": 1795392000,
+  "PNUT/USD": 1795392000,
+  "MOODENG/USD": 1795392000
+ }
+}
