@@ -1,53 +1,53 @@
 {
- "ts": 1795432913.8349962,
+ "ts": 1795434133.7751062,
  "pairs": {
   "BONK/USD": {
    "last": 2.15e-06,
    "change_24h": 0.033653846153846256,
-   "funding": -0.0001657791554872,
-   "open_interest": 548426200000.0
+   "funding": -0.0001380758229075,
+   "open_interest": 547951500000.0
   },
   "WIF/USD": {
-   "last": 0.12344,
-   "change_24h": 0.025334330093861546,
+   "last": 0.12362,
+   "change_24h": 0.026829470886286177,
    "funding": 5e-05,
-   "open_interest": 22123165.0
+   "open_interest": 22137194.0
   },
   "POPCAT/USD": {
-   "last": 0.02553,
-   "change_24h": 0.03234937323089371,
-   "funding": -5.33081076264e-05,
-   "open_interest": 9402330.0
+   "last": 0.02567,
+   "change_24h": 0.03801051354630003,
+   "funding": -1.38750766379e-05,
+   "open_interest": 9430390.0
   },
   "PENGU/USD": {
-   "last": 0.004363,
-   "change_24h": 0.010187543412826905,
+   "last": 0.004372,
+   "change_24h": 0.012271359110905378,
    "funding": 5e-05,
-   "open_interest": 1099629100.0
+   "open_interest": 1099598600.0
   },
   "TRUMP/USD": {
-   "last": 0.8991,
-   "change_24h": 0.0,
-   "funding": -1.8434872353e-06,
-   "open_interest": 9095423.3
+   "last": 0.8981,
+   "change_24h": -0.0011122233344456056,
+   "funding": 8.1456490365e-06,
+   "open_interest": 9080543.4
   },
   "FARTCOIN/USD": {
-   "last": 0.08178,
-   "change_24h": 0.042048929663608625,
+   "last": 0.08221,
+   "change_24h": 0.047528032619775784,
    "funding": 5e-05,
-   "open_interest": 18786267.0
+   "open_interest": 18803334.0
   },
   "PNUT/USD": {
-   "last": 0.02668,
-   "change_24h": 0.01483453784708999,
-   "funding": -3.36457756505e-05,
-   "open_interest": 25083090.0
+   "last": 0.02672,
+   "change_24h": 0.01635602890833021,
+   "funding": 7.2805160333e-06,
+   "open_interest": 25391010.0
   },
   "MOODENG/USD": {
-   "last": 0.02591,
-   "change_24h": 0.028093008491389515,
+   "last": 0.026008,
+   "change_24h": 0.03198158876279655,
    "funding": 5e-05,
-   "open_interest": 25414820.0
+   "open_interest": 25440180.0
   }
  }
 }
