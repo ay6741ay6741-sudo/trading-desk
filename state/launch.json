@@ -1,6 +1,6 @@
 {
- "wallet": 851.356026489041,
- "next_id": 16,
+ "wallet": 826.356026489041,
+ "next_id": 17,
  "open": {
   "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": {
    "trade_id": 7,
@@ -16,8 +16,8 @@
    "entry_liquidity": 49276.65,
    "stop": 0.000358146,
    "target": 0.000716292,
-   "last_price": 0.0005015,
-   "last_liquidity": 52147.36
+   "last_price": 0.0006644,
+   "last_liquidity": 60188.81
   },
   "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": {
    "trade_id": 8,
@@ -33,8 +33,8 @@
    "entry_liquidity": 33818.31,
    "stop": 0.00015460575,
    "target": 0.0003092115,
-   "last_price": 0.0001679,
-   "last_liquidity": 31548.26
+   "last_price": 0.0001733,
+   "last_liquidity": 31955.92
   },
   "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": {
    "trade_id": 9,
@@ -50,8 +50,8 @@
    "entry_liquidity": 85794.24,
    "stop": 0.0010824674999999999,
    "target": 0.0021649349999999998,
-   "last_price": 0.001851,
-   "last_liquidity": 99430.71
+   "last_price": 0.001986,
+   "last_liquidity": 102940.61
   },
   "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": {
    "trade_id": 11,
@@ -67,8 +67,8 @@
    "entry_liquidity": 283305.47,
    "stop": 0.010605,
    "target": 0.02121,
-   "last_price": 0.01418,
-   "last_liquidity": 286769.75
+   "last_price": 0.01845,
+   "last_liquidity": 327292.58
   },
   "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": {
    "trade_id": 15,
@@ -84,7 +84,24 @@
    "entry_liquidity": 96010.9,
    "stop": 0.001258965,
    "target": 0.00251793,
-   "last_price": 0.001662
+   "last_price": 0.001614,
+   "last_liquidity": 94524.82
+  },
+  "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump": {
+   "trade_id": 16,
+   "pair": "FSDV15/USD",
+   "mint": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
+   "url": "https://dexscreener.com/solana/dxvpx5pnefcilvmucmuxrx2x7mgsdmtggmqgira2zv6w",
+   "is_short": false,
+   "open_rate": 0.00137764,
+   "open_ts": 1795435355.7447839,
+   "stake": 25,
+   "amount": 18146.97598792137,
+   "open_date": "2026-11-23T12:02:35.744784+00:00",
+   "entry_liquidity": 87202.39,
+   "stop": 0.00103323,
+   "target": 0.00206646,
+   "last_price": 0.001364
   }
  },
  "closed": [
@@ -529,6 +546,10 @@
     [
      1795434139,
      0.01418
+    ],
+    [
+     1795435355,
+     0.01845
     ]
    ],
    "last_check": 1795421967.741361,
@@ -637,10 +658,14 @@
     [
      1795434139,
      0.00177
+    ],
+    [
+     1795435355,
+     0.001364
     ]
    ],
-   "last_check": 1795431702.2421017,
-   "last_choice": "verify_more",
+   "last_check": 1795435355.7447839,
+   "last_choice": "accept",
    "first_score": 4.5,
    "first_choice": "accept",
    "entry_price": 0.002744,
@@ -745,10 +770,14 @@
     [
      1795434139,
      0.001109
+    ],
+    [
+     1795435355,
+     0.0011
     ]
    ],
-   "last_check": 1795431702.2421017,
-   "last_choice": "verify_more",
+   "last_check": 1795435355.7447839,
+   "last_choice": "reject",
    "first_score": 2.5,
    "first_choice": "reject",
    "entry_price": 0.001767,
@@ -853,6 +882,10 @@
     [
      1795434139,
      0.0005722
+    ],
+    [
+     1795435355,
+     0.0005899
     ]
    ],
    "last_check": 1795431702.2421017,
@@ -961,6 +994,10 @@
     [
      1795434139,
      0.0005015
+    ],
+    [
+     1795435355,
+     0.0006644
     ]
    ],
    "last_check": 1795405765.5923681,
@@ -1069,9 +1106,13 @@
     [
      1795434139,
      3.226e-05
+    ],
+    [
+     1795435355,
+     3.518e-05
     ]
    ],
-   "last_check": 1795431702.2421017,
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "first_score": 4.0,
    "first_choice": "accept",
@@ -1177,10 +1218,14 @@
     [
      1795434139,
      0.0001861
+    ],
+    [
+     1795435355,
+     0.0001728
     ]
    ],
-   "last_check": 1795431702.2421017,
-   "last_choice": "verify_more",
+   "last_check": 1795435355.7447839,
+   "last_choice": "reject",
    "first_score": 2.0,
    "first_choice": "reject",
    "entry_price": 0.0001591,
@@ -1190,7 +1235,7 @@
    "first_seen": 1795399223.429615,
    "symbol": "PRIVI",
    "path": [],
-   "last_check": 1795431702.2421017,
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "final": false
   },
@@ -1321,6 +1366,10 @@
     [
      1795434139,
      0.0007075
+    ],
+    [
+     1795435355,
+     0.0006258
     ]
    ],
    "last_check": 1795434139.5412066,
@@ -1424,6 +1473,10 @@
     ],
     [
      1795434139,
+     1.366e-06
+    ],
+    [
+     1795435355,
      1.366e-06
     ]
    ],
@@ -1529,6 +1582,10 @@
     [
      1795434139,
      0.0001679
+    ],
+    [
+     1795435355,
+     0.0001733
     ]
    ],
    "last_check": 1795409802.829607,
@@ -1633,6 +1690,10 @@
     [
      1795434139,
      1.498e-06
+    ],
+    [
+     1795435355,
+     1.498e-06
     ]
    ],
    "last_check": 1795424401.7860253,
@@ -1713,9 +1774,13 @@
     [
      1795434139,
      8.728e-05
+    ],
+    [
+     1795435355,
+     9.78e-05
     ]
    ],
-   "last_check": 1795431702.2421017,
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "final": false,
    "first_score": 4.0,
@@ -1726,7 +1791,7 @@
    "first_seen": 1795405765.5923681,
    "symbol": "camel",
    "path": [],
-   "last_check": 1795431702.2421017,
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "final": false
   },
@@ -1977,6 +2042,10 @@
     [
      1795434139,
      0.001851
+    ],
+    [
+     1795435355,
+     0.001986
     ]
    ],
    "last_check": 1795415869.5961523,
@@ -2085,6 +2154,10 @@
     [
      1795434139,
      0.001662
+    ],
+    [
+     1795435355,
+     0.001614
     ]
    ],
    "last_check": 1795434139.5412066,
@@ -2210,7 +2283,7 @@
    "first_seen": 1795428051.1006272,
    "symbol": "HOLD",
    "path": [],
-   "last_check": 1795431702.2421017,
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "final": false
   },
@@ -2218,7 +2291,7 @@
    "first_seen": 1795428051.1006272,
    "symbol": "earball",
    "path": [],
-   "last_check": 1795431702.2421017,
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "final": false
   },
@@ -2226,7 +2299,7 @@
    "first_seen": 1795428051.1006272,
    "symbol": "Loafing",
    "path": [],
-   "last_check": 1795431702.2421017,
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "final": false
   },
@@ -2250,7 +2323,7 @@
    "first_seen": 1795431702.2421017,
    "symbol": "BOBCAT",
    "path": [],
-   "last_check": 1795431702.2421017,
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "final": false
   },
@@ -2259,6 +2332,14 @@
    "symbol": "RAN",
    "path": [],
    "last_check": 1795432919.7346506,
+   "last_choice": "reject",
+   "final": false
+  },
+  "A2nbXtQvvRMvWtifCkV8cYepwcC4M7iA1jVMwAh6pump": {
+   "first_seen": 1795435355.7447839,
+   "symbol": "RNV",
+   "path": [],
+   "last_check": 1795435355.7447839,
    "last_choice": "reject",
    "final": false
   }

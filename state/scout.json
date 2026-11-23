@@ -1,53 +1,53 @@
 {
- "ts": 1795434133.7751062,
+ "ts": 1795435349.9550784,
  "pairs": {
   "BONK/USD": {
    "last": 2.15e-06,
    "change_24h": 0.033653846153846256,
-   "funding": -0.0001380758229075,
-   "open_interest": 547951500000.0
+   "funding": -0.0001206396456476,
+   "open_interest": 542027700000.0
   },
   "WIF/USD": {
-   "last": 0.12362,
-   "change_24h": 0.026829470886286177,
+   "last": 0.12361,
+   "change_24h": 0.02742914138475605,
    "funding": 5e-05,
-   "open_interest": 22137194.0
+   "open_interest": 22098817.0
   },
   "POPCAT/USD": {
-   "last": 0.02567,
-   "change_24h": 0.03801051354630003,
-   "funding": -1.38750766379e-05,
-   "open_interest": 9430390.0
+   "last": 0.02579,
+   "change_24h": 0.037826961770623724,
+   "funding": 3.03107834694e-05,
+   "open_interest": 9470550.0
   },
   "PENGU/USD": {
-   "last": 0.004372,
-   "change_24h": 0.012271359110905378,
+   "last": 0.004369,
+   "change_24h": 0.013689095127610296,
    "funding": 5e-05,
-   "open_interest": 1099598600.0
+   "open_interest": 1099263400.0
   },
   "TRUMP/USD": {
-   "last": 0.8981,
-   "change_24h": -0.0011122233344456056,
-   "funding": 8.1456490365e-06,
-   "open_interest": 9080543.4
+   "last": 0.8988,
+   "change_24h": 0.004021447721179738,
+   "funding": 7.9421715231e-06,
+   "open_interest": 9118554.4
   },
   "FARTCOIN/USD": {
-   "last": 0.08221,
-   "change_24h": 0.047528032619775784,
+   "last": 0.08224,
+   "change_24h": 0.05246992577425136,
    "funding": 5e-05,
-   "open_interest": 18803334.0
+   "open_interest": 18859337.0
   },
   "PNUT/USD": {
    "last": 0.02672,
-   "change_24h": 0.01635602890833021,
-   "funding": 7.2805160333e-06,
-   "open_interest": 25391010.0
+   "change_24h": 0.01984732824427482,
+   "funding": 4.76241629672e-05,
+   "open_interest": 25639430.0
   },
   "MOODENG/USD": {
-   "last": 0.026008,
-   "change_24h": 0.03198158876279655,
+   "last": 0.025972,
+   "change_24h": 0.037220447284344926,
    "funding": 5e-05,
-   "open_interest": 25440180.0
+   "open_interest": 25548770.0
   }
  }
 }
