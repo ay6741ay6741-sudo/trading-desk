@@ -1,5 +1,5 @@
 {
- "updated": 1795489991.1327517,
+ "updated": 1795491196.122449,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -351,58 +351,62 @@
   [
    1795489987,
    1000
+  ],
+  [
+   1795491192,
+   1000
   ]
  ],
  "scout": {
-  "ts": 1795489981.6865106,
+  "ts": 1795491186.058455,
   "pairs": {
    "BONK/USD": {
-    "last": 2.17e-06,
-    "change_24h": 0.038277511961722466,
-    "funding": -0.0002118665751009,
-    "open_interest": 535007900000.0
+    "last": 2.18e-06,
+    "change_24h": 0.04306220095693769,
+    "funding": -0.000175157099042,
+    "open_interest": 537167500000.0
    },
    "WIF/USD": {
-    "last": 0.1234,
-    "change_24h": 0.0210160516299851,
-    "funding": 6.3948113117e-06,
-    "open_interest": 22537388.0
+    "last": 0.12438,
+    "change_24h": 0.02912460698328645,
+    "funding": 1.91004917586e-05,
+    "open_interest": 22563087.0
    },
    "POPCAT/USD": {
-    "last": 0.02541,
-    "change_24h": 0.04054054054054035,
-    "funding": 1.4220506207e-06,
-    "open_interest": 9006440.0
+    "last": 0.02547,
+    "change_24h": 0.04299754299754288,
+    "funding": 3.53079392028e-05,
+    "open_interest": 9075480.0
    },
    "PENGU/USD": {
-    "last": 0.004378,
-    "change_24h": 0.025773195876288568,
-    "funding": -1.01128073639e-05,
-    "open_interest": 1092879300.0
+    "last": 0.004408,
+    "change_24h": 0.03280224929709452,
+    "funding": -4.9388003145e-06,
+    "open_interest": 1095019900.0
    },
    "TRUMP/USD": {
-    "last": 0.8645,
-    "change_24h": -0.02117300724637672,
-    "funding": -0.000121889703071,
-    "open_interest": 9535159.9
+    "last": 0.8702,
+    "change_24h": -0.014719202898550776,
+    "funding": -0.0001080565018975,
+    "open_interest": 9591650.8
    },
    "FARTCOIN/USD": {
-    "last": 0.08068,
-    "change_24h": 0.03356392518575446,
+    "last": 0.08179,
+    "change_24h": 0.04778375608506269,
     "funding": 5e-05,
-    "open_interest": 19028565.0
+    "open_interest": 19072446.0
    },
    "PNUT/USD": {
-    "last": 0.02644,
-    "change_24h": 0.0049410870391486394,
-    "funding": -0.0001197389685694,
-    "open_interest": 25233890.0
+    "last": 0.0266,
+    "change_24h": 0.011022424933485375,
+    "funding": -0.0001023587545454,
+    "open_interest": 25207930.0
    },
    "MOODENG/USD": {
-    "last": 0.025348,
-    "change_24h": 0.0010663085976065911,
+    "last": 0.025367,
+    "change_24h": 0.0018166739070337723,
     "funding": 5e-05,
-    "open_interest": 25098540.0
+    "open_interest": 25143090.0
    }
   }
  },
@@ -1414,7 +1418,7 @@
  "reports": [
   {
    "day": "2026-11-23",
-   "text": "## 00:57 launch desk\n- launch hCAT (3.1h old, liq $25,629): **accept** (66%) - 1h volume 1.2x liquidity, buyers 350 vs sellers 272, momentum +7% 1h, LP 98% locked\n\n## 01:17 desk run\n- signal BONK/USD long @ 2.12e-06: **reject** (79%) - volume 1.19x 20-day avg, against trend, funding neutral -0.0162%\n- signal WIF/USD long @ 0.12287: **reject** (79%) - volume 1.14x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08082: **reject** (79%) - volume 1.89x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02676: **reject** (97%) - volume only 0.63x avg, against trend, funding neutral -0.0061%\n- signal MOODENG/USD long @ 0.025673: **reject** (79%) - volume 2.45x 20-day avg, against trend, funding neutral 0.0050%\n\n## 01:17 launch desk\n- LAUNCH CLOSED #5 UCASH/USD: stop_loss, -28.00% ($-7.00)\n\n## 01:37 launch desk\n- launch PumpMeme (1.2h old, liq $85,794): **accept** (79%) - liquidity $85,794, 1h volume 5.0x liquidity, buyers 11744 vs sellers 5443, momentum +18% 1h, LP 100% locked\n- LAUNCH OPENED #9 PumpMeme/USD $25 @ $0.00144329\n\n## 01:58 launch desk\n- launch NOHR (39.6h old, liq $111,626): **accept** (79%) - liquidity $111,626, 1h volume 0.5x liquidity, buyers 489 vs sellers 249, momentum +26% 1h, LP 100% locked\n- LAUNCH OPENED #10 NOHR/USD $25 @ $0.00231088\n\n## 02:18 desk run\n- signal WIF/USD long @ 0.1234: **reject** (97%) - volume only 0.61x avg, against trend, funding neutral 0.0050%\n- signal POPCAT/USD long @ 0.0251: **reject** (97%) - volume only 0.88x avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08141: **reject** (79%) - volume 1.43x 20-day avg, against trend, funding neutral 0.0042%\n\n## 03:19 desk run\n- signal BONK/USD long @ 2.15e-06: **reject** (97%) - volume only 0.81x avg, against trend, funding neutral -0.0288%\n- signal POPCAT/USD long @ 0.0254: **reject** (79%) - volume 1.27x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08239: **reject** (79%) - volume 1.38x 20-day avg, against trend, funding neutral -0.0012%\n\n## 03:19 launch desk\n- LAUNCH CLOSED #1 MINELIUS/USD: roi, +61.96% ($+15.49)\n- launch MINELIUS (10.8h old, liq $283,305): **accept** (79%) - liquidity $283,305, 1h volume 0.3x liquidity, buyers 4494 vs sellers 3741, momentum +28% 1h, LP 100% locked\n- LAUNCH OPENED #11 MINELIUS/USD $25 @ $0.01414\n\n## 04:00 desk run\n- signal MOODENG/USD long @ 0.025885: **reject** (97%) - volume only 0.58x avg, against trend, funding neutral 0.0050%\n\n## 04:00 launch desk\n- launch ZOL (10.4h old, liq $28,028): **accept** (66%) - 1h volume 0.5x liquidity, buyers 139 vs sellers 114, momentum +5% 1h, LP 98% locked\n- LAUNCH OPENED #12 ZOL/USD $25 @ $0.000157964\n\n## 04:20 desk run\n- signal BONK/USD long @ 2.16e-06: **reject** (79%) - volume 1.64x 20-day avg, against trend, funding neutral -0.0315%\n- signal WIF/USD long @ 0.12401: **reject** (97%) - volume only 0.59x avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02689: **reject** (79%) - volume 1.97x 20-day avg, against trend, funding neutral 0.0030%\n\n## 04:20 launch desk\n- launch UCASH (22.1h old, liq $58,641): **accept** (51%) - liquidity $58,641, 1h volume 2.8x liquidity, buyers 4689 vs sellers 1037\n- LAUNCH OPENED #13 UCASH/USD $25 @ $0.000576104\n\n## 04:40 launch desk\n- LAUNCH CLOSED #12 ZOL/USD: roi, +52.42% ($+13.10)\n\n## 05:00 desk run\n- signal BONK/USD long @ 2.17e-06: **reject** (79%) - volume 1.41x 20-day avg, against trend, funding neutral -0.0288%\n- signal POPCAT/USD long @ 0.02573: **reject** (79%) - volume 1.38x 20-day avg, against trend, funding neutral -0.0026%\n\n## 05:21 launch desk\n- LAUNCH CLOSED #13 UCASH/USD: roi, +62.96% ($+15.74)\n- launch UCASH (23.1h old, liq $76,391): **accept** (66%) - liquidity $76,391, 1h volume 3.2x liquidity, buyers 6314 vs sellers 1544, LP 100% locked\n- LAUNCH OPENED #14 UCASH/USD $25 @ $0.000957783\n\n## 05:41 launch desk\n- LAUNCH CLOSED #10 NOHR/USD: stop_loss, -31.63% ($-7.91)\n\n## 06:01 launch desk\n- LAUNCH CLOSED #2 FSDV15/USD: stop_loss, -47.60% ($-11.90)\n\n## 06:42 launch desk\n- LAUNCH CLOSED #14 UCASH/USD: stop_loss, -26.87% ($-6.72)\n- launch NOHR (44.4h old, liq $96,011): **accept** (51%) - liquidity $96,011, 1h volume 0.6x liquidity, buyers 353 vs sellers 262, LP 100% locked\n- LAUNCH OPENED #15 NOHR/USD $25 @ $0.00167862\n\n## 07:02 launch desk\n- launch FSDV15 (14.3h old, liq $87,202): **accept** (51%) - liquidity $87,202, 1h volume 0.8x liquidity, buyers 7253 vs sellers 2311, LP 100% locked\n- LAUNCH OPENED #16 FSDV15/USD $25 @ $0.00137764\n\n## 07:22 launch desk\n- LAUNCH CLOSED #15 NOHR/USD: stop_loss, -33.89% ($-8.47)\n\n## 07:43 launch desk\n- launch UCASH (25.5h old, liq $71,748): **accept** (66%) - liquidity $71,748, 1h volume 2.1x liquidity, buyers 2533 vs sellers 917, LP 100% locked\n- LAUNCH OPENED #17 UCASH/USD $25 @ $0.000829008\n\n## 08:03 launch desk\n- LAUNCH CLOSED #17 UCASH/USD: roi, +55.01% ($+13.75)\n\n## Morning brief 08:03\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.17e-06 | +4.83% | -0.0096% | 540,135,800,000 |\n| WIF/USD | 0.1232 | +2.64% | +0.0050% | 22,143,863 |\n| POPCAT/USD | 0.02563 | +3.51% | +0.0044% | 9,548,990 |\n| PENGU/USD | 0.004341 | +1.52% | +0.0050% | 1,094,747,700 |\n| TRUMP/USD | 0.8927 | -0.25% | +0.0035% | 9,100,313 |\n| FARTCOIN/USD | 0.08108 | +3.67% | +0.0050% | 18,780,187 |\n| PNUT/USD | 0.02648 | +0.72% | +0.0050% | 26,092,020 |\n| MOODENG/USD | 0.025903 | +3.30% | +0.0050% | 25,532,190 |\n\n## 08:23 launch desk\n- LAUNCH CLOSED #7 COPIUM/USD: roi, +53.15% ($+13.29)\n- launch COPIUM (15.7h old, liq $63,622): **accept** (87%) - liquidity $63,622, 1h volume 0.8x liquidity, buyers 1019 vs sellers 749, momentum +16% 1h, LP 100% locked\n- LAUNCH OPENED #18 COPIUM/USD $25 @ $0.000746087\n\n## 08:44 launch desk\n- launch UCASH (26.5h old, liq $98,530): **accept** (79%) - liquidity $98,530, 1h volume 3.2x liquidity, buyers 11993 vs sellers 4448, momentum +90% 1h, LP 100% locked\n- LAUNCH OPENED #19 UCASH/USD $25 @ $0.00152005\n\n## 09:04 desk run\n- signal BONK/USD long @ 2.25e-06: **reject** (79%) - volume 2.24x 20-day avg, against trend, funding neutral -0.0058%\n- signal WIF/USD long @ 0.12836: **reject** (79%) - volume 1.05x 20-day avg, against trend, funding neutral 0.0050%\n- signal POPCAT/USD long @ 0.02702: **reject** (79%) - volume 2.98x 20-day avg, against trend, funding neutral 0.0050%\n- signal PENGU/USD long @ 0.004685: **reject** (79%) - volume 3.92x 20-day avg, against trend, funding neutral 0.0050%\n- signal TRUMP/USD long @ 0.9325: **reject** (79%) - volume 1.17x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08566: **reject** (79%) - volume 1.70x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02776: **reject** (79%) - volume 2.54x 20-day avg, against trend, funding neutral 0.0050%\n- signal MOODENG/USD long @ 0.026847: **reject** (79%) - volume 2.21x 20-day avg, against trend, funding neutral 0.0050%\n\n## 09:04 launch desk\n- LAUNCH CLOSED #8 Fly/USD: stop_loss, -37.18% ($-9.30)\n- LAUNCH CLOSED #16 FSDV15/USD: stop_loss, -29.15% ($-7.29)\n\n## 09:23 launch desk\n- LAUNCH CLOSED #19 UCASH/USD: roi, +48.89% ($+12.22)\n\n## 10:11 desk run\n- signal BONK/USD long @ 2.28e-06: **reject** (79%) - volume 9.26x 20-day avg, against trend, funding neutral 0.0016%\n- signal WIF/USD long @ 0.13201: **reject** (79%) - volume 3.48x 20-day avg, against trend, funding neutral 0.0050%\n- signal POPCAT/USD long @ 0.0273: **reject** (79%) - volume 6.42x 20-day avg, against trend, funding neutral 0.0050%\n- signal TRUMP/USD long @ 0.9404: **reject** (79%) - volume 4.09x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08744: **reject** (79%) - volume 4.78x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02814: **reject** (97%) - volume only 0.65x avg, against trend, funding neutral 0.0050%\n- signal MOODENG/USD long @ 0.027142: **reject** (79%) - volume 4.06x 20-day avg, against trend, funding neutral 0.0050%\n\n## 10:11 launch desk\n- launch FSDV15 (17.4h old, liq $73,112): **accept** (66%) - liquidity $73,112, 1h volume 1.2x liquidity, buyers 10128 vs sellers 2444, LP 100% locked\n- LAUNCH OPENED #20 FSDV15/USD $25 @ $0.000914454\n- launch cateball (30.1h old, liq $67,720): **accept** (66%) - liquidity $67,720, 1h volume 0.3x liquidity, buyers 179 vs sellers 96, LP 100% locked\n- LAUNCH OPENED #21 cateball/USD $25 @ $0.000804465\n- launch BONER (0.6h old, liq $42,693): **accept** (66%) - 1h volume 9.3x liquidity, buyers 6904 vs sellers 1929, momentum +569% 1h, LP 100% locked\n- LAUNCH OPENED #22 BONER/USD $25 @ $0.000338552\n\n## 10:31 launch desk\n- LAUNCH CLOSED #22 BONER/USD: stop_loss, -80.63% ($-20.16)\n\n## 10:51 launch desk\n- LAUNCH CLOSED #11 MINELIUS/USD: stop_loss, -70.28% ($-17.57)\n- launch UCASH (28.6h old, liq $144,134): **accept** (79%) - liquidity $144,134, 1h volume 4.3x liquidity, buyers 11409 vs sellers 4583, momentum +100% 1h, LP 100% locked\n- LAUNCH OPENED #23 UCASH/USD $25 @ $0.00299263\n\n## 11:53 launch desk\n- LAUNCH CLOSED #9 PumpMeme/USD: stop_loss, -32.52% ($-8.13)\n- LAUNCH CLOSED #23 UCASH/USD: stop_loss, -34.43% ($-8.61)\n- launch MINELIUS (19.4h old, liq $160,510): **accept** (51%) - liquidity $160,510, 1h volume 0.3x liquidity, buyers 4532 vs sellers 2320, LP 100% locked\n- LAUNCH OPENED #24 MINELIUS/USD $25 @ $0.00432987\n\n## 12:33 launch desk\n- LAUNCH CLOSED #24 MINELIUS/USD: stop_loss, -42.50% ($-10.62)\n- launch HUANG (1.0h old, liq $35,658): **accept** (66%) - 1h volume 63.6x liquidity, buyers 18308 vs sellers 14441, momentum +264% 1h, LP 82% locked\n- LAUNCH OPENED #25 HUANG/USD $25 @ $0.000152005\n\n## 12:53 launch desk\n- LAUNCH CLOSED #20 FSDV15/USD: stop_loss, -46.37% ($-11.59)\n\n## 13:33 launch desk\n- launch JENSEN (3.2h old, liq $29,354): **accept** (66%) - 1h volume 0.4x liquidity, buyers 664 vs sellers 145, momentum +52% 1h, LP 100% locked\n- LAUNCH OPENED #26 JENSEN/USD $25 @ $0.000178669\n- launch NBI (1.2h old, liq $26,842): **accept** (66%) - 1h volume 7.6x liquidity, buyers 9056 vs sellers 1914, momentum +5% 1h, LP 100% locked\n- LAUNCH OPENED #27 NBI/USD $25 @ $0.000147763\n\n## 14:16 launch desk\n- LAUNCH CLOSED #25 HUANG/USD: stop_loss, -39.66% ($-9.92)\n- LAUNCH CLOSED #27 NBI/USD: stop_loss, -33.00% ($-8.25)\n- launch JENSEN (1.4h old, liq $90,444): **accept** (79%) - liquidity $90,444, 1h volume 6.0x liquidity, buyers 8380 vs sellers 4583, momentum +7% 1h, LP 100% locked\n- LAUNCH OPENED #28 JENSEN/USD $25 @ $0.00146147\n- launch UCASH (32.0h old, liq $78,125): **accept** (66%) - liquidity $78,125, 1h volume 1.9x liquidity, buyers 10053 vs sellers 1373, LP 100% locked\n- LAUNCH OPENED #29 UCASH/USD $25 @ $0.000895466\n\n## 14:36 launch desk\n- launch NINO (4.4h old, liq $34,082): **accept** (66%) - 1h volume 5.7x liquidity, buyers 1936 vs sellers 1262, momentum +122% 1h, LP 91% locked\n- LAUNCH OPENED #30 NINO/USD $25 @ $0.000127765\n\n## 14:56 launch desk\n- LAUNCH CLOSED #28 JENSEN/USD: stop_loss, -30.91% ($-7.73)\n\n## 15:16 launch desk\n- LAUNCH CLOSED #26 JENSEN/USD: rug_exit, -99.30% ($-24.83)\n\n## 15:37 launch desk\n- LAUNCH CLOSED #29 UCASH/USD: stop_loss, -27.77% ($-6.94)\n\n## 16:18 launch desk\n- launch PumpMeme (15.9h old, liq $52,989): **accept** (66%) - liquidity $52,989, 1h volume 1.2x liquidity, buyers 9704 vs sellers 4707, LP 100% locked\n- LAUNCH OPENED #31 PumpMeme/USD $25 @ $0.000519342\n- launch ChristmASS (0.9h old, liq $36,218): **accept** (66%) - 1h volume 6.8x liquidity, buyers 6534 vs sellers 1465, momentum +590% 1h, LP 100% locked\n- LAUNCH OPENED #32 ChristmASS/USD $25 @ $0.000264822\n\n## 16:38 launch desk\n- launch UCASH (34.4h old, liq $79,539): **accept** (66%) - liquidity $79,539, 1h volume 2.9x liquidity, buyers 9172 vs sellers 1353, LP 100% locked\n- LAUNCH OPENED #33 UCASH/USD $25 @ $0.000917181\n- launch JENSEN (1.4h old, liq $25,184): **accept** (66%) - 1h volume 1.5x liquidity, buyers 980 vs sellers 576, momentum +68% 1h, LP 100% locked\n- LAUNCH OPENED #34 JENSEN/USD $25 @ $0.000134835\n\n## 16:59 launch desk\n- LAUNCH CLOSED #21 cateball/USD: stop_loss, -43.93% ($-10.98)\n- LAUNCH CLOSED #31 PumpMeme/USD: stop_loss, -30.35% ($-7.59)\n\n## 17:19 launch desk\n- LAUNCH CLOSED #30 NINO/USD: stop_loss, -28.08% ($-7.02)\n- launch JENSEN (4.5h old, liq $75,434): **accept** (87%) - liquidity $75,434, 1h volume 0.4x liquidity, buyers 5267 vs sellers 3400, momentum +33% 1h, LP 100% locked\n- LAUNCH OPENED #35 JENSEN/USD $25 @ $0.00102313\n\n## 17:39 launch desk\n- LAUNCH CLOSED #32 ChristmASS/USD: rug_exit, -99.55% ($-24.89)\n- launch JIMMY (1.5h old, liq $43,027): **accept** (51%) - 1h volume 12.8x liquidity, buyers 5814 vs sellers 4372, momentum +567% 1h\n- LAUNCH OPENED #36 JIMMY/USD $25 @ $0.000345824\n\n## 17:59 launch desk\n- LAUNCH CLOSED #35 JENSEN/USD: stop_loss, -28.75% ($-7.19)\n- launch cateball (37.9h old, liq $52,284): **accept** (66%) - liquidity $52,284, 1h volume 0.3x liquidity, buyers 199 vs sellers 113, LP 100% locked\n- LAUNCH OPENED #37 cateball/USD $25 @ $0.000508333\n- launch PONK (1.2h old, liq $36,204): **accept** (66%) - 1h volume 6.8x liquidity, buyers 6319 vs sellers 1046, momentum +52% 1h, LP 100% locked\n- LAUNCH OPENED #38 PONK/USD $25 @ $0.000267953\n\n## 18:19 launch desk\n- LAUNCH CLOSED #38 PONK/USD: stop_loss, -27.81% ($-6.95)\n\n## 18:40 launch desk\n- LAUNCH CLOSED #33 UCASH/USD: roi, +50.58% ($+12.64)\n- LAUNCH CLOSED #34 JENSEN/USD: roi, +55.44% ($+13.86)\n- launch UCASH (36.4h old, liq $99,235): **accept** (66%) - liquidity $99,235, 1h volume 1.9x liquidity, buyers 5623 vs sellers 2310, LP 100% locked\n- LAUNCH OPENED #39 UCASH/USD $25 @ $0.00140895\n- launch JENSEN (3.4h old, liq $31,986): **accept** (66%) - 1h volume 0.4x liquidity, buyers 676 vs sellers 144, momentum +13% 1h, LP 100% locked\n- LAUNCH OPENED #40 JENSEN/USD $25 @ $0.000213817\n\n## 19:00 launch desk\n- launch hamster (0.8h old, liq $33,034): **accept** (66%) - 1h volume 1.7x liquidity, buyers 429 vs sellers 245, momentum +157% 1h, LP 100% locked\n- LAUNCH OPENED #41 hamster/USD $25 @ $1.97354e-07\n\n## 19:21 launch desk\n- launch JENSEN (6.5h old, liq $67,988): **accept** (66%) - liquidity $67,988, 1h volume 0.4x liquidity, buyers 5536 vs sellers 3576, LP 100% locked\n- LAUNCH OPENED #42 JENSEN/USD $25 @ $0.000833452\n\n## 19:31 launch desk\n- LAUNCH CLOSED #36 JIMMY/USD: stop_loss, -48.96% ($-12.24)\n\n## 19:50 launch desk\n- launch THANKS (2.3h old, liq $25,855): **accept** (66%) - 1h volume 10.1x liquidity, buyers 3702 vs sellers 2614, momentum +26% 1h, LP 100% locked\n- LAUNCH OPENED #43 THANKS/USD $25 @ $0.000131199\n\n## 20:31 launch desk\n- LAUNCH CLOSED #42 JENSEN/USD: stop_loss, -31.98% ($-8.00)\n- LAUNCH CLOSED #43 THANKS/USD: stop_loss, -76.59% ($-19.15)\n\n## 21:12 launch desk\n- launch Jesus (1.5h old, liq $38,889): **accept** (66%) - 1h volume 2.4x liquidity, buyers 8553 vs sellers 807, momentum +8% 1h, LP 100% locked\n- LAUNCH OPENED #44 Jesus/USD $25 @ $0.000308959\n\n## Evening report 21:12\nSignals checked: 32 (accept 0, verify_more 0, reject 32)\nTrades closed today: 0, open now: 0\nPaper P&L all time: +0.00 USD (+0.00%)\nLaunch desk: 176 token checks (31 accepted), 35 closed today, 6 open, equity $786.41\n- #5 UCASH/USD: stop_loss -28.00% - **mismatch** (loss -28.00% beyond stop -25% + slippage)\n- #1 MINELIUS/USD: roi +61.96% - **closed_as_planned** (roi at 61.96%, 2 fills)\n- #12 ZOL/USD: roi +52.42% - **closed_as_planned** (roi at 52.42%, 2 fills)\n- #13 UCASH/USD: roi +62.96% - **closed_as_planned** (roi at 62.96%, 2 fills)\n- #10 NOHR/USD: stop_loss -31.63% - **mismatch** (loss -31.63% beyond stop -25% + slippage)\n- #2 FSDV15/USD: stop_loss -47.60% - **mismatch** (loss -47.60% beyond stop -25% + slippage)\n- #14 UCASH/USD: stop_loss -26.87% - **mismatch** (loss -26.87% beyond stop -25% + slippage)\n- #15 NOHR/USD: stop_loss -33.89% - **mismatch** (loss -33.89% beyond stop -25% + slippage)\n- #17 UCASH/USD: roi +55.01% - **closed_as_planned** (roi at 55.01%, 2 fills)\n- #7 COPIUM/USD: roi +53.15% - **closed_as_planned** (roi at 53.15%, 2 fills)\n- #8 Fly/USD: stop_loss -37.18% - **mismatch** (loss -37.18% beyond stop -25% + slippage)\n- #16 FSDV15/USD: stop_loss -29.15% - **mismatch** (loss -29.15% beyond stop -25% + slippage)\n- #19 UCASH/USD: roi +48.89% - **closed_as_planned** (roi at 48.89%, 2 fills)\n- #22 BONER/USD: stop_loss -80.63% - **mismatch** (loss -80.63% beyond stop -25% + slippage)\n- #11 MINELIUS/USD: stop_loss -70.28% - **mismatch** (loss -70.28% beyond stop -25% + slippage)\n- #9 PumpMeme/USD: stop_loss -32.52% - **mismatch** (loss -32.52% beyond stop -25% + slippage)\n- #23 UCASH/USD: stop_loss -34.43% - **mismatch** (loss -34.43% beyond stop -25% + slippage)\n- #24 MINELIUS/USD: stop_loss -42.50% - **mismatch** (loss -42.50% beyond stop -25% + slippage)\n- #20 FSDV15/USD: stop_loss -46.37% - **mismatch** (loss -46.37% beyond stop -25% + slippage)\n- #25 HUANG/USD: stop_loss -39.66% - **mismatch** (loss -39.66% beyond stop -25% + slippage)\n- #27 NBI/USD: stop_loss -33.00% - **mismatch** (loss -33.00% beyond stop -25% + slippage)\n- #28 JENSEN/USD: stop_loss -30.91% - **mismatch** (loss -30.91% beyond stop -25% + slippage)\n- #26 JENSEN/USD: rug_exit -99.30% - **mismatch** (loss -99.30% beyond stop -25% + slippage)\n- #29 UCASH/USD: stop_loss -27.77% - **mismatch** (loss -27.77% beyond stop -25% + slippage)\n- #21 cateball/USD: stop_loss -43.93% - **mismatch** (loss -43.93% beyond stop -25% + slippage)\n- #31 PumpMeme/USD: stop_loss -30.35% - **mismatch** (loss -30.35% beyond stop -25% + slippage)\n- #30 NINO/USD: stop_loss -28.08% - **mismatch** (loss -28.08% beyond stop -25% + slippage)\n- #32 ChristmASS/USD: rug_exit -99.55% - **mismatch** (loss -99.55% beyond stop -25% + slippage)\n- #35 JENSEN/USD: stop_loss -28.75% - **mismatch** (loss -28.75% beyond stop -25% + slippage)\n- #38 PONK/USD: stop_loss -27.81% - **mismatch** (loss -27.81% beyond stop -25% + slippage)\n- #33 UCASH/USD: roi +50.58% - **closed_as_planned** (roi at 50.58%, 2 fills)\n- #34 JENSEN/USD: roi +55.44% - **closed_as_planned** (roi at 55.44%, 2 fills)\n- #36 JIMMY/USD: stop_loss -48.96% - **mismatch** (loss -48.96% beyond stop -25% + slippage)\n- #42 JENSEN/USD: stop_loss -31.98% - **mismatch** (loss -31.98% beyond stop -25% + slippage)\n- #43 THANKS/USD: stop_loss -76.59% - **mismatch** (loss -76.59% beyond stop -25% + slippage)\nMost common blocker today: against trend (32x)\n\n## 21:32 launch desk\n- LAUNCH CLOSED #40 JENSEN/USD: roi, +53.21% ($+13.30)\n- LAUNCH CLOSED #41 hamster/USD: stop_loss, -67.29% ($-16.82)\n- launch JENSEN (8.7h old, liq $67,200): **accept** (66%) - liquidity $67,200, 1h volume 0.5x liquidity, buyers 5766 vs sellers 3527, LP 100% locked\n- LAUNCH OPENED #45 JENSEN/USD $25 @ $0.000818302\n\n## 21:52 launch desk\n- launch Flatulence (1.3h old, liq $43,346): **accept** (51%) - 1h volume 11.4x liquidity, buyers 6407 vs sellers 4774, momentum +183% 1h\n- LAUNCH OPENED #46 Flatulence/USD $25 @ $0.00024442\n- launch JIMMY (5.7h old, liq $42,496): **accept** (51%) - 1h volume 3.3x liquidity, buyers 1364 vs sellers 1124, momentum +16% 1h\n- LAUNCH OPENED #47 JIMMY/USD $25 @ $0.000312999\n- launch JENSEN (1.3h old, liq $39,599): **accept** (66%) - 1h volume 15.9x liquidity, buyers 8611 vs sellers 4843, momentum +190% 1h, LP 100% locked\n- LAUNCH OPENED #48 JENSEN/USD $25 @ $0.000284012\n\n## 22:13 launch desk\n- LAUNCH CLOSED #46 Flatulence/USD: stop_loss, -35.19% ($-8.80)\n- LAUNCH CLOSED #48 JENSEN/USD: stop_loss, -38.86% ($-9.71)\n\n"
+   "text": "## 00:57 launch desk\n- launch hCAT (3.1h old, liq $25,629): **accept** (66%) - 1h volume 1.2x liquidity, buyers 350 vs sellers 272, momentum +7% 1h, LP 98% locked\n\n## 01:17 desk run\n- signal BONK/USD long @ 2.12e-06: **reject** (79%) - volume 1.19x 20-day avg, against trend, funding neutral -0.0162%\n- signal WIF/USD long @ 0.12287: **reject** (79%) - volume 1.14x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08082: **reject** (79%) - volume 1.89x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02676: **reject** (97%) - volume only 0.63x avg, against trend, funding neutral -0.0061%\n- signal MOODENG/USD long @ 0.025673: **reject** (79%) - volume 2.45x 20-day avg, against trend, funding neutral 0.0050%\n\n## 01:17 launch desk\n- LAUNCH CLOSED #5 UCASH/USD: stop_loss, -28.00% ($-7.00)\n\n## 01:37 launch desk\n- launch PumpMeme (1.2h old, liq $85,794): **accept** (79%) - liquidity $85,794, 1h volume 5.0x liquidity, buyers 11744 vs sellers 5443, momentum +18% 1h, LP 100% locked\n- LAUNCH OPENED #9 PumpMeme/USD $25 @ $0.00144329\n\n## 01:58 launch desk\n- launch NOHR (39.6h old, liq $111,626): **accept** (79%) - liquidity $111,626, 1h volume 0.5x liquidity, buyers 489 vs sellers 249, momentum +26% 1h, LP 100% locked\n- LAUNCH OPENED #10 NOHR/USD $25 @ $0.00231088\n\n## 02:18 desk run\n- signal WIF/USD long @ 0.1234: **reject** (97%) - volume only 0.61x avg, against trend, funding neutral 0.0050%\n- signal POPCAT/USD long @ 0.0251: **reject** (97%) - volume only 0.88x avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08141: **reject** (79%) - volume 1.43x 20-day avg, against trend, funding neutral 0.0042%\n\n## 03:19 desk run\n- signal BONK/USD long @ 2.15e-06: **reject** (97%) - volume only 0.81x avg, against trend, funding neutral -0.0288%\n- signal POPCAT/USD long @ 0.0254: **reject** (79%) - volume 1.27x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08239: **reject** (79%) - volume 1.38x 20-day avg, against trend, funding neutral -0.0012%\n\n## 03:19 launch desk\n- LAUNCH CLOSED #1 MINELIUS/USD: roi, +61.96% ($+15.49)\n- launch MINELIUS (10.8h old, liq $283,305): **accept** (79%) - liquidity $283,305, 1h volume 0.3x liquidity, buyers 4494 vs sellers 3741, momentum +28% 1h, LP 100% locked\n- LAUNCH OPENED #11 MINELIUS/USD $25 @ $0.01414\n\n## 04:00 desk run\n- signal MOODENG/USD long @ 0.025885: **reject** (97%) - volume only 0.58x avg, against trend, funding neutral 0.0050%\n\n## 04:00 launch desk\n- launch ZOL (10.4h old, liq $28,028): **accept** (66%) - 1h volume 0.5x liquidity, buyers 139 vs sellers 114, momentum +5% 1h, LP 98% locked\n- LAUNCH OPENED #12 ZOL/USD $25 @ $0.000157964\n\n## 04:20 desk run\n- signal BONK/USD long @ 2.16e-06: **reject** (79%) - volume 1.64x 20-day avg, against trend, funding neutral -0.0315%\n- signal WIF/USD long @ 0.12401: **reject** (97%) - volume only 0.59x avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02689: **reject** (79%) - volume 1.97x 20-day avg, against trend, funding neutral 0.0030%\n\n## 04:20 launch desk\n- launch UCASH (22.1h old, liq $58,641): **accept** (51%) - liquidity $58,641, 1h volume 2.8x liquidity, buyers 4689 vs sellers 1037\n- LAUNCH OPENED #13 UCASH/USD $25 @ $0.000576104\n\n## 04:40 launch desk\n- LAUNCH CLOSED #12 ZOL/USD: roi, +52.42% ($+13.10)\n\n## 05:00 desk run\n- signal BONK/USD long @ 2.17e-06: **reject** (79%) - volume 1.41x 20-day avg, against trend, funding neutral -0.0288%\n- signal POPCAT/USD long @ 0.02573: **reject** (79%) - volume 1.38x 20-day avg, against trend, funding neutral -0.0026%\n\n## 05:21 launch desk\n- LAUNCH CLOSED #13 UCASH/USD: roi, +62.96% ($+15.74)\n- launch UCASH (23.1h old, liq $76,391): **accept** (66%) - liquidity $76,391, 1h volume 3.2x liquidity, buyers 6314 vs sellers 1544, LP 100% locked\n- LAUNCH OPENED #14 UCASH/USD $25 @ $0.000957783\n\n## 05:41 launch desk\n- LAUNCH CLOSED #10 NOHR/USD: stop_loss, -31.63% ($-7.91)\n\n## 06:01 launch desk\n- LAUNCH CLOSED #2 FSDV15/USD: stop_loss, -47.60% ($-11.90)\n\n## 06:42 launch desk\n- LAUNCH CLOSED #14 UCASH/USD: stop_loss, -26.87% ($-6.72)\n- launch NOHR (44.4h old, liq $96,011): **accept** (51%) - liquidity $96,011, 1h volume 0.6x liquidity, buyers 353 vs sellers 262, LP 100% locked\n- LAUNCH OPENED #15 NOHR/USD $25 @ $0.00167862\n\n## 07:02 launch desk\n- launch FSDV15 (14.3h old, liq $87,202): **accept** (51%) - liquidity $87,202, 1h volume 0.8x liquidity, buyers 7253 vs sellers 2311, LP 100% locked\n- LAUNCH OPENED #16 FSDV15/USD $25 @ $0.00137764\n\n## 07:22 launch desk\n- LAUNCH CLOSED #15 NOHR/USD: stop_loss, -33.89% ($-8.47)\n\n## 07:43 launch desk\n- launch UCASH (25.5h old, liq $71,748): **accept** (66%) - liquidity $71,748, 1h volume 2.1x liquidity, buyers 2533 vs sellers 917, LP 100% locked\n- LAUNCH OPENED #17 UCASH/USD $25 @ $0.000829008\n\n## 08:03 launch desk\n- LAUNCH CLOSED #17 UCASH/USD: roi, +55.01% ($+13.75)\n\n## Morning brief 08:03\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.17e-06 | +4.83% | -0.0096% | 540,135,800,000 |\n| WIF/USD | 0.1232 | +2.64% | +0.0050% | 22,143,863 |\n| POPCAT/USD | 0.02563 | +3.51% | +0.0044% | 9,548,990 |\n| PENGU/USD | 0.004341 | +1.52% | +0.0050% | 1,094,747,700 |\n| TRUMP/USD | 0.8927 | -0.25% | +0.0035% | 9,100,313 |\n| FARTCOIN/USD | 0.08108 | +3.67% | +0.0050% | 18,780,187 |\n| PNUT/USD | 0.02648 | +0.72% | +0.0050% | 26,092,020 |\n| MOODENG/USD | 0.025903 | +3.30% | +0.0050% | 25,532,190 |\n\n## 08:23 launch desk\n- LAUNCH CLOSED #7 COPIUM/USD: roi, +53.15% ($+13.29)\n- launch COPIUM (15.7h old, liq $63,622): **accept** (87%) - liquidity $63,622, 1h volume 0.8x liquidity, buyers 1019 vs sellers 749, momentum +16% 1h, LP 100% locked\n- LAUNCH OPENED #18 COPIUM/USD $25 @ $0.000746087\n\n## 08:44 launch desk\n- launch UCASH (26.5h old, liq $98,530): **accept** (79%) - liquidity $98,530, 1h volume 3.2x liquidity, buyers 11993 vs sellers 4448, momentum +90% 1h, LP 100% locked\n- LAUNCH OPENED #19 UCASH/USD $25 @ $0.00152005\n\n## 09:04 desk run\n- signal BONK/USD long @ 2.25e-06: **reject** (79%) - volume 2.24x 20-day avg, against trend, funding neutral -0.0058%\n- signal WIF/USD long @ 0.12836: **reject** (79%) - volume 1.05x 20-day avg, against trend, funding neutral 0.0050%\n- signal POPCAT/USD long @ 0.02702: **reject** (79%) - volume 2.98x 20-day avg, against trend, funding neutral 0.0050%\n- signal PENGU/USD long @ 0.004685: **reject** (79%) - volume 3.92x 20-day avg, against trend, funding neutral 0.0050%\n- signal TRUMP/USD long @ 0.9325: **reject** (79%) - volume 1.17x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08566: **reject** (79%) - volume 1.70x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02776: **reject** (79%) - volume 2.54x 20-day avg, against trend, funding neutral 0.0050%\n- signal MOODENG/USD long @ 0.026847: **reject** (79%) - volume 2.21x 20-day avg, against trend, funding neutral 0.0050%\n\n## 09:04 launch desk\n- LAUNCH CLOSED #8 Fly/USD: stop_loss, -37.18% ($-9.30)\n- LAUNCH CLOSED #16 FSDV15/USD: stop_loss, -29.15% ($-7.29)\n\n## 09:23 launch desk\n- LAUNCH CLOSED #19 UCASH/USD: roi, +48.89% ($+12.22)\n\n## 10:11 desk run\n- signal BONK/USD long @ 2.28e-06: **reject** (79%) - volume 9.26x 20-day avg, against trend, funding neutral 0.0016%\n- signal WIF/USD long @ 0.13201: **reject** (79%) - volume 3.48x 20-day avg, against trend, funding neutral 0.0050%\n- signal POPCAT/USD long @ 0.0273: **reject** (79%) - volume 6.42x 20-day avg, against trend, funding neutral 0.0050%\n- signal TRUMP/USD long @ 0.9404: **reject** (79%) - volume 4.09x 20-day avg, against trend, funding neutral 0.0050%\n- signal FARTCOIN/USD long @ 0.08744: **reject** (79%) - volume 4.78x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02814: **reject** (97%) - volume only 0.65x avg, against trend, funding neutral 0.0050%\n- signal MOODENG/USD long @ 0.027142: **reject** (79%) - volume 4.06x 20-day avg, against trend, funding neutral 0.0050%\n\n## 10:11 launch desk\n- launch FSDV15 (17.4h old, liq $73,112): **accept** (66%) - liquidity $73,112, 1h volume 1.2x liquidity, buyers 10128 vs sellers 2444, LP 100% locked\n- LAUNCH OPENED #20 FSDV15/USD $25 @ $0.000914454\n- launch cateball (30.1h old, liq $67,720): **accept** (66%) - liquidity $67,720, 1h volume 0.3x liquidity, buyers 179 vs sellers 96, LP 100% locked\n- LAUNCH OPENED #21 cateball/USD $25 @ $0.000804465\n- launch BONER (0.6h old, liq $42,693): **accept** (66%) - 1h volume 9.3x liquidity, buyers 6904 vs sellers 1929, momentum +569% 1h, LP 100% locked\n- LAUNCH OPENED #22 BONER/USD $25 @ $0.000338552\n\n## 10:31 launch desk\n- LAUNCH CLOSED #22 BONER/USD: stop_loss, -80.63% ($-20.16)\n\n## 10:51 launch desk\n- LAUNCH CLOSED #11 MINELIUS/USD: stop_loss, -70.28% ($-17.57)\n- launch UCASH (28.6h old, liq $144,134): **accept** (79%) - liquidity $144,134, 1h volume 4.3x liquidity, buyers 11409 vs sellers 4583, momentum +100% 1h, LP 100% locked\n- LAUNCH OPENED #23 UCASH/USD $25 @ $0.00299263\n\n## 11:53 launch desk\n- LAUNCH CLOSED #9 PumpMeme/USD: stop_loss, -32.52% ($-8.13)\n- LAUNCH CLOSED #23 UCASH/USD: stop_loss, -34.43% ($-8.61)\n- launch MINELIUS (19.4h old, liq $160,510): **accept** (51%) - liquidity $160,510, 1h volume 0.3x liquidity, buyers 4532 vs sellers 2320, LP 100% locked\n- LAUNCH OPENED #24 MINELIUS/USD $25 @ $0.00432987\n\n## 12:33 launch desk\n- LAUNCH CLOSED #24 MINELIUS/USD: stop_loss, -42.50% ($-10.62)\n- launch HUANG (1.0h old, liq $35,658): **accept** (66%) - 1h volume 63.6x liquidity, buyers 18308 vs sellers 14441, momentum +264% 1h, LP 82% locked\n- LAUNCH OPENED #25 HUANG/USD $25 @ $0.000152005\n\n## 12:53 launch desk\n- LAUNCH CLOSED #20 FSDV15/USD: stop_loss, -46.37% ($-11.59)\n\n## 13:33 launch desk\n- launch JENSEN (3.2h old, liq $29,354): **accept** (66%) - 1h volume 0.4x liquidity, buyers 664 vs sellers 145, momentum +52% 1h, LP 100% locked\n- LAUNCH OPENED #26 JENSEN/USD $25 @ $0.000178669\n- launch NBI (1.2h old, liq $26,842): **accept** (66%) - 1h volume 7.6x liquidity, buyers 9056 vs sellers 1914, momentum +5% 1h, LP 100% locked\n- LAUNCH OPENED #27 NBI/USD $25 @ $0.000147763\n\n## 14:16 launch desk\n- LAUNCH CLOSED #25 HUANG/USD: stop_loss, -39.66% ($-9.92)\n- LAUNCH CLOSED #27 NBI/USD: stop_loss, -33.00% ($-8.25)\n- launch JENSEN (1.4h old, liq $90,444): **accept** (79%) - liquidity $90,444, 1h volume 6.0x liquidity, buyers 8380 vs sellers 4583, momentum +7% 1h, LP 100% locked\n- LAUNCH OPENED #28 JENSEN/USD $25 @ $0.00146147\n- launch UCASH (32.0h old, liq $78,125): **accept** (66%) - liquidity $78,125, 1h volume 1.9x liquidity, buyers 10053 vs sellers 1373, LP 100% locked\n- LAUNCH OPENED #29 UCASH/USD $25 @ $0.000895466\n\n## 14:36 launch desk\n- launch NINO (4.4h old, liq $34,082): **accept** (66%) - 1h volume 5.7x liquidity, buyers 1936 vs sellers 1262, momentum +122% 1h, LP 91% locked\n- LAUNCH OPENED #30 NINO/USD $25 @ $0.000127765\n\n## 14:56 launch desk\n- LAUNCH CLOSED #28 JENSEN/USD: stop_loss, -30.91% ($-7.73)\n\n## 15:16 launch desk\n- LAUNCH CLOSED #26 JENSEN/USD: rug_exit, -99.30% ($-24.83)\n\n## 15:37 launch desk\n- LAUNCH CLOSED #29 UCASH/USD: stop_loss, -27.77% ($-6.94)\n\n## 16:18 launch desk\n- launch PumpMeme (15.9h old, liq $52,989): **accept** (66%) - liquidity $52,989, 1h volume 1.2x liquidity, buyers 9704 vs sellers 4707, LP 100% locked\n- LAUNCH OPENED #31 PumpMeme/USD $25 @ $0.000519342\n- launch ChristmASS (0.9h old, liq $36,218): **accept** (66%) - 1h volume 6.8x liquidity, buyers 6534 vs sellers 1465, momentum +590% 1h, LP 100% locked\n- LAUNCH OPENED #32 ChristmASS/USD $25 @ $0.000264822\n\n## 16:38 launch desk\n- launch UCASH (34.4h old, liq $79,539): **accept** (66%) - liquidity $79,539, 1h volume 2.9x liquidity, buyers 9172 vs sellers 1353, LP 100% locked\n- LAUNCH OPENED #33 UCASH/USD $25 @ $0.000917181\n- launch JENSEN (1.4h old, liq $25,184): **accept** (66%) - 1h volume 1.5x liquidity, buyers 980 vs sellers 576, momentum +68% 1h, LP 100% locked\n- LAUNCH OPENED #34 JENSEN/USD $25 @ $0.000134835\n\n## 16:59 launch desk\n- LAUNCH CLOSED #21 cateball/USD: stop_loss, -43.93% ($-10.98)\n- LAUNCH CLOSED #31 PumpMeme/USD: stop_loss, -30.35% ($-7.59)\n\n## 17:19 launch desk\n- LAUNCH CLOSED #30 NINO/USD: stop_loss, -28.08% ($-7.02)\n- launch JENSEN (4.5h old, liq $75,434): **accept** (87%) - liquidity $75,434, 1h volume 0.4x liquidity, buyers 5267 vs sellers 3400, momentum +33% 1h, LP 100% locked\n- LAUNCH OPENED #35 JENSEN/USD $25 @ $0.00102313\n\n## 17:39 launch desk\n- LAUNCH CLOSED #32 ChristmASS/USD: rug_exit, -99.55% ($-24.89)\n- launch JIMMY (1.5h old, liq $43,027): **accept** (51%) - 1h volume 12.8x liquidity, buyers 5814 vs sellers 4372, momentum +567% 1h\n- LAUNCH OPENED #36 JIMMY/USD $25 @ $0.000345824\n\n## 17:59 launch desk\n- LAUNCH CLOSED #35 JENSEN/USD: stop_loss, -28.75% ($-7.19)\n- launch cateball (37.9h old, liq $52,284): **accept** (66%) - liquidity $52,284, 1h volume 0.3x liquidity, buyers 199 vs sellers 113, LP 100% locked\n- LAUNCH OPENED #37 cateball/USD $25 @ $0.000508333\n- launch PONK (1.2h old, liq $36,204): **accept** (66%) - 1h volume 6.8x liquidity, buyers 6319 vs sellers 1046, momentum +52% 1h, LP 100% locked\n- LAUNCH OPENED #38 PONK/USD $25 @ $0.000267953\n\n## 18:19 launch desk\n- LAUNCH CLOSED #38 PONK/USD: stop_loss, -27.81% ($-6.95)\n\n## 18:40 launch desk\n- LAUNCH CLOSED #33 UCASH/USD: roi, +50.58% ($+12.64)\n- LAUNCH CLOSED #34 JENSEN/USD: roi, +55.44% ($+13.86)\n- launch UCASH (36.4h old, liq $99,235): **accept** (66%) - liquidity $99,235, 1h volume 1.9x liquidity, buyers 5623 vs sellers 2310, LP 100% locked\n- LAUNCH OPENED #39 UCASH/USD $25 @ $0.00140895\n- launch JENSEN (3.4h old, liq $31,986): **accept** (66%) - 1h volume 0.4x liquidity, buyers 676 vs sellers 144, momentum +13% 1h, LP 100% locked\n- LAUNCH OPENED #40 JENSEN/USD $25 @ $0.000213817\n\n## 19:00 launch desk\n- launch hamster (0.8h old, liq $33,034): **accept** (66%) - 1h volume 1.7x liquidity, buyers 429 vs sellers 245, momentum +157% 1h, LP 100% locked\n- LAUNCH OPENED #41 hamster/USD $25 @ $1.97354e-07\n\n## 19:21 launch desk\n- launch JENSEN (6.5h old, liq $67,988): **accept** (66%) - liquidity $67,988, 1h volume 0.4x liquidity, buyers 5536 vs sellers 3576, LP 100% locked\n- LAUNCH OPENED #42 JENSEN/USD $25 @ $0.000833452\n\n## 19:31 launch desk\n- LAUNCH CLOSED #36 JIMMY/USD: stop_loss, -48.96% ($-12.24)\n\n## 19:50 launch desk\n- launch THANKS (2.3h old, liq $25,855): **accept** (66%) - 1h volume 10.1x liquidity, buyers 3702 vs sellers 2614, momentum +26% 1h, LP 100% locked\n- LAUNCH OPENED #43 THANKS/USD $25 @ $0.000131199\n\n## 20:31 launch desk\n- LAUNCH CLOSED #42 JENSEN/USD: stop_loss, -31.98% ($-8.00)\n- LAUNCH CLOSED #43 THANKS/USD: stop_loss, -76.59% ($-19.15)\n\n## 21:12 launch desk\n- launch Jesus (1.5h old, liq $38,889): **accept** (66%) - 1h volume 2.4x liquidity, buyers 8553 vs sellers 807, momentum +8% 1h, LP 100% locked\n- LAUNCH OPENED #44 Jesus/USD $25 @ $0.000308959\n\n## Evening report 21:12\nSignals checked: 32 (accept 0, verify_more 0, reject 32)\nTrades closed today: 0, open now: 0\nPaper P&L all time: +0.00 USD (+0.00%)\nLaunch desk: 176 token checks (31 accepted), 35 closed today, 6 open, equity $786.41\n- #5 UCASH/USD: stop_loss -28.00% - **mismatch** (loss -28.00% beyond stop -25% + slippage)\n- #1 MINELIUS/USD: roi +61.96% - **closed_as_planned** (roi at 61.96%, 2 fills)\n- #12 ZOL/USD: roi +52.42% - **closed_as_planned** (roi at 52.42%, 2 fills)\n- #13 UCASH/USD: roi +62.96% - **closed_as_planned** (roi at 62.96%, 2 fills)\n- #10 NOHR/USD: stop_loss -31.63% - **mismatch** (loss -31.63% beyond stop -25% + slippage)\n- #2 FSDV15/USD: stop_loss -47.60% - **mismatch** (loss -47.60% beyond stop -25% + slippage)\n- #14 UCASH/USD: stop_loss -26.87% - **mismatch** (loss -26.87% beyond stop -25% + slippage)\n- #15 NOHR/USD: stop_loss -33.89% - **mismatch** (loss -33.89% beyond stop -25% + slippage)\n- #17 UCASH/USD: roi +55.01% - **closed_as_planned** (roi at 55.01%, 2 fills)\n- #7 COPIUM/USD: roi +53.15% - **closed_as_planned** (roi at 53.15%, 2 fills)\n- #8 Fly/USD: stop_loss -37.18% - **mismatch** (loss -37.18% beyond stop -25% + slippage)\n- #16 FSDV15/USD: stop_loss -29.15% - **mismatch** (loss -29.15% beyond stop -25% + slippage)\n- #19 UCASH/USD: roi +48.89% - **closed_as_planned** (roi at 48.89%, 2 fills)\n- #22 BONER/USD: stop_loss -80.63% - **mismatch** (loss -80.63% beyond stop -25% + slippage)\n- #11 MINELIUS/USD: stop_loss -70.28% - **mismatch** (loss -70.28% beyond stop -25% + slippage)\n- #9 PumpMeme/USD: stop_loss -32.52% - **mismatch** (loss -32.52% beyond stop -25% + slippage)\n- #23 UCASH/USD: stop_loss -34.43% - **mismatch** (loss -34.43% beyond stop -25% + slippage)\n- #24 MINELIUS/USD: stop_loss -42.50% - **mismatch** (loss -42.50% beyond stop -25% + slippage)\n- #20 FSDV15/USD: stop_loss -46.37% - **mismatch** (loss -46.37% beyond stop -25% + slippage)\n- #25 HUANG/USD: stop_loss -39.66% - **mismatch** (loss -39.66% beyond stop -25% + slippage)\n- #27 NBI/USD: stop_loss -33.00% - **mismatch** (loss -33.00% beyond stop -25% + slippage)\n- #28 JENSEN/USD: stop_loss -30.91% - **mismatch** (loss -30.91% beyond stop -25% + slippage)\n- #26 JENSEN/USD: rug_exit -99.30% - **mismatch** (loss -99.30% beyond stop -25% + slippage)\n- #29 UCASH/USD: stop_loss -27.77% - **mismatch** (loss -27.77% beyond stop -25% + slippage)\n- #21 cateball/USD: stop_loss -43.93% - **mismatch** (loss -43.93% beyond stop -25% + slippage)\n- #31 PumpMeme/USD: stop_loss -30.35% - **mismatch** (loss -30.35% beyond stop -25% + slippage)\n- #30 NINO/USD: stop_loss -28.08% - **mismatch** (loss -28.08% beyond stop -25% + slippage)\n- #32 ChristmASS/USD: rug_exit -99.55% - **mismatch** (loss -99.55% beyond stop -25% + slippage)\n- #35 JENSEN/USD: stop_loss -28.75% - **mismatch** (loss -28.75% beyond stop -25% + slippage)\n- #38 PONK/USD: stop_loss -27.81% - **mismatch** (loss -27.81% beyond stop -25% + slippage)\n- #33 UCASH/USD: roi +50.58% - **closed_as_planned** (roi at 50.58%, 2 fills)\n- #34 JENSEN/USD: roi +55.44% - **closed_as_planned** (roi at 55.44%, 2 fills)\n- #36 JIMMY/USD: stop_loss -48.96% - **mismatch** (loss -48.96% beyond stop -25% + slippage)\n- #42 JENSEN/USD: stop_loss -31.98% - **mismatch** (loss -31.98% beyond stop -25% + slippage)\n- #43 THANKS/USD: stop_loss -76.59% - **mismatch** (loss -76.59% beyond stop -25% + slippage)\nMost common blocker today: against trend (32x)\n\n## 21:32 launch desk\n- LAUNCH CLOSED #40 JENSEN/USD: roi, +53.21% ($+13.30)\n- LAUNCH CLOSED #41 hamster/USD: stop_loss, -67.29% ($-16.82)\n- launch JENSEN (8.7h old, liq $67,200): **accept** (66%) - liquidity $67,200, 1h volume 0.5x liquidity, buyers 5766 vs sellers 3527, LP 100% locked\n- LAUNCH OPENED #45 JENSEN/USD $25 @ $0.000818302\n\n## 21:52 launch desk\n- launch Flatulence (1.3h old, liq $43,346): **accept** (51%) - 1h volume 11.4x liquidity, buyers 6407 vs sellers 4774, momentum +183% 1h\n- LAUNCH OPENED #46 Flatulence/USD $25 @ $0.00024442\n- launch JIMMY (5.7h old, liq $42,496): **accept** (51%) - 1h volume 3.3x liquidity, buyers 1364 vs sellers 1124, momentum +16% 1h\n- LAUNCH OPENED #47 JIMMY/USD $25 @ $0.000312999\n- launch JENSEN (1.3h old, liq $39,599): **accept** (66%) - 1h volume 15.9x liquidity, buyers 8611 vs sellers 4843, momentum +190% 1h, LP 100% locked\n- LAUNCH OPENED #48 JENSEN/USD $25 @ $0.000284012\n\n## 22:13 launch desk\n- LAUNCH CLOSED #46 Flatulence/USD: stop_loss, -35.19% ($-8.80)\n- LAUNCH CLOSED #48 JENSEN/USD: stop_loss, -38.86% ($-9.71)\n\n## 22:33 launch desk\n- LAUNCH CLOSED #39 UCASH/USD: stop_loss, -83.09% ($-20.77)\n- LAUNCH CLOSED #45 JENSEN/USD: stop_loss, -27.00% ($-6.75)\n\n"
   },
   {
    "day": "2026-11-22",
@@ -1442,8 +1446,8 @@
    ],
    "paper_only": true
   },
-  "wallet": 606.6842713786189,
-  "equity_now": 750.6979409383758,
+  "wallet": 629.160885856703,
+  "equity_now": 726.3864875105425,
   "open": [
    {
     "trade_id": 18,
@@ -1459,8 +1463,8 @@
     "entry_liquidity": 63622.05,
     "stop": 0.00055956525,
     "target": 0.0011191305,
-    "last_price": 0.0008484,
-    "last_liquidity": 69010.72
+    "last_price": 0.0006538,
+    "last_liquidity": 60730.5
    },
    {
     "trade_id": 37,
@@ -1476,25 +1480,8 @@
     "entry_liquidity": 52283.67,
     "stop": 0.00038124975,
     "target": 0.0007624995,
-    "last_price": 0.0004096,
-    "last_liquidity": 46742.9
-   },
-   {
-    "trade_id": 39,
-    "pair": "UCASH/USD",
-    "mint": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
-    "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
-    "is_short": false,
-    "open_rate": 0.00140895,
-    "open_ts": 1795477210.1161444,
-    "stake": 25,
-    "amount": 17743.709854856454,
-    "open_date": "2026-11-23T23:40:10.116144+00:00",
-    "entry_liquidity": 99235.13,
-    "stop": 0.0010567125,
-    "target": 0.002113425,
-    "last_price": 0.001369,
-    "last_liquidity": 98775.22
+    "last_price": 0.0004042,
+    "last_liquidity": 46644.34
    },
    {
     "trade_id": 44,
@@ -1510,25 +1497,8 @@
     "entry_liquidity": 38889.19,
     "stop": 0.00023171925000000003,
     "target": 0.00046343850000000005,
-    "last_price": 0.0003184,
-    "last_liquidity": 39405.38
-   },
-   {
-    "trade_id": 45,
-    "pair": "JENSEN/USD",
-    "mint": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
-    "url": "https://dexscreener.com/solana/dqpqkbbqr3wmty5ryjoq3nzrrzwbh7h9x2gj7osn9mhh",
-    "is_short": false,
-    "open_rate": 0.0008183019999999999,
-    "open_ts": 1795487549.316559,
-    "stake": 25,
-    "amount": 30551.067943131024,
-    "open_date": "2026-11-24T02:32:29.316559+00:00",
-    "entry_liquidity": 67199.81,
-    "stop": 0.0006137264999999999,
-    "target": 0.0012274529999999999,
-    "last_price": 0.000826,
-    "last_liquidity": 67494.87
+    "last_price": 0.0003436,
+    "last_liquidity": 41185.38
    },
    {
     "trade_id": 47,
@@ -1544,8 +1514,8 @@
     "entry_liquidity": 42496.34,
     "stop": 0.00023474925,
     "target": 0.0004694985,
-    "last_price": 0.0002705,
-    "last_liquidity": 39454.71
+    "last_price": 0.0003583,
+    "last_liquidity": 45815.86
    }
   ],
   "closed": [
@@ -2976,6 +2946,74 @@
       "filled": 88024.44967114065
      }
     ]
+   },
+   {
+    "trade_id": 39,
+    "pair": "UCASH/USD",
+    "mint": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
+    "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
+    "is_short": false,
+    "open_rate": 0.00140895,
+    "open_ts": 1795477210.1161444,
+    "stake": 25,
+    "amount": 17743.709854856454,
+    "open_date": "2026-11-23T23:40:10.116144+00:00",
+    "entry_liquidity": 99235.13,
+    "stop": 0.0010567125,
+    "target": 0.002113425,
+    "last_price": 0.0002406,
+    "last_liquidity": 40970.75,
+    "is_open": false,
+    "close_rate": 0.000238194,
+    "close_timestamp": 1795491192079.253,
+    "close_date": "2026-11-24T03:33:12.079253+00:00",
+    "close_profit": -0.830942,
+    "profit_abs": -20.7736,
+    "exit_reason": "stop_loss",
+    "orders": [
+     {
+      "status": "closed",
+      "filled": 17743.709854856454
+     },
+     {
+      "status": "closed",
+      "filled": 17743.709854856454
+     }
+    ]
+   },
+   {
+    "trade_id": 45,
+    "pair": "JENSEN/USD",
+    "mint": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
+    "url": "https://dexscreener.com/solana/dqpqkbbqr3wmty5ryjoq3nzrrzwbh7h9x2gj7osn9mhh",
+    "is_short": false,
+    "open_rate": 0.0008183019999999999,
+    "open_ts": 1795487549.316559,
+    "stake": 25,
+    "amount": 30551.067943131024,
+    "open_date": "2026-11-24T02:32:29.316559+00:00",
+    "entry_liquidity": 67199.81,
+    "stop": 0.0006137264999999999,
+    "target": 0.0012274529999999999,
+    "last_price": 0.0006034,
+    "last_liquidity": 57805.54,
+    "is_open": false,
+    "close_rate": 0.000597366,
+    "close_timestamp": 1795491192079.253,
+    "close_date": "2026-11-24T03:33:12.079253+00:00",
+    "close_profit": -0.269993,
+    "profit_abs": -6.7498,
+    "exit_reason": "stop_loss",
+    "orders": [
+     {
+      "status": "closed",
+      "filled": 30551.067943131024
+     },
+     {
+      "status": "closed",
+      "filled": 30551.067943131024
+     }
+    ]
    }
   ],
   "equity": [
@@ -3274,9 +3312,125 @@
    [
     1795489991,
     750.7
+   ],
+   [
+    1795491196,
+    726.39
    ]
   ],
   "checks": [
+   {
+    "ts": 1795491196.1194804,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "3reEjCbDFht7LnNdKncQ3vohYDbAMJWXkbzWLSNhpump",
+     "symbol": "FATU",
+     "dex": "pumpswap",
+     "price": 8.42e-05,
+     "liquidity": 19496.54,
+     "fdv": 84207,
+     "vol_h1": 104486.96,
+     "buys_h1": 1933,
+     "sells_h1": 1373,
+     "chg_h1": 189,
+     "chg_h6": 189,
+     "age_h": 0.27557757026619384,
+     "url": "https://dexscreener.com/solana/ersrds1ar5i86ypsfjbynhtpcm3bgzqkq7w2sd5skcpk",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $19,497 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795491196.1192942,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
+     "symbol": "UCASH",
+     "dex": "pumpswap",
+     "price": 0.0002406,
+     "liquidity": 40970.75,
+     "fdv": 239739,
+     "vol_h1": 215472.4,
+     "buys_h1": 5612,
+     "sells_h1": 1807,
+     "chg_h1": -84.53,
+     "chg_h6": -71.22,
+     "age_h": 40.30252201471064,
+     "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 99.99999999982835,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "verify_more": 0.245,
+     "reject": 0.665,
+     "accept": 0.09
+    },
+    "confidence": 0.665,
+    "reasons": [
+     "1h volume 5.3x liquidity",
+     "buyers 5612 vs sellers 1807",
+     "dumping -85% 1h",
+     "LP 100% locked"
+    ],
+    "score": 2.0
+   },
+   {
+    "ts": 1795491196.1190429,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
+     "symbol": "JENSEN",
+     "dex": "pumpswap",
+     "price": 0.0006034,
+     "liquidity": 57805.54,
+     "fdv": 600725,
+     "vol_h1": 45677.79,
+     "buys_h1": 5450,
+     "sells_h1": 4063,
+     "chg_h1": -22.64,
+     "chg_h6": -33.67,
+     "age_h": 9.733633125821749,
+     "url": "https://dexscreener.com/solana/dqpqkbbqr3wmty5ryjoq3nzrrzwbh7h9x2gj7osn9mhh",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 99.76027690789576,
+     "rug_danger": []
+    },
+    "choice": "verify_more",
+    "probabilities": {
+     "verify_more": 0.333,
+     "reject": 0.333,
+     "accept": 0.333
+    },
+    "confidence": 0.333,
+    "reasons": [
+     "liquidity $57,806",
+     "1h volume 0.8x liquidity",
+     "buyers 5450 vs sellers 4063",
+     "dumping -23% 1h",
+     "LP 100% locked"
+    ],
+    "score": 3.0
+   },
    {
     "ts": 1795489991.129878,
     "gate": "check_launch",
@@ -4606,117 +4760,9 @@
      "LP 100% locked"
     ],
     "score": 2.0
-   },
-   {
-    "ts": 1795478436.6928716,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "A5euULARiF254xqxSqZ1bdC8zCGiKW2FRh2zYstWZWZs",
-     "symbol": "hamster",
-     "dex": "raydium",
-     "price": 1.954e-07,
-     "liquidity": 33034.13,
-     "fdv": 131002,
-     "vol_h1": 56344.93,
-     "buys_h1": 429,
-     "sells_h1": 245,
-     "chg_h1": 157,
-     "chg_h6": 157,
-     "age_h": 0.8094370955228806,
-     "url": "https://dexscreener.com/solana/6jcmcd9aav4gpxgo3mlabufthpdp6ywvjamp1ruvvidj",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 100,
-     "rug_danger": []
-    },
-    "choice": "accept",
-    "probabilities": {
-     "verify_more": 0.245,
-     "reject": 0.09,
-     "accept": 0.665
-    },
-    "confidence": 0.665,
-    "reasons": [
-     "1h volume 1.7x liquidity",
-     "buyers 429 vs sellers 245",
-     "momentum +157% 1h",
-     "LP 100% locked"
-    ],
-    "score": 4.0
-   },
-   {
-    "ts": 1795478436.6925685,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "3uiodaXi8dg7CBaNHeRTUqhX46k2BCFuYq9iabD4pump",
-     "symbol": "Tribe",
-     "dex": "pumpswap",
-     "price": 0.0003326,
-     "liquidity": 40426.92,
-     "fdv": 332583,
-     "vol_h1": 294325.82,
-     "buys_h1": 6369,
-     "sells_h1": 1596,
-     "chg_h1": 741,
-     "chg_h6": 741,
-     "age_h": 0.37832598441176946,
-     "url": "https://dexscreener.com/solana/7g7nghkqjrf2mgyvnekzxhi9lhbtcxr4mdkk1kp9dcee",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 100,
-     "rug_danger": []
-    },
-    "choice": "verify_more",
-    "probabilities": {
-     "reject": 0.018,
-     "verify_more": 0.965,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "only 23 min old, watching"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795477213.9143426,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "57HARmTz2B7XbovZNRqdC1V2MSLMDBsfnPGUBtQc1oak",
-     "symbol": "CLOAK",
-     "dex": "raydium",
-     "price": 1.477e-05,
-     "liquidity": 8863.1,
-     "fdv": 14778,
-     "vol_h1": 13953.11,
-     "buys_h1": 187,
-     "sells_h1": 123,
-     "chg_h1": -51.1,
-     "chg_h6": -51.1,
-     "age_h": 0.9072544845607545,
-     "url": "https://dexscreener.com/solana/4etbiu2f5pvjsewxqxah2hrxq2nr3sfkcnhna1atfkjg",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $8,863 < $25,000"
-    ],
-    "score": null
    }
   ],
-  "watching": 140,
+  "watching": 141,
   "graded": [
    {
     "ts": 1795486336.8082666,
@@ -4769,7 +4815,7 @@
    }
   ],
   "stats": {
-   "trades": 42,
+   "trades": 44,
    "wins": 9,
    "best": 0.629596,
    "worst": -0.995548
