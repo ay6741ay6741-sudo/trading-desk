@@ -1,53 +1,53 @@
 {
- "ts": 1795479652.0852225,
+ "ts": 1795480289.077,
  "pairs": {
   "BONK/USD": {
    "last": 2.19e-06,
    "change_24h": 0.06829268292682955,
-   "funding": -8.41192746137e-05,
-   "open_interest": 546713700000.0
+   "funding": -7.87452544849e-05,
+   "open_interest": 547461800000.0
   },
   "WIF/USD": {
-   "last": 0.12542,
-   "change_24h": 0.05394957983193294,
+   "last": 0.12587,
+   "change_24h": 0.05773109243697494,
    "funding": 5e-05,
-   "open_interest": 22768475.0
+   "open_interest": 22765274.0
   },
   "POPCAT/USD": {
-   "last": 0.02604,
-   "change_24h": 0.07514450867052025,
+   "last": 0.02608,
+   "change_24h": 0.07679603633360865,
    "funding": 5e-05,
-   "open_interest": 9066090.0
+   "open_interest": 9046060.0
   },
   "PENGU/USD": {
-   "last": 0.004453,
-   "change_24h": 0.05073147711184545,
-   "funding": 3.05389038155e-05,
-   "open_interest": 1086550100.0
+   "last": 0.004468,
+   "change_24h": 0.0542708824917415,
+   "funding": 3.53745082257e-05,
+   "open_interest": 1090091200.0
   },
   "TRUMP/USD": {
-   "last": 0.8834,
-   "change_24h": 0.0028380065841753233,
-   "funding": -6.91096372419e-05,
-   "open_interest": 9553723.2
+   "last": 0.8855,
+   "change_24h": 0.005221932114882533,
+   "funding": -7.6949808718e-05,
+   "open_interest": 9521319.9
   },
   "FARTCOIN/USD": {
-   "last": 0.08267,
-   "change_24h": 0.06369016984045284,
+   "last": 0.08297,
+   "change_24h": 0.06755018013381364,
    "funding": 5e-05,
-   "open_interest": 19642820.0
+   "open_interest": 19589077.0
   },
   "PNUT/USD": {
-   "last": 0.02663,
-   "change_24h": 0.027391975308642014,
-   "funding": -9.77674110889e-05,
-   "open_interest": 24659870.0
+   "last": 0.02671,
+   "change_24h": 0.030478395061728447,
+   "funding": -7.14815265348e-05,
+   "open_interest": 24751770.0
   },
   "MOODENG/USD": {
-   "last": 0.025658,
-   "change_24h": 0.026730692276910828,
+   "last": 0.025762,
+   "change_24h": 0.030892356942777255,
    "funding": 5e-05,
-   "open_interest": 25159100.0
+   "open_interest": 25106140.0
   }
  }
 }
