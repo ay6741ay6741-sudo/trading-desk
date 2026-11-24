@@ -1,53 +1,53 @@
 {
- "ts": 1795480289.077,
+ "ts": 1795481446.3279884,
  "pairs": {
   "BONK/USD": {
    "last": 2.19e-06,
    "change_24h": 0.06829268292682955,
-   "funding": -7.87452544849e-05,
-   "open_interest": 547461800000.0
+   "funding": -5.99710154872e-05,
+   "open_interest": 544359700000.0
   },
   "WIF/USD": {
-   "last": 0.12587,
-   "change_24h": 0.05773109243697494,
+   "last": 0.1254,
+   "change_24h": 0.05378151260504227,
    "funding": 5e-05,
-   "open_interest": 22765274.0
+   "open_interest": 22660067.0
   },
   "POPCAT/USD": {
-   "last": 0.02608,
-   "change_24h": 0.07679603633360865,
+   "last": 0.026,
+   "change_24h": 0.07349298100743185,
    "funding": 5e-05,
-   "open_interest": 9046060.0
+   "open_interest": 9041670.0
   },
   "PENGU/USD": {
-   "last": 0.004468,
-   "change_24h": 0.0542708824917415,
-   "funding": 3.53745082257e-05,
-   "open_interest": 1090091200.0
+   "last": 0.004446,
+   "change_24h": 0.049079754601227155,
+   "funding": 2.67885516086e-05,
+   "open_interest": 1089587200.0
   },
   "TRUMP/USD": {
-   "last": 0.8855,
-   "change_24h": 0.005221932114882533,
-   "funding": -7.6949808718e-05,
-   "open_interest": 9521319.9
+   "last": 0.8793,
+   "change_24h": -0.0018163242138722335,
+   "funding": -9.28899617857e-05,
+   "open_interest": 9650491.0
   },
   "FARTCOIN/USD": {
-   "last": 0.08297,
-   "change_24h": 0.06755018013381364,
+   "last": 0.08247,
+   "change_24h": 0.06111682964487919,
    "funding": 5e-05,
-   "open_interest": 19589077.0
+   "open_interest": 19533068.0
   },
   "PNUT/USD": {
-   "last": 0.02671,
-   "change_24h": 0.030478395061728447,
-   "funding": -7.14815265348e-05,
-   "open_interest": 24751770.0
+   "last": 0.0266,
+   "change_24h": 0.026234567901234573,
+   "funding": -5.9118083385e-05,
+   "open_interest": 24801120.0
   },
   "MOODENG/USD": {
-   "last": 0.025762,
-   "change_24h": 0.030892356942777255,
+   "last": 0.025681,
+   "change_24h": 0.02765106042416976,
    "funding": 5e-05,
-   "open_interest": 25106140.0
+   "open_interest": 25122500.0
   }
  }
 }
