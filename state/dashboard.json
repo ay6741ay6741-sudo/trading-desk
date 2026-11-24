@@ -1,5 +1,5 @@
 {
- "updated": 1795500911.0825603,
+ "updated": 1795502129.4411833,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -387,58 +387,62 @@
   [
    1795500908,
    1000
+  ],
+  [
+   1795502126,
+   1000
   ]
  ],
  "scout": {
-  "ts": 1795500902.7768564,
+  "ts": 1795502120.6895642,
   "pairs": {
    "BONK/USD": {
-    "last": 2.24e-06,
-    "change_24h": 0.05660377358490565,
-    "funding": -0.0001757057698823,
-    "open_interest": 542993600000.0
+    "last": 2.23e-06,
+    "change_24h": 0.05188679245283012,
+    "funding": -0.0001426467695087,
+    "open_interest": 545298600000.0
    },
    "WIF/USD": {
-    "last": 0.1272,
-    "change_24h": 0.030794165316045508,
+    "last": 0.12651,
+    "change_24h": 0.025202593192868772,
     "funding": 5e-05,
-    "open_interest": 22853226.0
+    "open_interest": 22888412.0
    },
    "POPCAT/USD": {
     "last": 0.02601,
     "change_24h": 0.03378378378378377,
     "funding": 5e-05,
-    "open_interest": 9120960.0
+    "open_interest": 9118620.0
    },
    "PENGU/USD": {
-    "last": 0.004493,
-    "change_24h": 0.0412514484356894,
-    "funding": 8.8211504667e-06,
-    "open_interest": 1104044100.0
+    "last": 0.004478,
+    "change_24h": 0.03777520278099655,
+    "funding": 1.3253405727e-06,
+    "open_interest": 1102226700.0
    },
    "TRUMP/USD": {
-    "last": 0.8795,
-    "change_24h": -0.023645648312611067,
-    "funding": -0.0001270203712207,
-    "open_interest": 9832312.0
+    "last": 0.8738,
+    "change_24h": -0.029973357015985802,
+    "funding": -0.0001250620098375,
+    "open_interest": 9891498.7
    },
    "FARTCOIN/USD": {
-    "last": 0.08357,
-    "change_24h": 0.025524604245919624,
+    "last": 0.08325,
+    "change_24h": 0.0215977420542397,
     "funding": 5e-05,
-    "open_interest": 18515545.0
+    "open_interest": 18639539.0
    },
    "PNUT/USD": {
-    "last": 0.02717,
-    "change_24h": 0.013805970149253666,
+    "last": 0.02716,
+    "change_24h": 0.013432835820895495,
     "funding": 5e-05,
-    "open_interest": 25217660.0
+    "open_interest": 25187910.0
    },
    "MOODENG/USD": {
-    "last": 0.025892,
-    "change_24h": 0.006804837267177177,
-    "funding": 0.0005135451804566,
-    "open_interest": 25512480.0
+    "last": 0.025851,
+    "change_24h": 0.0052105611074386715,
+    "funding": 0.0003401323904762,
+    "open_interest": 25576020.0
    }
   }
  },
@@ -1450,7 +1454,7 @@
  "reports": [
   {
    "day": "2026-11-24",
-   "text": "## 00:35 launch desk\n- LAUNCH CLOSED #44 Jesus/USD: roi, +79.25% ($+19.81)\n- LAUNCH CLOSED #52 JENSEN/USD: stop_loss, -36.90% ($-9.22)\n- launch Jesus (4.9h old, liq $53,326): **accept** (87%) - liquidity $53,326, 1h volume 1.3x liquidity, buyers 1148 vs sellers 319, momentum +28% 1h, LP 100% locked\n- LAUNCH OPENED #53 Jesus/USD $25 @ $0.000564994\n\n## 01:15 launch desk\n- LAUNCH CLOSED #50 CHIBI/USD: stop_loss, -67.50% ($-16.87)\n\n"
+   "text": "## 00:35 launch desk\n- LAUNCH CLOSED #44 Jesus/USD: roi, +79.25% ($+19.81)\n- LAUNCH CLOSED #52 JENSEN/USD: stop_loss, -36.90% ($-9.22)\n- launch Jesus (4.9h old, liq $53,326): **accept** (87%) - liquidity $53,326, 1h volume 1.3x liquidity, buyers 1148 vs sellers 319, momentum +28% 1h, LP 100% locked\n- LAUNCH OPENED #53 Jesus/USD $25 @ $0.000564994\n\n## 01:15 launch desk\n- LAUNCH CLOSED #50 CHIBI/USD: stop_loss, -67.50% ($-16.87)\n\n## 01:35 launch desk\n- LAUNCH CLOSED #53 Jesus/USD: rug_exit, -99.80% ($-24.95)\n\n"
   },
   {
    "day": "2026-11-23",
@@ -1482,8 +1486,8 @@
    ],
    "paper_only": true
   },
-  "wallet": 572.8743889953741,
-  "equity_now": 728.5709769552982,
+  "wallet": 572.9251774108263,
+  "equity_now": 708.536895630779,
   "open": [
    {
     "trade_id": 18,
@@ -1499,8 +1503,8 @@
     "entry_liquidity": 63622.05,
     "stop": 0.00055956525,
     "target": 0.0011191305,
-    "last_price": 0.0006968,
-    "last_liquidity": 63245.71
+    "last_price": 0.0007041,
+    "last_liquidity": 63618.78
    },
    {
     "trade_id": 37,
@@ -1516,8 +1520,8 @@
     "entry_liquidity": 52283.67,
     "stop": 0.00038124975,
     "target": 0.0007624995,
-    "last_price": 0.0004731,
-    "last_liquidity": 50855.64
+    "last_price": 0.0004569,
+    "last_liquidity": 49960.57
    },
    {
     "trade_id": 47,
@@ -1533,8 +1537,8 @@
     "entry_liquidity": 42496.34,
     "stop": 0.00023474925,
     "target": 0.0004694985,
-    "last_price": 0.0003245,
-    "last_liquidity": 44143.25
+    "last_price": 0.0003516,
+    "last_liquidity": 45955.69
    },
    {
     "trade_id": 49,
@@ -1550,8 +1554,8 @@
     "entry_liquidity": 92936.39,
     "stop": 0.0012672974999999999,
     "target": 0.0025345949999999997,
-    "last_price": 0.002183,
-    "last_liquidity": 106983.43
+    "last_price": 0.001982,
+    "last_liquidity": 101908.36
    },
    {
     "trade_id": 51,
@@ -1567,25 +1571,8 @@
     "entry_liquidity": 116422.84,
     "stop": 0.0018111825,
     "target": 0.003622365,
-    "last_price": 0.00302,
-    "last_liquidity": 130989.53
-   },
-   {
-    "trade_id": 53,
-    "pair": "Jesus/USD",
-    "mint": "Gy5BUDnpJMWRsNVKh9sRtsBGunFXKKrbroQRoydQpump",
-    "url": "https://dexscreener.com/solana/2hdonhkfoqzlethm1mzmr8qmanxyctpdc9qbo8ba8zeo",
-    "is_short": false,
-    "open_rate": 0.0005649940000000001,
-    "open_ts": 1795498497.6425266,
-    "stake": 25,
-    "amount": 44248.2575036195,
-    "open_date": "2026-11-24T05:34:57.642527+00:00",
-    "entry_liquidity": 53325.78,
-    "stop": 0.00042374550000000006,
-    "target": 0.0008474910000000001,
-    "last_price": 0.0004785,
-    "last_liquidity": 49327.8
+    "last_price": 0.003237,
+    "last_liquidity": 135647
    }
   ],
   "closed": [
@@ -3186,6 +3173,40 @@
       "filled": 210659.3638087213
      }
     ]
+   },
+   {
+    "trade_id": 53,
+    "pair": "Jesus/USD",
+    "mint": "Gy5BUDnpJMWRsNVKh9sRtsBGunFXKKrbroQRoydQpump",
+    "url": "https://dexscreener.com/solana/2hdonhkfoqzlethm1mzmr8qmanxyctpdc9qbo8ba8zeo",
+    "is_short": false,
+    "open_rate": 0.0005649940000000001,
+    "open_ts": 1795498497.6425266,
+    "stake": 25,
+    "amount": 44248.2575036195,
+    "open_date": "2026-11-24T05:34:57.642527+00:00",
+    "entry_liquidity": 53325.78,
+    "stop": 0.00042374550000000006,
+    "target": 0.0008474910000000001,
+    "last_price": 1.364e-06,
+    "last_liquidity": 1448.06,
+    "is_open": false,
+    "close_rate": 1.1478059999999998e-06,
+    "close_timestamp": 1795502126674.6624,
+    "close_date": "2026-11-24T06:35:26.674662+00:00",
+    "close_profit": -0.997968,
+    "profit_abs": -24.9492,
+    "exit_reason": "rug_exit",
+    "orders": [
+     {
+      "status": "closed",
+      "filled": 44248.2575036195
+     },
+     {
+      "status": "closed",
+      "filled": 44248.2575036195
+     }
+    ]
    }
   ],
   "equity": [
@@ -3520,9 +3541,48 @@
    [
     1795500911,
     728.57
+   ],
+   [
+    1795502129,
+    708.54
    ]
   ],
   "checks": [
+   {
+    "ts": 1795502129.4384274,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "6kdrep4bs5HjY7uGQ4cSnNAdAxspTBivQVm2ZueZpump",
+     "symbol": "NAJIN",
+     "dex": "pumpswap",
+     "price": 2.404e-05,
+     "liquidity": 9789.26,
+     "fdv": 23568,
+     "vol_h1": 23080.07,
+     "buys_h1": 320,
+     "sells_h1": 273,
+     "chg_h1": -21.18,
+     "chg_h6": -21.18,
+     "age_h": 0.09824296176433563,
+     "url": "https://dexscreener.com/solana/7gzwzjsopw4ht9gn6kwgnxa4hwnu3rm7uuv4ul8pfspg",
+     "mint_authority": null,
+     "freeze_authority": null,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $9,789 < $25,000"
+    ],
+    "score": null
+   },
    {
     "ts": 1795500911.0798793,
     "gate": "check_launch",
@@ -4932,44 +4992,9 @@
      "LP 100% locked"
     ],
     "score": 4.0
-   },
-   {
-    "ts": 1795485116.661394,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "BECqBzwZmkzM7A3tWimc2qvm7ookzYi8XACHMZgipump",
-     "symbol": "THANKS",
-     "dex": "pumpswap",
-     "price": 2.571e-05,
-     "liquidity": 10954.95,
-     "fdv": 24759,
-     "vol_h1": 110001.24,
-     "buys_h1": 1626,
-     "sells_h1": 1316,
-     "chg_h1": -80.27,
-     "chg_h6": -17.27,
-     "age_h": 3.362844538092613,
-     "url": "https://dexscreener.com/solana/5k4j5svv3pzvdgdnmbjnubbmoe7dimr4nxdnza17tsks",
-     "mint_authority": null,
-     "freeze_authority": null,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $10,955 < $25,000"
-    ],
-    "score": null
    }
   ],
-  "watching": 119,
+  "watching": 120,
   "graded": [
    {
     "ts": 1795499691.4551172,
@@ -5064,10 +5089,10 @@
    }
   ],
   "stats": {
-   "trades": 47,
+   "trades": 48,
    "wins": 10,
    "best": 0.79249,
-   "worst": -0.995548
+   "worst": -0.997968
   }
  }
 }
