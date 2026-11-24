@@ -17,3 +17,5 @@
 {"ts": 1795541993.2800593, "symbol": "HUANG", "score": 4.0, "choice": "accept", "r": -1}
 {"ts": 1795541993.2800593, "symbol": "NBI", "score": 4.0, "choice": "accept", "r": -1}
 {"ts": 1795541993.2800593, "symbol": "NINO", "score": 4.0, "choice": "accept", "r": -1}
+{"ts": 1795543197.1101215, "symbol": "HUANG", "score": 2.0, "choice": "reject", "r": 2}
+{"ts": 1795543197.1101215, "symbol": "sexcoin", "score": 0.5, "choice": "reject", "r": -1}
