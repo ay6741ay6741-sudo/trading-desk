@@ -1,6 +1,6 @@
 {
  "wallet": 1000,
- "next_id": 6,
+ "next_id": 8,
  "open": {
   "MOODENG/USD": {
    "trade_id": 1,
@@ -61,17 +61,41 @@
    "amount": 60.25548324897566,
    "stop": 0.8961840000000001,
    "target": 0.697032
+  },
+  "BONK/USD": {
+   "trade_id": 6,
+   "pair": "BONK/USD",
+   "is_short": true,
+   "open_rate": 2.11e-06,
+   "open_date": "2026-11-24T16:00:00+00:00",
+   "open_candle": 1795532400,
+   "stake": 50,
+   "amount": 23696682.464454975,
+   "stop": 2.2788e-06,
+   "target": 1.7724e-06
+  },
+  "FARTCOIN/USD": {
+   "trade_id": 7,
+   "pair": "FARTCOIN/USD",
+   "is_short": true,
+   "open_rate": 0.07838,
+   "open_date": "2026-11-24T16:00:00+00:00",
+   "open_candle": 1795532400,
+   "stake": 50,
+   "amount": 637.9178361826996,
+   "stop": 0.08465040000000001,
+   "target": 0.0658392
   }
  },
  "closed": [],
  "last_candle": {
-  "BONK/USD": 1795528800,
-  "WIF/USD": 1795528800,
-  "POPCAT/USD": 1795528800,
-  "PENGU/USD": 1795528800,
-  "TRUMP/USD": 1795528800,
-  "FARTCOIN/USD": 1795528800,
-  "PNUT/USD": 1795528800,
-  "MOODENG/USD": 1795528800
+  "BONK/USD": 1795532400,
+  "WIF/USD": 1795532400,
+  "POPCAT/USD": 1795532400,
+  "PENGU/USD": 1795532400,
+  "TRUMP/USD": 1795532400,
+  "FARTCOIN/USD": 1795532400,
+  "PNUT/USD": 1795532400,
+  "MOODENG/USD": 1795532400
  }
 }
