@@ -1,5 +1,5 @@
 {
- "wallet": 544.7449499805344,
+ "wallet": 606.8129549595632,
  "next_id": 62,
  "open": {
   "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": {
@@ -16,8 +16,8 @@
    "entry_liquidity": 92936.39,
    "stop": 0.0012672974999999999,
    "target": 0.0025345949999999997,
-   "last_price": 0.002433,
-   "last_liquidity": 112778.84
+   "last_price": 0.002013,
+   "last_liquidity": 102596.25
   },
   "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": {
    "trade_id": 57,
@@ -33,8 +33,8 @@
    "entry_liquidity": 53394.84,
    "stop": 0.0003543585,
    "target": 0.000708717,
-   "last_price": 0.0004173,
-   "last_liquidity": 50450.77
+   "last_price": 0.0004966,
+   "last_liquidity": 55303.39
   },
   "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": {
    "trade_id": 58,
@@ -50,41 +50,8 @@
    "entry_liquidity": 143492.32,
    "stop": 0.00276942,
    "target": 0.00553884,
-   "last_price": 0.003912,
-   "last_liquidity": 148389.28
-  },
-  "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6": {
-   "trade_id": 60,
-   "pair": "SHHFT/USD",
-   "mint": "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6",
-   "url": "https://dexscreener.com/solana/6v2ut2wpbnmruancogqhzc7uhq3ctvrpwmvkgamt6vk",
-   "is_short": false,
-   "open_rate": 9.470770000000001e-05,
-   "open_ts": 1795525293.256114,
-   "stake": 25,
-   "amount": 263970.0890212728,
-   "open_date": "2026-11-24T13:01:33.256114+00:00",
-   "entry_liquidity": 25390.58,
-   "stop": 7.103077500000001e-05,
-   "target": 0.00014206155000000002,
-   "last_price": 0.0001181,
-   "last_liquidity": 28007.01
-  },
-  "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": {
-   "trade_id": 61,
-   "pair": "DUVAL/USD",
-   "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
-   "url": "https://dexscreener.com/solana/csvkmfrq2tedezedpfsohbgqxnb1a3w5o2vvm6y5eoq5",
-   "is_short": false,
-   "open_rate": 0.000437532,
-   "open_ts": 1795526511.818809,
-   "stake": 25,
-   "amount": 57138.67785670533,
-   "open_date": "2026-11-24T13:21:51.818809+00:00",
-   "entry_liquidity": 50174.04,
-   "stop": 0.000328149,
-   "target": 0.000656298,
-   "last_price": 0.0004332
+   "last_price": 0.004004,
+   "last_liquidity": 150213.56
   }
  },
  "closed": [
@@ -1991,17 +1958,77 @@
      "filled": 54762.113379479546
     }
    ]
+  },
+  {
+   "trade_id": 60,
+   "pair": "SHHFT/USD",
+   "mint": "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6",
+   "url": "https://dexscreener.com/solana/6v2ut2wpbnmruancogqhzc7uhq3ctvrpwmvkgamt6vk",
+   "is_short": false,
+   "open_rate": 9.470770000000001e-05,
+   "open_ts": 1795525293.256114,
+   "stake": 25,
+   "amount": 263970.0890212728,
+   "open_date": "2026-11-24T13:01:33.256114+00:00",
+   "entry_liquidity": 25390.58,
+   "stop": 7.103077500000001e-05,
+   "target": 0.00014206155000000002,
+   "last_price": 0.0001727,
+   "last_liquidity": 33588.77,
+   "is_open": false,
+   "close_rate": 0.000170973,
+   "close_timestamp": 1795527732732.577,
+   "close_date": "2026-11-24T13:42:12.732577+00:00",
+   "close_profit": 0.80527,
+   "profit_abs": 20.1318,
+   "exit_reason": "roi",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 263970.0890212728
+    },
+    {
+     "status": "closed",
+     "filled": 263970.0890212728
+    }
+   ]
+  },
+  {
+   "trade_id": 61,
+   "pair": "DUVAL/USD",
+   "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
+   "url": "https://dexscreener.com/solana/csvkmfrq2tedezedpfsohbgqxnb1a3w5o2vvm6y5eoq5",
+   "is_short": false,
+   "open_rate": 0.000437532,
+   "open_ts": 1795526511.818809,
+   "stake": 25,
+   "amount": 57138.67785670533,
+   "open_date": "2026-11-24T13:21:51.818809+00:00",
+   "entry_liquidity": 50174.04,
+   "stop": 0.000328149,
+   "target": 0.000656298,
+   "last_price": 0.0002994,
+   "last_liquidity": 41670.12,
+   "is_open": false,
+   "close_rate": 0.00029640600000000003,
+   "close_timestamp": 1795527732732.577,
+   "close_date": "2026-11-24T13:42:12.732577+00:00",
+   "close_profit": -0.32255,
+   "profit_abs": -8.0638,
+   "exit_reason": "stop_loss",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 57138.67785670533
+    },
+    {
+     "status": "closed",
+     "filled": 57138.67785670533
+    }
+   ]
   }
  ],
  "watch": {
-  "7kctwFbSdLfpi6RuN9cjpVpYVHKPUr8PtG1meH35AEky": {
-   "first_seen": 1795440225.631872,
-   "symbol": "AGI",
-   "path": [],
-   "last_check": 1795480296.0376868,
-   "last_choice": "reject",
-   "final": false
-  },
   "CuNLbjjFcmumcKF1AnUkPU4dcjykJR73M8hzJB5Cpump": {
    "first_seen": 1795441445.6709237,
    "symbol": "TREMP",
@@ -2333,6 +2360,10 @@
     [
      1795526511,
      1.45e-06
+    ],
+    [
+     1795527732,
+     1.45e-06
     ]
    ],
    "last_check": 1795446667.8262684,
@@ -2596,6 +2627,10 @@
     ],
     [
      1795526511,
+     1.41e-06
+    ],
+    [
+     1795527732,
      1.41e-06
     ]
    ],
@@ -2885,6 +2920,10 @@
     [
      1795526511,
      6.188e-06
+    ],
+    [
+     1795527732,
+     5.972e-06
     ]
    ],
    "last_check": 1795508224.828187,
@@ -3125,6 +3164,10 @@
     [
      1795526511,
      1.351e-06
+    ],
+    [
+     1795527732,
+     1.426e-06
     ]
    ],
    "last_check": 1795462558.6658857,
@@ -3349,9 +3392,13 @@
     [
      1795526511,
      3.803e-05
+    ],
+    [
+     1795527732,
+     3.121e-05
     ]
    ],
-   "last_check": 1795524074.435715,
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "final": false,
    "first_score": 4.0,
@@ -3588,6 +3635,10 @@
     ],
     [
      1795526511,
+     1.507e-06
+    ],
+    [
+     1795527732,
      1.507e-06
     ]
    ],
@@ -3841,6 +3892,10 @@
     [
      1795526511,
      1.168e-05
+    ],
+    [
+     1795527732,
+     1.114e-05
     ]
    ],
    "last_check": 1795525293.256114,
@@ -4085,6 +4140,10 @@
     [
      1795526511,
      0.0001938
+    ],
+    [
+     1795527732,
+     0.0001953
     ]
    ],
    "last_check": 1795526511.818809,
@@ -4401,6 +4460,10 @@
     [
      1795526511,
      1.509e-06
+    ],
+    [
+     1795527732,
+     1.509e-06
     ]
    ],
    "last_check": 1795468697.3809133,
@@ -4422,7 +4485,7 @@
    "first_seen": 1795468697.3809133,
    "symbol": "NCSP",
    "path": [],
-   "last_check": 1795524074.435715,
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "final": false
   },
@@ -4617,6 +4680,10 @@
     [
      1795526511,
      1.366e-06
+    ],
+    [
+     1795527732,
+     1.339e-06
     ]
    ],
    "last_check": 1795522855.365702,
@@ -4809,6 +4876,10 @@
     [
      1795526511,
      1.394e-06
+    ],
+    [
+     1795527732,
+     1.35e-06
     ]
    ],
    "last_check": 1795478429.973544,
@@ -5037,6 +5108,10 @@
     [
      1795526511,
      0.0004173
+    ],
+    [
+     1795527732,
+     0.0004966
     ]
    ],
    "last_check": 1795519191.7895036,
@@ -5197,9 +5272,13 @@
     [
      1795526511,
      2.333e-05
+    ],
+    [
+     1795527732,
+     2.907e-05
     ]
    ],
-   "last_check": 1795524074.435715,
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "final": false,
    "first_score": 4.0,
@@ -5218,7 +5297,7 @@
    "first_seen": 1795475991.917829,
    "symbol": "DIBS",
    "path": [],
-   "last_check": 1795524074.435715,
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "final": false
   },
@@ -5417,9 +5496,13 @@
     [
      1795526511,
      5.778e-08
+    ],
+    [
+     1795527732,
+     5.778e-08
     ]
    ],
-   "last_check": 1795524074.435715,
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "first_score": 4.0,
    "first_choice": "accept",
@@ -5609,6 +5692,10 @@
     [
      1795526511,
      1.352e-06
+    ],
+    [
+     1795527732,
+     1.352e-06
     ]
    ],
    "last_check": 1795498497.6425266,
@@ -5761,6 +5848,10 @@
     [
      1795526511,
      3.483e-05
+    ],
+    [
+     1795527732,
+     3.672e-05
     ]
    ],
    "last_check": 1795525293.256114,
@@ -5885,6 +5976,10 @@
     [
      1795526511,
      1.498e-05
+    ],
+    [
+     1795527732,
+     1.405e-05
     ]
    ],
    "last_check": 1795526511.818809,
@@ -6020,6 +6115,10 @@
     ],
     [
      1795526511,
+     1.567e-06
+    ],
+    [
+     1795527732,
      1.567e-06
     ]
    ],
@@ -6181,6 +6280,10 @@
     [
      1795526511,
      0.003912
+    ],
+    [
+     1795527732,
+     0.004004
     ]
    ],
    "last_check": 1795520412.4120271,
@@ -6313,6 +6416,10 @@
     [
      1795526511,
      0.002433
+    ],
+    [
+     1795527732,
+     0.002013
     ]
    ],
    "last_check": 1795492400.3475943,
@@ -6461,6 +6568,10 @@
     [
      1795526511,
      3.168e-06
+    ],
+    [
+     1795527732,
+     2.869e-06
     ]
    ],
    "last_check": 1795517974.1228893,
@@ -6570,7 +6681,7 @@
    "first_seen": 1795505785.626295,
    "symbol": "Pingu",
    "path": [],
-   "last_check": 1795524074.435715,
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "final": false
   },
@@ -6633,10 +6744,14 @@
     [
      1795526511,
      5.603e-05
+    ],
+    [
+     1795527732,
+     3.71e-05
     ]
    ],
-   "last_check": 1795524074.435715,
-   "last_choice": "verify_more",
+   "last_check": 1795527732.7325768,
+   "last_choice": "reject",
    "final": false,
    "first_score": 3.0,
    "first_choice": "verify_more",
@@ -6686,7 +6801,7 @@
    "first_seen": 1795520412.4120271,
    "symbol": "AMBER",
    "path": [],
-   "last_check": 1795524074.435715,
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "final": false
   },
@@ -6697,6 +6812,10 @@
     [
      1795526511,
      0.0001181
+    ],
+    [
+     1795527732,
+     0.0001727
     ]
    ],
    "last_check": 1795525293.256114,
@@ -6721,6 +6840,10 @@
     [
      1795526511,
      0.0004332
+    ],
+    [
+     1795527732,
+     0.0002994
     ]
    ],
    "last_check": 1795526511.818809,
@@ -6741,10 +6864,14 @@
     [
      1795526511,
      0.0004839
+    ],
+    [
+     1795527732,
+     0.0002943
     ]
    ],
-   "last_check": 1795524074.435715,
-   "last_choice": "verify_more",
+   "last_check": 1795527732.7325768,
+   "last_choice": "reject",
    "first_score": 3.0,
    "first_choice": "verify_more",
    "entry_price": 0.000493,
@@ -6754,7 +6881,7 @@
    "first_seen": 1795524074.435715,
    "symbol": "Unemployed",
    "path": [],
-   "last_check": 1795524074.435715,
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "final": false
   },
@@ -6763,6 +6890,22 @@
    "symbol": "BITEFLY",
    "path": [],
    "last_check": 1795524074.435715,
+   "last_choice": "reject",
+   "final": false
+  },
+  "D2AK5DvBj8AxN5VX1t6bjv7muJVPUx4hFPowVRWYpump": {
+   "first_seen": 1795527732.7325768,
+   "symbol": "PI",
+   "path": [],
+   "last_check": 1795527732.7325768,
+   "last_choice": "reject",
+   "final": false
+  },
+  "EzKEuCEnA2LMuP4bnDcX7akh4sSGgv3ahwkXBHRSb2S4": {
+   "first_seen": 1795527732.7325768,
+   "symbol": "WOLF",
+   "path": [],
+   "last_check": 1795527732.7325768,
    "last_choice": "reject",
    "final": false
   }
