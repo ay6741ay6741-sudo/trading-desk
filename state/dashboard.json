@@ -1,5 +1,5 @@
 {
- "updated": 1795514316.409621,
+ "updated": 1795515534.7619333,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -431,62 +431,95 @@
   [
    1795514313,
    1000
+  ],
+  [
+   1795515531,
+   1000
   ]
  ],
  "scout": {
-  "ts": 1795514307.7994683,
+  "ts": 1795515525.5815084,
   "pairs": {
    "BONK/USD": {
     "last": 2.18e-06,
-    "change_24h": 0.004608294930875445,
-    "funding": -3.04963118917e-05,
-    "open_interest": 522219100000.0
+    "change_24h": 0.01395348837209287,
+    "funding": -3.57643040991e-05,
+    "open_interest": 522378000000.0
    },
    "WIF/USD": {
-    "last": 0.12348,
-    "change_24h": 0.00512820512820511,
-    "funding": -3.00763918932e-05,
-    "open_interest": 22980516.0
+    "last": 0.12359,
+    "change_24h": 0.003980503655564682,
+    "funding": -2.45067179388e-05,
+    "open_interest": 22966248.0
    },
    "POPCAT/USD": {
-    "last": 0.02529,
-    "change_24h": -0.0186263096623982,
+    "last": 0.02528,
+    "change_24h": -0.009792401096748948,
     "funding": 5e-05,
-    "open_interest": 9156670.0
+    "open_interest": 9158710.0
    },
    "PENGU/USD": {
-    "last": 0.004351,
-    "change_24h": 0.0060115606936415045,
-    "funding": -1.30854417794e-05,
-    "open_interest": 1105686000.0
+    "last": 0.004349,
+    "change_24h": 0.0020737327188939947,
+    "funding": -3.1814328111e-06,
+    "open_interest": 1113600800.0
    },
    "TRUMP/USD": {
-    "last": 0.8458,
-    "change_24h": -0.05697402163005916,
-    "funding": -0.0001131939615624,
-    "open_interest": 9722908.2
+    "last": 0.8465,
+    "change_24h": -0.059235385641253635,
+    "funding": -0.0001165146521406,
+    "open_interest": 9751308.7
    },
    "FARTCOIN/USD": {
-    "last": 0.08091,
-    "change_24h": -0.009063074096754442,
+    "last": 0.08071,
+    "change_24h": -0.01404837527485947,
     "funding": 5e-05,
-    "open_interest": 18994395.0
+    "open_interest": 19155583.0
    },
    "PNUT/USD": {
-    "last": 0.02643,
-    "change_24h": -0.010853293413173759,
-    "funding": -1.43472700714e-05,
-    "open_interest": 25379010.0
+    "last": 0.02648,
+    "change_24h": -0.007868115399025766,
+    "funding": -1.47476856502e-05,
+    "open_interest": 25451010.0
    },
    "MOODENG/USD": {
-    "last": 0.025289,
-    "change_24h": -0.02441941208240106,
-    "funding": -0.0003457902839751,
-    "open_interest": 25218590.0
+    "last": 0.025259,
+    "change_24h": -0.020931043838908425,
+    "funding": -0.0003439265798003,
+    "open_interest": 25274370.0
    }
   }
  },
  "decisions": [
+  {
+   "ts": 1795515531.812691,
+   "gate": "check_signal",
+   "inputs": {
+    "pair": "TRUMP/USD",
+    "direction": "short",
+    "volume_ratio": 0.905,
+    "trend_ok": true,
+    "btc_conflict": false,
+    "funding": -0.0001165146521406,
+    "candle_age_h": 0,
+    "whitelisted": true,
+    "price": 0.8463,
+    "candle_ts": 1795510800
+   },
+   "choice": "reject",
+   "probabilities": {
+    "verify_more": 0.245,
+    "reject": 0.665,
+    "accept": 0.09
+   },
+   "confidence": 0.665,
+   "reasons": [
+    "volume only 0.91x avg",
+    "trend agrees",
+    "funding neutral -0.0117%"
+   ],
+   "score": 0.5
+  },
   {
    "ts": 1795446667.8207798,
    "gate": "check_signal",
@@ -1483,7 +1516,7 @@
  "gate_counts": {
   "accept": 0,
   "verify_more": 0,
-  "reject": 33
+  "reject": 34
  },
  "stats": {
   "trades": 0,
@@ -1494,7 +1527,7 @@
  "reports": [
   {
    "day": "2026-11-24",
-   "text": "## 00:35 launch desk\n- LAUNCH CLOSED #44 Jesus/USD: roi, +79.25% ($+19.81)\n- LAUNCH CLOSED #52 JENSEN/USD: stop_loss, -36.90% ($-9.22)\n- launch Jesus (4.9h old, liq $53,326): **accept** (87%) - liquidity $53,326, 1h volume 1.3x liquidity, buyers 1148 vs sellers 319, momentum +28% 1h, LP 100% locked\n- LAUNCH OPENED #53 Jesus/USD $25 @ $0.000564994\n\n## 01:15 launch desk\n- LAUNCH CLOSED #50 CHIBI/USD: stop_loss, -67.50% ($-16.87)\n\n## 01:35 launch desk\n- LAUNCH CLOSED #53 Jesus/USD: rug_exit, -99.80% ($-24.95)\n\n## 02:36 launch desk\n- launch JENSEN (11.3h old, liq $54,238): **accept** (66%) - liquidity $54,238, buyers 671 vs sellers 135, momentum +11% 1h, LP 100% locked\n- LAUNCH OPENED #54 JENSEN/USD $25 @ $0.00059388\n- launch JENSEN (13.8h old, liq $51,146): **accept** (66%) - liquidity $51,146, 1h volume 0.7x liquidity, buyers 7217 vs sellers 2223, LP 100% locked\n- LAUNCH OPENED #55 JENSEN/USD $25 @ $0.000470862\n\n## 02:56 launch desk\n- LAUNCH CLOSED #47 JIMMY/USD: roi, +90.60% ($+22.65)\n- launch JIMMY (10.8h old, liq $61,191): **accept** (79%) - liquidity $61,191, 1h volume 1.9x liquidity, buyers 1291 vs sellers 926, momentum +73% 1h\n- LAUNCH OPENED #56 JIMMY/USD $25 @ $0.000608626\n\n## 04:18 launch desk\n- LAUNCH CLOSED #54 JENSEN/USD: stop_loss, -87.46% ($-21.86)\n- LAUNCH CLOSED #55 JENSEN/USD: stop_loss, -44.14% ($-11.03)\n- LAUNCH CLOSED #56 JIMMY/USD: stop_loss, -32.63% ($-8.16)\n\n## 04:58 launch desk\n- LAUNCH CLOSED #37 cateball/USD: stop_loss, -28.37% ($-7.09)\n\n"
+   "text": "## 00:35 launch desk\n- LAUNCH CLOSED #44 Jesus/USD: roi, +79.25% ($+19.81)\n- LAUNCH CLOSED #52 JENSEN/USD: stop_loss, -36.90% ($-9.22)\n- launch Jesus (4.9h old, liq $53,326): **accept** (87%) - liquidity $53,326, 1h volume 1.3x liquidity, buyers 1148 vs sellers 319, momentum +28% 1h, LP 100% locked\n- LAUNCH OPENED #53 Jesus/USD $25 @ $0.000564994\n\n## 01:15 launch desk\n- LAUNCH CLOSED #50 CHIBI/USD: stop_loss, -67.50% ($-16.87)\n\n## 01:35 launch desk\n- LAUNCH CLOSED #53 Jesus/USD: rug_exit, -99.80% ($-24.95)\n\n## 02:36 launch desk\n- launch JENSEN (11.3h old, liq $54,238): **accept** (66%) - liquidity $54,238, buyers 671 vs sellers 135, momentum +11% 1h, LP 100% locked\n- LAUNCH OPENED #54 JENSEN/USD $25 @ $0.00059388\n- launch JENSEN (13.8h old, liq $51,146): **accept** (66%) - liquidity $51,146, 1h volume 0.7x liquidity, buyers 7217 vs sellers 2223, LP 100% locked\n- LAUNCH OPENED #55 JENSEN/USD $25 @ $0.000470862\n\n## 02:56 launch desk\n- LAUNCH CLOSED #47 JIMMY/USD: roi, +90.60% ($+22.65)\n- launch JIMMY (10.8h old, liq $61,191): **accept** (79%) - liquidity $61,191, 1h volume 1.9x liquidity, buyers 1291 vs sellers 926, momentum +73% 1h\n- LAUNCH OPENED #56 JIMMY/USD $25 @ $0.000608626\n\n## 04:18 launch desk\n- LAUNCH CLOSED #54 JENSEN/USD: stop_loss, -87.46% ($-21.86)\n- LAUNCH CLOSED #55 JENSEN/USD: stop_loss, -44.14% ($-11.03)\n- LAUNCH CLOSED #56 JIMMY/USD: stop_loss, -32.63% ($-8.16)\n\n## 04:58 launch desk\n- LAUNCH CLOSED #37 cateball/USD: stop_loss, -28.37% ($-7.09)\n\n## 05:18 desk run\n- signal TRUMP/USD short @ 0.8463: **reject** (66%) - volume only 0.91x avg, trend agrees, funding neutral -0.0117%\n\n"
   },
   {
    "day": "2026-11-23",
@@ -1527,7 +1560,7 @@
    "paper_only": true
   },
   "wallet": 597.4283413370802,
-  "equity_now": 686.5015435285812,
+  "equity_now": 687.8934063783105,
   "open": [
    {
     "trade_id": 18,
@@ -1543,8 +1576,8 @@
     "entry_liquidity": 63622.05,
     "stop": 0.00055956525,
     "target": 0.0011191305,
-    "last_price": 0.0008374,
-    "last_liquidity": 69494.51
+    "last_price": 0.0008296,
+    "last_liquidity": 69219.03
    },
    {
     "trade_id": 49,
@@ -1560,8 +1593,8 @@
     "entry_liquidity": 92936.39,
     "stop": 0.0012672974999999999,
     "target": 0.0025345949999999997,
-    "last_price": 0.001947,
-    "last_liquidity": 100805.46
+    "last_price": 0.001798,
+    "last_liquidity": 96914.73
    },
    {
     "trade_id": 51,
@@ -1577,8 +1610,8 @@
     "entry_liquidity": 116422.84,
     "stop": 0.0018111825,
     "target": 0.003622365,
-    "last_price": 0.003198,
-    "last_liquidity": 134331.99
+    "last_price": 0.003572,
+    "last_liquidity": 142112.46
    }
   ],
   "closed": [
@@ -3761,9 +3794,85 @@
    [
     1795514316,
     686.5
+   ],
+   [
+    1795515534,
+    687.89
    ]
   ],
   "checks": [
+   {
+    "ts": 1795515534.759544,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "FryQiSLqU7NfPvpQJRiYrVuvRRW66uB4FLorrKmjpump",
+     "symbol": "earball",
+     "dex": "pumpswap",
+     "price": 1.36e-05,
+     "liquidity": 7343.99,
+     "fdv": 12945,
+     "vol_h1": 2438.14,
+     "buys_h1": 26,
+     "sells_h1": 55,
+     "chg_h1": 6.37,
+     "chg_h6": -7.64,
+     "age_h": 46.46133844117323,
+     "url": "https://dexscreener.com/solana/ctxava9kjrsy8t9dlzqavsgdnmfd1andjdfgeref8ws7",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $7,344 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795515534.7593844,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
+     "symbol": "JENSEN",
+     "dex": "pumpswap",
+     "price": 0.0004218,
+     "liquidity": 48482.44,
+     "fdv": 419939,
+     "vol_h1": 29478.92,
+     "buys_h1": 4194,
+     "sells_h1": 3425,
+     "chg_h1": 50.17,
+     "chg_h6": -38.64,
+     "age_h": 16.494671774506568,
+     "url": "https://dexscreener.com/solana/dqpqkbbqr3wmty5ryjoq3nzrrzwbh7h9x2gj7osn9mhh",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 99.7550697480404,
+     "rug_danger": []
+    },
+    "choice": "verify_more",
+    "probabilities": {
+     "verify_more": 0.333,
+     "reject": 0.333,
+     "accept": 0.333
+    },
+    "confidence": 0.333,
+    "reasons": [
+     "1h volume 0.6x liquidity",
+     "buyers 4194 vs sellers 3425",
+     "LP 100% locked"
+    ],
+    "score": 3.0
+   },
    {
     "ts": 1795514316.406538,
     "gate": "check_launch",
@@ -5135,86 +5244,9 @@
      "liquidity $19,497 < $25,000"
     ],
     "score": null
-   },
-   {
-    "ts": 1795491196.1192942,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
-     "symbol": "UCASH",
-     "dex": "pumpswap",
-     "price": 0.0002406,
-     "liquidity": 40970.75,
-     "fdv": 239739,
-     "vol_h1": 215472.4,
-     "buys_h1": 5612,
-     "sells_h1": 1807,
-     "chg_h1": -84.53,
-     "chg_h6": -71.22,
-     "age_h": 40.30252201471064,
-     "url": "https://dexscreener.com/solana/4h7r5jzaq6pgnjfud12aeuqjrqygwz2yhpsra6sh1rxt",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 99.99999999982835,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "verify_more": 0.245,
-     "reject": 0.665,
-     "accept": 0.09
-    },
-    "confidence": 0.665,
-    "reasons": [
-     "1h volume 5.3x liquidity",
-     "buyers 5612 vs sellers 1807",
-     "dumping -85% 1h",
-     "LP 100% locked"
-    ],
-    "score": 2.0
-   },
-   {
-    "ts": 1795491196.1190429,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
-     "symbol": "JENSEN",
-     "dex": "pumpswap",
-     "price": 0.0006034,
-     "liquidity": 57805.54,
-     "fdv": 600725,
-     "vol_h1": 45677.79,
-     "buys_h1": 5450,
-     "sells_h1": 4063,
-     "chg_h1": -22.64,
-     "chg_h6": -33.67,
-     "age_h": 9.733633125821749,
-     "url": "https://dexscreener.com/solana/dqpqkbbqr3wmty5ryjoq3nzrrzwbh7h9x2gj7osn9mhh",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 99.76027690789576,
-     "rug_danger": []
-    },
-    "choice": "verify_more",
-    "probabilities": {
-     "verify_more": 0.333,
-     "reject": 0.333,
-     "accept": 0.333
-    },
-    "confidence": 0.333,
-    "reasons": [
-     "liquidity $57,806",
-     "1h volume 0.8x liquidity",
-     "buyers 5450 vs sellers 4063",
-     "dumping -23% 1h",
-     "LP 100% locked"
-    ],
-    "score": 3.0
    }
   ],
-  "watching": 110,
+  "watching": 108,
   "graded": [
    {
     "ts": 1795504565.5731661,
