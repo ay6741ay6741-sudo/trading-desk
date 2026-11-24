@@ -1,53 +1,53 @@
 {
- "ts": 1795486330.4068687,
+ "ts": 1795487543.0829442,
  "pairs": {
   "BONK/USD": {
    "last": 2.2e-06,
    "change_24h": 0.06796116504854366,
-   "funding": -7.66977549009e-05,
-   "open_interest": 538501500000.0
+   "funding": -0.0001633777665214,
+   "open_interest": 535971000000.0
   },
   "WIF/USD": {
-   "last": 0.12536,
-   "change_24h": 0.05673101239146927,
-   "funding": 3.84180360485e-05,
-   "open_interest": 22549582.0
+   "last": 0.12493,
+   "change_24h": 0.053106296889488425,
+   "funding": 2.74846565037e-05,
+   "open_interest": 22518880.0
   },
   "POPCAT/USD": {
-   "last": 0.02594,
-   "change_24h": 0.08083333333333331,
-   "funding": 5e-05,
-   "open_interest": 9045840.0
+   "last": 0.02575,
+   "change_24h": 0.07291666666666652,
+   "funding": 4.83040517996e-05,
+   "open_interest": 9038550.0
   },
   "PENGU/USD": {
-   "last": 0.004453,
-   "change_24h": 0.05922930542340632,
-   "funding": 3.55389208783e-05,
-   "open_interest": 1088329700.0
+   "last": 0.004437,
+   "change_24h": 0.05542340627973341,
+   "funding": 1.1117470991e-05,
+   "open_interest": 1085995600.0
   },
   "TRUMP/USD": {
-   "last": 0.8768,
-   "change_24h": 0.0013704888076746524,
-   "funding": -0.000118963380492,
-   "open_interest": 9807281.5
+   "last": 0.8756,
+   "change_24h": 0.0,
+   "funding": -0.0001216420966702,
+   "open_interest": 9825884.7
   },
   "FARTCOIN/USD": {
-   "last": 0.08246,
-   "change_24h": 0.07299934938191277,
+   "last": 0.08202,
+   "change_24h": 0.06727391021470397,
    "funding": 5e-05,
-   "open_interest": 19169858.0
+   "open_interest": 19197725.0
   },
   "PNUT/USD": {
-   "last": 0.02686,
-   "change_24h": 0.04229724485836228,
-   "funding": -3.46326393901e-05,
-   "open_interest": 24813110.0
+   "last": 0.02673,
+   "change_24h": 0.03725261932479618,
+   "funding": -7.06101537385e-05,
+   "open_interest": 24953510.0
   },
   "MOODENG/USD": {
-   "last": 0.025755,
-   "change_24h": 0.01166627386283281,
-   "funding": 0.0001587060449033,
-   "open_interest": 25175800.0
+   "last": 0.02566,
+   "change_24h": 0.007934637442061243,
+   "funding": 5.76209338229e-05,
+   "open_interest": 25118040.0
   }
  }
 }
