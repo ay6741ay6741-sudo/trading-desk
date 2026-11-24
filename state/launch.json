@@ -1,6 +1,6 @@
 {
- "wallet": 636.9285120098241,
- "next_id": 66,
+ "wallet": 611.9285120098241,
+ "next_id": 67,
  "open": {
   "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": {
    "trade_id": 49,
@@ -16,8 +16,8 @@
    "entry_liquidity": 92936.39,
    "stop": 0.0012672974999999999,
    "target": 0.0025345949999999997,
-   "last_price": 0.001845,
-   "last_liquidity": 97782.05
+   "last_price": 0.001896,
+   "last_liquidity": 99423.84
   },
   "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": {
    "trade_id": 63,
@@ -33,8 +33,24 @@
    "entry_liquidity": 75047.19,
    "stop": 0.00067303875,
    "target": 0.0013460775,
-   "last_price": 0.0007994,
-   "last_liquidity": 71108.06
+   "last_price": 0.0007874,
+   "last_liquidity": 70751.08
+  },
+  "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": {
+   "trade_id": 66,
+   "pair": "Memeployed/USD",
+   "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+   "url": "https://dexscreener.com/solana/gy7pc4tijsvfds85hmdsngx5rccp3vmdysjtghlgdh8",
+   "is_short": false,
+   "open_rate": 0.00017705300000000001,
+   "open_ts": 1795540768.386337,
+   "stake": 25,
+   "amount": 141200.657430261,
+   "open_date": "2026-11-24T17:19:28.386337+00:00",
+   "entry_liquidity": 36197.94,
+   "stop": 0.00013278975,
+   "target": 0.0002655795,
+   "last_price": 0.0001753
   }
  },
  "closed": [
@@ -2182,22 +2198,6 @@
   }
  ],
  "watch": {
-  "37corVSMFFrqP3WK7AtMV6yFTGSvjFEB5fWnH1Bcpump": {
-   "first_seen": 1795453988.942833,
-   "symbol": "NVDA",
-   "path": [],
-   "last_check": 1795457621.0495906,
-   "last_choice": "reject",
-   "final": false
-  },
-  "CSjwLiCLyaJqXQm9XCV3LdYWMYswbZ7JQ71JKX77pump": {
-   "first_seen": 1795453988.942833,
-   "symbol": "FUCK!",
-   "path": [],
-   "last_check": 1795457621.0495906,
-   "last_choice": "reject",
-   "final": false
-  },
   "4kFR6GDuAJRaqimh21uJhhfwPrGbFW34J6UXEWUhpump": {
    "first_seen": 1795455214.66879,
    "symbol": "HUANG",
@@ -2489,6 +2489,10 @@
     [
      1795539619,
      5.402e-06
+    ],
+    [
+     1795540768,
+     5.46e-06
     ]
    ],
    "last_check": 1795539619.6568327,
@@ -2773,6 +2777,10 @@
     [
      1795539619,
      1.426e-06
+    ],
+    [
+     1795540768,
+     1.426e-06
     ]
    ],
    "last_check": 1795462558.6658857,
@@ -3041,6 +3049,10 @@
     [
      1795539619,
      2.276e-05
+    ],
+    [
+     1795540768,
+     2.232e-05
     ]
    ],
    "last_check": 1795539324.051776,
@@ -3324,6 +3336,10 @@
     ],
     [
      1795539619,
+     1.507e-06
+    ],
+    [
+     1795540768,
      1.507e-06
     ]
    ],
@@ -3621,6 +3637,10 @@
     [
      1795539619,
      8.591e-06
+    ],
+    [
+     1795540768,
+     8.68e-06
     ]
    ],
    "last_check": 1795539619.6568327,
@@ -3909,6 +3929,10 @@
     [
      1795539619,
      0.0001088
+    ],
+    [
+     1795540768,
+     2.077e-06
     ]
    ],
    "last_check": 1795526511.818809,
@@ -3970,7 +3994,7 @@
    "first_seen": 1795462558.6658857,
    "symbol": "tap",
    "path": [],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   },
@@ -4026,7 +4050,7 @@
    "first_seen": 1795467449.6224732,
    "symbol": "Doomcat",
    "path": [],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   },
@@ -4268,6 +4292,10 @@
     ],
     [
      1795539619,
+     1.44e-06
+    ],
+    [
+     1795540768,
      1.44e-06
     ]
    ],
@@ -4529,6 +4557,10 @@
     [
      1795539619,
      1.345e-06
+    ],
+    [
+     1795540768,
+     1.32e-06
     ]
    ],
    "last_check": 1795522855.365702,
@@ -4764,6 +4796,10 @@
     ],
     [
      1795539619,
+     1.347e-06
+    ],
+    [
+     1795540768,
      1.347e-06
     ]
    ],
@@ -5037,6 +5073,10 @@
     [
      1795539619,
      0.0007994
+    ],
+    [
+     1795540768,
+     0.0007874
     ]
    ],
    "last_check": 1795531396.618787,
@@ -5241,6 +5281,10 @@
     [
      1795539619,
      3.653e-05
+    ],
+    [
+     1795540768,
+     3.877e-05
     ]
    ],
    "last_check": 1795539324.051776,
@@ -5505,6 +5549,10 @@
     [
      1795539619,
      5.544e-08
+    ],
+    [
+     1795540768,
+     5.544e-08
     ]
    ],
    "last_check": 1795539324.051776,
@@ -5550,7 +5598,7 @@
    "first_seen": 1795480296.0376868,
    "symbol": "Mogmas",
    "path": [],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   },
@@ -5740,6 +5788,10 @@
     ],
     [
      1795539619,
+     1.352e-06
+    ],
+    [
+     1795540768,
      1.352e-06
     ]
    ],
@@ -5937,9 +5989,13 @@
     [
      1795539619,
      1.507e-05
+    ],
+    [
+     1795540768,
+     1.363e-05
     ]
    ],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false,
    "first_score": 3.5,
@@ -6105,6 +6161,10 @@
     [
      1795539619,
      9.515e-06
+    ],
+    [
+     1795540768,
+     1.024e-05
     ]
    ],
    "last_check": 1795539619.6568327,
@@ -6284,6 +6344,10 @@
     ],
     [
      1795539619,
+     1.567e-06
+    ],
+    [
+     1795540768,
      1.567e-06
     ]
    ],
@@ -6489,10 +6553,14 @@
     [
      1795539619,
      0.001448
+    ],
+    [
+     1795540768,
+     0.001972
     ]
    ],
-   "last_check": 1795536237.788709,
-   "last_choice": "accept",
+   "last_check": 1795540768.386337,
+   "last_choice": "reject",
    "final": false,
    "first_score": 3.0,
    "first_choice": "verify_more",
@@ -6665,6 +6733,10 @@
     [
      1795539619,
      0.001845
+    ],
+    [
+     1795540768,
+     0.001896
     ]
    ],
    "last_check": 1795492400.3475943,
@@ -6857,6 +6929,10 @@
     [
      1795539619,
      2.441e-06
+    ],
+    [
+     1795540768,
+     2.438e-06
     ]
    ],
    "last_check": 1795517974.1228893,
@@ -6870,7 +6946,7 @@
    "first_seen": 1795492400.3475943,
    "symbol": "Fly",
    "path": [],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   },
@@ -6910,7 +6986,7 @@
    "first_seen": 1795494839.884314,
    "symbol": "yippee",
    "path": [],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   },
@@ -6966,7 +7042,7 @@
    "first_seen": 1795505785.626295,
    "symbol": "Pingu",
    "path": [],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   },
@@ -7073,6 +7149,10 @@
     [
      1795539619,
      1.733e-05
+    ],
+    [
+     1795540768,
+     1.591e-05
     ]
    ],
    "last_check": 1795539324.051776,
@@ -7086,7 +7166,7 @@
    "first_seen": 1795514313.9782598,
    "symbol": "RUGSEM",
    "path": [],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   },
@@ -7181,6 +7261,10 @@
     [
      1795539619,
      0.0001096
+    ],
+    [
+     1795540768,
+     0.0001113
     ]
    ],
    "last_check": 1795537471.060653,
@@ -7249,6 +7333,10 @@
     [
      1795539619,
      0.0001843
+    ],
+    [
+     1795540768,
+     0.0001385
     ]
    ],
    "last_check": 1795537471.060653,
@@ -7313,6 +7401,10 @@
     [
      1795539619,
      2.066e-06
+    ],
+    [
+     1795540768,
+     2.057e-06
     ]
    ],
    "last_check": 1795531396.618787,
@@ -7377,9 +7469,13 @@
     [
      1795539619,
      0.0002001
+    ],
+    [
+     1795540768,
+     0.0001753
     ]
    ],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "accept",
    "final": false,
    "first_score": 4.0,
@@ -7446,7 +7542,7 @@
    "first_seen": 1795536237.788709,
    "symbol": "wif",
    "path": [],
-   "last_check": 1795536237.788709,
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   },
@@ -7471,6 +7567,14 @@
    "symbol": "MANDY",
    "path": [],
    "last_check": 1795539619.6568327,
+   "last_choice": "reject",
+   "final": false
+  },
+  "7Kn92xBncvzp8FUrmZKFnEDd7wS3iLAugr5A8vWBpump": {
+   "first_seen": 1795540768.386337,
+   "symbol": "P",
+   "path": [],
+   "last_check": 1795540768.386337,
    "last_choice": "reject",
    "final": false
   }
