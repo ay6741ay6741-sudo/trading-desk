@@ -1,5 +1,5 @@
 {
- "updated": 1795503346.7824395,
+ "updated": 1795504567.7835948,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -395,58 +395,62 @@
   [
    1795503344,
    1000
+  ],
+  [
+   1795504565,
+   1000
   ]
  ],
  "scout": {
-  "ts": 1795503338.223524,
+  "ts": 1795504559.6877697,
   "pairs": {
    "BONK/USD": {
-    "last": 2.25e-06,
-    "change_24h": 0.061320754716981174,
-    "funding": -0.0001327311467541,
-    "open_interest": 550143100000.0
+    "last": 2.23e-06,
+    "change_24h": 0.037209302325581284,
+    "funding": -0.0001278348847234,
+    "open_interest": 546186400000.0
    },
    "WIF/USD": {
-    "last": 0.12643,
-    "change_24h": 0.02455429497568873,
-    "funding": 3.85259069569e-05,
-    "open_interest": 22899183.0
+    "last": 0.12591,
+    "change_24h": 0.018359754124878558,
+    "funding": 2.45170960137e-05,
+    "open_interest": 22863445.0
    },
    "POPCAT/USD": {
-    "last": 0.02592,
-    "change_24h": 0.030206677265500748,
+    "last": 0.02594,
+    "change_24h": 0.02005505308690525,
     "funding": 5e-05,
-    "open_interest": 9162380.0
+    "open_interest": 9172150.0
    },
    "PENGU/USD": {
-    "last": 0.004477,
-    "change_24h": 0.03754345307068352,
-    "funding": -9.2526928459e-06,
-    "open_interest": 1105300000.0
+    "last": 0.00447,
+    "change_24h": 0.03042876901798075,
+    "funding": -6.5836395044e-06,
+    "open_interest": 1102324300.0
    },
    "TRUMP/USD": {
-    "last": 0.8719,
-    "change_24h": -0.03208259325044405,
-    "funding": -0.0001130501295845,
-    "open_interest": 9967289.4
+    "last": 0.869,
+    "change_24h": -0.03508771929824561,
+    "funding": -9.94990233885e-05,
+    "open_interest": 9984360.6
    },
    "FARTCOIN/USD": {
-    "last": 0.08328,
-    "change_24h": 0.021965885384709782,
+    "last": 0.08299,
+    "change_24h": 0.009856412752494492,
     "funding": 5e-05,
-    "open_interest": 18727122.0
+    "open_interest": 18756933.0
    },
    "PNUT/USD": {
-    "last": 0.02709,
-    "change_24h": 0.010820895522388074,
-    "funding": 5e-05,
-    "open_interest": 25170240.0
+    "last": 0.02688,
+    "change_24h": 0.004484304932735439,
+    "funding": 3.26799914934e-05,
+    "open_interest": 25090540.0
    },
    "MOODENG/USD": {
-    "last": 0.025851,
-    "change_24h": 0.0052105611074386715,
-    "funding": 0.0001786039781689,
-    "open_interest": 25574560.0
+    "last": 0.025767,
+    "change_24h": -0.0016660209221230904,
+    "funding": 5e-05,
+    "open_interest": 25600090.0
    }
   }
  },
@@ -1491,7 +1495,7 @@
    "paper_only": true
   },
   "wallet": 572.9251774108263,
-  "equity_now": 707.9792560114264,
+  "equity_now": 707.7422706193883,
   "open": [
    {
     "trade_id": 18,
@@ -1507,8 +1511,8 @@
     "entry_liquidity": 63622.05,
     "stop": 0.00055956525,
     "target": 0.0011191305,
-    "last_price": 0.0006999,
-    "last_liquidity": 63620.51
+    "last_price": 0.0006878,
+    "last_liquidity": 63000.99
    },
    {
     "trade_id": 37,
@@ -1524,8 +1528,8 @@
     "entry_liquidity": 52283.67,
     "stop": 0.00038124975,
     "target": 0.0007624995,
-    "last_price": 0.0004931,
-    "last_liquidity": 52070.66
+    "last_price": 0.0004271,
+    "last_liquidity": 48364.44
    },
    {
     "trade_id": 47,
@@ -1541,8 +1545,8 @@
     "entry_liquidity": 42496.34,
     "stop": 0.00023474925,
     "target": 0.0004694985,
-    "last_price": 0.0003372,
-    "last_liquidity": 45145.36
+    "last_price": 0.0003681,
+    "last_liquidity": 47215.65
    },
    {
     "trade_id": 49,
@@ -1558,8 +1562,8 @@
     "entry_liquidity": 92936.39,
     "stop": 0.0012672974999999999,
     "target": 0.0025345949999999997,
-    "last_price": 0.002027,
-    "last_liquidity": 103329.91
+    "last_price": 0.001848,
+    "last_liquidity": 98550.16
    },
    {
     "trade_id": 51,
@@ -1575,8 +1579,8 @@
     "entry_liquidity": 116422.84,
     "stop": 0.0018111825,
     "target": 0.003622365,
-    "last_price": 0.003071,
-    "last_liquidity": 132434.84
+    "last_price": 0.003418,
+    "last_liquidity": 139596.2
    }
   ],
   "closed": [
@@ -3553,6 +3557,10 @@
    [
     1795503346,
     707.98
+   ],
+   [
+    1795504567,
+    707.74
    ]
   ],
   "checks": [
@@ -5003,8 +5011,15 @@
     "score": null
    }
   ],
-  "watching": 118,
+  "watching": 116,
   "graded": [
+   {
+    "ts": 1795504565.5731661,
+    "symbol": "NOHR",
+    "score": 4.5,
+    "choice": "accept",
+    "r": -1
+   },
    {
     "ts": 1795499691.4551172,
     "symbol": "PumpMeme",
