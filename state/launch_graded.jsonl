@@ -36,3 +36,4 @@
 {"ts": 1795579025.2400048, "symbol": "UCASH", "score": 2.0, "choice": "reject", "r": -1}
 {"ts": 1795600551.9510705, "symbol": "Scamsem", "score": 3.0, "choice": "verify_more", "r": -1}
 {"ts": 1795609122.4434588, "symbol": "SHHFT", "score": 4.0, "choice": "accept", "r": 2}
+{"ts": 1795610349.3586814, "symbol": "DUVAL", "score": 4.5, "choice": "accept", "r": -1}
