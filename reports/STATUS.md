@@ -1,16 +1,16 @@
 # Paper desk status
-Updated 2026-11-25 12:57 (New York). Paper money only.
+Updated 2026-11-25 13:17 (New York). Paper money only.
 
 Wallet: **$993.60** (-6.40 USD, -0.64%) - 2 closed trades, 0 wins
 
 ## Open trades
-- #2 WIF/USD short @ 0.12155, now 0.12173 (-0.15%), stop 0.131274, target 0.102102
-- #4 PENGU/USD short @ 0.004249, now 0.004258 (-0.21%), stop 0.00458892, target 0.00356916
-- #5 TRUMP/USD short @ 0.8298, now 0.8374 (-0.92%), stop 0.896184, target 0.697032
+- #2 WIF/USD short @ 0.12155, now 0.12222 (-0.55%), stop 0.131274, target 0.102102
+- #4 PENGU/USD short @ 0.004249, now 0.004279 (-0.71%), stop 0.00458892, target 0.00356916
+- #5 TRUMP/USD short @ 0.8298, now 0.8364 (-0.80%), stop 0.896184, target 0.697032
 - #6 BONK/USD short @ 2.11e-06, now 2.1e-06 (+0.47%), stop 2.2788e-06, target 1.7724e-06
-- #7 FARTCOIN/USD short @ 0.07838, now 0.07945 (-1.37%), stop 0.0846504, target 0.0658392
-- #8 PNUT/USD short @ 0.02555, now 0.02638 (-3.25%), stop 0.027594, target 0.021462
-- #9 POPCAT/USD short @ 0.02415, now 0.02558 (-5.92%), stop 0.026082, target 0.020286
+- #7 FARTCOIN/USD short @ 0.07838, now 0.08005 (-2.13%), stop 0.0846504, target 0.0658392
+- #8 PNUT/USD short @ 0.02555, now 0.02646 (-3.56%), stop 0.027594, target 0.021462
+- #9 POPCAT/USD short @ 0.02415, now 0.02532 (-4.84%), stop 0.026082, target 0.020286
 
 ## Last 10 closed
 - #3 POPCAT/USD short 2026-11-25T09:00: exit_signal, -4.70%
