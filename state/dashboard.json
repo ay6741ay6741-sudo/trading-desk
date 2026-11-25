@@ -1,5 +1,5 @@
 {
- "updated": 1795616423.1078544,
+ "updated": 1795617633.8899477,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 993.5978998384492,
- "equity_now": 1003.3699031789026,
+ "equity_now": 1006.1556789178808,
  "open": [
   {
    "trade_id": 2,
@@ -923,58 +923,62 @@
   [
    1795616419,
    1003.37
+  ],
+  [
+   1795617630,
+   1006.16
   ]
  ],
  "scout": {
-  "ts": 1795616413.63626,
+  "ts": 1795617624.7972212,
   "pairs": {
    "BONK/USD": {
-    "last": 2.02e-06,
-    "change_24h": -0.06481481481481477,
-    "funding": -3.24426898053e-05,
-    "open_interest": 468758700000.0
+    "last": 2.01e-06,
+    "change_24h": -0.06944444444444453,
+    "funding": -5.29216674451e-05,
+    "open_interest": 468840900000.0
    },
    "WIF/USD": {
-    "last": 0.11679,
-    "change_24h": -0.031431414828329785,
+    "last": 0.11597,
+    "change_24h": -0.03823187925029026,
     "funding": 5e-05,
-    "open_interest": 22818349.0
+    "open_interest": 22780863.0
    },
    "POPCAT/USD": {
-    "last": 0.02413,
-    "change_24h": -0.03979307600477522,
-    "funding": -0.000110556900989,
-    "open_interest": 10667130.0
+    "last": 0.02374,
+    "change_24h": -0.05531237564663749,
+    "funding": -5.59650890446e-05,
+    "open_interest": 10698530.0
    },
    "PENGU/USD": {
-    "last": 0.004063,
-    "change_24h": -0.04914579920430617,
-    "funding": -4.70049258758e-05,
-    "open_interest": 1130200400.0
+    "last": 0.004032,
+    "change_24h": -0.05640065527732274,
+    "funding": -4.64784468523e-05,
+    "open_interest": 1125052600.0
    },
    "TRUMP/USD": {
-    "last": 0.8028,
-    "change_24h": -0.03821732358931362,
-    "funding": -3.57725211815e-05,
-    "open_interest": 10302872.6
+    "last": 0.7954,
+    "change_24h": -0.04708278423385648,
+    "funding": -4.57496714868e-05,
+    "open_interest": 10177212.4
    },
    "FARTCOIN/USD": {
-    "last": 0.0758,
-    "change_24h": -0.04857537341533824,
+    "last": 0.07533,
+    "change_24h": -0.054474708171206365,
     "funding": 5e-05,
-    "open_interest": 19348326.0
+    "open_interest": 19381162.0
    },
    "PNUT/USD": {
-    "last": 0.02528,
-    "change_24h": -0.03987846562856057,
+    "last": 0.02513,
+    "change_24h": -0.04557538928978355,
     "funding": 5e-05,
-    "open_interest": 25714790.0
+    "open_interest": 25400900.0
    },
    "MOODENG/USD": {
-    "last": 0.027141,
-    "change_24h": 0.08252233567326095,
-    "funding": -0.0022106799643477,
-    "open_interest": 59247530.0
+    "last": 0.026283,
+    "change_24h": 0.04830089342693045,
+    "funding": -0.001511508478685,
+    "open_interest": 57819050.0
    }
   }
  },
@@ -2154,7 +2158,7 @@
    "paper_only": true
   },
   "wallet": 588.2649150252273,
-  "equity_now": 703.5136928377115,
+  "equity_now": 701.9527302964497,
   "open": [
    {
     "trade_id": 95,
@@ -2170,8 +2174,8 @@
     "entry_liquidity": 75156.18,
     "stop": 0.00085446,
     "target": 0.00170892,
-    "last_price": 0.001348,
-    "last_liquidity": 81927.49
+    "last_price": 0.001283,
+    "last_liquidity": 79731.03
    },
    {
     "trade_id": 97,
@@ -2187,8 +2191,8 @@
     "entry_liquidity": 31512.17,
     "stop": 0.000131805,
     "target": 0.00026361,
-    "last_price": 0.0002624,
-    "last_liquidity": 39485.18
+    "last_price": 0.0002534,
+    "last_liquidity": 38686.35
    },
    {
     "trade_id": 105,
@@ -2204,7 +2208,8 @@
     "entry_liquidity": 169168.27,
     "stop": 0.0011104950000000002,
     "target": 0.0022209900000000004,
-    "last_price": 0.001466
+    "last_price": 0.001162,
+    "last_liquidity": 150296.5
    },
    {
     "trade_id": 106,
@@ -2220,7 +2225,8 @@
     "entry_liquidity": 48398.87,
     "stop": 0.00027633599999999996,
     "target": 0.0005526719999999999,
-    "last_price": 0.0003648
+    "last_price": 0.0004571,
+    "last_liquidity": 54482.06
    }
   ],
   "closed": [
@@ -6345,9 +6351,83 @@
    [
     1795616423,
     703.51
+   ],
+   [
+    1795617633,
+    701.95
    ]
   ],
   "checks": [
+   {
+    "ts": 1795617633.8854396,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "FK7bc3fR8UL8uogN2u8J9yEpEbQJKR7yKsp3G8rvpump",
+     "symbol": "hacked",
+     "dex": "pumpswap",
+     "price": 3.669e-05,
+     "liquidity": 12198.16,
+     "fdv": 36299,
+     "vol_h1": 50867.87,
+     "buys_h1": 1157,
+     "sells_h1": 809,
+     "chg_h1": 31.72,
+     "chg_h6": 31.72,
+     "age_h": 0.6082996806171206,
+     "url": "https://dexscreener.com/solana/bznokmzvg8n6ra3ja22zbhytau6sjavc6tbvqkhq4gs8",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $12,198 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795617633.8848805,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "5Go8ByHzd9vvdBHhqFnxxgU2SRDfTv5XXMLjBnvrpump",
+     "symbol": "MONEYGO",
+     "dex": "pumpswap",
+     "price": 0.0001671,
+     "liquidity": 27110.93,
+     "fdv": 167120,
+     "vol_h1": 163607.73,
+     "buys_h1": 5118,
+     "sells_h1": 722,
+     "chg_h1": 299,
+     "chg_h6": 299,
+     "age_h": 0.335244125061565,
+     "url": "https://dexscreener.com/solana/a37dzwxdm2bhunbtyhhw76t2wuvmqdqwu87zyz1nswa",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 0,
+     "rug_danger": []
+    },
+    "choice": "verify_more",
+    "probabilities": {
+     "reject": 0.018,
+     "verify_more": 0.965,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "only 20 min old, watching"
+    ],
+    "score": null
+   },
    {
     "ts": 1795616423.1023903,
     "gate": "check_launch",
@@ -7731,80 +7811,9 @@
      "LP 100% locked"
     ],
     "score": 1.0
-   },
-   {
-    "ts": 1795594637.0415826,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "BBupBrQsZyJF92vCvqfsSdJAx5CWmm1zSEdhBH7qpump",
-     "symbol": "JaoJiow",
-     "dex": "pumpswap",
-     "price": 2.927e-05,
-     "liquidity": 10674.7,
-     "fdv": 29220,
-     "vol_h1": 6213.3,
-     "buys_h1": 79,
-     "sells_h1": 69,
-     "chg_h1": 5.21,
-     "chg_h6": 5.21,
-     "age_h": 0.029685021837552387,
-     "url": "https://dexscreener.com/solana/3q3zvlz5tmfue18kfe7kxyxh5yx73wvdz9gsnet72feo",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $10,675 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795593436.0952728,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
-     "symbol": "GROKIA",
-     "dex": "pumpswap",
-     "price": 0.0004225,
-     "liquidity": 48370.54,
-     "fdv": 421149,
-     "vol_h1": 37349.86,
-     "buys_h1": 2223,
-     "sells_h1": 1541,
-     "chg_h1": -8.9,
-     "chg_h6": -79.6,
-     "age_h": 29.69387068019973,
-     "url": "https://dexscreener.com/solana/cpfb8ptvj8uzu55nkj6sx4kmv6zve7j2t3c22mlgcvgg",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 0,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "verify_more": 0.307,
-     "reject": 0.506,
-     "accept": 0.186
-    },
-    "confidence": 0.506,
-    "reasons": [
-     "1h volume 0.8x liquidity",
-     "buyers 2223 vs sellers 1541"
-    ],
-    "score": 2.5
    }
   ],
-  "watching": 96,
+  "watching": 97,
   "graded": [
    {
     "ts": 1795616419.5568168,
