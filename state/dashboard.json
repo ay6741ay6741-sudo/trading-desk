@@ -1,5 +1,5 @@
 {
- "updated": 1795585137.3224049,
+ "updated": 1795586345.0048883,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 1000,
- "equity_now": 997.8704985145656,
+ "equity_now": 997.325392440697,
  "open": [
   {
    "trade_id": 1,
@@ -772,58 +772,62 @@
   [
    1795585119,
    997.87
+  ],
+  [
+   1795586341,
+   997.33
   ]
  ],
  "scout": {
-  "ts": 1795585113.5335586,
+  "ts": 1795586335.7875707,
   "pairs": {
    "BONK/USD": {
-    "last": 2.08e-06,
-    "change_24h": -0.07142857142857151,
-    "funding": 3.00124620208e-05,
-    "open_interest": 494567400000.0
+    "last": 2.09e-06,
+    "change_24h": -0.06696428571428581,
+    "funding": 1.94266000468e-05,
+    "open_interest": 494216200000.0
    },
    "WIF/USD": {
-    "last": 0.12072,
-    "change_24h": -0.04944881889763786,
+    "last": 0.12116,
+    "change_24h": -0.04688483322844561,
     "funding": 5e-05,
-    "open_interest": 22923939.0
+    "open_interest": 23068674.0
    },
    "POPCAT/USD": {
-    "last": 0.02463,
-    "change_24h": -0.05451055662188109,
-    "funding": 2.2583280137e-06,
-    "open_interest": 9478410.0
+    "last": 0.02464,
+    "change_24h": -0.05376344086021512,
+    "funding": 9.6939165647e-06,
+    "open_interest": 9477060.0
    },
    "PENGU/USD": {
-    "last": 0.004203,
-    "change_24h": -0.06350267379679142,
-    "funding": 1.99665222268e-05,
-    "open_interest": 1118860400.0
+    "last": 0.004227,
+    "change_24h": -0.0581550802139037,
+    "funding": 4.42402760364e-05,
+    "open_interest": 1115609200.0
    },
    "TRUMP/USD": {
-    "last": 0.834,
-    "change_24h": -0.052703316674239,
-    "funding": -6.44141921672e-05,
-    "open_interest": 10243373.4
+    "last": 0.8392,
+    "change_24h": -0.04679691049522949,
+    "funding": -5.27365250422e-05,
+    "open_interest": 10254128.0
    },
    "FARTCOIN/USD": {
-    "last": 0.07873,
-    "change_24h": -0.0561083802901331,
+    "last": 0.07877,
+    "change_24h": -0.058113117302403317,
     "funding": 5e-05,
-    "open_interest": 19329701.0
+    "open_interest": 19309408.0
    },
    "PNUT/USD": {
-    "last": 0.02599,
-    "change_24h": -0.044836457184858625,
+    "last": 0.02603,
+    "change_24h": -0.04054552156284552,
     "funding": 5e-05,
-    "open_interest": 25750250.0
+    "open_interest": 25987860.0
    },
    "MOODENG/USD": {
-    "last": 0.026098,
-    "change_24h": 0.009828199969045048,
+    "last": 0.025802,
+    "change_24h": -0.0016251354279523955,
     "funding": 5e-05,
-    "open_interest": 32283690.0
+    "open_interest": 32429390.0
    }
   }
  },
@@ -1980,7 +1984,7 @@
  "reports": [
   {
    "day": "2026-11-25",
-   "text": "## 00:38 launch desk\n- LAUNCH CLOSED #94 4CHAN/USD: stop_loss, -28.28% ($-7.07)\n\n"
+   "text": "## 00:38 launch desk\n- LAUNCH CLOSED #94 4CHAN/USD: stop_loss, -28.28% ($-7.07)\n\n## 00:59 launch desk\n- launch PERRO (4.6h old, liq $31,512): **accept** (66%) - 1h volume 2.2x liquidity, buyers 1210 vs sellers 1001, momentum +24% 1h, LP 88% locked\n- LAUNCH OPENED #97 PERRO/USD $25 @ $0.00017574\n\n"
   },
   {
    "day": "2026-11-24",
@@ -2012,8 +2016,8 @@
    ],
    "paper_only": true
   },
-  "wallet": 551.1985241962375,
-  "equity_now": 648.1370827936222,
+  "wallet": 526.1985241962375,
+  "equity_now": 651.4660545947123,
   "open": [
    {
     "trade_id": 78,
@@ -2029,8 +2033,8 @@
     "entry_liquidity": 110209.02,
     "stop": 0.0013400175,
     "target": 0.002680035,
-    "last_price": 0.001616,
-    "last_liquidity": 105776.05
+    "last_price": 0.001601,
+    "last_liquidity": 105564.2
    },
    {
     "trade_id": 82,
@@ -2046,8 +2050,8 @@
     "entry_liquidity": 30063.01,
     "stop": 0.00011188275000000001,
     "target": 0.00022376550000000002,
-    "last_price": 0.0001524,
-    "last_liquidity": 30459.46
+    "last_price": 0.0001511,
+    "last_liquidity": 30368.46
    },
    {
     "trade_id": 95,
@@ -2063,8 +2067,8 @@
     "entry_liquidity": 75156.18,
     "stop": 0.00085446,
     "target": 0.00170892,
-    "last_price": 0.001128,
-    "last_liquidity": 75007.1
+    "last_price": 0.001382,
+    "last_liquidity": 83360.56
    },
    {
     "trade_id": 96,
@@ -2080,8 +2084,24 @@
     "entry_liquidity": 76728.14,
     "stop": 0.0008620349999999999,
     "target": 0.0017240699999999999,
-    "last_price": 0.00115,
-    "last_liquidity": 77105.23
+    "last_price": 0.001091,
+    "last_liquidity": 75268.14
+   },
+   {
+    "trade_id": 97,
+    "pair": "PERRO/USD",
+    "mint": "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump",
+    "url": "https://dexscreener.com/solana/4s1epxdedd7ty1utj7frou3sasxug98os7hcptneu8wh",
+    "is_short": false,
+    "open_rate": 0.00017574,
+    "open_ts": 1795586341.7575278,
+    "stake": 25,
+    "amount": 142255.6048708319,
+    "open_date": "2026-11-25T05:59:01.757528+00:00",
+    "entry_liquidity": 31512.17,
+    "stop": 0.000131805,
+    "target": 0.00026361,
+    "last_price": 0.000174
    }
   ],
   "closed": [
@@ -5830,9 +5850,86 @@
    [
     1795585137,
     648.14
+   ],
+   [
+    1795586345,
+    651.47
    ]
   ],
   "checks": [
+   {
+    "ts": 1795586344.998198,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+     "symbol": "Memeployed",
+     "dex": "pumpswap",
+     "price": 8.082e-05,
+     "liquidity": 24465.61,
+     "fdv": 77938,
+     "vol_h1": 18386.24,
+     "buys_h1": 212,
+     "sells_h1": 147,
+     "chg_h1": -8.85,
+     "chg_h6": 3.73,
+     "age_h": 16.199099313285615,
+     "url": "https://dexscreener.com/solana/gy7pc4tijsvfds85hmdsngx5rccp3vmdysjtghlgdh8",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $24,466 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795586344.9975371,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump",
+     "symbol": "PERRO",
+     "dex": "pumpswap",
+     "price": 0.000174,
+     "liquidity": 31512.17,
+     "fdv": 167305,
+     "vol_h1": 70038.45,
+     "buys_h1": 1210,
+     "sells_h1": 1001,
+     "chg_h1": 23.9,
+     "chg_h6": 519,
+     "age_h": 4.58104375773006,
+     "url": "https://dexscreener.com/solana/4s1epxdedd7ty1utj7frou3sasxug98os7hcptneu8wh",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 88.05379080888545,
+     "rug_danger": []
+    },
+    "choice": "accept",
+    "probabilities": {
+     "verify_more": 0.245,
+     "reject": 0.09,
+     "accept": 0.665
+    },
+    "confidence": 0.665,
+    "reasons": [
+     "1h volume 2.2x liquidity",
+     "buyers 1210 vs sellers 1001",
+     "momentum +24% 1h",
+     "LP 88% locked"
+    ],
+    "score": 4.0
+   },
    {
     "ts": 1795585137.3022785,
     "gate": "check_launch",
@@ -7203,83 +7300,9 @@
      "LP 100% locked"
     ],
     "score": 4.0
-   },
-   {
-    "ts": 1795571929.1760874,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
-     "symbol": "GROKIA",
-     "dex": "pumpswap",
-     "price": 0.002129,
-     "liquidity": 109842.91,
-     "fdv": 2122312,
-     "vol_h1": 76073.69,
-     "buys_h1": 4530,
-     "sells_h1": 2043,
-     "chg_h1": -17.37,
-     "chg_h6": 10.24,
-     "age_h": 23.720122560064,
-     "url": "https://dexscreener.com/solana/cpfb8ptvj8uzu55nkj6sx4kmv6zve7j2t3c22mlgcvgg",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 100,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "verify_more": 0.307,
-     "reject": 0.506,
-     "accept": 0.186
-    },
-    "confidence": 0.506,
-    "reasons": [
-     "liquidity $109,843",
-     "1h volume 0.7x liquidity",
-     "buyers 4530 vs sellers 2043",
-     "dumping -17% 1h",
-     "LP 100% locked"
-    ],
-    "score": 2.5
-   },
-   {
-    "ts": 1795570730.3099976,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump",
-     "symbol": "PERRO",
-     "dex": "pumpswap",
-     "price": 5.493e-05,
-     "liquidity": 15949.46,
-     "fdv": 54930,
-     "vol_h1": 91052.14,
-     "buys_h1": 2111,
-     "sells_h1": 1507,
-     "chg_h1": 95.19,
-     "chg_h6": 95.19,
-     "age_h": 0.24204917887846628,
-     "url": "https://dexscreener.com/solana/4s1epxdedd7ty1utj7frou3sasxug98os7hcptneu8wh",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $15,949 < $25,000"
-    ],
-    "score": null
    }
   ],
-  "watching": 104,
+  "watching": 103,
   "graded": [
    {
     "ts": 1795579025.2400048,
