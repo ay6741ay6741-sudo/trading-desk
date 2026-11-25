@@ -1,5 +1,5 @@
 {
- "wallet": 993.5978998384492,
+ "wallet": 992.2848225228074,
  "next_id": 10,
  "open": {
   "WIF/USD": {
@@ -49,18 +49,6 @@
    "amount": 23696682.464454975,
    "stop": 2.2788e-06,
    "target": 1.7724e-06
-  },
-  "FARTCOIN/USD": {
-   "trade_id": 7,
-   "pair": "FARTCOIN/USD",
-   "is_short": true,
-   "open_rate": 0.07838,
-   "open_date": "2026-11-24T16:00:00+00:00",
-   "open_candle": 1795532400,
-   "stake": 50,
-   "amount": 637.9178361826996,
-   "stop": 0.08465040000000001,
-   "target": 0.0658392
   },
   "PNUT/USD": {
    "trade_id": 8,
@@ -145,16 +133,45 @@
      "filled": 2019.3861066235863
     }
    ]
+  },
+  {
+   "trade_id": 7,
+   "pair": "FARTCOIN/USD",
+   "is_short": true,
+   "open_rate": 0.07838,
+   "open_date": "2026-11-24T16:00:00+00:00",
+   "open_candle": 1795532400,
+   "stake": 50,
+   "amount": 637.9178361826996,
+   "stop": 0.08465040000000001,
+   "target": 0.0658392,
+   "is_open": false,
+   "close_rate": 0.08036,
+   "close_timestamp": 1795633200000,
+   "close_date": "2026-11-25T19:00:00+00:00",
+   "close_profit": -0.026262,
+   "profit_abs": -1.3131,
+   "exit_reason": "exit_signal",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 637.9178361826996
+    },
+    {
+     "status": "closed",
+     "filled": 637.9178361826996
+    }
+   ]
   }
  ],
  "last_candle": {
-  "BONK/USD": 1795626000,
-  "WIF/USD": 1795626000,
-  "POPCAT/USD": 1795626000,
-  "PENGU/USD": 1795626000,
-  "TRUMP/USD": 1795626000,
-  "FARTCOIN/USD": 1795626000,
-  "PNUT/USD": 1795626000,
-  "MOODENG/USD": 1795626000
+  "BONK/USD": 1795629600,
+  "WIF/USD": 1795629600,
+  "POPCAT/USD": 1795629600,
+  "PENGU/USD": 1795629600,
+  "TRUMP/USD": 1795629600,
+  "FARTCOIN/USD": 1795629600,
+  "PNUT/USD": 1795629600,
+  "MOODENG/USD": 1795629600
  }
 }
