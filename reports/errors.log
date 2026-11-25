@@ -1,0 +1,13 @@
+2026-11-24 22:16 launches
+Traceback (most recent call last):
+  File "C:\Users\ay674\Documents\trading-desk\desk\desk.py", line 288, in run
+    fn()
+    ~~^^
+  File "C:\Users\ay674\Documents\trading-desk\desk\desk.py", line 149, in launch_job
+    report(f"## {datetime.now():%H:%M} launch desk\n" + "\n".join(lines))
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ay674\Documents\trading-desk\desk\desk.py", line 37, in report
+    print(text, flush=True)
+    ~~~~~^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+
