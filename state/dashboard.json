@@ -1,5 +1,5 @@
 {
- "updated": 1795587386.374702,
+ "updated": 1795588557.3010194,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 995.95,
- "equity_now": 991.7246961964495,
+ "equity_now": 990.9917514971405,
  "open": [
   {
    "trade_id": 2,
@@ -798,58 +798,62 @@
   [
    1795587384,
    991.72
+  ],
+  [
+   1795588554,
+   990.99
   ]
  ],
  "scout": {
-  "ts": 1795587378.7162752,
+  "ts": 1795588549.0644848,
   "pairs": {
    "BONK/USD": {
     "last": 2.1e-06,
     "change_24h": -0.06250000000000011,
-    "funding": 4.57045795728e-05,
-    "open_interest": 494457200000.0
+    "funding": 4.75591374966e-05,
+    "open_interest": 493831900000.0
    },
    "WIF/USD": {
-    "last": 0.12184,
-    "change_24h": -0.03454833597464346,
+    "last": 0.12237,
+    "change_24h": -0.03034865293185418,
     "funding": 5e-05,
-    "open_interest": 23164148.0
+    "open_interest": 23293766.0
    },
    "POPCAT/USD": {
-    "last": 0.02543,
-    "change_24h": -0.021170130869899828,
-    "funding": 4.13696588449e-05,
-    "open_interest": 10290960.0
+    "last": 0.0255,
+    "change_24h": -0.018475750577367278,
+    "funding": 5e-05,
+    "open_interest": 10286250.0
    },
    "PENGU/USD": {
-    "last": 0.004265,
-    "change_24h": -0.04415060510981628,
-    "funding": 4.79932281092e-05,
-    "open_interest": 1117830500.0
+    "last": 0.004258,
+    "change_24h": -0.045933228769885814,
+    "funding": 5e-05,
+    "open_interest": 1127969400.0
    },
    "TRUMP/USD": {
-    "last": 0.8428,
-    "change_24h": -0.03315360789262367,
-    "funding": -4.61167986514e-05,
-    "open_interest": 10292605.1
+    "last": 0.8439,
+    "change_24h": -0.031891705862108544,
+    "funding": -3.15378552434e-05,
+    "open_interest": 10350972.9
    },
    "FARTCOIN/USD": {
-    "last": 0.07894,
-    "change_24h": -0.048112866272760235,
+    "last": 0.07906,
+    "change_24h": -0.04873059800264712,
     "funding": 5e-05,
-    "open_interest": 19359143.0
+    "open_interest": 19349960.0
    },
    "PNUT/USD": {
-    "last": 0.02622,
-    "change_24h": -0.028169014084507005,
+    "last": 0.02638,
+    "change_24h": -0.021513353115726996,
     "funding": 5e-05,
-    "open_interest": 26001300.0
+    "open_interest": 26341500.0
    },
    "MOODENG/USD": {
-    "last": 0.026387,
-    "change_24h": 0.024379828409488047,
+    "last": 0.026843,
+    "change_24h": 0.040749069478908106,
     "funding": 5e-05,
-    "open_interest": 33693300.0
+    "open_interest": 35753640.0
    }
   }
  },
@@ -2039,7 +2043,7 @@
    "paper_only": true
   },
   "wallet": 526.1985241962375,
-  "equity_now": 658.4058925519138,
+  "equity_now": 658.2197991824901,
   "open": [
    {
     "trade_id": 78,
@@ -2055,8 +2059,8 @@
     "entry_liquidity": 110209.02,
     "stop": 0.0013400175,
     "target": 0.002680035,
-    "last_price": 0.001649,
-    "last_liquidity": 107176.71
+    "last_price": 0.001386,
+    "last_liquidity": 98055.55
    },
    {
     "trade_id": 82,
@@ -2072,8 +2076,8 @@
     "entry_liquidity": 30063.01,
     "stop": 0.00011188275000000001,
     "target": 0.00022376550000000002,
-    "last_price": 0.0001338,
-    "last_liquidity": 28528.64
+    "last_price": 0.0001356,
+    "last_liquidity": 28711.94
    },
    {
     "trade_id": 95,
@@ -2089,8 +2093,8 @@
     "entry_liquidity": 75156.18,
     "stop": 0.00085446,
     "target": 0.00170892,
-    "last_price": 0.001604,
-    "last_liquidity": 90076.3
+    "last_price": 0.001425,
+    "last_liquidity": 84702.04
    },
    {
     "trade_id": 96,
@@ -2106,8 +2110,8 @@
     "entry_liquidity": 76728.14,
     "stop": 0.0008620349999999999,
     "target": 0.0017240699999999999,
-    "last_price": 0.001295,
-    "last_liquidity": 82156.53
+    "last_price": 0.001498,
+    "last_liquidity": 88398.96
    },
    {
     "trade_id": 97,
@@ -2123,8 +2127,8 @@
     "entry_liquidity": 31512.17,
     "stop": 0.000131805,
     "target": 0.00026361,
-    "last_price": 0.0001735,
-    "last_liquidity": 31550.29
+    "last_price": 0.0001925,
+    "last_liquidity": 33303.94
    }
   ],
   "closed": [
@@ -5881,6 +5885,10 @@
    [
     1795587386,
     658.41
+   ],
+   [
+    1795588557,
+    658.22
    ]
   ],
   "checks": [
@@ -7329,7 +7337,7 @@
     "score": 4.0
    }
   ],
-  "watching": 102,
+  "watching": 101,
   "graded": [
    {
     "ts": 1795579025.2400048,
