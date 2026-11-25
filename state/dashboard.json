@@ -1,5 +1,5 @@
 {
- "updated": 1795617633.8899477,
+ "updated": 1795618164.940575,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 993.5978998384492,
- "equity_now": 1006.1556789178808,
+ "equity_now": 1005.6536905904952,
  "open": [
   {
    "trade_id": 2,
@@ -927,58 +927,62 @@
   [
    1795617630,
    1006.16
+  ],
+  [
+   1795618162,
+   1005.65
   ]
  ],
  "scout": {
-  "ts": 1795617624.7972212,
+  "ts": 1795618156.3091526,
   "pairs": {
    "BONK/USD": {
     "last": 2.01e-06,
     "change_24h": -0.06944444444444453,
-    "funding": -5.29216674451e-05,
-    "open_interest": 468840900000.0
+    "funding": -7.35242318171e-05,
+    "open_interest": 469268800000.0
    },
    "WIF/USD": {
-    "last": 0.11597,
-    "change_24h": -0.03823187925029026,
+    "last": 0.11561,
+    "change_24h": -0.0412174489965168,
     "funding": 5e-05,
-    "open_interest": 22780863.0
+    "open_interest": 22818132.0
    },
    "POPCAT/USD": {
-    "last": 0.02374,
-    "change_24h": -0.05531237564663749,
-    "funding": -5.59650890446e-05,
-    "open_interest": 10698530.0
+    "last": 0.02381,
+    "change_24h": -0.05252686032630316,
+    "funding": -3.0910344537e-05,
+    "open_interest": 10721780.0
    },
    "PENGU/USD": {
-    "last": 0.004032,
-    "change_24h": -0.05640065527732274,
-    "funding": -4.64784468523e-05,
-    "open_interest": 1125052600.0
+    "last": 0.004043,
+    "change_24h": -0.05382635150947812,
+    "funding": -4.71569784072e-05,
+    "open_interest": 1123572000.0
    },
    "TRUMP/USD": {
-    "last": 0.7954,
-    "change_24h": -0.04708278423385648,
-    "funding": -4.57496714868e-05,
-    "open_interest": 10177212.4
+    "last": 0.801,
+    "change_24h": -0.04037378698933747,
+    "funding": -4.81951803421e-05,
+    "open_interest": 10081992.0
    },
    "FARTCOIN/USD": {
-    "last": 0.07533,
-    "change_24h": -0.054474708171206365,
+    "last": 0.07539,
+    "change_24h": -0.05372160160662742,
     "funding": 5e-05,
-    "open_interest": 19381162.0
+    "open_interest": 19311478.0
    },
    "PNUT/USD": {
     "last": 0.02513,
     "change_24h": -0.04557538928978355,
     "funding": 5e-05,
-    "open_interest": 25400900.0
+    "open_interest": 25602850.0
    },
    "MOODENG/USD": {
-    "last": 0.026283,
-    "change_24h": 0.04830089342693045,
-    "funding": -0.001511508478685,
-    "open_interest": 57819050.0
+    "last": 0.026542,
+    "change_24h": 0.058631142310146656,
+    "funding": -0.0013443617001674,
+    "open_interest": 57017570.0
    }
   }
  },
@@ -2125,7 +2129,7 @@
  "reports": [
   {
    "day": "2026-11-25",
-   "text": "## 00:38 launch desk\n- LAUNCH CLOSED #94 4CHAN/USD: stop_loss, -28.28% ($-7.07)\n\n## 00:59 launch desk\n- launch PERRO (4.6h old, liq $31,512): **accept** (66%) - 1h volume 2.2x liquidity, buyers 1210 vs sellers 1001, momentum +24% 1h, LP 88% locked\n- LAUNCH OPENED #97 PERRO/USD $25 @ $0.00017574\n\n## 01:16 desk run\n- CLOSED #1 MOODENG/USD short: stop_loss @ 0.026973, -8.10% ($-4.05)\n\n## 01:56 launch desk\n- LAUNCH CLOSED #78 JIMMY/USD: stop_loss, -30.96% ($-7.74)\n- LAUNCH CLOSED #96 BOOBS/USD: roi, +57.19% ($+14.30)\n- launch BOOBS (6.5h old, liq $97,948): **accept** (66%) - liquidity $97,948, 1h volume 1.1x liquidity, buyers 6082 vs sellers 2267, momentum +69% 1h\n- LAUNCH OPENED #98 BOOBS/USD $25 @ $0.00184325\n\n## 02:16 launch desk\n- LAUNCH CLOSED #82 DUVAL/USD: stop_loss, -27.46% ($-6.87)\n- launch BASKET (2.6h old, liq $111,652): **accept** (87%) - liquidity $111,652, 1h volume 5.7x liquidity, buyers 6303 vs sellers 4468, momentum +67% 1h, LP 81% locked\n- LAUNCH OPENED #99 BASKET/USD $25 @ $0.000625998\n\n## 02:57 launch desk\n- launch JIMMY (34.8h old, liq $91,233): **accept** (51%) - liquidity $91,233, 1h volume 1.0x liquidity, buyers 1035 vs sellers 733\n- LAUNCH OPENED #100 JIMMY/USD $25 @ $0.00121806\n\n## 03:17 launch desk\n- LAUNCH CLOSED #99 BASKET/USD: roi, +51.63% ($+12.91)\n- launch BASKET (3.6h old, liq $137,973): **accept** (79%) - liquidity $137,973, 1h volume 2.9x liquidity, buyers 3749 vs sellers 2812, momentum +70% 1h\n- LAUNCH OPENED #101 BASKET/USD $25 @ $0.000968388\n\n## 03:55 launch desk\n- launch JaoJiu (1.7h old, liq $33,536): **accept** (66%) - 1h volume 11.6x liquidity, buyers 5400 vs sellers 3826, momentum +81% 1h, LP 96% locked\n- LAUNCH OPENED #102 JaoJiu/USD $25 @ $0.000220887\n\n## 04:15 desk run\n- CLOSED #3 POPCAT/USD short: exit_signal @ 0.0259, -4.70% ($-2.35)\n- signal POPCAT/USD long @ 0.0259: **reject** (92%) - volume 3.36x 20-day avg, against trend, funding neutral 0.0050%, BTC against the trade vs its daily open\n\n## 04:35 launch desk\n- LAUNCH CLOSED #102 JaoJiu/USD: stop_loss, -36.67% ($-9.17)\n\n## 05:16 launch desk\n- LAUNCH CLOSED #98 BOOBS/USD: stop_loss, -49.19% ($-12.30)\n- LAUNCH CLOSED #101 BASKET/USD: roi, +64.39% ($+16.10)\n\n## 06:17 desk run\n- signal MOODENG/USD long @ 0.028717: **reject** (92%) - volume 64.08x 20-day avg, against trend, funding neutral -0.8479%, BTC against the trade vs its daily open\n\n## 06:17 launch desk\n- launch BASKET (6.6h old, liq $207,749): **accept** (79%) - liquidity $207,749, 1h volume 3.0x liquidity, buyers 4496 vs sellers 3531, momentum +31% 1h\n- LAUNCH OPENED #103 BASKET/USD $25 @ $0.00220685\n\n## 07:18 launch desk\n- LAUNCH CLOSED #103 BASKET/USD: stop_loss, -29.97% ($-7.49)\n\n## 07:39 launch desk\n- launch Pompom (1.4h old, liq $32,084): **accept** (51%) - 1h volume 15.3x liquidity, buyers 7162 vs sellers 5484, momentum +145% 1h\n- LAUNCH OPENED #104 Pompom/USD $25 @ $0.000201293\n\n## 07:59 launch desk\n- LAUNCH CLOSED #104 Pompom/USD: roi, +87.48% ($+21.87)\n\n## Morning brief 08:19\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.02e-06 | -6.05% | -0.0020% | 469,129,300,000 |\n| WIF/USD | 0.11748 | -3.19% | +0.0050% | 22,825,194 |\n| POPCAT/USD | 0.02356 | -5.19% | -0.0174% | 10,783,080 |\n| PENGU/USD | 0.004105 | -3.39% | -0.0026% | 1,120,135,900 |\n| TRUMP/USD | 0.8111 | -2.22% | -0.0003% | 10,690,550 |\n| FARTCOIN/USD | 0.076 | -4.71% | +0.0050% | 19,454,788 |\n| PNUT/USD | 0.02542 | -3.57% | +0.0042% | 25,906,260 |\n| MOODENG/USD | 0.026666 | +7.20% | -0.4792% crowded short | 59,645,110 |\n\n## 09:00 desk run\n- signal POPCAT/USD short @ 0.02415: **accept** (66%) - volume 9.14x 20-day avg, trend agrees, funding neutral -0.0116%\n- OPENED #9 POPCAT/USD short $50 @ $0.02415, stop 0.026082, target 0.020286\n\n## 09:00 launch desk\n- LAUNCH CLOSED #100 JIMMY/USD: roi, +61.82% ($+15.46)\n\n## 09:20 launch desk\n- launch BASKET (9.6h old, liq $169,168): **accept** (51%) - liquidity $169,168, 1h volume 1.0x liquidity, momentum +10% 1h\n- LAUNCH OPENED #105 BASKET/USD $25 @ $0.00148066\n- launch 4CHAN (16.3h old, liq $48,399): **accept** (51%) - 1h volume 1.4x liquidity, buyers 923 vs sellers 707, momentum +22% 1h\n- LAUNCH OPENED #106 4CHAN/USD $25 @ $0.000368448\n\n"
+   "text": "## 00:38 launch desk\n- LAUNCH CLOSED #94 4CHAN/USD: stop_loss, -28.28% ($-7.07)\n\n## 00:59 launch desk\n- launch PERRO (4.6h old, liq $31,512): **accept** (66%) - 1h volume 2.2x liquidity, buyers 1210 vs sellers 1001, momentum +24% 1h, LP 88% locked\n- LAUNCH OPENED #97 PERRO/USD $25 @ $0.00017574\n\n## 01:16 desk run\n- CLOSED #1 MOODENG/USD short: stop_loss @ 0.026973, -8.10% ($-4.05)\n\n## 01:56 launch desk\n- LAUNCH CLOSED #78 JIMMY/USD: stop_loss, -30.96% ($-7.74)\n- LAUNCH CLOSED #96 BOOBS/USD: roi, +57.19% ($+14.30)\n- launch BOOBS (6.5h old, liq $97,948): **accept** (66%) - liquidity $97,948, 1h volume 1.1x liquidity, buyers 6082 vs sellers 2267, momentum +69% 1h\n- LAUNCH OPENED #98 BOOBS/USD $25 @ $0.00184325\n\n## 02:16 launch desk\n- LAUNCH CLOSED #82 DUVAL/USD: stop_loss, -27.46% ($-6.87)\n- launch BASKET (2.6h old, liq $111,652): **accept** (87%) - liquidity $111,652, 1h volume 5.7x liquidity, buyers 6303 vs sellers 4468, momentum +67% 1h, LP 81% locked\n- LAUNCH OPENED #99 BASKET/USD $25 @ $0.000625998\n\n## 02:57 launch desk\n- launch JIMMY (34.8h old, liq $91,233): **accept** (51%) - liquidity $91,233, 1h volume 1.0x liquidity, buyers 1035 vs sellers 733\n- LAUNCH OPENED #100 JIMMY/USD $25 @ $0.00121806\n\n## 03:17 launch desk\n- LAUNCH CLOSED #99 BASKET/USD: roi, +51.63% ($+12.91)\n- launch BASKET (3.6h old, liq $137,973): **accept** (79%) - liquidity $137,973, 1h volume 2.9x liquidity, buyers 3749 vs sellers 2812, momentum +70% 1h\n- LAUNCH OPENED #101 BASKET/USD $25 @ $0.000968388\n\n## 03:55 launch desk\n- launch JaoJiu (1.7h old, liq $33,536): **accept** (66%) - 1h volume 11.6x liquidity, buyers 5400 vs sellers 3826, momentum +81% 1h, LP 96% locked\n- LAUNCH OPENED #102 JaoJiu/USD $25 @ $0.000220887\n\n## 04:15 desk run\n- CLOSED #3 POPCAT/USD short: exit_signal @ 0.0259, -4.70% ($-2.35)\n- signal POPCAT/USD long @ 0.0259: **reject** (92%) - volume 3.36x 20-day avg, against trend, funding neutral 0.0050%, BTC against the trade vs its daily open\n\n## 04:35 launch desk\n- LAUNCH CLOSED #102 JaoJiu/USD: stop_loss, -36.67% ($-9.17)\n\n## 05:16 launch desk\n- LAUNCH CLOSED #98 BOOBS/USD: stop_loss, -49.19% ($-12.30)\n- LAUNCH CLOSED #101 BASKET/USD: roi, +64.39% ($+16.10)\n\n## 06:17 desk run\n- signal MOODENG/USD long @ 0.028717: **reject** (92%) - volume 64.08x 20-day avg, against trend, funding neutral -0.8479%, BTC against the trade vs its daily open\n\n## 06:17 launch desk\n- launch BASKET (6.6h old, liq $207,749): **accept** (79%) - liquidity $207,749, 1h volume 3.0x liquidity, buyers 4496 vs sellers 3531, momentum +31% 1h\n- LAUNCH OPENED #103 BASKET/USD $25 @ $0.00220685\n\n## 07:18 launch desk\n- LAUNCH CLOSED #103 BASKET/USD: stop_loss, -29.97% ($-7.49)\n\n## 07:39 launch desk\n- launch Pompom (1.4h old, liq $32,084): **accept** (51%) - 1h volume 15.3x liquidity, buyers 7162 vs sellers 5484, momentum +145% 1h\n- LAUNCH OPENED #104 Pompom/USD $25 @ $0.000201293\n\n## 07:59 launch desk\n- LAUNCH CLOSED #104 Pompom/USD: roi, +87.48% ($+21.87)\n\n## Morning brief 08:19\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.02e-06 | -6.05% | -0.0020% | 469,129,300,000 |\n| WIF/USD | 0.11748 | -3.19% | +0.0050% | 22,825,194 |\n| POPCAT/USD | 0.02356 | -5.19% | -0.0174% | 10,783,080 |\n| PENGU/USD | 0.004105 | -3.39% | -0.0026% | 1,120,135,900 |\n| TRUMP/USD | 0.8111 | -2.22% | -0.0003% | 10,690,550 |\n| FARTCOIN/USD | 0.076 | -4.71% | +0.0050% | 19,454,788 |\n| PNUT/USD | 0.02542 | -3.57% | +0.0042% | 25,906,260 |\n| MOODENG/USD | 0.026666 | +7.20% | -0.4792% crowded short | 59,645,110 |\n\n## 09:00 desk run\n- signal POPCAT/USD short @ 0.02415: **accept** (66%) - volume 9.14x 20-day avg, trend agrees, funding neutral -0.0116%\n- OPENED #9 POPCAT/USD short $50 @ $0.02415, stop 0.026082, target 0.020286\n\n## 09:00 launch desk\n- LAUNCH CLOSED #100 JIMMY/USD: roi, +61.82% ($+15.46)\n\n## 09:20 launch desk\n- launch BASKET (9.6h old, liq $169,168): **accept** (51%) - liquidity $169,168, 1h volume 1.0x liquidity, momentum +10% 1h\n- LAUNCH OPENED #105 BASKET/USD $25 @ $0.00148066\n- launch 4CHAN (16.3h old, liq $48,399): **accept** (51%) - 1h volume 1.4x liquidity, buyers 923 vs sellers 707, momentum +22% 1h\n- LAUNCH OPENED #106 4CHAN/USD $25 @ $0.000368448\n\n## 09:49 launch desk\n- LAUNCH CLOSED #105 BASKET/USD: stop_loss, -33.00% ($-8.25)\n\n"
   },
   {
    "day": "2026-11-24",
@@ -2157,8 +2161,8 @@
    ],
    "paper_only": true
   },
-  "wallet": 588.2649150252273,
-  "equity_now": 701.9527302964497,
+  "wallet": 605.0138648178873,
+  "equity_now": 695.522036297238,
   "open": [
    {
     "trade_id": 95,
@@ -2174,8 +2178,8 @@
     "entry_liquidity": 75156.18,
     "stop": 0.00085446,
     "target": 0.00170892,
-    "last_price": 0.001283,
-    "last_liquidity": 79731.03
+    "last_price": 0.001173,
+    "last_liquidity": 75742.26
    },
    {
     "trade_id": 97,
@@ -2191,25 +2195,8 @@
     "entry_liquidity": 31512.17,
     "stop": 0.000131805,
     "target": 0.00026361,
-    "last_price": 0.0002534,
-    "last_liquidity": 38686.35
-   },
-   {
-    "trade_id": 105,
-    "pair": "BASKET/USD",
-    "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
-    "url": "https://dexscreener.com/solana/cixcofspwhnywjsodxxxvld6um5fh7w8mfpl9mpqpqtx",
-    "is_short": false,
-    "open_rate": 0.0014806600000000002,
-    "open_ts": 1795616419.5568168,
-    "stake": 25,
-    "amount": 16884.36237893912,
-    "open_date": "2026-11-25T14:20:19.556817+00:00",
-    "entry_liquidity": 169168.27,
-    "stop": 0.0011104950000000002,
-    "target": 0.0022209900000000004,
-    "last_price": 0.001162,
-    "last_liquidity": 150296.5
+    "last_price": 0.0002457,
+    "last_liquidity": 37865.38
    },
    {
     "trade_id": 106,
@@ -2225,45 +2212,11 @@
     "entry_liquidity": 48398.87,
     "stop": 0.00027633599999999996,
     "target": 0.0005526719999999999,
-    "last_price": 0.0004571,
-    "last_liquidity": 54482.06
+    "last_price": 0.0004529,
+    "last_liquidity": 53820.27
    }
   ],
   "closed": [
-   {
-    "trade_id": 6,
-    "pair": "PEACH/USD",
-    "mint": "61yuZf1JyTKqoCfS784SusFGVekA6YUsGTfDg3o6pump",
-    "url": "https://dexscreener.com/solana/6llzurmzehdghphtefvgwsd7qfhdtnfxqov5hvqi4vaq",
-    "is_short": false,
-    "open_rate": 0.00054944,
-    "open_ts": 1795405765.5923681,
-    "stake": 25,
-    "amount": 45500.87361677344,
-    "open_date": "2026-11-23T03:49:25.592368+00:00",
-    "entry_liquidity": 52091.71,
-    "stop": 0.00041208,
-    "target": 0.00082416,
-    "last_price": 0.0003567,
-    "last_liquidity": 42065.86,
-    "is_open": false,
-    "close_rate": 0.000353133,
-    "close_timestamp": 1795406821376.376,
-    "close_date": "2026-11-23T04:07:01.376376+00:00",
-    "close_profit": -0.357286,
-    "profit_abs": -8.9321,
-    "exit_reason": "stop_loss",
-    "orders": [
-     {
-      "status": "closed",
-      "filled": 45500.87361677344
-     },
-     {
-      "status": "closed",
-      "filled": 45500.87361677344
-     }
-    ]
-   },
    {
     "trade_id": 5,
     "pair": "UCASH/USD",
@@ -5629,6 +5582,40 @@
       "filled": 20524.440503751866
      }
     ]
+   },
+   {
+    "trade_id": 105,
+    "pair": "BASKET/USD",
+    "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+    "url": "https://dexscreener.com/solana/cixcofspwhnywjsodxxxvld6um5fh7w8mfpl9mpqpqtx",
+    "is_short": false,
+    "open_rate": 0.0014806600000000002,
+    "open_ts": 1795616419.5568168,
+    "stake": 25,
+    "amount": 16884.36237893912,
+    "open_date": "2026-11-25T14:20:19.556817+00:00",
+    "entry_liquidity": 169168.27,
+    "stop": 0.0011104950000000002,
+    "target": 0.0022209900000000004,
+    "last_price": 0.001002,
+    "last_liquidity": 138847.33,
+    "is_open": false,
+    "close_rate": 0.0009919800000000002,
+    "close_timestamp": 1795618162519.2705,
+    "close_date": "2026-11-25T14:49:22.519270+00:00",
+    "close_profit": -0.330042,
+    "profit_abs": -8.2511,
+    "exit_reason": "stop_loss",
+    "orders": [
+     {
+      "status": "closed",
+      "filled": 16884.36237893912
+     },
+     {
+      "status": "closed",
+      "filled": 16884.36237893912
+     }
+    ]
    }
   ],
   "equity": [
@@ -6355,9 +6342,86 @@
    [
     1795617633,
     701.95
+   ],
+   [
+    1795618164,
+    695.52
    ]
   ],
   "checks": [
+   {
+    "ts": 1795618164.9367738,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "GbJCuSXQYRXYf8yxVV16yo4PBQ4H3FsT29fqkTSBpump",
+     "symbol": "FRANK",
+     "dex": "pumpswap",
+     "price": 6.47e-05,
+     "liquidity": 17045.3,
+     "fdv": 64630,
+     "vol_h1": 102372.34,
+     "buys_h1": 1767,
+     "sells_h1": 1045,
+     "chg_h1": 129,
+     "chg_h6": 129,
+     "age_h": 0.2643109084500207,
+     "url": "https://dexscreener.com/solana/3c78tknt71ypj24trrpduqjlaqevpl9dssmdoxdngaph",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $17,045 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795618164.9363992,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "1PPQkxYy2wUvKkUXMnDkiDrqx5Hfp2nbDju11cvHeFW",
+     "symbol": "MINT",
+     "dex": "meteora",
+     "price": 0.00139,
+     "liquidity": 62031.93,
+     "fdv": 1390821,
+     "vol_h1": 121.42,
+     "buys_h1": 9,
+     "sells_h1": 1,
+     "chg_h1": -1,
+     "chg_h6": -1.91,
+     "age_h": 24.953755352894465,
+     "url": "https://dexscreener.com/solana/6byridphx1ouhkzu1rxczfna44xz32mftguv2pswy6kr",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 56,
+     "lp_locked_pct": 0,
+     "rug_danger": [
+      "Large Amount of LP Unlocked"
+     ]
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "RugCheck danger: Large Amount of LP Unlocked"
+    ],
+    "score": null,
+    "final": true
+   },
    {
     "ts": 1795617633.8854396,
     "gate": "check_launch",
@@ -7739,81 +7803,9 @@
      "LP 96% locked"
     ],
     "score": 4.0
-   },
-   {
-    "ts": 1795595847.108094,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "96qfge1RkUWhSsv8i9V4QZFANGypKEe1u7pzCDGGpump",
-     "symbol": "HELIORA",
-     "dex": "pumpswap",
-     "price": 3.903e-05,
-     "liquidity": 12778.98,
-     "fdv": 38951,
-     "vol_h1": 36207.25,
-     "buys_h1": 818,
-     "sells_h1": 486,
-     "chg_h1": 38.43,
-     "chg_h6": 38.43,
-     "age_h": 0.09573068883683947,
-     "url": "https://dexscreener.com/solana/5rtww8dfdvihd8dbyqjizlemhlles2iz7dqw2k1kycb7",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $12,779 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795595847.1074505,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6",
-     "symbol": "SHHFT",
-     "dex": "raydium",
-     "price": 0.0001596,
-     "liquidity": 28211.39,
-     "fdv": 159625,
-     "vol_h1": 1049.3,
-     "buys_h1": 1,
-     "sells_h1": 1,
-     "chg_h1": 12.1,
-     "chg_h6": 24.85,
-     "age_h": 20.767675133281283,
-     "url": "https://dexscreener.com/solana/6v2ut2wpbnmruancogqhzc7uhq3ctvrpwmvkgamt6vk",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 99.99999999975408,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "verify_more": 0.117,
-     "reject": 0.867,
-     "accept": 0.016
-    },
-    "confidence": 0.867,
-    "reasons": [
-     "dead volume",
-     "momentum +12% 1h",
-     "LP 100% locked"
-    ],
-    "score": 1.0
    }
   ],
-  "watching": 97,
+  "watching": 96,
   "graded": [
    {
     "ts": 1795616419.5568168,
@@ -8027,7 +8019,7 @@
    }
   ],
   "stats": {
-   "trades": 102,
+   "trades": 103,
    "wins": 30,
    "best": 0.905993,
    "worst": -0.997968
