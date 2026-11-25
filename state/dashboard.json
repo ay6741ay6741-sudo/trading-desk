@@ -1,5 +1,5 @@
 {
- "updated": 1795586345.0048883,
+ "updated": 1795587386.374702,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -43,21 +43,9 @@
    4.0
   ]
  },
- "wallet": 1000,
- "equity_now": 997.325392440697,
+ "wallet": 995.95,
+ "equity_now": 991.7246961964495,
  "open": [
-  {
-   "trade_id": 1,
-   "pair": "MOODENG/USD",
-   "is_short": true,
-   "open_rate": 0.024975,
-   "open_date": "2026-11-24T11:00:00+00:00",
-   "open_candle": 1795514400,
-   "stake": 50,
-   "amount": 2002.002002002002,
-   "stop": 0.026973000000000004,
-   "target": 0.020979
-  },
   {
    "trade_id": 2,
    "pair": "WIF/USD",
@@ -143,7 +131,37 @@
    "target": 0.021462
   }
  ],
- "closed": [],
+ "closed": [
+  {
+   "trade_id": 1,
+   "pair": "MOODENG/USD",
+   "is_short": true,
+   "open_rate": 0.024975,
+   "open_date": "2026-11-24T11:00:00+00:00",
+   "open_candle": 1795514400,
+   "stake": 50,
+   "amount": 2002.002002002002,
+   "stop": 0.026973000000000004,
+   "target": 0.020979,
+   "is_open": false,
+   "close_rate": 0.026973000000000004,
+   "close_timestamp": 1795586400000,
+   "close_date": "2026-11-25T06:00:00+00:00",
+   "close_profit": -0.081,
+   "profit_abs": -4.05,
+   "exit_reason": "stop_loss",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 2002.002002002002
+    },
+    {
+     "status": "closed",
+     "filled": 2002.002002002002
+    }
+   ]
+  }
+ ],
  "equity": [
   [
    1795398760,
@@ -776,58 +794,62 @@
   [
    1795586341,
    997.33
+  ],
+  [
+   1795587384,
+   991.72
   ]
  ],
  "scout": {
-  "ts": 1795586335.7875707,
+  "ts": 1795587378.7162752,
   "pairs": {
    "BONK/USD": {
-    "last": 2.09e-06,
-    "change_24h": -0.06696428571428581,
-    "funding": 1.94266000468e-05,
-    "open_interest": 494216200000.0
+    "last": 2.1e-06,
+    "change_24h": -0.06250000000000011,
+    "funding": 4.57045795728e-05,
+    "open_interest": 494457200000.0
    },
    "WIF/USD": {
-    "last": 0.12116,
-    "change_24h": -0.04688483322844561,
+    "last": 0.12184,
+    "change_24h": -0.03454833597464346,
     "funding": 5e-05,
-    "open_interest": 23068674.0
+    "open_interest": 23164148.0
    },
    "POPCAT/USD": {
-    "last": 0.02464,
-    "change_24h": -0.05376344086021512,
-    "funding": 9.6939165647e-06,
-    "open_interest": 9477060.0
+    "last": 0.02543,
+    "change_24h": -0.021170130869899828,
+    "funding": 4.13696588449e-05,
+    "open_interest": 10290960.0
    },
    "PENGU/USD": {
-    "last": 0.004227,
-    "change_24h": -0.0581550802139037,
-    "funding": 4.42402760364e-05,
-    "open_interest": 1115609200.0
+    "last": 0.004265,
+    "change_24h": -0.04415060510981628,
+    "funding": 4.79932281092e-05,
+    "open_interest": 1117830500.0
    },
    "TRUMP/USD": {
-    "last": 0.8392,
-    "change_24h": -0.04679691049522949,
-    "funding": -5.27365250422e-05,
-    "open_interest": 10254128.0
+    "last": 0.8428,
+    "change_24h": -0.03315360789262367,
+    "funding": -4.61167986514e-05,
+    "open_interest": 10292605.1
    },
    "FARTCOIN/USD": {
-    "last": 0.07877,
-    "change_24h": -0.058113117302403317,
+    "last": 0.07894,
+    "change_24h": -0.048112866272760235,
     "funding": 5e-05,
-    "open_interest": 19309408.0
+    "open_interest": 19359143.0
    },
    "PNUT/USD": {
-    "last": 0.02603,
-    "change_24h": -0.04054552156284552,
+    "last": 0.02622,
+    "change_24h": -0.028169014084507005,
     "funding": 5e-05,
-    "open_interest": 25987860.0
+    "open_interest": 26001300.0
    },
    "MOODENG/USD": {
-    "last": 0.025802,
-    "change_24h": -0.0016251354279523955,
+    "last": 0.026387,
+    "change_24h": 0.024379828409488047,
     "funding": 5e-05,
-    "open_interest": 32429390.0
+    "open_interest": 33693300.0
    }
   }
  },
@@ -1976,15 +1998,15 @@
   "reject": 36
  },
  "stats": {
-  "trades": 0,
+  "trades": 1,
   "wins": 0,
-  "best": 0,
-  "worst": 0
+  "best": -0.081,
+  "worst": -0.081
  },
  "reports": [
   {
    "day": "2026-11-25",
-   "text": "## 00:38 launch desk\n- LAUNCH CLOSED #94 4CHAN/USD: stop_loss, -28.28% ($-7.07)\n\n## 00:59 launch desk\n- launch PERRO (4.6h old, liq $31,512): **accept** (66%) - 1h volume 2.2x liquidity, buyers 1210 vs sellers 1001, momentum +24% 1h, LP 88% locked\n- LAUNCH OPENED #97 PERRO/USD $25 @ $0.00017574\n\n"
+   "text": "## 00:38 launch desk\n- LAUNCH CLOSED #94 4CHAN/USD: stop_loss, -28.28% ($-7.07)\n\n## 00:59 launch desk\n- launch PERRO (4.6h old, liq $31,512): **accept** (66%) - 1h volume 2.2x liquidity, buyers 1210 vs sellers 1001, momentum +24% 1h, LP 88% locked\n- LAUNCH OPENED #97 PERRO/USD $25 @ $0.00017574\n\n## 01:16 desk run\n- CLOSED #1 MOODENG/USD short: stop_loss @ 0.026973, -8.10% ($-4.05)\n\n"
   },
   {
    "day": "2026-11-24",
@@ -2017,7 +2039,7 @@
    "paper_only": true
   },
   "wallet": 526.1985241962375,
-  "equity_now": 651.4660545947123,
+  "equity_now": 658.4058925519138,
   "open": [
    {
     "trade_id": 78,
@@ -2033,8 +2055,8 @@
     "entry_liquidity": 110209.02,
     "stop": 0.0013400175,
     "target": 0.002680035,
-    "last_price": 0.001601,
-    "last_liquidity": 105564.2
+    "last_price": 0.001649,
+    "last_liquidity": 107176.71
    },
    {
     "trade_id": 82,
@@ -2050,8 +2072,8 @@
     "entry_liquidity": 30063.01,
     "stop": 0.00011188275000000001,
     "target": 0.00022376550000000002,
-    "last_price": 0.0001511,
-    "last_liquidity": 30368.46
+    "last_price": 0.0001338,
+    "last_liquidity": 28528.64
    },
    {
     "trade_id": 95,
@@ -2067,8 +2089,8 @@
     "entry_liquidity": 75156.18,
     "stop": 0.00085446,
     "target": 0.00170892,
-    "last_price": 0.001382,
-    "last_liquidity": 83360.56
+    "last_price": 0.001604,
+    "last_liquidity": 90076.3
    },
    {
     "trade_id": 96,
@@ -2084,8 +2106,8 @@
     "entry_liquidity": 76728.14,
     "stop": 0.0008620349999999999,
     "target": 0.0017240699999999999,
-    "last_price": 0.001091,
-    "last_liquidity": 75268.14
+    "last_price": 0.001295,
+    "last_liquidity": 82156.53
    },
    {
     "trade_id": 97,
@@ -2101,7 +2123,8 @@
     "entry_liquidity": 31512.17,
     "stop": 0.000131805,
     "target": 0.00026361,
-    "last_price": 0.000174
+    "last_price": 0.0001735,
+    "last_liquidity": 31550.29
    }
   ],
   "closed": [
@@ -5854,6 +5877,10 @@
    [
     1795586345,
     651.47
+   ],
+   [
+    1795587386,
+    658.41
    ]
   ],
   "checks": [
@@ -7302,7 +7329,7 @@
     "score": 4.0
    }
   ],
-  "watching": 103,
+  "watching": 102,
   "graded": [
    {
     "ts": 1795579025.2400048,
