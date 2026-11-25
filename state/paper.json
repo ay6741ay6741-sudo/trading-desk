@@ -1,43 +1,7 @@
 {
- "wallet": 992.2848225228074,
+ "wallet": 986.326695314537,
  "next_id": 10,
  "open": {
-  "WIF/USD": {
-   "trade_id": 2,
-   "pair": "WIF/USD",
-   "is_short": true,
-   "open_rate": 0.12155,
-   "open_date": "2026-11-24T13:00:00+00:00",
-   "open_candle": 1795521600,
-   "stake": 50,
-   "amount": 411.3533525298231,
-   "stop": 0.131274,
-   "target": 0.102102
-  },
-  "PENGU/USD": {
-   "trade_id": 4,
-   "pair": "PENGU/USD",
-   "is_short": true,
-   "open_rate": 0.004249,
-   "open_date": "2026-11-24T14:00:00+00:00",
-   "open_candle": 1795525200,
-   "stake": 50,
-   "amount": 11767.474699929395,
-   "stop": 0.004588920000000001,
-   "target": 0.00356916
-  },
-  "TRUMP/USD": {
-   "trade_id": 5,
-   "pair": "TRUMP/USD",
-   "is_short": true,
-   "open_rate": 0.8298,
-   "open_date": "2026-11-24T14:00:00+00:00",
-   "open_candle": 1795525200,
-   "stake": 50,
-   "amount": 60.25548324897566,
-   "stop": 0.8961840000000001,
-   "target": 0.697032
-  },
   "BONK/USD": {
    "trade_id": 6,
    "pair": "BONK/USD",
@@ -49,18 +13,6 @@
    "amount": 23696682.464454975,
    "stop": 2.2788e-06,
    "target": 1.7724e-06
-  },
-  "PNUT/USD": {
-   "trade_id": 8,
-   "pair": "PNUT/USD",
-   "is_short": true,
-   "open_rate": 0.02555,
-   "open_date": "2026-11-24T17:00:00+00:00",
-   "open_candle": 1795536000,
-   "stake": 50,
-   "amount": 1956.9471624266146,
-   "stop": 0.027594,
-   "target": 0.021462
   },
   "POPCAT/USD": {
    "trade_id": 9,
@@ -162,16 +114,132 @@
      "filled": 637.9178361826996
     }
    ]
+  },
+  {
+   "trade_id": 2,
+   "pair": "WIF/USD",
+   "is_short": true,
+   "open_rate": 0.12155,
+   "open_date": "2026-11-24T13:00:00+00:00",
+   "open_candle": 1795521600,
+   "stake": 50,
+   "amount": 411.3533525298231,
+   "stop": 0.131274,
+   "target": 0.102102,
+   "is_open": false,
+   "close_rate": 0.12385,
+   "close_timestamp": 1795636800000,
+   "close_date": "2026-11-25T20:00:00+00:00",
+   "close_profit": -0.019922,
+   "profit_abs": -0.9961,
+   "exit_reason": "exit_signal",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 411.3533525298231
+    },
+    {
+     "status": "closed",
+     "filled": 411.3533525298231
+    }
+   ]
+  },
+  {
+   "trade_id": 4,
+   "pair": "PENGU/USD",
+   "is_short": true,
+   "open_rate": 0.004249,
+   "open_date": "2026-11-24T14:00:00+00:00",
+   "open_candle": 1795525200,
+   "stake": 50,
+   "amount": 11767.474699929395,
+   "stop": 0.004588920000000001,
+   "target": 0.00356916,
+   "is_open": false,
+   "close_rate": 0.00431,
+   "close_timestamp": 1795636800000,
+   "close_date": "2026-11-25T20:00:00+00:00",
+   "close_profit": -0.015356,
+   "profit_abs": -0.7678,
+   "exit_reason": "exit_signal",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 11767.474699929395
+    },
+    {
+     "status": "closed",
+     "filled": 11767.474699929395
+    }
+   ]
+  },
+  {
+   "trade_id": 5,
+   "pair": "TRUMP/USD",
+   "is_short": true,
+   "open_rate": 0.8298,
+   "open_date": "2026-11-24T14:00:00+00:00",
+   "open_candle": 1795525200,
+   "stake": 50,
+   "amount": 60.25548324897566,
+   "stop": 0.8961840000000001,
+   "target": 0.697032,
+   "is_open": false,
+   "close_rate": 0.8578,
+   "close_timestamp": 1795636800000,
+   "close_date": "2026-11-25T20:00:00+00:00",
+   "close_profit": -0.034743,
+   "profit_abs": -1.7372,
+   "exit_reason": "exit_signal",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 60.25548324897566
+    },
+    {
+     "status": "closed",
+     "filled": 60.25548324897566
+    }
+   ]
+  },
+  {
+   "trade_id": 8,
+   "pair": "PNUT/USD",
+   "is_short": true,
+   "open_rate": 0.02555,
+   "open_date": "2026-11-24T17:00:00+00:00",
+   "open_candle": 1795536000,
+   "stake": 50,
+   "amount": 1956.9471624266146,
+   "stop": 0.027594,
+   "target": 0.021462,
+   "is_open": false,
+   "close_rate": 0.02678,
+   "close_timestamp": 1795636800000,
+   "close_date": "2026-11-25T20:00:00+00:00",
+   "close_profit": -0.049141,
+   "profit_abs": -2.457,
+   "exit_reason": "exit_signal",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 1956.9471624266146
+    },
+    {
+     "status": "closed",
+     "filled": 1956.9471624266146
+    }
+   ]
   }
  ],
  "last_candle": {
-  "BONK/USD": 1795629600,
-  "WIF/USD": 1795629600,
-  "POPCAT/USD": 1795629600,
-  "PENGU/USD": 1795629600,
-  "TRUMP/USD": 1795629600,
-  "FARTCOIN/USD": 1795629600,
-  "PNUT/USD": 1795629600,
-  "MOODENG/USD": 1795629600
+  "BONK/USD": 1795633200,
+  "WIF/USD": 1795633200,
+  "POPCAT/USD": 1795633200,
+  "PENGU/USD": 1795633200,
+  "TRUMP/USD": 1795633200,
+  "FARTCOIN/USD": 1795633200,
+  "PNUT/USD": 1795633200,
+  "MOODENG/USD": 1795633200
  }
 }
