@@ -70,3 +70,5 @@
 {"ts": 1795721166.1725938, "symbol": "MEDIC", "score": 2.0, "choice": "reject", "r": 2}
 {"ts": 1795721166.1725938, "symbol": "Slingoor", "score": 3.0, "choice": "verify_more", "r": 0}
 {"ts": 1795723574.5098345, "symbol": "Investor", "score": 4.0, "choice": "accept", "r": -1}
+{"ts": 1795724786.218506, "symbol": "OnlyUp", "score": 2.0, "choice": "reject", "r": -1}
+{"ts": 1795724786.218506, "symbol": "PTO", "score": 1.0, "choice": "reject", "r": -1}
