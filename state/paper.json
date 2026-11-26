@@ -1,32 +1,7 @@
 {
- "wallet": 986.326695314537,
+ "wallet": 980.3309607173807,
  "next_id": 10,
- "open": {
-  "BONK/USD": {
-   "trade_id": 6,
-   "pair": "BONK/USD",
-   "is_short": true,
-   "open_rate": 2.11e-06,
-   "open_date": "2026-11-24T16:00:00+00:00",
-   "open_candle": 1795532400,
-   "stake": 50,
-   "amount": 23696682.464454975,
-   "stop": 2.2788e-06,
-   "target": 1.7724e-06
-  },
-  "POPCAT/USD": {
-   "trade_id": 9,
-   "pair": "POPCAT/USD",
-   "is_short": true,
-   "open_rate": 0.02415,
-   "open_date": "2026-11-25T14:00:00+00:00",
-   "open_candle": 1795611600,
-   "stake": 50,
-   "amount": 2070.3933747412007,
-   "stop": 0.026082000000000004,
-   "target": 0.020286000000000002
-  }
- },
+ "open": {},
  "closed": [
   {
    "trade_id": 1,
@@ -230,16 +205,74 @@
      "filled": 1956.9471624266146
     }
    ]
+  },
+  {
+   "trade_id": 6,
+   "pair": "BONK/USD",
+   "is_short": true,
+   "open_rate": 2.11e-06,
+   "open_date": "2026-11-24T16:00:00+00:00",
+   "open_candle": 1795532400,
+   "stake": 50,
+   "amount": 23696682.464454975,
+   "stop": 2.2788e-06,
+   "target": 1.7724e-06,
+   "is_open": false,
+   "close_rate": 2.19e-06,
+   "close_timestamp": 1795662000000,
+   "close_date": "2026-11-26T03:00:00+00:00",
+   "close_profit": -0.038915,
+   "profit_abs": -1.9457,
+   "exit_reason": "exit_signal",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 23696682.464454975
+    },
+    {
+     "status": "closed",
+     "filled": 23696682.464454975
+    }
+   ]
+  },
+  {
+   "trade_id": 9,
+   "pair": "POPCAT/USD",
+   "is_short": true,
+   "open_rate": 0.02415,
+   "open_date": "2026-11-25T14:00:00+00:00",
+   "open_candle": 1795611600,
+   "stake": 50,
+   "amount": 2070.3933747412007,
+   "stop": 0.026082000000000004,
+   "target": 0.020286000000000002,
+   "is_open": false,
+   "close_rate": 0.026082000000000004,
+   "close_timestamp": 1795658400000,
+   "close_date": "2026-11-26T02:00:00+00:00",
+   "close_profit": -0.081,
+   "profit_abs": -4.05,
+   "exit_reason": "stop_loss",
+   "orders": [
+    {
+     "status": "closed",
+     "filled": 2070.3933747412007
+    },
+    {
+     "status": "closed",
+     "filled": 2070.3933747412007
+    }
+   ]
   }
  ],
  "last_candle": {
-  "BONK/USD": 1795651200,
-  "WIF/USD": 1795651200,
-  "POPCAT/USD": 1795651200,
-  "PENGU/USD": 1795651200,
-  "TRUMP/USD": 1795651200,
-  "FARTCOIN/USD": 1795651200,
-  "PNUT/USD": 1795651200,
-  "MOODENG/USD": 1795651200
+  "BONK/USD": 1795658400,
+  "WIF/USD": 1795658400,
+  "POPCAT/USD": 1795658400,
+  "PENGU/USD": 1795658400,
+  "TRUMP/USD": 1795658400,
+  "FARTCOIN/USD": 1795658400,
+  "PNUT/USD": 1795658400,
+  "MOODENG/USD": 1795658400
  }
 }
