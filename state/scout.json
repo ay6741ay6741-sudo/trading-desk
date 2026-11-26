@@ -1,53 +1,53 @@
 {
- "ts": 1795681076.477591,
+ "ts": 1795682296.995487,
  "pairs": {
   "BONK/USD": {
-   "last": 2.19e-06,
-   "change_24h": 0.06310679611650483,
+   "last": 2.2e-06,
+   "change_24h": 0.06280193236714982,
    "funding": 0.0001,
-   "open_interest": 465751100000.0
+   "open_interest": 465914600000.0
   },
   "WIF/USD": {
-   "last": 0.1324,
-   "change_24h": 0.09766207925717119,
-   "funding": 3.46389436019e-05,
-   "open_interest": 25095560.0
+   "last": 0.13353,
+   "change_24h": 0.10703034322666238,
+   "funding": 3.78011719675e-05,
+   "open_interest": 25156866.0
   },
   "POPCAT/USD": {
-   "last": 0.0274,
-   "change_24h": 0.06078203639179258,
+   "last": 0.02715,
+   "change_24h": 0.05110336817653893,
    "funding": 5e-05,
-   "open_interest": 11409720.0
+   "open_interest": 11143790.0
   },
   "PENGU/USD": {
-   "last": 0.004422,
-   "change_24h": 0.04588457899716181,
+   "last": 0.004427,
+   "change_24h": 0.050296559905100846,
    "funding": 5e-05,
-   "open_interest": 1168142600.0
+   "open_interest": 1169089800.0
   },
   "TRUMP/USD": {
-   "last": 0.8791,
-   "change_24h": 0.05105212816834048,
+   "last": 0.8778,
+   "change_24h": 0.049497847919655724,
    "funding": 5e-05,
-   "open_interest": 10001779.8
+   "open_interest": 9994487.1
   },
   "FARTCOIN/USD": {
-   "last": 0.08124,
-   "change_24h": 0.029918864097363107,
+   "last": 0.08141,
+   "change_24h": 0.032074036511156034,
    "funding": 5e-05,
-   "open_interest": 20349683.0
+   "open_interest": 20309665.0
   },
   "PNUT/USD": {
-   "last": 0.02702,
-   "change_24h": 0.026205848841625468,
+   "last": 0.027,
+   "change_24h": 0.02427921092564489,
    "funding": 5e-05,
-   "open_interest": 29485860.0
+   "open_interest": 28281900.0
   },
   "MOODENG/USD": {
-   "last": 0.029539,
-   "change_24h": 0.10347790354514541,
-   "funding": -0.0003605622531492,
-   "open_interest": 42855560.0
+   "last": 0.0282,
+   "change_24h": 0.053457357391011984,
+   "funding": -0.0005890829756149,
+   "open_interest": 43712290.0
   }
  }
 }
