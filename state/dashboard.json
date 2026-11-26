@@ -1,5 +1,5 @@
 {
- "updated": 1795685979.3929672,
+ "updated": 1795687202.4162977,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -1245,58 +1245,62 @@
   [
    1795685975,
    980.33
+  ],
+  [
+   1795687197,
+   980.33
   ]
  ],
  "scout": {
-  "ts": 1795685969.6237555,
+  "ts": 1795687191.0767603,
   "pairs": {
    "BONK/USD": {
-    "last": 2.19e-06,
-    "change_24h": 0.06310679611650483,
+    "last": 2.2e-06,
+    "change_24h": 0.06796116504854366,
     "funding": 0.0001,
-    "open_interest": 466175800000.0
+    "open_interest": 465963400000.0
    },
    "WIF/USD": {
-    "last": 0.13189,
-    "change_24h": 0.10405156537753224,
-    "funding": 3.33001735158e-05,
-    "open_interest": 25160089.0
+    "last": 0.13201,
+    "change_24h": 0.10385483736098333,
+    "funding": 1.92825985657e-05,
+    "open_interest": 25181696.0
    },
    "POPCAT/USD": {
-    "last": 0.0274,
-    "change_24h": 0.07324716020368194,
+    "last": 0.02711,
+    "change_24h": 0.06188797493145315,
     "funding": 5e-05,
-    "open_interest": 11139770.0
+    "open_interest": 11092310.0
    },
    "PENGU/USD": {
-    "last": 0.004427,
-    "change_24h": 0.059090909090909305,
+    "last": 0.004421,
+    "change_24h": 0.057655502392344404,
     "funding": 5e-05,
-    "open_interest": 1162779400.0
+    "open_interest": 1159154000.0
    },
    "TRUMP/USD": {
-    "last": 0.8778,
-    "change_24h": 0.06412898533155542,
-    "funding": 5e-05,
-    "open_interest": 10072071.8
+    "last": 0.8781,
+    "change_24h": 0.0643636363636364,
+    "funding": 4.36232901733e-05,
+    "open_interest": 10146526.9
    },
    "FARTCOIN/USD": {
-    "last": 0.08159,
-    "change_24h": 0.048175745118191005,
+    "last": 0.08157,
+    "change_24h": 0.04791880781089408,
     "funding": 5e-05,
-    "open_interest": 20249633.0
+    "open_interest": 20225307.0
    },
    "PNUT/USD": {
-    "last": 0.02699,
-    "change_24h": 0.030546009927453266,
-    "funding": -2.56726391807e-05,
-    "open_interest": 27801330.0
+    "last": 0.02698,
+    "change_24h": 0.02977099236641223,
+    "funding": -1.5762432162e-05,
+    "open_interest": 27686560.0
    },
    "MOODENG/USD": {
-    "last": 0.028369,
-    "change_24h": 0.02890613666038,
-    "funding": -0.000661500161975,
-    "open_interest": 39738430.0
+    "last": 0.02817,
+    "change_24h": 0.02168866966487748,
+    "funding": -0.0005683323524423,
+    "open_interest": 39167760.0
    }
   }
  },
@@ -2381,7 +2385,7 @@
    "paper_only": true
   },
   "wallet": 587.1922778675216,
-  "equity_now": 707.5770425457613,
+  "equity_now": 709.2732458611782,
   "open": [
    {
     "trade_id": 111,
@@ -2397,8 +2401,8 @@
     "entry_liquidity": 124266.42,
     "stop": 0.0005734275,
     "target": 0.001146855,
-    "last_price": 0.0008589,
-    "last_liquidity": 133209.85
+    "last_price": 0.0009388,
+    "last_liquidity": 139349.78
    },
    {
     "trade_id": 113,
@@ -2414,8 +2418,8 @@
     "entry_liquidity": 57122.88,
     "stop": 0.000462681,
     "target": 0.000925362,
-    "last_price": 0.0006014,
-    "last_liquidity": 57801.39
+    "last_price": 0.0005978,
+    "last_liquidity": 57666.6
    },
    {
     "trade_id": 128,
@@ -2431,8 +2435,8 @@
     "entry_liquidity": 79056.67,
     "stop": 0.000909,
     "target": 0.001818,
-    "last_price": 0.001097,
-    "last_liquidity": 75593.23
+    "last_price": 0.001134,
+    "last_liquidity": 76963.7
    },
    {
     "trade_id": 134,
@@ -2448,8 +2452,8 @@
     "entry_liquidity": 25417.9,
     "stop": 0.00014809125,
     "target": 0.0002961825,
-    "last_price": 0.0001719,
-    "last_liquidity": 23824.88
+    "last_price": 0.0001887,
+    "last_liquidity": 24985.75
    },
    {
     "trade_id": 135,
@@ -2465,7 +2469,8 @@
     "entry_liquidity": 181009.8,
     "stop": 0.00465711,
     "target": 0.00931422,
-    "last_price": 0.006148
+    "last_price": 0.005243,
+    "last_liquidity": 167833.79
    }
   ],
   "closed": [
@@ -6794,9 +6799,50 @@
    [
     1795685979,
     707.58
+   ],
+   [
+    1795687202,
+    709.27
    ]
   ],
   "checks": [
+   {
+    "ts": 1795687202.412101,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "ANvsL4A6tJKAXJsPg7XVSHQA7KYmFcpW42jPuhVtpump",
+     "symbol": "Slingoor",
+     "dex": "pumpswap",
+     "price": 0.0002052,
+     "liquidity": 35781.67,
+     "fdv": 199707,
+     "vol_h1": 20363.35,
+     "buys_h1": 285,
+     "sells_h1": 292,
+     "chg_h1": 28.22,
+     "chg_h6": 42.1,
+     "age_h": 44.45384070608351,
+     "url": "https://dexscreener.com/solana/8ymfvpheu5teyd7bqsdfjqkgvmrzuv4wnhpettntbasn",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 92.12925995162341,
+     "rug_danger": []
+    },
+    "choice": "verify_more",
+    "probabilities": {
+     "verify_more": 0.333,
+     "reject": 0.333,
+     "accept": 0.333
+    },
+    "confidence": 0.333,
+    "reasons": [
+     "1h volume 0.6x liquidity",
+     "momentum +28% 1h",
+     "LP 92% locked"
+    ],
+    "score": 3.0
+   },
    {
     "ts": 1795685979.388549,
     "gate": "check_launch",
@@ -8215,48 +8261,9 @@
      "LP 100% locked"
     ],
     "score": 4.0
-   },
-   {
-    "ts": 1795656320.905118,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump",
-     "symbol": "MONEY",
-     "dex": "pumpswap",
-     "price": 0.0008289,
-     "liquidity": 67851.36,
-     "fdv": 828811,
-     "vol_h1": 1200163.19,
-     "buys_h1": 7701,
-     "sells_h1": 4880,
-     "chg_h1": 200,
-     "chg_h6": 750,
-     "age_h": 1.6193747874101003,
-     "url": "https://dexscreener.com/solana/cchpignpbwf65nfsl3d8h4m4rwdprzh8lpcatynurxqg",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 100,
-     "rug_danger": []
-    },
-    "choice": "accept",
-    "probabilities": {
-     "verify_more": 0.117,
-     "reject": 0.016,
-     "accept": 0.867
-    },
-    "confidence": 0.867,
-    "reasons": [
-     "liquidity $67,851",
-     "1h volume 17.7x liquidity",
-     "buyers 7701 vs sellers 4880",
-     "momentum +200% 1h",
-     "LP 100% locked"
-    ],
-    "score": 5.0
    }
   ],
-  "watching": 94,
+  "watching": 93,
   "graded": [
    {
     "ts": 1795683522.4697847,
