@@ -1,5 +1,5 @@
 {
- "updated": 1795700557.4365368,
+ "updated": 1795701766.3226693,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -1293,58 +1293,62 @@
   [
    1795700551,
    980.33
+  ],
+  [
+   1795701760,
+   980.33
   ]
  ],
  "scout": {
-  "ts": 1795700545.8158212,
+  "ts": 1795701753.8568969,
   "pairs": {
    "BONK/USD": {
     "last": 2.19e-06,
-    "change_24h": 0.08955223880597041,
+    "change_24h": 0.07881773399014791,
     "funding": 0.0001,
-    "open_interest": 462225700000.0
+    "open_interest": 461532900000.0
    },
    "WIF/USD": {
-    "last": 0.13245,
-    "change_24h": 0.13389264617755336,
-    "funding": 4.81677521736e-05,
-    "open_interest": 24956700.0
+    "last": 0.13305,
+    "change_24h": 0.12763793541825574,
+    "funding": 5e-05,
+    "open_interest": 24875217.0
    },
    "POPCAT/USD": {
-    "last": 0.02749,
-    "change_24h": 0.1401907922024057,
+    "last": 0.02742,
+    "change_24h": 0.13165497317375152,
     "funding": 5e-05,
-    "open_interest": 11000940.0
+    "open_interest": 10945800.0
    },
    "PENGU/USD": {
-    "last": 0.004437,
-    "change_24h": 0.09474463360473728,
+    "last": 0.00444,
+    "change_24h": 0.08584005869405731,
     "funding": 5e-05,
-    "open_interest": 1141479900.0
+    "open_interest": 1143995900.0
    },
    "TRUMP/USD": {
-    "last": 0.8731,
-    "change_24h": 0.08554022131045635,
-    "funding": 5e-05,
-    "open_interest": 9724187.2
+    "last": 0.8728,
+    "change_24h": 0.08033172422329504,
+    "funding": 4.64941456553e-05,
+    "open_interest": 9772322.5
    },
    "FARTCOIN/USD": {
-    "last": 0.08137,
-    "change_24h": 0.07618039941806631,
+    "last": 0.08128,
+    "change_24h": 0.060404435746901575,
     "funding": 5e-05,
-    "open_interest": 20227988.0
+    "open_interest": 20218866.0
    },
    "PNUT/USD": {
-    "last": 0.02681,
-    "change_24h": 0.06052215189873422,
-    "funding": -2.68783009564e-05,
-    "open_interest": 27054730.0
+    "last": 0.02696,
+    "change_24h": 0.054360578803285264,
+    "funding": -3.47964064236e-05,
+    "open_interest": 27035850.0
    },
    "MOODENG/USD": {
-    "last": 0.028849,
-    "change_24h": 0.05554132669862066,
-    "funding": -3.44602702258e-05,
-    "open_interest": 34129560.0
+    "last": 0.028748,
+    "change_24h": 0.0792911848625919,
+    "funding": -5.73295244678e-05,
+    "open_interest": 34177600.0
    }
   }
  },
@@ -2417,7 +2421,7 @@
    "paper_only": true
   },
   "wallet": 555.2868013878837,
-  "equity_now": 710.0095999090871,
+  "equity_now": 710.1420737918163,
   "open": [
    {
     "trade_id": 111,
@@ -2433,8 +2437,8 @@
     "entry_liquidity": 124266.42,
     "stop": 0.0005734275,
     "target": 0.001146855,
-    "last_price": 0.0006956,
-    "last_liquidity": 119792.73
+    "last_price": 0.0006858,
+    "last_liquidity": 119213.46
    },
    {
     "trade_id": 113,
@@ -2450,8 +2454,8 @@
     "entry_liquidity": 57122.88,
     "stop": 0.000462681,
     "target": 0.000925362,
-    "last_price": 0.0007371,
-    "last_liquidity": 64040.52
+    "last_price": 0.0007241,
+    "last_liquidity": 63622.76
    },
    {
     "trade_id": 128,
@@ -2467,8 +2471,8 @@
     "entry_liquidity": 79056.67,
     "stop": 0.000909,
     "target": 0.001818,
-    "last_price": 0.001562,
-    "last_liquidity": 90874.19
+    "last_price": 0.001477,
+    "last_liquidity": 88609.55
    },
    {
     "trade_id": 134,
@@ -2484,8 +2488,8 @@
     "entry_liquidity": 25417.9,
     "stop": 0.00014809125,
     "target": 0.0002961825,
-    "last_price": 0.0001965,
-    "last_liquidity": 25489.01
+    "last_price": 0.0002126,
+    "last_liquidity": 26576.99
    },
    {
     "trade_id": 136,
@@ -2501,8 +2505,8 @@
     "entry_liquidity": 52279.51,
     "stop": 0.0003773865,
     "target": 0.000754773,
-    "last_price": 0.000436,
-    "last_liquidity": 49492.6
+    "last_price": 0.0004947,
+    "last_liquidity": 52962.9
    },
    {
     "trade_id": 139,
@@ -2518,8 +2522,8 @@
     "entry_liquidity": 229709.47,
     "stop": 0.00716898,
     "target": 0.01433796,
-    "last_price": 0.009524,
-    "last_liquidity": 231759.04
+    "last_price": 0.008675,
+    "last_liquidity": 221737.95
    }
   ],
   "closed": [
@@ -6896,9 +6900,86 @@
    [
     1795700557,
     710.01
+   ],
+   [
+    1795701766,
+    710.14
    ]
   ],
   "checks": [
+   {
+    "ts": 1795701766.3189044,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "HkPSDYRcw4uqgRzZMDd5sRnMpE4ungR1K8MRNXnBVtQ2",
+     "symbol": "Legatum",
+     "dex": "pumpswap",
+     "price": 5.171e-05,
+     "liquidity": 15039.92,
+     "fdv": 51717,
+     "vol_h1": 35509.65,
+     "buys_h1": 534,
+     "sells_h1": 382,
+     "chg_h1": 62.43,
+     "chg_h6": 62.43,
+     "age_h": 0.23281719148159027,
+     "url": "https://dexscreener.com/solana/v4tmdhkumg8mmumxrac6u8rqaya5rgfac7z65ns8erc",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $15,040 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795701766.318364,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "EMd4HYWqkQvnmSAor4H44VM4D8ARzcTxsXsYTKazpump",
+     "symbol": "KOMARI",
+     "dex": "pumpswap",
+     "price": 0.0001419,
+     "liquidity": 26105.29,
+     "fdv": 141879,
+     "vol_h1": 304610.1,
+     "buys_h1": 787,
+     "sells_h1": 547,
+     "chg_h1": 342,
+     "chg_h6": 342,
+     "age_h": 0.22948385814825695,
+     "url": "https://dexscreener.com/solana/888byqncxrb82ybndaut2tcxhepwdysvbbynkhmdu6zf",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 80,
+     "lp_locked_pct": 100,
+     "rug_danger": [
+      "Creator history of rugged tokens"
+     ]
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "RugCheck danger: Creator history of rugged tokens"
+    ],
+    "score": null,
+    "final": true
+   },
    {
     "ts": 1795700557.4316137,
     "gate": "check_launch",
@@ -8276,81 +8357,9 @@
      "liquidity $10,736 < $25,000"
     ],
     "score": null
-   },
-   {
-    "ts": 1795677408.6298282,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "3QVBSB2kuJiQ75Po8qq4eV7msNFo7jMn22wfKuCTpump",
-     "symbol": "Fug",
-     "dex": "pumpswap",
-     "price": 0.0001065,
-     "liquidity": 22655.3,
-     "fdv": 106291,
-     "vol_h1": 112219.66,
-     "buys_h1": 1673,
-     "sells_h1": 1389,
-     "chg_h1": 263,
-     "chg_h6": 263,
-     "age_h": 0.2846845535437266,
-     "url": "https://dexscreener.com/solana/4yb5bbqot3vugyulc2da3wuw5speneqdcf5co9zvgtc",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $22,655 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795677408.6295605,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump",
-     "symbol": "NORFEATH",
-     "dex": "pumpswap",
-     "price": 0.0004419,
-     "liquidity": 48542.8,
-     "fdv": 441919,
-     "vol_h1": 53644.7,
-     "buys_h1": 6141,
-     "sells_h1": 2613,
-     "chg_h1": 11.37,
-     "chg_h6": -19.66,
-     "age_h": 10.184684553543727,
-     "url": "https://dexscreener.com/solana/fuzscatzzst9rzmtt2pcdlppj1ikyc5lgdnjytfwyqdj",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 99.99998361353812,
-     "rug_danger": []
-    },
-    "choice": "verify_more",
-    "probabilities": {
-     "verify_more": 0.333,
-     "reject": 0.333,
-     "accept": 0.333
-    },
-    "confidence": 0.333,
-    "reasons": [
-     "1h volume 1.1x liquidity",
-     "buyers 6141 vs sellers 2613",
-     "LP 100% locked"
-    ],
-    "score": 3.0
    }
   ],
-  "watching": 103,
+  "watching": 104,
   "graded": [
    {
     "ts": 1795695707.2242625,
