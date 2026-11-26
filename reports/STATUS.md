@@ -1,11 +1,11 @@
 # Paper desk status
-Updated 2026-11-25 19:44 (New York). Paper money only.
+Updated 2026-11-25 20:05 (New York). Paper money only.
 
 Wallet: **$986.33** (-13.67 USD, -1.37%) - 7 closed trades, 0 wins
 
 ## Open trades
-- #6 BONK/USD short @ 2.11e-06, now 2.15e-06 (-1.90%), stop 2.2788e-06, target 1.7724e-06
-- #9 POPCAT/USD short @ 0.02415, now 0.02596 (-7.49%), stop 0.026082, target 0.020286
+- #6 BONK/USD short @ 2.11e-06, now 2.16e-06 (-2.37%), stop 2.2788e-06, target 1.7724e-06
+- #9 POPCAT/USD short @ 0.02415, now 0.02583 (-6.96%), stop 0.026082, target 0.020286
 
 ## Last 10 closed
 - #8 PNUT/USD short 2026-11-25T20:00: exit_signal, -4.91%
