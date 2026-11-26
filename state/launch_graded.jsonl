@@ -64,3 +64,5 @@
 {"ts": 1795706625.6986065, "symbol": "Santa", "score": 4.0, "choice": "accept", "r": 0}
 {"ts": 1795712671.0959163, "symbol": "MONEY", "score": 2.5, "choice": "reject", "r": -1}
 {"ts": 1795715086.9901536, "symbol": "LENDR", "score": 3.0, "choice": "verify_more", "r": 2}
+{"ts": 1795717511.4568758, "symbol": "GRAUDIA", "score": 4.0, "choice": "accept", "r": -1}
+{"ts": 1795717511.4568758, "symbol": "4CHAN", "score": 4.0, "choice": "accept", "r": -1}
