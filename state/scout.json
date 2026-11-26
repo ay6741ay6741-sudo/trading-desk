@@ -1,53 +1,53 @@
 {
- "ts": 1795718713.4628265,
+ "ts": 1795719936.530973,
  "pairs": {
   "BONK/USD": {
-   "last": 2.2e-06,
-   "change_24h": 0.04265402843601884,
+   "last": 2.21e-06,
+   "change_24h": 0.03755868544600949,
    "funding": 0.0001,
-   "open_interest": 454702800000.0
+   "open_interest": 453892700000.0
   },
   "WIF/USD": {
-   "last": 0.14048,
-   "change_24h": 0.1494967678586041,
-   "funding": 1.88202985139e-05,
-   "open_interest": 26638232.0
+   "last": 0.14136,
+   "change_24h": 0.14211844550375696,
+   "funding": 2.2587295604e-05,
+   "open_interest": 26809934.0
   },
   "POPCAT/USD": {
-   "last": 0.02722,
-   "change_24h": 0.0687082842559874,
+   "last": 0.02721,
+   "change_24h": 0.0641376613218616,
    "funding": 5e-05,
-   "open_interest": 10241140.0
+   "open_interest": 10218310.0
   },
   "PENGU/USD": {
-   "last": 0.004437,
-   "change_24h": 0.04057223264540322,
+   "last": 0.004444,
+   "change_24h": 0.03276783639321401,
    "funding": 5e-05,
-   "open_interest": 1145103900.0
+   "open_interest": 1141261400.0
   },
   "TRUMP/USD": {
-   "last": 0.8718,
-   "change_24h": 0.03416370106761568,
-   "funding": 4.92662193306e-05,
-   "open_interest": 9753058.9
+   "last": 0.8755,
+   "change_24h": 0.02063418046164589,
+   "funding": 4.34232093825e-05,
+   "open_interest": 9665430.6
   },
   "FARTCOIN/USD": {
-   "last": 0.082,
-   "change_24h": 0.01939333664843379,
+   "last": 0.08217,
+   "change_24h": 0.019478908188585553,
    "funding": 5e-05,
-   "open_interest": 20073948.0
+   "open_interest": 20037041.0
   },
   "PNUT/USD": {
    "last": 0.02722,
-   "change_24h": 0.022923712889890924,
-   "funding": 8.189163515e-07,
-   "open_interest": 26864700.0
+   "change_24h": 0.018712574850299424,
+   "funding": -4.9264871504e-06,
+   "open_interest": 26839400.0
   },
   "MOODENG/USD": {
-   "last": 0.029172,
-   "change_24h": -0.0049459358051642255,
+   "last": 0.029164,
+   "change_24h": 0.014823578537128457,
    "funding": 5e-05,
-   "open_interest": 33914120.0
+   "open_interest": 33657370.0
   }
  }
 }
