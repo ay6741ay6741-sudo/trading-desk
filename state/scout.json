@@ -1,53 +1,53 @@
 {
- "ts": 1795651023.3029177,
+ "ts": 1795652021.6588862,
  "pairs": {
   "BONK/USD": {
-   "last": 2.13e-06,
-   "change_24h": 0.014285714285714457,
-   "funding": 4.18526266389e-05,
-   "open_interest": 472193500000.0
+   "last": 2.14e-06,
+   "change_24h": 0.02392344497607657,
+   "funding": 5.23145403155e-05,
+   "open_interest": 471007000000.0
   },
   "WIF/USD": {
-   "last": 0.12707,
-   "change_24h": 0.05277547638773816,
+   "last": 0.12826,
+   "change_24h": 0.06590210255131734,
    "funding": 5e-05,
-   "open_interest": 23371558.0
+   "open_interest": 23517025.0
   },
   "POPCAT/USD": {
-   "last": 0.02566,
-   "change_24h": 0.05077805077805064,
+   "last": 0.02583,
+   "change_24h": 0.06735537190082641,
    "funding": 5e-05,
-   "open_interest": 10673170.0
+   "open_interest": 10685260.0
   },
   "PENGU/USD": {
-   "last": 0.004349,
-   "change_24h": 0.03375326836225323,
+   "last": 0.004363,
+   "change_24h": 0.04054376341521593,
    "funding": 5e-05,
-   "open_interest": 1152249200.0
+   "open_interest": 1151838500.0
   },
   "TRUMP/USD": {
-   "last": 0.8871,
-   "change_24h": 0.059730020308206955,
-   "funding": -5.7906883594e-05,
-   "open_interest": 9654013.5
+   "last": 0.8907,
+   "change_24h": 0.07158325312800762,
+   "funding": -3.86525799514e-05,
+   "open_interest": 9612423.5
   },
   "FARTCOIN/USD": {
-   "last": 0.08136,
-   "change_24h": 0.034062023385866835,
+   "last": 0.08171,
+   "change_24h": 0.03956743002544538,
    "funding": 5e-05,
-   "open_interest": 20143037.0
+   "open_interest": 20127289.0
   },
   "PNUT/USD": {
-   "last": 0.02644,
-   "change_24h": 0.03321610003907782,
+   "last": 0.0265,
+   "change_24h": 0.0408483896307934,
    "funding": 5e-05,
-   "open_interest": 26799880.0
+   "open_interest": 26661430.0
   },
   "MOODENG/USD": {
-   "last": 0.02869,
-   "change_24h": 0.17601246105919,
-   "funding": -0.0001679286765291,
-   "open_interest": 45534100.0
+   "last": 0.028316,
+   "change_24h": 0.17993166097174784,
+   "funding": -0.0001399597433964,
+   "open_interest": 45890590.0
   }
  }
 }
