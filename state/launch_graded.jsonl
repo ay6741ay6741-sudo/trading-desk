@@ -62,3 +62,4 @@
 {"ts": 1795694480.7797534, "symbol": "ANSEM", "score": -1.5, "choice": "reject", "r": -1}
 {"ts": 1795695707.2242625, "symbol": "SHHFT", "score": 2.0, "choice": "reject", "r": -1}
 {"ts": 1795706625.6986065, "symbol": "Santa", "score": 4.0, "choice": "accept", "r": 0}
+{"ts": 1795712671.0959163, "symbol": "MONEY", "score": 2.5, "choice": "reject", "r": -1}
