@@ -1,53 +1,53 @@
 {
- "ts": 1795689615.4763052,
+ "ts": 1795690812.9258745,
  "pairs": {
   "BONK/USD": {
    "last": 2.2e-06,
    "change_24h": 0.07317073170731714,
    "funding": 0.0001,
-   "open_interest": 461600900000.0
+   "open_interest": 461983400000.0
   },
   "WIF/USD": {
-   "last": 0.13266,
-   "change_24h": 0.1074380165289257,
-   "funding": -1.56357448992e-05,
-   "open_interest": 25218394.0
+   "last": 0.13268,
+   "change_24h": 0.10760497537357039,
+   "funding": -2.32896242002e-05,
+   "open_interest": 25259092.0
   },
   "POPCAT/USD": {
-   "last": 0.02757,
-   "change_24h": 0.06777691711851275,
+   "last": 0.02741,
+   "change_24h": 0.084256329113924,
    "funding": 5e-05,
-   "open_interest": 11081230.0
+   "open_interest": 11090990.0
   },
   "PENGU/USD": {
-   "last": 0.004431,
-   "change_24h": 0.06004784688995235,
+   "last": 0.004418,
+   "change_24h": 0.07129000969932098,
    "funding": 5e-05,
-   "open_interest": 1156071200.0
+   "open_interest": 1153223700.0
   },
   "TRUMP/USD": {
-   "last": 0.8769,
-   "change_24h": 0.06691811655919211,
-   "funding": 2.54164139626e-05,
-   "open_interest": 10066101.8
+   "last": 0.8783,
+   "change_24h": 0.06862148679888058,
+   "funding": 1.48748322224e-05,
+   "open_interest": 10109585.9
   },
   "FARTCOIN/USD": {
-   "last": 0.08158,
-   "change_24h": 0.052916881775942226,
+   "last": 0.08145,
+   "change_24h": 0.05123902942694891,
    "funding": 5e-05,
-   "open_interest": 20188387.0
+   "open_interest": 20177931.0
   },
   "PNUT/USD": {
-   "last": 0.02682,
-   "change_24h": 0.027980068991950935,
-   "funding": -1.2605613157e-05,
-   "open_interest": 27568340.0
+   "last": 0.02683,
+   "change_24h": 0.028363357608279127,
+   "funding": -2.20059042684e-05,
+   "open_interest": 27452350.0
   },
   "MOODENG/USD": {
-   "last": 0.028383,
-   "change_24h": -0.008280922431865845,
-   "funding": -0.0003298456018894,
-   "open_interest": 38824110.0
+   "last": 0.029323,
+   "change_24h": 0.024563242487770642,
+   "funding": -0.000250851408157,
+   "open_interest": 37064310.0
   }
  }
 }

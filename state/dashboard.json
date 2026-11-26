@@ -1,5 +1,5 @@
 {
- "updated": 1795689623.5208883,
+ "updated": 1795690838.7608006,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -1257,58 +1257,62 @@
   [
    1795689621,
    980.33
+  ],
+  [
+   1795690818,
+   980.33
   ]
  ],
  "scout": {
-  "ts": 1795689615.4763052,
+  "ts": 1795690812.9258745,
   "pairs": {
    "BONK/USD": {
     "last": 2.2e-06,
     "change_24h": 0.07317073170731714,
     "funding": 0.0001,
-    "open_interest": 461600900000.0
+    "open_interest": 461983400000.0
    },
    "WIF/USD": {
-    "last": 0.13266,
-    "change_24h": 0.1074380165289257,
-    "funding": -1.56357448992e-05,
-    "open_interest": 25218394.0
+    "last": 0.13268,
+    "change_24h": 0.10760497537357039,
+    "funding": -2.32896242002e-05,
+    "open_interest": 25259092.0
    },
    "POPCAT/USD": {
-    "last": 0.02757,
-    "change_24h": 0.06777691711851275,
+    "last": 0.02741,
+    "change_24h": 0.084256329113924,
     "funding": 5e-05,
-    "open_interest": 11081230.0
+    "open_interest": 11090990.0
    },
    "PENGU/USD": {
-    "last": 0.004431,
-    "change_24h": 0.06004784688995235,
+    "last": 0.004418,
+    "change_24h": 0.07129000969932098,
     "funding": 5e-05,
-    "open_interest": 1156071200.0
+    "open_interest": 1153223700.0
    },
    "TRUMP/USD": {
-    "last": 0.8769,
-    "change_24h": 0.06691811655919211,
-    "funding": 2.54164139626e-05,
-    "open_interest": 10066101.8
+    "last": 0.8783,
+    "change_24h": 0.06862148679888058,
+    "funding": 1.48748322224e-05,
+    "open_interest": 10109585.9
    },
    "FARTCOIN/USD": {
-    "last": 0.08158,
-    "change_24h": 0.052916881775942226,
+    "last": 0.08145,
+    "change_24h": 0.05123902942694891,
     "funding": 5e-05,
-    "open_interest": 20188387.0
+    "open_interest": 20177931.0
    },
    "PNUT/USD": {
-    "last": 0.02682,
-    "change_24h": 0.027980068991950935,
-    "funding": -1.2605613157e-05,
-    "open_interest": 27568340.0
+    "last": 0.02683,
+    "change_24h": 0.028363357608279127,
+    "funding": -2.20059042684e-05,
+    "open_interest": 27452350.0
    },
    "MOODENG/USD": {
-    "last": 0.028383,
-    "change_24h": -0.008280922431865845,
-    "funding": -0.0003298456018894,
-    "open_interest": 38824110.0
+    "last": 0.029323,
+    "change_24h": 0.024563242487770642,
+    "funding": -0.000250851408157,
+    "open_interest": 37064310.0
    }
   }
  },
@@ -2360,7 +2364,7 @@
  "reports": [
   {
    "day": "2026-11-26",
-   "text": "## 00:35 launch desk\n- LAUNCH CLOSED #123 UHI/USD: roi, +60.32% ($+15.08)\n- LAUNCH CLOSED #127 Zero/USD: stop_loss, -27.66% ($-6.91)\n- launch UHI (6.3h old, liq $79,057): **accept** (79%) - liquidity $79,057, 1h volume 0.9x liquidity, buyers 1646 vs sellers 658, momentum +22% 1h, LP 100% locked\n- LAUNCH OPENED #128 UHI/USD $25 @ $0.001212\n\n## 00:55 launch desk\n- LAUNCH CLOSED #122 MONEY/USD: stop_loss, -75.19% ($-18.80)\n\n## 01:15 launch desk\n- LAUNCH CLOSED #121 NORFEATH/USD: stop_loss, -30.29% ($-7.57)\n- launch Elonmas (1.2h old, liq $25,723): **accept** (66%) - 1h volume 19.6x liquidity, buyers 8439 vs sellers 6142, momentum +144% 1h, LP 100% locked\n- LAUNCH OPENED #129 Elonmas/USD $25 @ $0.000131199\n\n## 01:36 launch desk\n- LAUNCH CLOSED #129 Elonmas/USD: roi, +55.97% ($+13.99)\n\n## 01:56 launch desk\n- launch Pompom (19.7h old, liq $32,870): **accept** (51%) - 1h volume 0.6x liquidity, buyers 370 vs sellers 284, momentum +12% 1h\n- LAUNCH OPENED #130 Pompom/USD $25 @ $0.000162307\n\n## 02:16 launch desk\n- launch Elonmas (2.2h old, liq $27,243): **accept** (66%) - 1h volume 11.7x liquidity, buyers 5272 vs sellers 3967, momentum +1% 1h, LP 85% locked\n- LAUNCH OPENED #131 Elonmas/USD $25 @ $0.000139683\n\n## 02:37 launch desk\n- LAUNCH CLOSED #125 PUMPCHAN/USD: roi, +272.00% ($+68.00)\n- launch PUMPCHAN (6.1h old, liq $159,000): **accept** (51%) - liquidity $159,000, 1h volume 2.5x liquidity, momentum +220% 1h, LP 100% locked\n- LAUNCH OPENED #132 PUMPCHAN/USD $25 @ $0.00488335\n\n## 03:18 launch desk\n- LAUNCH CLOSED #126 Grodia/USD: stop_loss, -42.17% ($-10.54)\n- LAUNCH CLOSED #132 PUMPCHAN/USD: roi, +50.65% ($+12.66)\n- launch NORFEATH (11.2h old, liq $57,147): **accept** (87%) - liquidity $57,147, 1h volume 1.9x liquidity, buyers 6108 vs sellers 3320, momentum +34% 1h, LP 100% locked\n- LAUNCH OPENED #133 NORFEATH/USD $25 @ $0.000608424\n\n## 03:58 launch desk\n- LAUNCH CLOSED #131 Elonmas/USD: roi, +67.97% ($+16.99)\n- LAUNCH CLOSED #133 NORFEATH/USD: stop_loss, -30.42% ($-7.61)\n- launch Santa (39.8h old, liq $25,418): **accept** (66%) - 1h volume 0.4x liquidity, buyers 95 vs sellers 70, momentum +12% 1h, LP 100% locked\n- LAUNCH OPENED #134 Santa/USD $25 @ $0.000197455\n\n## 04:19 desk run\n- signal POPCAT/USD long @ 0.02736: **reject** (79%) - volume 6.91x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02727: **reject** (79%) - volume 7.71x 20-day avg, against trend, funding neutral 0.0050%\n\n## 04:39 launch desk\n- LAUNCH CLOSED #130 Pompom/USD: stop_loss, -26.01% ($-6.50)\n- launch PUMPCHAN (8.1h old, liq $181,010): **accept** (51%) - liquidity $181,010, 1h volume 2.4x liquidity, buyers 4635 vs sellers 2209, LP 100% locked\n- LAUNCH OPENED #135 PUMPCHAN/USD $25 @ $0.00620948\n\n## 05:20 launch desk\n- launch NORFEATH (13.2h old, liq $52,280): **accept** (66%) - liquidity $52,280, 1h volume 1.0x liquidity, buyers 5967 vs sellers 2912, LP 100% locked\n- LAUNCH OPENED #136 NORFEATH/USD $25 @ $0.000503182\n\n"
+   "text": "## 00:35 launch desk\n- LAUNCH CLOSED #123 UHI/USD: roi, +60.32% ($+15.08)\n- LAUNCH CLOSED #127 Zero/USD: stop_loss, -27.66% ($-6.91)\n- launch UHI (6.3h old, liq $79,057): **accept** (79%) - liquidity $79,057, 1h volume 0.9x liquidity, buyers 1646 vs sellers 658, momentum +22% 1h, LP 100% locked\n- LAUNCH OPENED #128 UHI/USD $25 @ $0.001212\n\n## 00:55 launch desk\n- LAUNCH CLOSED #122 MONEY/USD: stop_loss, -75.19% ($-18.80)\n\n## 01:15 launch desk\n- LAUNCH CLOSED #121 NORFEATH/USD: stop_loss, -30.29% ($-7.57)\n- launch Elonmas (1.2h old, liq $25,723): **accept** (66%) - 1h volume 19.6x liquidity, buyers 8439 vs sellers 6142, momentum +144% 1h, LP 100% locked\n- LAUNCH OPENED #129 Elonmas/USD $25 @ $0.000131199\n\n## 01:36 launch desk\n- LAUNCH CLOSED #129 Elonmas/USD: roi, +55.97% ($+13.99)\n\n## 01:56 launch desk\n- launch Pompom (19.7h old, liq $32,870): **accept** (51%) - 1h volume 0.6x liquidity, buyers 370 vs sellers 284, momentum +12% 1h\n- LAUNCH OPENED #130 Pompom/USD $25 @ $0.000162307\n\n## 02:16 launch desk\n- launch Elonmas (2.2h old, liq $27,243): **accept** (66%) - 1h volume 11.7x liquidity, buyers 5272 vs sellers 3967, momentum +1% 1h, LP 85% locked\n- LAUNCH OPENED #131 Elonmas/USD $25 @ $0.000139683\n\n## 02:37 launch desk\n- LAUNCH CLOSED #125 PUMPCHAN/USD: roi, +272.00% ($+68.00)\n- launch PUMPCHAN (6.1h old, liq $159,000): **accept** (51%) - liquidity $159,000, 1h volume 2.5x liquidity, momentum +220% 1h, LP 100% locked\n- LAUNCH OPENED #132 PUMPCHAN/USD $25 @ $0.00488335\n\n## 03:18 launch desk\n- LAUNCH CLOSED #126 Grodia/USD: stop_loss, -42.17% ($-10.54)\n- LAUNCH CLOSED #132 PUMPCHAN/USD: roi, +50.65% ($+12.66)\n- launch NORFEATH (11.2h old, liq $57,147): **accept** (87%) - liquidity $57,147, 1h volume 1.9x liquidity, buyers 6108 vs sellers 3320, momentum +34% 1h, LP 100% locked\n- LAUNCH OPENED #133 NORFEATH/USD $25 @ $0.000608424\n\n## 03:58 launch desk\n- LAUNCH CLOSED #131 Elonmas/USD: roi, +67.97% ($+16.99)\n- LAUNCH CLOSED #133 NORFEATH/USD: stop_loss, -30.42% ($-7.61)\n- launch Santa (39.8h old, liq $25,418): **accept** (66%) - 1h volume 0.4x liquidity, buyers 95 vs sellers 70, momentum +12% 1h, LP 100% locked\n- LAUNCH OPENED #134 Santa/USD $25 @ $0.000197455\n\n## 04:19 desk run\n- signal POPCAT/USD long @ 0.02736: **reject** (79%) - volume 6.91x 20-day avg, against trend, funding neutral 0.0050%\n- signal PNUT/USD long @ 0.02727: **reject** (79%) - volume 7.71x 20-day avg, against trend, funding neutral 0.0050%\n\n## 04:39 launch desk\n- LAUNCH CLOSED #130 Pompom/USD: stop_loss, -26.01% ($-6.50)\n- launch PUMPCHAN (8.1h old, liq $181,010): **accept** (51%) - liquidity $181,010, 1h volume 2.4x liquidity, buyers 4635 vs sellers 2209, LP 100% locked\n- LAUNCH OPENED #135 PUMPCHAN/USD $25 @ $0.00620948\n\n## 05:20 launch desk\n- launch NORFEATH (13.2h old, liq $52,280): **accept** (66%) - liquidity $52,280, 1h volume 1.0x liquidity, buyers 5967 vs sellers 2912, LP 100% locked\n- LAUNCH OPENED #136 NORFEATH/USD $25 @ $0.000503182\n\n## 06:00 launch desk\n- launch Elonmas (5.9h old, liq $38,651): **accept** (51%) - 1h volume 1.9x liquidity, buyers 1199 vs sellers 949, momentum +12% 1h\n- LAUNCH OPENED #137 Elonmas/USD $25 @ $0.000261994\n\n"
   },
   {
    "day": "2026-11-25",
@@ -2392,8 +2396,8 @@
    ],
    "paper_only": true
   },
-  "wallet": 562.1922778675216,
-  "equity_now": 716.2906436768014,
+  "wallet": 537.1922778675216,
+  "equity_now": 719.0536286412879,
   "open": [
    {
     "trade_id": 111,
@@ -2409,8 +2413,8 @@
     "entry_liquidity": 124266.42,
     "stop": 0.0005734275,
     "target": 0.001146855,
-    "last_price": 0.0008489,
-    "last_liquidity": 132253.4
+    "last_price": 0.0008109,
+    "last_liquidity": 128983.5
    },
    {
     "trade_id": 113,
@@ -2426,8 +2430,8 @@
     "entry_liquidity": 57122.88,
     "stop": 0.000462681,
     "target": 0.000925362,
-    "last_price": 0.0006274,
-    "last_liquidity": 59013
+    "last_price": 0.0007294,
+    "last_liquidity": 63493.1
    },
    {
     "trade_id": 128,
@@ -2443,8 +2447,8 @@
     "entry_liquidity": 79056.67,
     "stop": 0.000909,
     "target": 0.001818,
-    "last_price": 0.001299,
-    "last_liquidity": 82313.87
+    "last_price": 0.001384,
+    "last_liquidity": 84890.33
    },
    {
     "trade_id": 134,
@@ -2460,8 +2464,8 @@
     "entry_liquidity": 25417.9,
     "stop": 0.00014809125,
     "target": 0.0002961825,
-    "last_price": 0.0001825,
-    "last_liquidity": 24528.52
+    "last_price": 0.0001849,
+    "last_liquidity": 24639.52
    },
    {
     "trade_id": 135,
@@ -2477,8 +2481,8 @@
     "entry_liquidity": 181009.8,
     "stop": 0.00465711,
     "target": 0.00931422,
-    "last_price": 0.006221,
-    "last_liquidity": 183734.19
+    "last_price": 0.006883,
+    "last_liquidity": 193498.96
    },
    {
     "trade_id": 136,
@@ -2494,8 +2498,24 @@
     "entry_liquidity": 52279.51,
     "stop": 0.0003773865,
     "target": 0.000754773,
-    "last_price": 0.000554,
-    "last_liquidity": 55140.22
+    "last_price": 0.000467,
+    "last_liquidity": 50481.74
+   },
+   {
+    "trade_id": 137,
+    "pair": "Elonmas/USD",
+    "mint": "6B5X3keXJ4J8LLvswa2mbqMhrRDbt85Jo88sbB6apump",
+    "url": "https://dexscreener.com/solana/3hzez3ezzsdtzat12pqmzwii8ury9rknjqumsjqywyt7",
+    "is_short": false,
+    "open_rate": 0.00026199400000000004,
+    "open_ts": 1795690818.8910527,
+    "stake": 25,
+    "amount": 95422.03256563126,
+    "open_date": "2026-11-26T11:00:18.891053+00:00",
+    "entry_liquidity": 38651.17,
+    "stop": 0.00019649550000000004,
+    "target": 0.0003929910000000001,
+    "last_price": 0.0002594
    }
   ],
   "closed": [
@@ -6836,9 +6856,121 @@
    [
     1795689623,
     716.29
+   ],
+   [
+    1795690838,
+    719.05
    ]
   ],
   "checks": [
+   {
+    "ts": 1795690838.7561834,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "ANvsL4A6tJKAXJsPg7XVSHQA7KYmFcpW42jPuhVtpump",
+     "symbol": "Slingoor",
+     "dex": "pumpswap",
+     "price": 0.0002047,
+     "liquidity": 35610.12,
+     "fdv": 199232,
+     "vol_h1": 9769.98,
+     "buys_h1": 175,
+     "sells_h1": 167,
+     "chg_h1": 2.4,
+     "chg_h6": 55.28,
+     "age_h": 45.4596919590897,
+     "url": "https://dexscreener.com/solana/8ymfvpheu5teyd7bqsdfjqkgvmrzuv4wnhpettntbasn",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 92.22400233591426,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "verify_more": 0.245,
+     "reject": 0.665,
+     "accept": 0.09
+    },
+    "confidence": 0.665,
+    "reasons": [
+     "momentum +2% 1h",
+     "LP 92% locked"
+    ],
+    "score": 2.0
+   },
+   {
+    "ts": 1795690838.756029,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "EKAYUgoDp283tNs3QNKY42NydabpLLXUSSqFv8mCS4nL",
+     "symbol": "MEDIC",
+     "dex": "raydium",
+     "price": 0.0002596,
+     "liquidity": 36504.39,
+     "fdv": 259636,
+     "vol_h1": 1609.83,
+     "buys_h1": 12,
+     "sells_h1": 7,
+     "chg_h1": -6.42,
+     "chg_h6": -6.51,
+     "age_h": 19.08274751464526,
+     "url": "https://dexscreener.com/solana/9kdp67z9ck3re4bqmw1zq3wfqi7v9fefm1wna6tyf3tc",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": null,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "verify_more",
+    "probabilities": {
+     "reject": 0.018,
+     "verify_more": 0.965,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "safety data unavailable"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795690838.7555697,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "6B5X3keXJ4J8LLvswa2mbqMhrRDbt85Jo88sbB6apump",
+     "symbol": "Elonmas",
+     "dex": "pumpswap",
+     "price": 0.0002594,
+     "liquidity": 38651.17,
+     "fdv": 258931,
+     "vol_h1": 71530.54,
+     "buys_h1": 1199,
+     "sells_h1": 949,
+     "chg_h1": 11.51,
+     "chg_h6": 806,
+     "age_h": 5.942469736867481,
+     "url": "https://dexscreener.com/solana/3hzez3ezzsdtzat12pqmzwii8ury9rknjqumsjqywyt7",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 70.61323516524351,
+     "rug_danger": []
+    },
+    "choice": "accept",
+    "probabilities": {
+     "verify_more": 0.307,
+     "reject": 0.186,
+     "accept": 0.506
+    },
+    "confidence": 0.506,
+    "reasons": [
+     "1h volume 1.9x liquidity",
+     "buyers 1199 vs sellers 949",
+     "momentum +12% 1h"
+    ],
+    "score": 3.5
+   },
    {
     "ts": 1795689623.5159218,
     "gate": "check_launch",
@@ -8180,111 +8312,6 @@
     "confidence": 0.965,
     "reasons": [
      "liquidity $12,134 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795667681.0806067,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump",
-     "symbol": "TEEETHY",
-     "dex": "pumpswap",
-     "price": 0.0001006,
-     "liquidity": 21429.45,
-     "fdv": 100542,
-     "vol_h1": 88835.43,
-     "buys_h1": 5040,
-     "sells_h1": 4492,
-     "chg_h1": 241,
-     "chg_h6": 241,
-     "age_h": 0.6341930607954661,
-     "url": "https://dexscreener.com/solana/38p8ddr9uw8ffd5bnabho4hps5f9okwfjk3gs1g9t7kx",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $21,429 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795666477.423297,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "3jAB5ksB13Kgm2Q39NU6d2USUxBy2f9LaTvyay6Gpump",
-     "symbol": "ccat",
-     "dex": "pumpswap",
-     "price": 3.582e-05,
-     "liquidity": 15337.24,
-     "fdv": 35825,
-     "vol_h1": 2477.58,
-     "buys_h1": 33,
-     "sells_h1": 22,
-     "chg_h1": 14.96,
-     "chg_h6": -21.51,
-     "age_h": 5.762707087728712,
-     "url": "https://dexscreener.com/solana/e4bkvrut7rhe2njs4hqsa7z2kqpjyb58nmphj2vbtgbp",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $15,337 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795665308.2222712,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "6LuwyvmTMyJiQRZQPneZCfr2gehSSAvQbMWgXCjopump",
-     "symbol": "Manlet",
-     "dex": "pumpswap",
-     "price": 7.688e-05,
-     "liquidity": 22563.72,
-     "fdv": 74361,
-     "vol_h1": 2189.17,
-     "buys_h1": 8,
-     "sells_h1": 8,
-     "chg_h1": 19,
-     "chg_h6": 86.48,
-     "age_h": 24.942417089011933,
-     "url": "https://dexscreener.com/solana/4okxtvujmnrgfvbg6qtwtinqw7mn9ndtwh3zqyppptfu",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $22,564 < $25,000"
     ],
     "score": null
    }
