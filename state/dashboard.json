@@ -1,5 +1,5 @@
 {
- "updated": 1795758048.0894132,
+ "updated": 1795759263.9805863,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 980.3309607173807,
- "equity_now": 979.7272147890419,
+ "equity_now": 979.7851228599793,
  "open": [
   {
    "trade_id": 10,
@@ -1490,62 +1490,95 @@
   [
    1795758043,
    979.73
+  ],
+  [
+   1795759260,
+   979.79
   ]
  ],
  "scout": {
-  "ts": 1795758037.549231,
+  "ts": 1795759254.003517,
   "pairs": {
    "BONK/USD": {
-    "last": 2.19e-06,
-    "change_24h": 0.0,
-    "funding": 3.28940539367e-05,
-    "open_interest": 478698800000.0
+    "last": 2.2e-06,
+    "change_24h": 0.009174311926605672,
+    "funding": -2.11727181541e-05,
+    "open_interest": 480214600000.0
    },
    "WIF/USD": {
-    "last": 0.13662,
-    "change_24h": 0.04665594116295102,
+    "last": 0.13678,
+    "change_24h": 0.04788171301616484,
     "funding": 5e-05,
-    "open_interest": 26234922.0
+    "open_interest": 26295841.0
    },
    "POPCAT/USD": {
-    "last": 0.02765,
-    "change_24h": 0.04064734663153935,
+    "last": 0.02771,
+    "change_24h": 0.04290553255551366,
     "funding": 5e-05,
-    "open_interest": 9817070.0
+    "open_interest": 9816060.0
    },
    "PENGU/USD": {
-    "last": 0.004514,
-    "change_24h": 0.022886924994334867,
+    "last": 0.004527,
+    "change_24h": 0.03167730173199623,
     "funding": 5e-05,
-    "open_interest": 1095356400.0
+    "open_interest": 1096569600.0
    },
    "TRUMP/USD": {
-    "last": 0.8766,
-    "change_24h": -0.006910615158037814,
-    "funding": -6.1273427681e-06,
-    "open_interest": 9967319.4
+    "last": 0.8802,
+    "change_24h": 0.016632016632016633,
+    "funding": 2.770626468e-07,
+    "open_interest": 9965222.5
    },
    "FARTCOIN/USD": {
-    "last": 0.08291,
-    "change_24h": 0.017675217871609084,
+    "last": 0.08316,
+    "change_24h": 0.02742772424017792,
     "funding": 5e-05,
-    "open_interest": 20502564.0
+    "open_interest": 20462132.0
    },
    "PNUT/USD": {
-    "last": 0.02743,
-    "change_24h": 0.027340823970037453,
-    "funding": 2.64832322662e-05,
-    "open_interest": 25453690.0
+    "last": 0.02735,
+    "change_24h": 0.03246508116270297,
+    "funding": 4.72004210011e-05,
+    "open_interest": 25463990.0
    },
    "MOODENG/USD": {
-    "last": 0.028513,
-    "change_24h": -0.0282861329789047,
-    "funding": 3.29523177603e-05,
-    "open_interest": 33190750.0
+    "last": 0.028586,
+    "change_24h": -0.014683579208603303,
+    "funding": 4.69557401174e-05,
+    "open_interest": 33046400.0
    }
   }
  },
  "decisions": [
+  {
+   "ts": 1795759260.042814,
+   "gate": "check_signal",
+   "inputs": {
+    "pair": "PENGU/USD",
+    "direction": "long",
+    "volume_ratio": 0.303,
+    "trend_ok": false,
+    "btc_conflict": false,
+    "funding": 5e-05,
+    "candle_age_h": 0,
+    "whitelisted": true,
+    "price": 0.004525,
+    "candle_ts": 1795755600
+   },
+   "choice": "reject",
+   "probabilities": {
+    "verify_more": 0.029,
+    "reject": 0.97,
+    "accept": 0.001
+   },
+   "confidence": 0.97,
+   "reasons": [
+    "volume only 0.30x avg",
+    "against trend",
+    "funding neutral 0.0050%"
+   ],
+   "score": -2.0
+  },
   {
    "ts": 1795716300.1241221,
    "gate": "check_signal",
@@ -2535,42 +2568,13 @@
    "reasons": [
     "context fresh, bot running: bot trades, signal gate guards entries"
    ]
-  },
-  {
-   "ts": 1795525293.2511964,
-   "gate": "check_signal",
-   "inputs": {
-    "pair": "TRUMP/USD",
-    "direction": "short",
-    "volume_ratio": 0.738,
-    "trend_ok": true,
-    "btc_conflict": false,
-    "funding": -0.0001604926209139,
-    "candle_age_h": 0,
-    "whitelisted": true,
-    "price": 0.8374,
-    "candle_ts": 1795521600
-   },
-   "choice": "reject",
-   "probabilities": {
-    "verify_more": 0.245,
-    "reject": 0.665,
-    "accept": 0.09
-   },
-   "confidence": 0.665,
-   "reasons": [
-    "volume only 0.74x avg",
-    "trend agrees",
-    "funding neutral -0.0160%"
-   ],
-   "score": 0.5
   }
  ],
  "tuning": [],
  "gate_counts": {
   "accept": 10,
   "verify_more": 0,
-  "reject": 55
+  "reject": 56
  },
  "stats": {
   "trades": 9,
@@ -2581,7 +2585,7 @@
  "reports": [
   {
    "day": "2026-11-27",
-   "text": "## 00:20 launch desk\n- launch duk (19.2h old, liq $35,443): **accept** (66%) - 1h volume 0.5x liquidity, buyers 170 vs sellers 131, momentum +6% 1h, LP 100% locked\n- LAUNCH OPENED #162 duk/USD $25 @ $0.000132613\n- launch VOLALITY (0.8h old, liq $31,194): **accept** (66%) - 1h volume 7.5x liquidity, buyers 5477 vs sellers 2272, momentum +548% 1h, LP 100% locked\n- LAUNCH OPENED #163 VOLALITY/USD $25 @ $0.00019796\n\n## 00:40 launch desk\n- LAUNCH CLOSED #163 VOLALITY/USD: stop_loss, -30.49% ($-7.62)\n- launch CINU (7.3h old, liq $50,937): **accept** (66%) - liquidity $50,937, 1h volume 0.4x liquidity, momentum +13% 1h, LP 99% locked\n- LAUNCH OPENED #164 CINU/USD $25 @ $0.000310272\n\n"
+   "text": "## 00:20 launch desk\n- launch duk (19.2h old, liq $35,443): **accept** (66%) - 1h volume 0.5x liquidity, buyers 170 vs sellers 131, momentum +6% 1h, LP 100% locked\n- LAUNCH OPENED #162 duk/USD $25 @ $0.000132613\n- launch VOLALITY (0.8h old, liq $31,194): **accept** (66%) - 1h volume 7.5x liquidity, buyers 5477 vs sellers 2272, momentum +548% 1h, LP 100% locked\n- LAUNCH OPENED #163 VOLALITY/USD $25 @ $0.00019796\n\n## 00:40 launch desk\n- LAUNCH CLOSED #163 VOLALITY/USD: stop_loss, -30.49% ($-7.62)\n- launch CINU (7.3h old, liq $50,937): **accept** (66%) - liquidity $50,937, 1h volume 0.4x liquidity, momentum +13% 1h, LP 99% locked\n- LAUNCH OPENED #164 CINU/USD $25 @ $0.000310272\n\n## 01:01 desk run\n- signal PENGU/USD long @ 0.004525: **reject** (97%) - volume only 0.30x avg, against trend, funding neutral 0.0050%\n\n## 01:01 launch desk\n- LAUNCH CLOSED #160 SpaceXCoin/USD: roi, +109.44% ($+27.36)\n- launch SpaceXCoin (3.6h old, liq $72,670): **accept** (87%) - liquidity $72,670, 1h volume 2.2x liquidity, buyers 7386 vs sellers 3203, momentum +70% 1h, LP 100% locked\n- LAUNCH OPENED #165 SpaceXCoin/USD $25 @ $0.000989901\n\n"
   },
   {
    "day": "2026-11-26",
@@ -2613,8 +2617,8 @@
    ],
    "paper_only": true
   },
-  "wallet": 338.677674471926,
-  "equity_now": 553.0187078933196,
+  "wallet": 366.0371730117081,
+  "equity_now": 560.2950535273844,
   "open": [
    {
     "trade_id": 134,
@@ -2630,8 +2634,8 @@
     "entry_liquidity": 25417.9,
     "stop": 0.00014809125,
     "target": 0.0002961825,
-    "last_price": 0.0001766,
-    "last_liquidity": 24691.46
+    "last_price": 0.0001805,
+    "last_liquidity": 24926.27
    },
    {
     "trade_id": 139,
@@ -2647,8 +2651,8 @@
     "entry_liquidity": 229709.47,
     "stop": 0.00716898,
     "target": 0.01433796,
-    "last_price": 0.01324,
-    "last_liquidity": 279916.09
+    "last_price": 0.01012,
+    "last_liquidity": 244866.63
    },
    {
     "trade_id": 148,
@@ -2664,8 +2668,8 @@
     "entry_liquidity": 58204.69,
     "stop": 0.00045381825,
     "target": 0.0009076365,
-    "last_price": 0.0006348,
-    "last_liquidity": 61088.52
+    "last_price": 0.0006252,
+    "last_liquidity": 60559.7
    },
    {
     "trade_id": 159,
@@ -2681,25 +2685,8 @@
     "entry_liquidity": 29408.03,
     "stop": 8.9385e-05,
     "target": 0.00017877,
-    "last_price": 0.0001164,
-    "last_liquidity": 30185.98
-   },
-   {
-    "trade_id": 160,
-    "pair": "SpaceXCoin/USD",
-    "mint": "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump",
-    "url": "https://dexscreener.com/solana/hxflnndvszzwtjhwcf94ju4lxnmndximxgosyorpvpsv",
-    "is_short": false,
-    "open_rate": 0.000463287,
-    "open_ts": 1795750751.182263,
-    "stake": 25,
-    "amount": 53962.230755449644,
-    "open_date": "2026-11-27T03:39:11.182263+00:00",
-    "entry_liquidity": 48795.4,
-    "stop": 0.00034746525,
-    "target": 0.0006949305,
-    "last_price": 0.0005986,
-    "last_liquidity": 56387.25
+    "last_price": 0.0001176,
+    "last_liquidity": 30399.56
    },
    {
     "trade_id": 161,
@@ -2715,8 +2702,8 @@
     "entry_liquidity": 126438.92,
     "stop": 0.00208767,
     "target": 0.00417534,
-    "last_price": 0.003062,
-    "last_liquidity": 133709.49
+    "last_price": 0.002864,
+    "last_liquidity": 129307.09
    },
    {
     "trade_id": 162,
@@ -2732,8 +2719,8 @@
     "entry_liquidity": 35442.53,
     "stop": 9.945975e-05,
     "target": 0.0001989195,
-    "last_price": 0.000129,
-    "last_liquidity": 35184.47
+    "last_price": 0.0001303,
+    "last_liquidity": 35325.6
    },
    {
     "trade_id": 164,
@@ -2749,44 +2736,27 @@
     "entry_liquidity": 50936.55,
     "stop": 0.000232704,
     "target": 0.000465408,
-    "last_price": 0.0003072
+    "last_price": 0.0002651,
+    "last_liquidity": 47096.2
+   },
+   {
+    "trade_id": 165,
+    "pair": "SpaceXCoin/USD",
+    "mint": "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump",
+    "url": "https://dexscreener.com/solana/hxflnndvszzwtjhwcf94ju4lxnmndximxgosyorpvpsv",
+    "is_short": false,
+    "open_rate": 0.000989901,
+    "open_ts": 1795759260.0498564,
+    "stake": 25,
+    "amount": 25255.05075760101,
+    "open_date": "2026-11-27T06:01:00.049856+00:00",
+    "entry_liquidity": 72670.49,
+    "stop": 0.00074242575,
+    "target": 0.0014848515,
+    "last_price": 0.0009801
    }
   ],
   "closed": [
-   {
-    "trade_id": 60,
-    "pair": "SHHFT/USD",
-    "mint": "GqMg4TRt5U5HRK6oeZYwCF1Jz7Ym9MSzWSoFCtFsbzf6",
-    "url": "https://dexscreener.com/solana/6v2ut2wpbnmruancogqhzc7uhq3ctvrpwmvkgamt6vk",
-    "is_short": false,
-    "open_rate": 9.470770000000001e-05,
-    "open_ts": 1795525293.256114,
-    "stake": 25,
-    "amount": 263970.0890212728,
-    "open_date": "2026-11-24T13:01:33.256114+00:00",
-    "entry_liquidity": 25390.58,
-    "stop": 7.103077500000001e-05,
-    "target": 0.00014206155000000002,
-    "last_price": 0.0001727,
-    "last_liquidity": 33588.77,
-    "is_open": false,
-    "close_rate": 0.000170973,
-    "close_timestamp": 1795527732732.577,
-    "close_date": "2026-11-24T13:42:12.732577+00:00",
-    "close_profit": 0.80527,
-    "profit_abs": 20.1318,
-    "exit_reason": "roi",
-    "orders": [
-     {
-      "status": "closed",
-      "filled": 263970.0890212728
-     },
-     {
-      "status": "closed",
-      "filled": 263970.0890212728
-     }
-    ]
-   },
    {
     "trade_id": 61,
     "pair": "DUVAL/USD",
@@ -6152,6 +6122,40 @@
       "filled": 126288.13901798343
      }
     ]
+   },
+   {
+    "trade_id": 160,
+    "pair": "SpaceXCoin/USD",
+    "mint": "G2XqmSc8vJpLLwaLVXUeNkxsrhVT8vQ3Pje8MqeDpump",
+    "url": "https://dexscreener.com/solana/hxflnndvszzwtjhwcf94ju4lxnmndximxgosyorpvpsv",
+    "is_short": false,
+    "open_rate": 0.000463287,
+    "open_ts": 1795750751.182263,
+    "stake": 25,
+    "amount": 53962.230755449644,
+    "open_date": "2026-11-27T03:39:11.182263+00:00",
+    "entry_liquidity": 48795.4,
+    "stop": 0.00034746525,
+    "target": 0.0006949305,
+    "last_price": 0.0009801,
+    "last_liquidity": 72670.49,
+    "is_open": false,
+    "close_rate": 0.000970299,
+    "close_timestamp": 1795759260049.8564,
+    "close_date": "2026-11-27T06:01:00.049856+00:00",
+    "close_profit": 1.09438,
+    "profit_abs": 27.3595,
+    "exit_reason": "roi",
+    "orders": [
+     {
+      "status": "closed",
+      "filled": 53962.230755449644
+     },
+     {
+      "status": "closed",
+      "filled": 53962.230755449644
+     }
+    ]
    }
   ],
   "equity": [
@@ -7310,9 +7314,48 @@
    [
     1795758048,
     553.02
+   ],
+   [
+    1795759263,
+    560.3
    ]
   ],
   "checks": [
+   {
+    "ts": 1795759263.975309,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "BZUYxHMqLXCZ5evWoBuagMfpeYtPSXzr8kHvqqL5pump",
+     "symbol": "CaveBaby",
+     "dex": "pumpswap",
+     "price": 7.207e-05,
+     "liquidity": 18561.02,
+     "fdv": 72078,
+     "vol_h1": 124566.18,
+     "buys_h1": 3196,
+     "sells_h1": 1733,
+     "chg_h1": 134,
+     "chg_h6": 134,
+     "age_h": 0.40779162678453656,
+     "url": "https://dexscreener.com/solana/cm9ybuuxkfxalxskarzs5aybxlfz2c7zjms8yapufmfs",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $18,561 < $25,000"
+    ],
+    "score": null
+   },
    {
     "ts": 1795758048.0839064,
     "gate": "check_launch",
@@ -8738,41 +8781,6 @@
      "only 13 min old, watching"
     ],
     "score": null
-   },
-   {
-    "ts": 1795739828.4987075,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "HpKjCnvJbgZ2ymjDvae5ZZ29t21FqECWN8ohWCFcpump",
-     "symbol": "SHIA",
-     "dex": "pumpswap",
-     "price": 5.374e-05,
-     "liquidity": 15159.48,
-     "fdv": 53654,
-     "vol_h1": 554.23,
-     "buys_h1": 10,
-     "sells_h1": 4,
-     "chg_h1": 2.34,
-     "chg_h6": 111,
-     "age_h": 3.530217921204037,
-     "url": "https://dexscreener.com/solana/5cbwmsuebxrkga2ubghdqysgcsxo85dc5mvenazgdbpp",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $15,159 < $25,000"
-    ],
-    "score": null
    }
   ],
   "watching": 112,
@@ -8989,8 +8997,8 @@
    }
   ],
   "stats": {
-   "trades": 156,
-   "wins": 43,
+   "trades": 157,
+   "wins": 44,
    "best": 2.719982,
    "worst": -0.997968
   }
