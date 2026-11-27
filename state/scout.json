@@ -1,53 +1,53 @@
 {
- "ts": 1795759254.003517,
+ "ts": 1795760460.1293075,
  "pairs": {
   "BONK/USD": {
    "last": 2.2e-06,
    "change_24h": 0.009174311926605672,
-   "funding": -2.11727181541e-05,
-   "open_interest": 480214600000.0
+   "funding": -4.04444025524e-05,
+   "open_interest": 484254300000.0
   },
   "WIF/USD": {
-   "last": 0.13678,
-   "change_24h": 0.04788171301616484,
+   "last": 0.13682,
+   "change_24h": 0.04562476117692027,
    "funding": 5e-05,
-   "open_interest": 26295841.0
+   "open_interest": 26284389.0
   },
   "POPCAT/USD": {
-   "last": 0.02771,
-   "change_24h": 0.04290553255551366,
+   "last": 0.02768,
+   "change_24h": 0.04295403165033895,
    "funding": 5e-05,
-   "open_interest": 9816060.0
+   "open_interest": 9816760.0
   },
   "PENGU/USD": {
-   "last": 0.004527,
-   "change_24h": 0.03167730173199623,
+   "last": 0.004538,
+   "change_24h": 0.034184138559708366,
    "funding": 5e-05,
-   "open_interest": 1096569600.0
+   "open_interest": 1113733900.0
   },
   "TRUMP/USD": {
-   "last": 0.8802,
-   "change_24h": 0.016632016632016633,
-   "funding": 2.770626468e-07,
-   "open_interest": 9965222.5
+   "last": 0.8839,
+   "change_24h": 0.02090552090552089,
+   "funding": -3.8924294991e-06,
+   "open_interest": 9972097.9
   },
   "FARTCOIN/USD": {
-   "last": 0.08316,
-   "change_24h": 0.02742772424017792,
+   "last": 0.08334,
+   "change_24h": 0.029651593773165397,
    "funding": 5e-05,
-   "open_interest": 20462132.0
+   "open_interest": 20407740.0
   },
   "PNUT/USD": {
-   "last": 0.02735,
-   "change_24h": 0.03246508116270297,
-   "funding": 4.72004210011e-05,
-   "open_interest": 25463990.0
+   "last": 0.02733,
+   "change_24h": 0.03171007927519831,
+   "funding": 4.83107884874e-05,
+   "open_interest": 25554980.0
   },
   "MOODENG/USD": {
-   "last": 0.028586,
-   "change_24h": -0.014683579208603303,
-   "funding": 4.69557401174e-05,
-   "open_interest": 33046400.0
+   "last": 0.028657,
+   "change_24h": -0.012236316007169457,
+   "funding": 4.91429573798e-05,
+   "open_interest": 33110380.0
   }
  }
 }
