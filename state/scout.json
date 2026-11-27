@@ -1,53 +1,53 @@
 {
- "ts": 1795751964.1474466,
+ "ts": 1795753194.2092366,
  "pairs": {
   "BONK/USD": {
    "last": 2.19e-06,
-   "change_24h": 0.0,
-   "funding": 4.35964108239e-05,
-   "open_interest": 470674000000.0
+   "change_24h": -0.004545454545454519,
+   "funding": 3.77527836637e-05,
+   "open_interest": 471650900000.0
   },
   "WIF/USD": {
-   "last": 0.13764,
-   "change_24h": 0.04716981132075482,
+   "last": 0.1369,
+   "change_24h": 0.046876194845912655,
    "funding": 5e-05,
-   "open_interest": 26449148.0
+   "open_interest": 26370141.0
   },
   "POPCAT/USD": {
-   "last": 0.0276,
-   "change_24h": 0.04863221884498481,
-   "funding": 4.81974962255e-05,
-   "open_interest": 9790530.0
+   "last": 0.02757,
+   "change_24h": 0.047094568932776415,
+   "funding": 1.08546088281e-05,
+   "open_interest": 9820200.0
   },
   "PENGU/USD": {
-   "last": 0.004488,
-   "change_24h": 0.013092550790067659,
+   "last": 0.004502,
+   "change_24h": 0.02132486388384769,
    "funding": 5e-05,
-   "open_interest": 1102706100.0
+   "open_interest": 1102807200.0
   },
   "TRUMP/USD": {
-   "last": 0.8742,
-   "change_24h": -0.016758519851535314,
-   "funding": -3.07588358386e-05,
-   "open_interest": 9906379.9
+   "last": 0.8739,
+   "change_24h": -0.01176071468958495,
+   "funding": -2.18880253529e-05,
+   "open_interest": 10002503.4
   },
   "FARTCOIN/USD": {
    "last": 0.08283,
-   "change_24h": 0.01061493411420189,
+   "change_24h": 0.014824797843665749,
    "funding": 5e-05,
-   "open_interest": 20652105.0
+   "open_interest": 20621478.0
   },
   "PNUT/USD": {
-   "last": 0.02739,
-   "change_24h": 0.032416132679985,
-   "funding": -2.36380558204e-05,
-   "open_interest": 25818180.0
+   "last": 0.02736,
+   "change_24h": 0.03362296939931997,
+   "funding": 1.4565258121e-06,
+   "open_interest": 25746420.0
   },
   "MOODENG/USD": {
-   "last": 0.029121,
-   "change_24h": 0.00879897460768353,
+   "last": 0.02928,
+   "change_24h": 0.0072585916268188555,
    "funding": 5e-05,
-   "open_interest": 32791970.0
+   "open_interest": 33211050.0
   }
  }
 }
