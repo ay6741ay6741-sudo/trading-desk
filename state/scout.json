@@ -1,53 +1,53 @@
 {
- "ts": 1795766546.1159062,
+ "ts": 1795767766.0773957,
  "pairs": {
   "BONK/USD": {
-   "last": 2.19e-06,
-   "change_24h": 0.0,
-   "funding": -7.21949153243e-05,
-   "open_interest": 483541700000.0
+   "last": 2.21e-06,
+   "change_24h": 0.00913242009132409,
+   "funding": -3.56559883044e-05,
+   "open_interest": 483871000000.0
   },
   "WIF/USD": {
-   "last": 0.13726,
-   "change_24h": 0.03937604119339677,
+   "last": 0.13804,
+   "change_24h": 0.045282447372406276,
    "funding": 5e-05,
-   "open_interest": 26192264.0
+   "open_interest": 26148394.0
   },
   "POPCAT/USD": {
-   "last": 0.02744,
-   "change_24h": 0.004024881083058762,
+   "last": 0.02763,
+   "change_24h": 0.010976948408342402,
    "funding": 5e-05,
-   "open_interest": 9825060.0
+   "open_interest": 9824250.0
   },
   "PENGU/USD": {
-   "last": 0.004528,
-   "change_24h": 0.022583559168925182,
+   "last": 0.004551,
+   "change_24h": 0.0277777777777779,
    "funding": 5e-05,
-   "open_interest": 1111029500.0
+   "open_interest": 1110879400.0
   },
   "TRUMP/USD": {
-   "last": 0.8723,
-   "change_24h": -0.0014880952380953438,
-   "funding": -3.68406423552e-05,
-   "open_interest": 9907214.5
+   "last": 0.8771,
+   "change_24h": 0.004006410256410131,
+   "funding": -2.86931957167e-05,
+   "open_interest": 10057356.0
   },
   "FARTCOIN/USD": {
-   "last": 0.08275,
-   "change_24h": 0.017709998770139013,
+   "last": 0.08323,
+   "change_24h": 0.023613331693518758,
    "funding": 5e-05,
-   "open_interest": 20412399.0
+   "open_interest": 20370932.0
   },
   "PNUT/USD": {
-   "last": 0.02733,
-   "change_24h": 0.00923190546528807,
+   "last": 0.02746,
+   "change_24h": 0.01179071481208549,
    "funding": 5e-05,
-   "open_interest": 25516920.0
+   "open_interest": 25672680.0
   },
   "MOODENG/USD": {
-   "last": 0.028517,
-   "change_24h": 0.012713519656237793,
-   "funding": -5.81607566558e-05,
-   "open_interest": 33129300.0
+   "last": 0.028744,
+   "change_24h": 0.020774885471785076,
+   "funding": 5e-05,
+   "open_interest": 33600320.0
   }
  }
 }
