@@ -1,53 +1,53 @@
 {
- "ts": 1795749533.155456,
+ "ts": 1795750745.1296563,
  "pairs": {
   "BONK/USD": {
-   "last": 2.21e-06,
-   "change_24h": 0.004545454545454408,
-   "funding": 5.12352239584e-05,
-   "open_interest": 460099100000.0
+   "last": 2.2e-06,
+   "change_24h": 0.0,
+   "funding": 3.4434226421e-05,
+   "open_interest": 461693500000.0
   },
   "WIF/USD": {
-   "last": 0.1393,
-   "change_24h": 0.0597991479001827,
+   "last": 0.1386,
+   "change_24h": 0.05495509209925409,
    "funding": 5e-05,
-   "open_interest": 26467113.0
+   "open_interest": 26667877.0
   },
   "POPCAT/USD": {
-   "last": 0.02759,
-   "change_24h": 0.048252279635258466,
+   "last": 0.02757,
+   "change_24h": 0.04749240121580556,
    "funding": 5e-05,
-   "open_interest": 9830330.0
+   "open_interest": 9825600.0
   },
   "PENGU/USD": {
-   "last": 0.004489,
-   "change_24h": 0.012632528761560957,
+   "last": 0.004493,
+   "change_24h": 0.014221218961625315,
    "funding": 5e-05,
-   "open_interest": 1101432000.0
+   "open_interest": 1100921600.0
   },
   "TRUMP/USD": {
-   "last": 0.8783,
-   "change_24h": -0.012147115060173297,
-   "funding": -2.3132883675e-06,
-   "open_interest": 9955142.7
+   "last": 0.877,
+   "change_24h": -0.013609267798897706,
+   "funding": -1.83640918378e-05,
+   "open_interest": 9896807.9
   },
   "FARTCOIN/USD": {
-   "last": 0.08317,
-   "change_24h": 0.014887126296522224,
+   "last": 0.0831,
+   "change_24h": 0.013909224011712906,
    "funding": 5e-05,
-   "open_interest": 20028132.0
+   "open_interest": 20226347.0
   },
   "PNUT/USD": {
-   "last": 0.0275,
-   "change_24h": 0.03656238220882013,
-   "funding": -4.44334919013e-05,
-   "open_interest": 25878920.0
+   "last": 0.02739,
+   "change_24h": 0.032416132679985,
+   "funding": -1.41316525315e-05,
+   "open_interest": 25878150.0
   },
   "MOODENG/USD": {
-   "last": 0.029015,
-   "change_24h": 0.00750026042570906,
+   "last": 0.029057,
+   "change_24h": 0.006581910139605851,
    "funding": 5e-05,
-   "open_interest": 32918550.0
+   "open_interest": 32624270.0
   }
  }
 }
