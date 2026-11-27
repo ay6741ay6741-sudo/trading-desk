@@ -1,53 +1,53 @@
 {
- "ts": 1795785968.7670653,
+ "ts": 1795787187.2830956,
  "pairs": {
   "BONK/USD": {
-   "last": 2.21e-06,
-   "change_24h": 0.00913242009132409,
-   "funding": -1.722134034e-05,
-   "open_interest": 474044100000.0
+   "last": 2.2e-06,
+   "change_24h": 0.004566210045662045,
+   "funding": -1.94755844834e-05,
+   "open_interest": 479462000000.0
   },
   "WIF/USD": {
-   "last": 0.14026,
-   "change_24h": 0.05363581730769229,
+   "last": 0.14109,
+   "change_24h": 0.06202484004516373,
    "funding": 5e-05,
-   "open_interest": 26127544.0
+   "open_interest": 26133909.0
   },
   "POPCAT/USD": {
-   "last": 0.0279,
-   "change_24h": 0.020856201975850697,
+   "last": 0.02782,
+   "change_24h": 0.01792901573362604,
    "funding": 5e-05,
-   "open_interest": 9796740.0
+   "open_interest": 9799620.0
   },
   "PENGU/USD": {
-   "last": 0.004541,
-   "change_24h": 0.02274774774774757,
+   "last": 0.004542,
+   "change_24h": 0.02297297297297285,
    "funding": 5e-05,
-   "open_interest": 1104430000.0
+   "open_interest": 1103412900.0
   },
   "TRUMP/USD": {
-   "last": 0.88,
-   "change_24h": 0.0073260073260073,
-   "funding": 1.88705446747e-05,
-   "open_interest": 9999092.6
+   "last": 0.8828,
+   "change_24h": 0.010531135531135494,
+   "funding": 2.16322800944e-05,
+   "open_interest": 10003561.1
   },
   "FARTCOIN/USD": {
-   "last": 0.08312,
-   "change_24h": 0.02263779527559051,
+   "last": 0.08306,
+   "change_24h": 0.017393434590886603,
    "funding": 5e-05,
-   "open_interest": 20011398.0
+   "open_interest": 20054882.0
   },
   "PNUT/USD": {
-   "last": 0.02742,
-   "change_24h": 0.0216095380029806,
-   "funding": 3.77369470825e-05,
-   "open_interest": 25815780.0
+   "last": 0.02752,
+   "change_24h": 0.023809523809523725,
+   "funding": 5e-05,
+   "open_interest": 25856710.0
   },
   "MOODENG/USD": {
-   "last": 0.029508,
-   "change_24h": 0.030523154292100285,
+   "last": 0.02958,
+   "change_24h": 0.03484466834592781,
    "funding": 5e-05,
-   "open_interest": 33095880.0
+   "open_interest": 33057890.0
   }
  }
 }
