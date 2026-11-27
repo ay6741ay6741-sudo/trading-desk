@@ -1,53 +1,53 @@
 {
- "ts": 1795821262.1729844,
+ "ts": 1795822479.869109,
  "pairs": {
   "BONK/USD": {
    "last": 2.18e-06,
    "change_24h": 0.004608294930875445,
-   "funding": -0.0001371726905313,
-   "open_interest": 480548300000.0
+   "funding": -0.0001234194605443,
+   "open_interest": 479568000000.0
   },
   "WIF/USD": {
-   "last": 0.1431,
-   "change_24h": 0.05305762013393189,
+   "last": 0.14238,
+   "change_24h": 0.04775921701376107,
    "funding": 5e-05,
-   "open_interest": 25043462.0
+   "open_interest": 25012875.0
   },
   "POPCAT/USD": {
-   "last": 0.02783,
-   "change_24h": 0.02429149797570851,
+   "last": 0.02784,
+   "change_24h": 0.02465955097534045,
    "funding": 5e-05,
-   "open_interest": 10045570.0
+   "open_interest": 10037010.0
   },
   "PENGU/USD": {
-   "last": 0.004441,
-   "change_24h": 0.012078395624430138,
+   "last": 0.004451,
+   "change_24h": 0.014357338195077451,
    "funding": 5e-05,
-   "open_interest": 1077393600.0
+   "open_interest": 1078173300.0
   },
   "TRUMP/USD": {
-   "last": 0.876,
-   "change_24h": 0.01412363973141928,
-   "funding": 2.25069121355e-05,
-   "open_interest": 9746434.2
+   "last": 0.8747,
+   "change_24h": 0.01343992584868503,
+   "funding": 3.92843118952e-05,
+   "open_interest": 9733644.2
   },
   "FARTCOIN/USD": {
-   "last": 0.08012,
-   "change_24h": -0.013907692307692399,
+   "last": 0.08029,
+   "change_24h": -0.013272704928106172,
    "funding": 5e-05,
-   "open_interest": 19958985.0
+   "open_interest": 19961661.0
   },
   "PNUT/USD": {
-   "last": 0.0273,
-   "change_24h": 0.009615384615384581,
-   "funding": -1.22340794509e-05,
-   "open_interest": 25204650.0
+   "last": 0.02734,
+   "change_24h": 0.011094674556213047,
+   "funding": -3.79931659946e-05,
+   "open_interest": 25218350.0
   },
   "MOODENG/USD": {
-   "last": 0.029269,
-   "change_24h": 0.02994580899429944,
-   "funding": 2.74835305743e-05,
-   "open_interest": 30384430.0
+   "last": 0.029407,
+   "change_24h": 0.03480188612851021,
+   "funding": 5e-05,
+   "open_interest": 30378710.0
   }
  }
 }
