@@ -94,3 +94,5 @@
 {"ts": 1795801798.4129586, "symbol": "JANTA", "score": 2.0, "choice": "reject", "r": -1}
 {"ts": 1795807884.4831595, "symbol": "ATX", "score": 1.5, "choice": "reject", "r": -1}
 {"ts": 1795807884.4831595, "symbol": "MEDIC", "score": 1.0, "choice": "reject", "r": -1}
+{"ts": 1795810319.6983502, "symbol": "LENDR", "score": 4.0, "choice": "accept", "r": 0}
+{"ts": 1795810319.6983502, "symbol": "Investor", "score": 3.0, "choice": "verify_more", "r": -1}
