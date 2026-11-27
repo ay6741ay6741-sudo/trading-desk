@@ -77,3 +77,7 @@
 {"ts": 1795733262.5226216, "symbol": "ATX", "score": 1.5, "choice": "reject", "r": -1}
 {"ts": 1795733262.5226216, "symbol": "NORFEATH", "score": 4.0, "choice": "accept", "r": 2}
 {"ts": 1795734478.815346, "symbol": "Grodia", "score": 4.5, "choice": "accept", "r": -1}
+{"ts": 1795738644.650014, "symbol": "PVE", "score": 3.0, "choice": "verify_more", "r": 2}
+{"ts": 1795738644.650014, "symbol": "4CHAN", "score": 2.0, "choice": "reject", "r": -1}
+{"ts": 1795738644.650014, "symbol": "UHI", "score": 4.0, "choice": "accept", "r": 2}
+{"ts": 1795738644.650014, "symbol": "Pumpcat", "score": 4.0, "choice": "accept", "r": -1}
