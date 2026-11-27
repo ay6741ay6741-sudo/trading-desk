@@ -1,5 +1,5 @@
 {
- "updated": 1795799370.0881531,
+ "updated": 1795800583.4063926,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 980.3309607173807,
- "equity_now": 978.38228623832,
+ "equity_now": 978.7649696631485,
  "open": [
   {
    "trade_id": 10,
@@ -1650,58 +1650,62 @@
   [
    1795799367,
    978.38
+  ],
+  [
+   1795800579,
+   978.76
   ]
  ],
  "scout": {
-  "ts": 1795799361.6728785,
+  "ts": 1795800573.258817,
   "pairs": {
    "BONK/USD": {
-    "last": 2.16e-06,
-    "change_24h": -0.02262443438914019,
-    "funding": -0.0001581053707534,
-    "open_interest": 485568000000.0
+    "last": 2.15e-06,
+    "change_24h": -0.02714932126696823,
+    "funding": -0.0002007401180219,
+    "open_interest": 481511000000.0
    },
    "WIF/USD": {
-    "last": 0.13941,
-    "change_24h": 0.008390596745027068,
+    "last": 0.13929,
+    "change_24h": 0.007522603978300069,
     "funding": 5e-05,
-    "open_interest": 25103235.0
+    "open_interest": 25138058.0
    },
    "POPCAT/USD": {
-    "last": 0.0277,
-    "change_24h": 0.011687363038714205,
+    "last": 0.02764,
+    "change_24h": 0.009495982468955333,
     "funding": 5e-05,
-    "open_interest": 10076410.0
+    "open_interest": 10064830.0
    },
    "PENGU/USD": {
-    "last": 0.004446,
-    "change_24h": 0.008849557522123908,
+    "last": 0.004451,
+    "change_24h": 0.009984116178806346,
     "funding": 5e-05,
-    "open_interest": 1097392400.0
+    "open_interest": 1093951400.0
    },
    "TRUMP/USD": {
-    "last": 0.864,
-    "change_24h": -0.005753739930955071,
-    "funding": -8.64325215e-08,
-    "open_interest": 9836641.2
+    "last": 0.8608,
+    "change_24h": -0.009436133486766418,
+    "funding": 6.3346582229e-06,
+    "open_interest": 9861872.3
    },
    "FARTCOIN/USD": {
-    "last": 0.08062,
-    "change_24h": -0.012735733529267712,
+    "last": 0.08053,
+    "change_24h": -0.013837864315454196,
     "funding": 5e-05,
-    "open_interest": 20865229.0
+    "open_interest": 20813805.0
    },
    "PNUT/USD": {
-    "last": 0.02719,
-    "change_24h": 0.0007361059992638808,
-    "funding": -4.35254289573e-05,
-    "open_interest": 26287040.0
+    "last": 0.02728,
+    "change_24h": 0.004048582995951344,
+    "funding": -3.08039568321e-05,
+    "open_interest": 26123810.0
    },
    "MOODENG/USD": {
-    "last": 0.029573,
-    "change_24h": 0.009799904391176728,
-    "funding": -2.55898065899e-05,
-    "open_interest": 31787640.0
+    "last": 0.029717,
+    "change_24h": 0.01471692959093085,
+    "funding": 1.55943130666e-05,
+    "open_interest": 31540620.0
    }
   }
  },
@@ -2741,7 +2745,7 @@
  "reports": [
   {
    "day": "2026-11-27",
-   "text": "## 00:20 launch desk\n- launch duk (19.2h old, liq $35,443): **accept** (66%) - 1h volume 0.5x liquidity, buyers 170 vs sellers 131, momentum +6% 1h, LP 100% locked\n- LAUNCH OPENED #162 duk/USD $25 @ $0.000132613\n- launch VOLALITY (0.8h old, liq $31,194): **accept** (66%) - 1h volume 7.5x liquidity, buyers 5477 vs sellers 2272, momentum +548% 1h, LP 100% locked\n- LAUNCH OPENED #163 VOLALITY/USD $25 @ $0.00019796\n\n## 00:40 launch desk\n- LAUNCH CLOSED #163 VOLALITY/USD: stop_loss, -30.49% ($-7.62)\n- launch CINU (7.3h old, liq $50,937): **accept** (66%) - liquidity $50,937, 1h volume 0.4x liquidity, momentum +13% 1h, LP 99% locked\n- LAUNCH OPENED #164 CINU/USD $25 @ $0.000310272\n\n## 01:01 desk run\n- signal PENGU/USD long @ 0.004525: **reject** (97%) - volume only 0.30x avg, against trend, funding neutral 0.0050%\n\n## 01:01 launch desk\n- LAUNCH CLOSED #160 SpaceXCoin/USD: roi, +109.44% ($+27.36)\n- launch SpaceXCoin (3.6h old, liq $72,670): **accept** (87%) - liquidity $72,670, 1h volume 2.2x liquidity, buyers 7386 vs sellers 3203, momentum +70% 1h, LP 100% locked\n- LAUNCH OPENED #165 SpaceXCoin/USD $25 @ $0.000989901\n\n## 01:21 launch desk\n- LAUNCH CLOSED #164 CINU/USD: stop_loss, -36.79% ($-9.20)\n\n## 03:02 launch desk\n- LAUNCH CLOSED #165 SpaceXCoin/USD: rug_exit, -99.87% ($-24.97)\n- launch Kibo (2.5h old, liq $26,430): **accept** (66%) - 1h volume 9.3x liquidity, buyers 3238 vs sellers 2227, momentum +94% 1h, LP 91% locked\n- LAUNCH OPENED #166 Kibo/USD $25 @ $0.000136754\n\n## 03:22 launch desk\n- LAUNCH CLOSED #162 duk/USD: stop_loss, -27.93% ($-6.98)\n\n## 04:03 launch desk\n- LAUNCH CLOSED #134 Santa/USD: time_exit, +4.99% ($+1.25)\n\n## 04:23 launch desk\n- LAUNCH CLOSED #159 DragonRiders/USD: stop_loss, -61.18% ($-15.30)\n- LAUNCH CLOSED #166 Kibo/USD: stop_loss, -43.44% ($-10.86)\n\n## 06:24 launch desk\n- launch Kibo (5.9h old, liq $34,163): **accept** (66%) - 1h volume 2.4x liquidity, buyers 1223 vs sellers 925, momentum +81% 1h, LP 91% locked\n- LAUNCH OPENED #167 Kibo/USD $25 @ $0.000216443\n\n## 06:45 launch desk\n- LAUNCH CLOSED #161 KAI/USD: rug_exit, -96.19% ($-24.05)\n\n## 07:45 launch desk\n- LAUNCH CLOSED #139 PUMPCHAN/USD: time_exit, +20.76% ($+5.19)\n\n## Morning brief 08:06\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.21e-06 | +1.38% | -0.0014% | 475,750,300,000 |\n| WIF/USD | 0.13938 | +4.92% | +0.0050% | 26,092,513 |\n| POPCAT/USD | 0.0278 | +1.72% | +0.0050% | 9,814,500 |\n| PENGU/USD | 0.004544 | +2.34% | +0.0050% | 1,105,387,800 |\n| TRUMP/USD | 0.8813 | +0.88% | +0.0018% | 10,009,020 |\n| FARTCOIN/USD | 0.0834 | +2.16% | +0.0050% | 20,024,758 |\n| PNUT/USD | 0.02742 | +2.01% | +0.0023% | 25,658,730 |\n| MOODENG/USD | 0.029334 | +2.62% | +0.0050% | 33,421,110 |\n\n## 08:46 launch desk\n- LAUNCH CLOSED #167 Kibo/USD: stop_loss, -29.65% ($-7.41)\n- launch TWORBIT (0.5h old, liq $34,975): **accept** (66%) - 1h volume 8.4x liquidity, buyers 10970 vs sellers 1121, momentum +418% 1h, LP 100% locked\n- LAUNCH OPENED #168 TWORBIT/USD $25 @ $0.000248056\n\n## 09:06 launch desk\n- LAUNCH CLOSED #168 TWORBIT/USD: roi, +53.77% ($+13.44)\n\n## 09:47 launch desk\n- launch TWORBIT (1.5h old, liq $50,333): **accept** (87%) - liquidity $50,333, 1h volume 8.3x liquidity, buyers 17249 vs sellers 5098, momentum +107% 1h, LP 100% locked\n- LAUNCH OPENED #169 TWORBIT/USD $25 @ $0.000496011\n\n## 10:07 desk run\n- signal BONK/USD short @ 2.11e-06: **accept** (66%) - volume 3.62x 20-day avg, trend agrees, funding neutral -0.0006%\n- OPENED #11 BONK/USD short $50 @ $2.11e-06, stop 2.2788e-06, target 1.7724e-06\n- signal TRUMP/USD short @ 0.8459: **accept** (66%) - volume 1.60x 20-day avg, trend agrees, funding neutral 0.0012%\n- OPENED #12 TRUMP/USD short $50 @ $0.8459, stop 0.913572, target 0.710556\n\n## 10:08 launch desk\n- LAUNCH CLOSED #169 TWORBIT/USD: rug_exit, -99.77% ($-24.94)\n\n## 10:48 launch desk\n- launch PUMPCHAN (38.3h old, liq $291,904): **accept** (79%) - liquidity $291,904, 1h volume 0.6x liquidity, buyers 778 vs sellers 409, momentum +16% 1h, LP 100% locked\n- LAUNCH OPENED #170 PUMPCHAN/USD $25 @ $0.0145844\n\n## 11:08 launch desk\n- launch Fireball (2.0h old, liq $55,237): **accept** (66%) - liquidity $55,237, 1h volume 1.3x liquidity, momentum +34% 1h, LP 100% locked\n- LAUNCH OPENED #171 Fireball/USD $25 @ $0.00060398\n\n## 11:28 launch desk\n- launch WINSTON (3.2h old, liq $34,971): **accept** (51%) - 1h volume 5.1x liquidity, buyers 2061 vs sellers 1611, momentum +17% 1h\n- LAUNCH OPENED #172 WINSTON/USD $25 @ $0.000216847\n- launch HOLD (18.7h old, liq $26,161): **accept** (66%) - 1h volume 7.7x liquidity, buyers 2029 vs sellers 1264, momentum +1311% 1h, LP 98% locked\n- LAUNCH OPENED #173 HOLD/USD $25 @ $0.000121604\n\n## 11:49 launch desk\n- launch Meme (0.9h old, liq $55,226): **accept** (87%) - liquidity $55,226, 1h volume 8.1x liquidity, buyers 7998 vs sellers 1765, momentum +1160% 1h, LP 99% locked\n- LAUNCH OPENED #174 Meme/USD $25 @ $0.000585093\n\n## 12:09 launch desk\n- LAUNCH CLOSED #173 HOLD/USD: stop_loss, -47.10% ($-11.77)\n\n"
+   "text": "## 00:20 launch desk\n- launch duk (19.2h old, liq $35,443): **accept** (66%) - 1h volume 0.5x liquidity, buyers 170 vs sellers 131, momentum +6% 1h, LP 100% locked\n- LAUNCH OPENED #162 duk/USD $25 @ $0.000132613\n- launch VOLALITY (0.8h old, liq $31,194): **accept** (66%) - 1h volume 7.5x liquidity, buyers 5477 vs sellers 2272, momentum +548% 1h, LP 100% locked\n- LAUNCH OPENED #163 VOLALITY/USD $25 @ $0.00019796\n\n## 00:40 launch desk\n- LAUNCH CLOSED #163 VOLALITY/USD: stop_loss, -30.49% ($-7.62)\n- launch CINU (7.3h old, liq $50,937): **accept** (66%) - liquidity $50,937, 1h volume 0.4x liquidity, momentum +13% 1h, LP 99% locked\n- LAUNCH OPENED #164 CINU/USD $25 @ $0.000310272\n\n## 01:01 desk run\n- signal PENGU/USD long @ 0.004525: **reject** (97%) - volume only 0.30x avg, against trend, funding neutral 0.0050%\n\n## 01:01 launch desk\n- LAUNCH CLOSED #160 SpaceXCoin/USD: roi, +109.44% ($+27.36)\n- launch SpaceXCoin (3.6h old, liq $72,670): **accept** (87%) - liquidity $72,670, 1h volume 2.2x liquidity, buyers 7386 vs sellers 3203, momentum +70% 1h, LP 100% locked\n- LAUNCH OPENED #165 SpaceXCoin/USD $25 @ $0.000989901\n\n## 01:21 launch desk\n- LAUNCH CLOSED #164 CINU/USD: stop_loss, -36.79% ($-9.20)\n\n## 03:02 launch desk\n- LAUNCH CLOSED #165 SpaceXCoin/USD: rug_exit, -99.87% ($-24.97)\n- launch Kibo (2.5h old, liq $26,430): **accept** (66%) - 1h volume 9.3x liquidity, buyers 3238 vs sellers 2227, momentum +94% 1h, LP 91% locked\n- LAUNCH OPENED #166 Kibo/USD $25 @ $0.000136754\n\n## 03:22 launch desk\n- LAUNCH CLOSED #162 duk/USD: stop_loss, -27.93% ($-6.98)\n\n## 04:03 launch desk\n- LAUNCH CLOSED #134 Santa/USD: time_exit, +4.99% ($+1.25)\n\n## 04:23 launch desk\n- LAUNCH CLOSED #159 DragonRiders/USD: stop_loss, -61.18% ($-15.30)\n- LAUNCH CLOSED #166 Kibo/USD: stop_loss, -43.44% ($-10.86)\n\n## 06:24 launch desk\n- launch Kibo (5.9h old, liq $34,163): **accept** (66%) - 1h volume 2.4x liquidity, buyers 1223 vs sellers 925, momentum +81% 1h, LP 91% locked\n- LAUNCH OPENED #167 Kibo/USD $25 @ $0.000216443\n\n## 06:45 launch desk\n- LAUNCH CLOSED #161 KAI/USD: rug_exit, -96.19% ($-24.05)\n\n## 07:45 launch desk\n- LAUNCH CLOSED #139 PUMPCHAN/USD: time_exit, +20.76% ($+5.19)\n\n## Morning brief 08:06\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.21e-06 | +1.38% | -0.0014% | 475,750,300,000 |\n| WIF/USD | 0.13938 | +4.92% | +0.0050% | 26,092,513 |\n| POPCAT/USD | 0.0278 | +1.72% | +0.0050% | 9,814,500 |\n| PENGU/USD | 0.004544 | +2.34% | +0.0050% | 1,105,387,800 |\n| TRUMP/USD | 0.8813 | +0.88% | +0.0018% | 10,009,020 |\n| FARTCOIN/USD | 0.0834 | +2.16% | +0.0050% | 20,024,758 |\n| PNUT/USD | 0.02742 | +2.01% | +0.0023% | 25,658,730 |\n| MOODENG/USD | 0.029334 | +2.62% | +0.0050% | 33,421,110 |\n\n## 08:46 launch desk\n- LAUNCH CLOSED #167 Kibo/USD: stop_loss, -29.65% ($-7.41)\n- launch TWORBIT (0.5h old, liq $34,975): **accept** (66%) - 1h volume 8.4x liquidity, buyers 10970 vs sellers 1121, momentum +418% 1h, LP 100% locked\n- LAUNCH OPENED #168 TWORBIT/USD $25 @ $0.000248056\n\n## 09:06 launch desk\n- LAUNCH CLOSED #168 TWORBIT/USD: roi, +53.77% ($+13.44)\n\n## 09:47 launch desk\n- launch TWORBIT (1.5h old, liq $50,333): **accept** (87%) - liquidity $50,333, 1h volume 8.3x liquidity, buyers 17249 vs sellers 5098, momentum +107% 1h, LP 100% locked\n- LAUNCH OPENED #169 TWORBIT/USD $25 @ $0.000496011\n\n## 10:07 desk run\n- signal BONK/USD short @ 2.11e-06: **accept** (66%) - volume 3.62x 20-day avg, trend agrees, funding neutral -0.0006%\n- OPENED #11 BONK/USD short $50 @ $2.11e-06, stop 2.2788e-06, target 1.7724e-06\n- signal TRUMP/USD short @ 0.8459: **accept** (66%) - volume 1.60x 20-day avg, trend agrees, funding neutral 0.0012%\n- OPENED #12 TRUMP/USD short $50 @ $0.8459, stop 0.913572, target 0.710556\n\n## 10:08 launch desk\n- LAUNCH CLOSED #169 TWORBIT/USD: rug_exit, -99.77% ($-24.94)\n\n## 10:48 launch desk\n- launch PUMPCHAN (38.3h old, liq $291,904): **accept** (79%) - liquidity $291,904, 1h volume 0.6x liquidity, buyers 778 vs sellers 409, momentum +16% 1h, LP 100% locked\n- LAUNCH OPENED #170 PUMPCHAN/USD $25 @ $0.0145844\n\n## 11:08 launch desk\n- launch Fireball (2.0h old, liq $55,237): **accept** (66%) - liquidity $55,237, 1h volume 1.3x liquidity, momentum +34% 1h, LP 100% locked\n- LAUNCH OPENED #171 Fireball/USD $25 @ $0.00060398\n\n## 11:28 launch desk\n- launch WINSTON (3.2h old, liq $34,971): **accept** (51%) - 1h volume 5.1x liquidity, buyers 2061 vs sellers 1611, momentum +17% 1h\n- LAUNCH OPENED #172 WINSTON/USD $25 @ $0.000216847\n- launch HOLD (18.7h old, liq $26,161): **accept** (66%) - 1h volume 7.7x liquidity, buyers 2029 vs sellers 1264, momentum +1311% 1h, LP 98% locked\n- LAUNCH OPENED #173 HOLD/USD $25 @ $0.000121604\n\n## 11:49 launch desk\n- launch Meme (0.9h old, liq $55,226): **accept** (87%) - liquidity $55,226, 1h volume 8.1x liquidity, buyers 7998 vs sellers 1765, momentum +1160% 1h, LP 99% locked\n- LAUNCH OPENED #174 Meme/USD $25 @ $0.000585093\n\n## 12:09 launch desk\n- LAUNCH CLOSED #173 HOLD/USD: stop_loss, -47.10% ($-11.77)\n\n## 12:29 launch desk\n- LAUNCH CLOSED #171 Fireball/USD: roi, +69.49% ($+17.37)\n- LAUNCH CLOSED #174 Meme/USD: rug_exit, -99.78% ($-24.94)\n- launch Fireball (3.3h old, liq $73,610): **accept** (87%) - liquidity $73,610, 1h volume 2.3x liquidity, buyers 7643 vs sellers 1855, momentum +31% 1h, LP 100% locked\n- LAUNCH OPENED #175 Fireball/USD $25 @ $0.00104434\n- launch Elfball (1.5h old, liq $44,767): **accept** (66%) - 1h volume 4.0x liquidity, buyers 12481 vs sellers 4160, momentum +50% 1h, LP 100% locked\n- LAUNCH OPENED #176 Elfball/USD $25 @ $0.000403192\n\n"
   },
   {
    "day": "2026-11-26",
@@ -2773,8 +2777,8 @@
    ],
    "paper_only": true
   },
-  "wallet": 325.4394685984449,
-  "equity_now": 461.1277165818111,
+  "wallet": 317.866420528512,
+  "equity_now": 436.43186746641027,
   "open": [
    {
     "trade_id": 148,
@@ -2790,8 +2794,8 @@
     "entry_liquidity": 58204.69,
     "stop": 0.00045381825,
     "target": 0.0009076365,
-    "last_price": 0.0005644,
-    "last_liquidity": 57250.58
+    "last_price": 0.0005826,
+    "last_liquidity": 58208.85
    },
    {
     "trade_id": 170,
@@ -2807,25 +2811,8 @@
     "entry_liquidity": 291903.77,
     "stop": 0.0109383,
     "target": 0.0218766,
-    "last_price": 0.01554,
-    "last_liquidity": 302555.4
-   },
-   {
-    "trade_id": 171,
-    "pair": "Fireball/USD",
-    "mint": "B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump",
-    "url": "https://dexscreener.com/solana/dnxt5j7r1atknh23rsbwyuuc9neixsxbgfrlbmbnmks2",
-    "is_short": false,
-    "open_rate": 0.0006039800000000001,
-    "open_ts": 1795795722.7016017,
-    "stake": 25,
-    "amount": 41392.09907612835,
-    "open_date": "2026-11-27T16:08:42.701602+00:00",
-    "entry_liquidity": 55237.22,
-    "stop": 0.00045298500000000004,
-    "target": 0.0009059700000000001,
-    "last_price": 0.0007911,
-    "last_liquidity": 64098.34
+    "last_price": 0.01578,
+    "last_liquidity": 305192.76
    },
    {
     "trade_id": 172,
@@ -2841,96 +2828,43 @@
     "entry_liquidity": 34971.36,
     "stop": 0.00016263524999999998,
     "target": 0.00032527049999999996,
-    "last_price": 0.0002099,
-    "last_liquidity": 34864.84
+    "last_price": 0.000166,
+    "last_liquidity": 30830.96
    },
    {
-    "trade_id": 174,
-    "pair": "Meme/USD",
-    "mint": "CV1NPi8L2PSYMfALBh7GCfUwELZzG3DrLUUjCkeapump",
-    "url": "https://dexscreener.com/solana/appde7tsms1zzrw4hwq1rwypdeua1wzhqjjp4ny6esva",
+    "trade_id": 175,
+    "pair": "Fireball/USD",
+    "mint": "B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump",
+    "url": "https://dexscreener.com/solana/dnxt5j7r1atknh23rsbwyuuc9neixsxbgfrlbmbnmks2",
     "is_short": false,
-    "open_rate": 0.0005850930000000001,
-    "open_ts": 1795798146.0363212,
+    "open_rate": 0.00104434,
+    "open_ts": 1795800579.43584,
     "stake": 25,
-    "amount": 42728.2500388827,
-    "open_date": "2026-11-27T16:49:06.036321+00:00",
-    "entry_liquidity": 55225.76,
-    "stop": 0.00043881975000000005,
-    "target": 0.0008776395000000001,
-    "last_price": 0.0007058,
-    "last_liquidity": 61680.82
+    "amount": 23938.564069172877,
+    "open_date": "2026-11-27T17:29:39.435840+00:00",
+    "entry_liquidity": 73609.81,
+    "stop": 0.000783255,
+    "target": 0.00156651,
+    "last_price": 0.001034
+   },
+   {
+    "trade_id": 176,
+    "pair": "Elfball/USD",
+    "mint": "92tFJ6CvgCuoS1c34Qy5g3RPVRDmLyHtknMnuoYqpump",
+    "url": "https://dexscreener.com/solana/b3rxfp4lhu3svaen4as3an6xbluxtvzf3apz8uclmude",
+    "is_short": false,
+    "open_rate": 0.000403192,
+    "open_ts": 1795800579.43584,
+    "stake": 25,
+    "amount": 62005.198515843564,
+    "open_date": "2026-11-27T17:29:39.435840+00:00",
+    "entry_liquidity": 44767.21,
+    "stop": 0.000302394,
+    "target": 0.000604788,
+    "last_price": 0.0003992
    }
   ],
   "closed": [
-   {
-    "trade_id": 72,
-    "pair": "JIMMY/USD",
-    "mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
-    "url": "https://dexscreener.com/solana/fnhwfv49ywctgcdtyf34avn8bixxcgxukqlctkrkp1gq",
-    "is_short": false,
-    "open_rate": 0.000706192,
-    "open_ts": 1795550514.4905257,
-    "stake": 25,
-    "amount": 35401.13736774135,
-    "open_date": "2026-11-24T20:01:54.490526+00:00",
-    "entry_liquidity": 66630.31,
-    "stop": 0.000529644,
-    "target": 0.001059288,
-    "last_price": 0.00106,
-    "last_liquidity": 83382.55,
-    "is_open": false,
-    "close_rate": 0.0010494,
-    "close_timestamp": 1795555378853.5312,
-    "close_date": "2026-11-24T21:22:58.853531+00:00",
-    "close_profit": 0.485998,
-    "profit_abs": 12.15,
-    "exit_reason": "roi",
-    "orders": [
-     {
-      "status": "closed",
-      "filled": 35401.13736774135
-     },
-     {
-      "status": "closed",
-      "filled": 35401.13736774135
-     }
-    ]
-   },
-   {
-    "trade_id": 73,
-    "pair": "Slingoor/USD",
-    "mint": "6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump",
-    "url": "https://dexscreener.com/solana/5shtjbpazcrw2iw9tmd3zsyxpc6qsufor6kfqrrbqtqo",
-    "is_short": false,
-    "open_rate": 0.00020684799999999998,
-    "open_ts": 1795550514.4905257,
-    "stake": 25,
-    "amount": 120861.69554455446,
-    "open_date": "2026-11-24T20:01:54.490526+00:00",
-    "entry_liquidity": 31174.46,
-    "stop": 0.000155136,
-    "target": 0.000310272,
-    "last_price": 0.0001044,
-    "last_liquidity": 22262.79,
-    "is_open": false,
-    "close_rate": 0.000103356,
-    "close_timestamp": 1795555378853.5312,
-    "close_date": "2026-11-24T21:22:58.853531+00:00",
-    "close_profit": -0.500329,
-    "profit_abs": -12.5082,
-    "exit_reason": "stop_loss",
-    "orders": [
-     {
-      "status": "closed",
-      "filled": 120861.69554455446
-     },
-     {
-      "status": "closed",
-      "filled": 120861.69554455446
-     }
-    ]
-   },
    {
     "trade_id": 68,
     "pair": "GROKIA/USD",
@@ -6262,6 +6196,74 @@
       "filled": 205585.3425874149
      }
     ]
+   },
+   {
+    "trade_id": 171,
+    "pair": "Fireball/USD",
+    "mint": "B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump",
+    "url": "https://dexscreener.com/solana/dnxt5j7r1atknh23rsbwyuuc9neixsxbgfrlbmbnmks2",
+    "is_short": false,
+    "open_rate": 0.0006039800000000001,
+    "open_ts": 1795795722.7016017,
+    "stake": 25,
+    "amount": 41392.09907612835,
+    "open_date": "2026-11-27T16:08:42.701602+00:00",
+    "entry_liquidity": 55237.22,
+    "stop": 0.00045298500000000004,
+    "target": 0.0009059700000000001,
+    "last_price": 0.001034,
+    "last_liquidity": 73609.81,
+    "is_open": false,
+    "close_rate": 0.00102366,
+    "close_timestamp": 1795800579435.8398,
+    "close_date": "2026-11-27T17:29:39.435840+00:00",
+    "close_profit": 0.694857,
+    "profit_abs": 17.3714,
+    "exit_reason": "roi",
+    "orders": [
+     {
+      "status": "closed",
+      "filled": 41392.09907612835
+     },
+     {
+      "status": "closed",
+      "filled": 41392.09907612835
+     }
+    ]
+   },
+   {
+    "trade_id": 174,
+    "pair": "Meme/USD",
+    "mint": "CV1NPi8L2PSYMfALBh7GCfUwELZzG3DrLUUjCkeapump",
+    "url": "https://dexscreener.com/solana/appde7tsms1zzrw4hwq1rwypdeua1wzhqjjp4ny6esva",
+    "is_short": false,
+    "open_rate": 0.0005850930000000001,
+    "open_ts": 1795798146.0363212,
+    "stake": 25,
+    "amount": 42728.2500388827,
+    "open_date": "2026-11-27T16:49:06.036321+00:00",
+    "entry_liquidity": 55225.76,
+    "stop": 0.00043881975000000005,
+    "target": 0.0008776395000000001,
+    "last_price": 1.544e-06,
+    "last_liquidity": 1652.51,
+    "is_open": false,
+    "close_rate": 1.299276e-06,
+    "close_timestamp": 1795800579435.8398,
+    "close_date": "2026-11-27T17:29:39.435840+00:00",
+    "close_profit": -0.997779,
+    "profit_abs": -24.9445,
+    "exit_reason": "rug_exit",
+    "orders": [
+     {
+      "status": "closed",
+      "filled": 42728.2500388827
+     },
+     {
+      "status": "closed",
+      "filled": 42728.2500388827
+     }
+    ]
    }
   ],
   "equity": [
@@ -7556,9 +7558,194 @@
    [
     1795799370,
     461.13
+   ],
+   [
+    1795800583,
+    436.43
    ]
   ],
   "checks": [
+   {
+    "ts": 1795800583.4000993,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "BuNeErf9FjL6dgzE74S21Qm9EeBaYMJXSW4A8ihxpump",
+     "symbol": "HOLD",
+     "dex": "pumpswap",
+     "price": 5.331e-05,
+     "liquidity": 17100.78,
+     "fdv": 53320,
+     "vol_h1": 193856.2,
+     "buys_h1": 2504,
+     "sells_h1": 2161,
+     "chg_h1": -61.62,
+     "chg_h6": 597,
+     "age_h": 19.687065511080952,
+     "url": "https://dexscreener.com/solana/hmuaeubteldjzmchup4zzwoz9dexlirhffgaqced9udr",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $17,101 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795800583.3998423,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "6J3m4E2AvckGpMypHoBmT9JdPA6QZJ66X9AfzYwWZttc",
+     "symbol": "rice",
+     "dex": "raydium",
+     "price": 7.12e-05,
+     "liquidity": 19853.37,
+     "fdv": 71210,
+     "vol_h1": 251155.55,
+     "buys_h1": 3272,
+     "sells_h1": 2386,
+     "chg_h1": 141,
+     "chg_h6": 141,
+     "age_h": 0.29623217774762045,
+     "url": "https://dexscreener.com/solana/dapza6cwatldus4dthdx6hrkwfwdxxti7v6jhukcfe19",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $19,853 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795800583.3995886,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "7j1a6959WYMBwUNVV64NtzwAKfKU8hXC5auJdFHbpump",
+     "symbol": "REVINU",
+     "dex": "pumpswap",
+     "price": 0.0002391,
+     "liquidity": 34169.15,
+     "fdv": 239101,
+     "vol_h1": 227425.43,
+     "buys_h1": 5277,
+     "sells_h1": 718,
+     "chg_h1": -15.31,
+     "chg_h6": 561,
+     "age_h": 1.2420655110809538,
+     "url": "https://dexscreener.com/solana/dcnjpfdlg7j845qekg4kuudfdczmgohnahfmwamzakxk",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 100,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "verify_more": 0.245,
+     "reject": 0.665,
+     "accept": 0.09
+    },
+    "confidence": 0.665,
+    "reasons": [
+     "1h volume 6.7x liquidity",
+     "buyers 5277 vs sellers 718",
+     "dumping -15% 1h",
+     "LP 100% locked"
+    ],
+    "score": 2.0
+   },
+   {
+    "ts": 1795800583.3992841,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "92tFJ6CvgCuoS1c34Qy5g3RPVRDmLyHtknMnuoYqpump",
+     "symbol": "Elfball",
+     "dex": "pumpswap",
+     "price": 0.0003992,
+     "liquidity": 44767.21,
+     "fdv": 399184,
+     "vol_h1": 179942.69,
+     "buys_h1": 12481,
+     "sells_h1": 4160,
+     "chg_h1": 50,
+     "chg_h6": 1105,
+     "age_h": 1.4637321777476204,
+     "url": "https://dexscreener.com/solana/b3rxfp4lhu3svaen4as3an6xbluxtvzf3apz8uclmude",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 100,
+     "rug_danger": []
+    },
+    "choice": "accept",
+    "probabilities": {
+     "verify_more": 0.245,
+     "reject": 0.09,
+     "accept": 0.665
+    },
+    "confidence": 0.665,
+    "reasons": [
+     "1h volume 4.0x liquidity",
+     "buyers 12481 vs sellers 4160",
+     "momentum +50% 1h",
+     "LP 100% locked"
+    ],
+    "score": 4.0
+   },
+   {
+    "ts": 1795800583.3989897,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump",
+     "symbol": "MEMECARD",
+     "dex": "pumpswap",
+     "price": 0.0005029,
+     "liquidity": 51132.72,
+     "fdv": 502941,
+     "vol_h1": 701026.81,
+     "buys_h1": 1764,
+     "sells_h1": 859,
+     "chg_h1": 357,
+     "chg_h6": 357,
+     "age_h": 0.13650995552539824,
+     "url": "https://dexscreener.com/solana/d4jqfsqhw5a1d8hmtsg1q6giaaypwthnqroigoqzyqbw",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 100,
+     "rug_danger": []
+    },
+    "choice": "verify_more",
+    "probabilities": {
+     "reject": 0.018,
+     "verify_more": 0.965,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "only 8 min old, watching"
+    ],
+    "score": null
+   },
    {
     "ts": 1795799370.0823524,
     "gate": "check_launch",
@@ -8819,186 +9006,6 @@
      "LP 91% locked"
     ],
     "score": 4.0
-   },
-   {
-    "ts": 1795776277.901797,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "jMhjZicmQSAJNoub4VEyJKqJxXzuyFCSKGgribxpump",
-     "symbol": "Muffin",
-     "dex": "pumpswap",
-     "price": 5.654e-05,
-     "liquidity": 16351.87,
-     "fdv": 56540,
-     "vol_h1": 167465.06,
-     "buys_h1": 5854,
-     "sells_h1": 3095,
-     "chg_h1": 85.29,
-     "chg_h6": 85.29,
-     "age_h": 0.5971642655796475,
-     "url": "https://dexscreener.com/solana/hozdj5lvjfabkrb74taaqnmyb8rbpn49znmue3lgl56n",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $16,352 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795775068.0355363,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "6B5X3keXJ4J8LLvswa2mbqMhrRDbt85Jo88sbB6apump",
-     "symbol": "Elonmas",
-     "dex": "pumpswap",
-     "price": 0.0001058,
-     "liquidity": 25880.62,
-     "fdv": 105680,
-     "vol_h1": 14378.09,
-     "buys_h1": 150,
-     "sells_h1": 149,
-     "chg_h1": 25.08,
-     "chg_h6": 56.76,
-     "age_h": 29.3440062851376,
-     "url": "https://dexscreener.com/solana/3hzez3ezzsdtzat12pqmzwii8ury9rknjqumsjqywyt7",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 95.66138542059876,
-     "rug_danger": []
-    },
-    "choice": "verify_more",
-    "probabilities": {
-     "verify_more": 0.333,
-     "reject": 0.333,
-     "accept": 0.333
-    },
-    "confidence": 0.333,
-    "reasons": [
-     "1h volume 0.6x liquidity",
-     "momentum +25% 1h",
-     "LP 96% locked"
-    ],
-    "score": 3.0
-   },
-   {
-    "ts": 1795775068.0353549,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "DG2EJSEtPBge5F7zBCTZG78p27LTCiq8tUkJ39qupump",
-     "symbol": "duk",
-     "dex": "pumpswap",
-     "price": 8.604e-05,
-     "liquidity": 28756.17,
-     "fdv": 86040,
-     "vol_h1": 6601.86,
-     "buys_h1": 110,
-     "sells_h1": 116,
-     "chg_h1": -8.4,
-     "chg_h6": -32.4,
-     "age_h": 24.298450729582044,
-     "url": "https://dexscreener.com/solana/4xvrevdhqdfum6ffvtmo7fdmeq7zgwxz1jhj7qva68wx",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 99.99894000768734,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "verify_more": 0.117,
-     "reject": 0.867,
-     "accept": 0.016
-    },
-    "confidence": 0.867,
-    "reasons": [
-     "LP 100% locked"
-    ],
-    "score": 1.0
-   },
-   {
-    "ts": 1795775068.0348365,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "At5hmwDn4YgPDoic1UN7zMdTtCoiXJsMhnKaoazEpump",
-     "symbol": "monky",
-     "dex": "pumpswap",
-     "price": 0.03662,
-     "liquidity": 29913338.02,
-     "fdv": 36620000,
-     "vol_h1": 223095.77,
-     "buys_h1": 2304,
-     "sells_h1": 1795,
-     "chg_h1": 120228,
-     "chg_h6": 120228,
-     "age_h": 0.5395618406931559,
-     "url": "https://dexscreener.com/solana/4jvqe1gafkddpbfmyb6dqx7waggxvtsbjms5noh49gtt",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 32,
-     "lp_locked_pct": 100,
-     "rug_danger": [
-      "Low Liquidity"
-     ]
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "RugCheck danger: Low Liquidity"
-    ],
-    "score": null,
-    "final": true
-   },
-   {
-    "ts": 1795773840.565312,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "Ejbu9xDBN3XuDiLj9A61sctiVzYocF3TpKojiBPvpump",
-     "symbol": "Suki",
-     "dex": "pumpswap",
-     "price": 2.757e-05,
-     "liquidity": 10686.06,
-     "fdv": 27536,
-     "vol_h1": 5251.51,
-     "buys_h1": 127,
-     "sells_h1": 80,
-     "chg_h1": -8.74,
-     "chg_h6": -8.74,
-     "age_h": 0.05291132244798872,
-     "url": "https://dexscreener.com/solana/amzhmasr7mrwhkgh8kbzgsz4cxrggst64ube8kxjg21t",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $10,686 < $25,000"
-    ],
-    "score": null
    }
   ],
   "watching": 104,
@@ -9215,8 +9222,8 @@
    }
   ],
   "stats": {
-   "trades": 169,
-   "wins": 47,
+   "trades": 171,
+   "wins": 48,
    "best": 2.719982,
    "worst": -0.998677
   }
