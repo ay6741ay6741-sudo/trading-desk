@@ -1,53 +1,53 @@
 {
- "ts": 1795773832.4016168,
+ "ts": 1795775058.5758321,
  "pairs": {
   "BONK/USD": {
    "last": 2.21e-06,
-   "change_24h": 0.00913242009132409,
-   "funding": 1.72979643729e-05,
-   "open_interest": 479586200000.0
+   "change_24h": 0.004545454545454408,
+   "funding": 2.63324110345e-05,
+   "open_interest": 478837200000.0
   },
   "WIF/USD": {
-   "last": 0.13797,
-   "change_24h": 0.04041927456451244,
+   "last": 0.13828,
+   "change_24h": 0.0427569564889525,
    "funding": 5e-05,
-   "open_interest": 26322670.0
+   "open_interest": 26313284.0
   },
   "POPCAT/USD": {
-   "last": 0.02767,
-   "change_24h": 0.009117432530999281,
+   "last": 0.02765,
+   "change_24h": 0.009861212563915256,
    "funding": 5e-05,
-   "open_interest": 9796290.0
+   "open_interest": 9795870.0
   },
   "PENGU/USD": {
-   "last": 0.004533,
-   "change_24h": 0.026494565217391353,
+   "last": 0.004523,
+   "change_24h": 0.023534736365693476,
    "funding": 5e-05,
-   "open_interest": 1110516200.0
+   "open_interest": 1111325300.0
   },
   "TRUMP/USD": {
-   "last": 0.8765,
-   "change_24h": -0.0036376037285439367,
-   "funding": 2.14306794214e-05,
-   "open_interest": 10045383.5
+   "last": 0.8754,
+   "change_24h": -0.004888030010230859,
+   "funding": 3.22275460222e-05,
+   "open_interest": 10031785.6
   },
   "FARTCOIN/USD": {
-   "last": 0.08318,
-   "change_24h": 0.02299840118066676,
+   "last": 0.08302,
+   "change_24h": 0.019776440240756754,
    "funding": 5e-05,
-   "open_interest": 20163631.0
+   "open_interest": 20148877.0
   },
   "PNUT/USD": {
-   "last": 0.02744,
-   "change_24h": 0.02083333333333326,
-   "funding": 4.28742591568e-05,
-   "open_interest": 25732920.0
+   "last": 0.02743,
+   "change_24h": 0.020461309523809534,
+   "funding": 5e-05,
+   "open_interest": 25776160.0
   },
   "MOODENG/USD": {
-   "last": 0.028651,
-   "change_24h": -0.017792252314021373,
+   "last": 0.028691,
+   "change_24h": -0.016420980459376122,
    "funding": 5e-05,
-   "open_interest": 33517150.0
+   "open_interest": 33320150.0
   }
  }
 }
