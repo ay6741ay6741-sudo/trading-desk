@@ -1,10 +1,10 @@
 # Paper desk status
-Updated 2026-11-27 09:26 (New York). Paper money only.
+Updated 2026-11-27 09:47 (New York). Paper money only.
 
 Wallet: **$980.33** (-19.67 USD, -1.97%) - 9 closed trades, 0 wins
 
 ## Open trades
-- #10 WIF/USD long @ 0.13815, now 0.14028 (+1.54%), stop 0.127098, target 0.160254
+- #10 WIF/USD long @ 0.13815, now 0.13805 (-0.07%), stop 0.127098, target 0.160254
 
 ## Last 10 closed
 - #9 POPCAT/USD short 2026-11-26T02:00: stop_loss, -8.10%
