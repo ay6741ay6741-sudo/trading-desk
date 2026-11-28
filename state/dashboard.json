@@ -1,5 +1,5 @@
 {
- "updated": 1795871989.8433938,
+ "updated": 1795873197.6022327,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 980.3309607173807,
- "equity_now": 986.9703038372058,
+ "equity_now": 987.6985195426267,
  "open": [
   {
    "trade_id": 10,
@@ -1890,58 +1890,62 @@
   [
    1795871972,
    986.97
+  ],
+  [
+   1795873179,
+   987.7
   ]
  ],
  "scout": {
-  "ts": 1795871966.934881,
+  "ts": 1795873173.1522875,
   "pairs": {
    "BONK/USD": {
-    "last": 2.08e-06,
-    "change_24h": -0.05882352941176472,
-    "funding": -5.56109495462e-05,
-    "open_interest": 482014000000.0
+    "last": 2.07e-06,
+    "change_24h": -0.06334841628959276,
+    "funding": -0.0001201263708502,
+    "open_interest": 480825700000.0
    },
    "WIF/USD": {
-    "last": 0.13979,
-    "change_24h": -0.01131621755428236,
+    "last": 0.13956,
+    "change_24h": -0.012942923827710562,
     "funding": 5e-05,
-    "open_interest": 23958782.0
+    "open_interest": 23946457.0
    },
    "POPCAT/USD": {
-    "last": 0.0271,
-    "change_24h": -0.026929982046678624,
-    "funding": 5e-05,
-    "open_interest": 9947050.0
+    "last": 0.0269,
+    "change_24h": -0.03411131059245953,
+    "funding": -5.5542263429e-05,
+    "open_interest": 9959060.0
    },
    "PENGU/USD": {
-    "last": 0.004299,
-    "change_24h": -0.05245757108221294,
+    "last": 0.004282,
+    "change_24h": -0.05620454044522816,
     "funding": 5e-05,
-    "open_interest": 1088121200.0
+    "open_interest": 1087363000.0
    },
    "TRUMP/USD": {
-    "last": 0.7561,
-    "change_24h": -0.1433265352368004,
-    "funding": -0.0003644797067112,
-    "open_interest": 14572863.6
+    "last": 0.7499,
+    "change_24h": -0.15035123498753689,
+    "funding": -0.0003489359641343,
+    "open_interest": 14527098.9
    },
    "FARTCOIN/USD": {
-    "last": 0.07775,
-    "change_24h": -0.062462317617267615,
+    "last": 0.07722,
+    "change_24h": -0.06930215740629153,
     "funding": 5e-05,
-    "open_interest": 20185201.0
+    "open_interest": 20221562.0
    },
    "PNUT/USD": {
-    "last": 0.02632,
-    "change_24h": -0.04464609800362984,
-    "funding": -0.000155970110955,
-    "open_interest": 25092200.0
+    "last": 0.02621,
+    "change_24h": -0.04760174418604646,
+    "funding": -0.0002006592394951,
+    "open_interest": 25184830.0
    },
    "MOODENG/USD": {
-    "last": 0.028545,
-    "change_24h": -0.04034291477559249,
-    "funding": -2.75689011161e-05,
-    "open_interest": 31557920.0
+    "last": 0.028652,
+    "change_24h": -0.035643364410487766,
+    "funding": -4.43965713029e-05,
+    "open_interest": 31466850.0
    }
   }
  },
@@ -2970,7 +2974,7 @@
  "reports": [
   {
    "day": "2026-11-28",
-   "text": "## 01:14 desk run\n- signal FARTCOIN/USD short @ 0.07805: **reject** (66%) - volume only 0.53x avg, trend agrees, funding neutral 0.0050%\n- signal PNUT/USD short @ 0.02644: **accept** (66%) - volume 1.55x 20-day avg, trend agrees, funding neutral 0.0040%\n- OPENED #13 PNUT/USD short $50 @ $0.02644, stop 0.0285552, target 0.0222096\n\n## 01:15 launch desk\n- LAUNCH CLOSED #197 Zhaki/USD: roi, +62.35% ($+15.59)\n- LAUNCH CLOSED #201 Memeball/USD: roi, +54.84% ($+13.71)\n- launch Memeball (5.8h old, liq $70,082): **accept** (87%) - liquidity $70,082, 1h volume 0.5x liquidity, buyers 964 vs sellers 564, momentum +10% 1h, LP 100% locked\n- LAUNCH OPENED #206 Memeball/USD $25 @ $0.000960813\n\n## 01:57 launch desk\n- launch SPSC (1.0h old, liq $26,466): **accept** (66%) - 1h volume 7.8x liquidity, buyers 2646 vs sellers 2060, momentum +411% 1h, LP 100% locked\n- LAUNCH OPENED #207 SPSC/USD $25 @ $0.000147157\n\n## 02:17 launch desk\n- launch BITCOINU (2.5h old, liq $69,078): **accept** (66%) - liquidity $69,078, 1h volume 1.3x liquidity, buyers 12065 vs sellers 3968, LP 100% locked\n- LAUNCH OPENED #208 BITCOINU/USD $25 @ $0.000934351\n\n## 02:35 launch desk\n- launch Fireball (17.4h old, liq $50,639): **accept** (66%) - liquidity $50,639, 1h volume 1.3x liquidity, buyers 3983 vs sellers 2389, LP 100% locked\n- LAUNCH OPENED #209 Fireball/USD $25 @ $0.000478235\n- launch WLFI (2.8h old, liq $36,363): **accept** (51%) - 1h volume 6.3x liquidity, buyers 3285 vs sellers 2705, momentum +6% 1h\n- LAUNCH OPENED #210 WLFI/USD $25 @ $0.000232603\n\n## 04:36 launch desk\n- LAUNCH CLOSED #207 SPSC/USD: stop_loss, -28.55% ($-7.14)\n\n## 05:58 launch desk\n- LAUNCH CLOSED #204 MoonBoy/USD: roi, +65.57% ($+16.39)\n\n## 06:38 launch desk\n- LAUNCH CLOSED #209 Fireball/USD: stop_loss, -58.85% ($-14.71)\n\n## 06:58 launch desk\n- LAUNCH CLOSED #210 WLFI/USD: roi, +54.80% ($+13.70)\n- launch MoonBoy (15.3h old, liq $90,245): **accept** (79%) - liquidity $90,245, 1h volume 1.6x liquidity, buyers 965 vs sellers 785, momentum +14% 1h\n- LAUNCH OPENED #211 MoonBoy/USD $25 @ $0.000837593\n\n## Morning brief 08:19\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.08e-06 | -5.88% | -0.0056% | 482,014,000,000 |\n| WIF/USD | 0.13979 | -1.13% | +0.0050% | 23,958,782 |\n| POPCAT/USD | 0.0271 | -2.69% | +0.0050% | 9,947,050 |\n| PENGU/USD | 0.004299 | -5.25% | +0.0050% | 1,088,121,200 |\n| TRUMP/USD | 0.7561 | -14.33% | -0.0364% | 14,572,864 |\n| FARTCOIN/USD | 0.07775 | -6.25% | +0.0050% | 20,185,201 |\n| PNUT/USD | 0.02632 | -4.46% | -0.0156% | 25,092,200 |\n| MOODENG/USD | 0.028545 | -4.03% | -0.0028% | 31,557,920 |\n\n"
+   "text": "## 01:14 desk run\n- signal FARTCOIN/USD short @ 0.07805: **reject** (66%) - volume only 0.53x avg, trend agrees, funding neutral 0.0050%\n- signal PNUT/USD short @ 0.02644: **accept** (66%) - volume 1.55x 20-day avg, trend agrees, funding neutral 0.0040%\n- OPENED #13 PNUT/USD short $50 @ $0.02644, stop 0.0285552, target 0.0222096\n\n## 01:15 launch desk\n- LAUNCH CLOSED #197 Zhaki/USD: roi, +62.35% ($+15.59)\n- LAUNCH CLOSED #201 Memeball/USD: roi, +54.84% ($+13.71)\n- launch Memeball (5.8h old, liq $70,082): **accept** (87%) - liquidity $70,082, 1h volume 0.5x liquidity, buyers 964 vs sellers 564, momentum +10% 1h, LP 100% locked\n- LAUNCH OPENED #206 Memeball/USD $25 @ $0.000960813\n\n## 01:57 launch desk\n- launch SPSC (1.0h old, liq $26,466): **accept** (66%) - 1h volume 7.8x liquidity, buyers 2646 vs sellers 2060, momentum +411% 1h, LP 100% locked\n- LAUNCH OPENED #207 SPSC/USD $25 @ $0.000147157\n\n## 02:17 launch desk\n- launch BITCOINU (2.5h old, liq $69,078): **accept** (66%) - liquidity $69,078, 1h volume 1.3x liquidity, buyers 12065 vs sellers 3968, LP 100% locked\n- LAUNCH OPENED #208 BITCOINU/USD $25 @ $0.000934351\n\n## 02:35 launch desk\n- launch Fireball (17.4h old, liq $50,639): **accept** (66%) - liquidity $50,639, 1h volume 1.3x liquidity, buyers 3983 vs sellers 2389, LP 100% locked\n- LAUNCH OPENED #209 Fireball/USD $25 @ $0.000478235\n- launch WLFI (2.8h old, liq $36,363): **accept** (51%) - 1h volume 6.3x liquidity, buyers 3285 vs sellers 2705, momentum +6% 1h\n- LAUNCH OPENED #210 WLFI/USD $25 @ $0.000232603\n\n## 04:36 launch desk\n- LAUNCH CLOSED #207 SPSC/USD: stop_loss, -28.55% ($-7.14)\n\n## 05:58 launch desk\n- LAUNCH CLOSED #204 MoonBoy/USD: roi, +65.57% ($+16.39)\n\n## 06:38 launch desk\n- LAUNCH CLOSED #209 Fireball/USD: stop_loss, -58.85% ($-14.71)\n\n## 06:58 launch desk\n- LAUNCH CLOSED #210 WLFI/USD: roi, +54.80% ($+13.70)\n- launch MoonBoy (15.3h old, liq $90,245): **accept** (79%) - liquidity $90,245, 1h volume 1.6x liquidity, buyers 965 vs sellers 785, momentum +14% 1h\n- LAUNCH OPENED #211 MoonBoy/USD $25 @ $0.000837593\n\n## Morning brief 08:19\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.08e-06 | -5.88% | -0.0056% | 482,014,000,000 |\n| WIF/USD | 0.13979 | -1.13% | +0.0050% | 23,958,782 |\n| POPCAT/USD | 0.0271 | -2.69% | +0.0050% | 9,947,050 |\n| PENGU/USD | 0.004299 | -5.25% | +0.0050% | 1,088,121,200 |\n| TRUMP/USD | 0.7561 | -14.33% | -0.0364% | 14,572,864 |\n| FARTCOIN/USD | 0.07775 | -6.25% | +0.0050% | 20,185,201 |\n| PNUT/USD | 0.02632 | -4.46% | -0.0156% | 25,092,200 |\n| MOODENG/USD | 0.028545 | -4.03% | -0.0028% | 31,557,920 |\n\n## 08:39 launch desk\n- launch Fireball (23.5h old, liq $53,410): **accept** (87%) - liquidity $53,410, 1h volume 1.0x liquidity, buyers 1156 vs sellers 725, momentum +22% 1h, LP 100% locked\n- LAUNCH OPENED #212 Fireball/USD $25 @ $0.000517827\n\n"
   },
   {
    "day": "2026-11-27",
@@ -3002,8 +3006,8 @@
    ],
    "paper_only": true
   },
-  "wallet": 166.4395820683619,
-  "equity_now": 275.35248774593595,
+  "wallet": 141.4395820683619,
+  "equity_now": 272.4993380519096,
   "open": [
    {
     "trade_id": 170,
@@ -3019,8 +3023,8 @@
     "entry_liquidity": 291903.77,
     "stop": 0.0109383,
     "target": 0.0218766,
-    "last_price": 0.01645,
-    "last_liquidity": 310947.49
+    "last_price": 0.01636,
+    "last_liquidity": 309879.1
    },
    {
     "trade_id": 206,
@@ -3036,8 +3040,8 @@
     "entry_liquidity": 70082.21,
     "stop": 0.00072060975,
     "target": 0.0014412195,
-    "last_price": 0.000952,
-    "last_liquidity": 70394.73
+    "last_price": 0.001049,
+    "last_liquidity": 73963.32
    },
    {
     "trade_id": 208,
@@ -3053,8 +3057,8 @@
     "entry_liquidity": 69077.99,
     "stop": 0.0007007632500000001,
     "target": 0.0014015265000000001,
-    "last_price": 0.001181,
-    "last_liquidity": 79055.81
+    "last_price": 0.001067,
+    "last_liquidity": 75096.23
    },
    {
     "trade_id": 211,
@@ -3070,8 +3074,24 @@
     "entry_liquidity": 90245.2,
     "stop": 0.00062819475,
     "target": 0.0012563895,
-    "last_price": 0.0008525,
-    "last_liquidity": 91837.72
+    "last_price": 0.0007955,
+    "last_liquidity": 88627.87
+   },
+   {
+    "trade_id": 212,
+    "pair": "Fireball/USD",
+    "mint": "B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump",
+    "url": "https://dexscreener.com/solana/dnxt5j7r1atknh23rsbwyuuc9neixsxbgfrlbmbnmks2",
+    "is_short": false,
+    "open_rate": 0.000517827,
+    "open_ts": 1795873179.4498918,
+    "stake": 25,
+    "amount": 48278.672220645116,
+    "open_date": "2026-11-28T13:39:39.449892+00:00",
+    "entry_liquidity": 53409.71,
+    "stop": 0.00038837025,
+    "target": 0.0007767405,
+    "last_price": 0.0005127
    }
   ],
   "closed": [
@@ -8000,9 +8020,159 @@
    [
     1795871989,
     275.35
+   ],
+   [
+    1795873197,
+    272.5
    ]
   ],
   "checks": [
+   {
+    "ts": 1795873197.5986586,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "5qDeCs9MkTAhk6q76XvKrZgimoQdJowuSWbjSZKvpump",
+     "symbol": "Bagwork",
+     "dex": "pumpswap",
+     "price": 2.301e-05,
+     "liquidity": 9624.44,
+     "fdv": 23014,
+     "vol_h1": 43374.95,
+     "buys_h1": 894,
+     "sells_h1": 697,
+     "chg_h1": -16.79,
+     "chg_h6": -16.79,
+     "age_h": 0.09873608105712467,
+     "url": "https://dexscreener.com/solana/5w997amvtsgewceesx4mhh8bnkc4qlesgqges9ge36es",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $9,624 < $25,000"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795873197.5985239,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "EjdrRG2si1FQ3Bme5g6WSYNHJDrsKUrbGB4Z5xaopump",
+     "symbol": "SPSC",
+     "dex": "pumpswap",
+     "price": 0.0001997,
+     "liquidity": 31956.21,
+     "fdv": 199451,
+     "vol_h1": 49885.38,
+     "buys_h1": 397,
+     "sells_h1": 367,
+     "chg_h1": 56.51,
+     "chg_h6": 45.78,
+     "age_h": 7.673458303279347,
+     "url": "https://dexscreener.com/solana/8yy1cwhtwyqsmncj1v6hthafsbpzpuzwb9fwhrpl5x1f",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": null,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "verify_more",
+    "probabilities": {
+     "reject": 0.018,
+     "verify_more": 0.965,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "safety data unavailable"
+    ],
+    "score": null
+   },
+   {
+    "ts": 1795873197.5983875,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump",
+     "symbol": "Zhaki",
+     "dex": "pumpswap",
+     "price": 0.0001985,
+     "liquidity": 34231.78,
+     "fdv": 198531,
+     "vol_h1": 20373.87,
+     "buys_h1": 314,
+     "sells_h1": 251,
+     "chg_h1": -5.77,
+     "chg_h6": -9.19,
+     "age_h": 24.747624969946013,
+     "url": "https://dexscreener.com/solana/3vrhjgeag6ixpt58r3g1rim7zcguvszijlhktnrcz1kv",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 89.41445699591894,
+     "rug_danger": []
+    },
+    "choice": "verify_more",
+    "probabilities": {
+     "verify_more": 0.333,
+     "reject": 0.333,
+     "accept": 0.333
+    },
+    "confidence": 0.333,
+    "reasons": [
+     "1h volume 0.6x liquidity",
+     "buyers 314 vs sellers 251",
+     "LP 89% locked"
+    ],
+    "score": 3.0
+   },
+   {
+    "ts": 1795873197.598042,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump",
+     "symbol": "Fireball",
+     "dex": "pumpswap",
+     "price": 0.0005127,
+     "liquidity": 53409.71,
+     "fdv": 512758,
+     "vol_h1": 54591.26,
+     "buys_h1": 1156,
+     "sells_h1": 725,
+     "chg_h1": 21.53,
+     "chg_h6": 2.21,
+     "age_h": 23.507624969946015,
+     "url": "https://dexscreener.com/solana/dnxt5j7r1atknh23rsbwyuuc9neixsxbgfrlbmbnmks2",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 99.85080761105736,
+     "rug_danger": []
+    },
+    "choice": "accept",
+    "probabilities": {
+     "verify_more": 0.117,
+     "reject": 0.016,
+     "accept": 0.867
+    },
+    "confidence": 0.867,
+    "reasons": [
+     "liquidity $53,410",
+     "1h volume 1.0x liquidity",
+     "buyers 1156 vs sellers 725",
+     "momentum +22% 1h",
+     "LP 100% locked"
+    ],
+    "score": 5.0
+   },
    {
     "ts": 1795870758.287339,
     "gate": "check_launch",
@@ -9293,150 +9463,24 @@
      "liquidity $10,418 < $25,000"
     ],
     "score": null
-   },
-   {
-    "ts": 1795853746.0559971,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "8Y24KBnY9gaNWDaxohxtEU1gxESvfwdYeGFuHJKpump",
-     "symbol": "USD1",
-     "dex": "pumpswap",
-     "price": 8.721e-05,
-     "liquidity": 20616.07,
-     "fdv": 87217,
-     "vol_h1": 237712.42,
-     "buys_h1": 5779,
-     "sells_h1": 3197,
-     "chg_h1": 192,
-     "chg_h6": 192,
-     "age_h": 0.8241833839813868,
-     "url": "https://dexscreener.com/solana/b8epbhovfiaxp7gvsyuv4gjmyzj51kqp49sglayxnmkq",
-     "mint_authority": null,
-     "freeze_authority": null,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $20,616 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795853746.0554852,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "8NnchH8Y6Z4ieWcqDEqF2w9531xm2oE4YwZyA2ybpump",
-     "symbol": "VIDA",
-     "dex": "pumpswap",
-     "price": 0.0007715,
-     "liquidity": 85682.98,
-     "fdv": 771539,
-     "vol_h1": 0,
-     "buys_h1": 0,
-     "sells_h1": 0,
-     "chg_h1": 0,
-     "chg_h6": -0.09,
-     "age_h": 33.6602944950925,
-     "url": "https://dexscreener.com/solana/ckddpgymae4ukkzsntfcpc4o6niks4aghppnbolnxeux",
-     "mint_authority": null,
-     "freeze_authority": null,
-     "rug_score": 1,
-     "lp_locked_pct": 99.99999999991697,
-     "rug_danger": []
-    },
-    "choice": "verify_more",
-    "probabilities": {
-     "reject": 0.018,
-     "verify_more": 0.965,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "safety data unavailable"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795851346.3752594,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "CVcVTN9yFswizy3DYdPKJJtYup3hpgC9U7FX1yzUpump",
-     "symbol": "NIW",
-     "dex": "pumpswap",
-     "price": 3.751e-05,
-     "liquidity": 11247.65,
-     "fdv": 37516,
-     "vol_h1": 23.54,
-     "buys_h1": 1,
-     "sells_h1": 3,
-     "chg_h1": -6.55,
-     "chg_h6": -22.67,
-     "age_h": 24.55955894158946,
-     "url": "https://dexscreener.com/solana/8omywzp9zxe8amnk1i9vp5qzjxw4hd9tcg3dnpkq8rph",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $11,248 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795851346.375131,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "B29od4bd54VAVAqJFToRKkKJadUGK5v8pkAVb5uvpump",
-     "symbol": "USD1",
-     "dex": "pumpswap",
-     "price": 0.0001021,
-     "liquidity": 30319.38,
-     "fdv": 102197,
-     "vol_h1": 181918.62,
-     "buys_h1": 2274,
-     "sells_h1": 1629,
-     "chg_h1": 74.63,
-     "chg_h6": 74.63,
-     "age_h": 0.49900338603390587,
-     "url": "https://dexscreener.com/solana/8nkg3gpacjfvtexj3zr737dorgjecb4fgesci2pdo4ca",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 29,
-     "lp_locked_pct": 99.96812483059819,
-     "rug_danger": []
-    },
-    "choice": "verify_more",
-    "probabilities": {
-     "reject": 0.018,
-     "verify_more": 0.965,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "only 30 min old, watching"
-    ],
-    "score": null
    }
   ],
   "watching": 90,
   "graded": [
+   {
+    "ts": 1795873179.4498918,
+    "symbol": "Zhaki",
+    "score": 4.0,
+    "choice": "accept",
+    "r": -1
+   },
+   {
+    "ts": 1795873179.4498918,
+    "symbol": "WINSTON",
+    "score": 2.5,
+    "choice": "reject",
+    "r": -1
+   },
    {
     "ts": 1795870756.266159,
     "symbol": "PUMPCHAN",
@@ -9632,20 +9676,6 @@
     "score": 2.0,
     "choice": "reject",
     "r": 2
-   },
-   {
-    "ts": 1795793304.2462597,
-    "symbol": "DUO",
-    "score": 4.0,
-    "choice": "accept",
-    "r": -1
-   },
-   {
-    "ts": 1795787193.429109,
-    "symbol": "PAIR",
-    "score": 3.5,
-    "choice": "accept",
-    "r": -1
    }
   ],
   "stats": {
