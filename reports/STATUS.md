@@ -1,10 +1,10 @@
 # Paper desk status
-Updated 2026-11-27 19:50 (New York). Paper money only.
+Updated 2026-11-27 20:10 (New York). Paper money only.
 
 Wallet: **$980.33** (-19.67 USD, -1.97%) - 9 closed trades, 0 wins
 
 ## Open trades
-- #10 WIF/USD long @ 0.13815, now 0.1425 (+3.15%), stop 0.127098, target 0.160254
+- #10 WIF/USD long @ 0.13815, now 0.14162 (+2.51%), stop 0.127098, target 0.160254
 - #11 BONK/USD short @ 2.11e-06, now 2.18e-06 (-3.32%), stop 2.2788e-06, target 1.7724e-06
 - #12 TRUMP/USD short @ 0.8459, now 0.876 (-3.56%), stop 0.913572, target 0.710556
 
