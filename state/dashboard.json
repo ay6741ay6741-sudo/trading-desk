@@ -1,5 +1,5 @@
 {
- "updated": 1795837945.9476905,
+ "updated": 1795839144.2555766,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 980.3309607173807,
- "equity_now": 978.5992288607248,
+ "equity_now": 978.5808959828468,
  "open": [
   {
    "trade_id": 10,
@@ -1774,58 +1774,62 @@
   [
    1795837941,
    978.6
+  ],
+  [
+   1795839141,
+   978.58
   ]
  ],
  "scout": {
-  "ts": 1795837935.6912518,
+  "ts": 1795839135.5252736,
   "pairs": {
    "BONK/USD": {
     "last": 2.15e-06,
     "change_24h": -0.013761467889908174,
-    "funding": -7.55730451932e-05,
-    "open_interest": 474559500000.0
+    "funding": -7.33139493556e-05,
+    "open_interest": 472221600000.0
    },
    "WIF/USD": {
-    "last": 0.13942,
-    "change_24h": 0.011756168359941865,
+    "last": 0.1395,
+    "change_24h": 0.019066403681788247,
     "funding": 5e-05,
-    "open_interest": 24812900.0
+    "open_interest": 24741130.0
    },
    "POPCAT/USD": {
-    "last": 0.02781,
-    "change_24h": 0.010537790697674465,
-    "funding": -1.6441213082e-05,
-    "open_interest": 10216910.0
+    "last": 0.02803,
+    "change_24h": 0.014477017734346731,
+    "funding": 5e-05,
+    "open_interest": 10027650.0
    },
    "PENGU/USD": {
-    "last": 0.004403,
-    "change_24h": -0.018064228367529078,
-    "funding": 3.23635483116e-05,
-    "open_interest": 1078153600.0
+    "last": 0.004407,
+    "change_24h": -0.02131912058627572,
+    "funding": 4.40117875702e-05,
+    "open_interest": 1077929900.0
    },
    "TRUMP/USD": {
-    "last": 0.8644,
-    "change_24h": -0.012001371585324105,
-    "funding": 4.21867223947e-05,
-    "open_interest": 9933983.4
+    "last": 0.8652,
+    "change_24h": -0.006088454910970764,
+    "funding": 5e-05,
+    "open_interest": 9961007.4
    },
    "FARTCOIN/USD": {
-    "last": 0.07957,
-    "change_24h": -0.03982140702304815,
+    "last": 0.07973,
+    "change_24h": -0.03893442622950827,
     "funding": 5e-05,
-    "open_interest": 19972512.0
+    "open_interest": 19958758.0
    },
    "PNUT/USD": {
-    "last": 0.02692,
-    "change_24h": -0.01715954728002922,
-    "funding": -7.54804634834e-05,
-    "open_interest": 25913700.0
+    "last": 0.02716,
+    "change_24h": -0.007309941520467822,
+    "funding": -3.16647332475e-05,
+    "open_interest": 25443350.0
    },
    "MOODENG/USD": {
-    "last": 0.029253,
-    "change_24h": 0.004153508169710163,
-    "funding": -1.98079098215e-05,
-    "open_interest": 31202480.0
+    "last": 0.029436,
+    "change_24h": 0.0003398355196084779,
+    "funding": 2.2311024105e-06,
+    "open_interest": 31179150.0
    }
   }
  },
@@ -2899,7 +2903,7 @@
    "paper_only": true
   },
   "wallet": 114.79817467167906,
-  "equity_now": 249.3596485651181,
+  "equity_now": 249.8968226970452,
   "open": [
    {
     "trade_id": 170,
@@ -2915,8 +2919,8 @@
     "entry_liquidity": 291903.77,
     "stop": 0.0109383,
     "target": 0.0218766,
-    "last_price": 0.01741,
-    "last_liquidity": 320981.03
+    "last_price": 0.01739,
+    "last_liquidity": 320740.53
    },
    {
     "trade_id": 197,
@@ -2932,8 +2936,8 @@
     "entry_liquidity": 28569.89,
     "stop": 0.00010998900000000001,
     "target": 0.00021997800000000001,
-    "last_price": 0.0001349,
-    "last_liquidity": 27786.29
+    "last_price": 0.000132,
+    "last_liquidity": 27452.93
    },
    {
     "trade_id": 201,
@@ -2949,8 +2953,8 @@
     "entry_liquidity": 55484.06,
     "stop": 0.00045616650000000004,
     "target": 0.0009123330000000001,
-    "last_price": 0.0007188,
-    "last_liquidity": 60775.7
+    "last_price": 0.0005764,
+    "last_liquidity": 54301.09
    },
    {
     "trade_id": 204,
@@ -2966,8 +2970,8 @@
     "entry_liquidity": 64703.25,
     "stop": 0.00033867825,
     "target": 0.0006773565,
-    "last_price": 0.0006218,
-    "last_liquidity": 77014.62
+    "last_price": 0.0006108,
+    "last_liquidity": 76250
    },
    {
     "trade_id": 205,
@@ -2983,8 +2987,8 @@
     "entry_liquidity": 26879.13,
     "stop": 0.0001080195,
     "target": 0.000216039,
-    "last_price": 0.0001101,
-    "last_liquidity": 24102.99
+    "last_price": 0.0001535,
+    "last_liquidity": 28522.87
    }
   ],
   "closed": [
@@ -7801,9 +7805,48 @@
    [
     1795837945,
     249.36
+   ],
+   [
+    1795839144,
+    249.9
    ]
   ],
   "checks": [
+   {
+    "ts": 1795839144.249898,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "FKzLbmXpyk3qxY4j3CbxqwjdtbCWb1HZZttok9AD5dio",
+     "symbol": "DCTY",
+     "dex": "pumpswap",
+     "price": 1.992e-05,
+     "liquidity": 9031.85,
+     "fdv": 19904,
+     "vol_h1": 267111.05,
+     "buys_h1": 4821,
+     "sells_h1": 3934,
+     "chg_h1": -34.62,
+     "chg_h6": -34.62,
+     "age_h": 0.8148916766378614,
+     "url": "https://dexscreener.com/solana/h6j2gvgqyngvej6xtcmlzdvmeehttwzjszjssf1wiud7",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $9,032 < $25,000"
+    ],
+    "score": null
+   },
    {
     "ts": 1795837945.9415803,
     "gate": "check_launch",
@@ -9225,41 +9268,6 @@
     "confidence": 0.965,
     "reasons": [
      "liquidity $10,813 < $25,000"
-    ],
-    "score": null
-   },
-   {
-    "ts": 1795822490.4103756,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "659ziXQiNko5cdGzPaBKVu81ahHzZMTFKBcNxe5ALXkG",
-     "symbol": "Maebashi",
-     "dex": "pumpswap",
-     "price": 3.697e-05,
-     "liquidity": 12567.3,
-     "fdv": 36941,
-     "vol_h1": 89035.25,
-     "buys_h1": 1319,
-     "sells_h1": 1025,
-     "chg_h1": 27.72,
-     "chg_h6": 27.72,
-     "age_h": 0.4669523809353511,
-     "url": "https://dexscreener.com/solana/dhw8xtcc6tffmdr6ucvg4fmgtxk6emrnmj1soq7dntqh",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $12,567 < $25,000"
     ],
     "score": null
    }
