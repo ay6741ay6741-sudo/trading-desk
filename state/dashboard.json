@@ -1,5 +1,5 @@
 {
- "updated": 1795873197.6022327,
+ "updated": 1795874398.7491853,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 980.3309607173807,
- "equity_now": 987.6985195426267,
+ "equity_now": 987.7779320197794,
  "open": [
   {
    "trade_id": 10,
@@ -1894,58 +1894,62 @@
   [
    1795873179,
    987.7
+  ],
+  [
+   1795874396,
+   987.78
   ]
  ],
  "scout": {
-  "ts": 1795873173.1522875,
+  "ts": 1795874390.3355532,
   "pairs": {
    "BONK/USD": {
-    "last": 2.07e-06,
-    "change_24h": -0.06334841628959276,
-    "funding": -0.0001201263708502,
-    "open_interest": 480825700000.0
+    "last": 2.08e-06,
+    "change_24h": -0.054545454545454564,
+    "funding": -0.0001163313701705,
+    "open_interest": 484607200000.0
    },
    "WIF/USD": {
-    "last": 0.13956,
-    "change_24h": -0.012942923827710562,
+    "last": 0.13999,
+    "change_24h": -0.009901690359997106,
     "funding": 5e-05,
-    "open_interest": 23946457.0
+    "open_interest": 23929201.0
    },
    "POPCAT/USD": {
-    "last": 0.0269,
-    "change_24h": -0.03411131059245953,
-    "funding": -5.5542263429e-05,
-    "open_interest": 9959060.0
+    "last": 0.02681,
+    "change_24h": -0.037342908438060984,
+    "funding": -0.0002322878404863,
+    "open_interest": 9955380.0
    },
    "PENGU/USD": {
-    "last": 0.004282,
-    "change_24h": -0.05620454044522816,
+    "last": 0.004275,
+    "change_24h": -0.05774741018294027,
     "funding": 5e-05,
-    "open_interest": 1087363000.0
+    "open_interest": 1075035700.0
    },
    "TRUMP/USD": {
-    "last": 0.7499,
-    "change_24h": -0.15035123498753689,
-    "funding": -0.0003489359641343,
-    "open_interest": 14527098.9
+    "last": 0.7491,
+    "change_24h": -0.15125764785859963,
+    "funding": -0.0003411020811563,
+    "open_interest": 14598759.0
    },
    "FARTCOIN/USD": {
-    "last": 0.07722,
-    "change_24h": -0.06930215740629153,
+    "last": 0.07714,
+    "change_24h": -0.07026636133542241,
     "funding": 5e-05,
-    "open_interest": 20221562.0
+    "open_interest": 20189728.0
    },
    "PNUT/USD": {
-    "last": 0.02621,
-    "change_24h": -0.04760174418604646,
-    "funding": -0.0002006592394951,
-    "open_interest": 25184830.0
+    "last": 0.02615,
+    "change_24h": -0.05081669691470059,
+    "funding": -0.0003064781012727,
+    "open_interest": 25043930.0
    },
    "MOODENG/USD": {
-    "last": 0.028652,
-    "change_24h": -0.035643364410487766,
-    "funding": -4.43965713029e-05,
-    "open_interest": 31466850.0
+    "last": 0.028618,
+    "change_24h": -0.03678772171922862,
+    "funding": -1.15658273121e-05,
+    "open_interest": 31322410.0
    }
   }
  },
@@ -3007,7 +3011,7 @@
    "paper_only": true
   },
   "wallet": 141.4395820683619,
-  "equity_now": 272.4993380519096,
+  "equity_now": 266.2282913879518,
   "open": [
    {
     "trade_id": 170,
@@ -3023,8 +3027,8 @@
     "entry_liquidity": 291903.77,
     "stop": 0.0109383,
     "target": 0.0218766,
-    "last_price": 0.01636,
-    "last_liquidity": 309879.1
+    "last_price": 0.01592,
+    "last_liquidity": 304856.74
    },
    {
     "trade_id": 206,
@@ -3040,8 +3044,8 @@
     "entry_liquidity": 70082.21,
     "stop": 0.00072060975,
     "target": 0.0014412195,
-    "last_price": 0.001049,
-    "last_liquidity": 73963.32
+    "last_price": 0.001034,
+    "last_liquidity": 73253.38
    },
    {
     "trade_id": 208,
@@ -3057,8 +3061,8 @@
     "entry_liquidity": 69077.99,
     "stop": 0.0007007632500000001,
     "target": 0.0014015265000000001,
-    "last_price": 0.001067,
-    "last_liquidity": 75096.23
+    "last_price": 0.001137,
+    "last_liquidity": 77356.37
    },
    {
     "trade_id": 211,
@@ -3074,8 +3078,8 @@
     "entry_liquidity": 90245.2,
     "stop": 0.00062819475,
     "target": 0.0012563895,
-    "last_price": 0.0007955,
-    "last_liquidity": 88627.87
+    "last_price": 0.0007575,
+    "last_liquidity": 86484.95
    },
    {
     "trade_id": 212,
@@ -3091,7 +3095,8 @@
     "entry_liquidity": 53409.71,
     "stop": 0.00038837025,
     "target": 0.0007767405,
-    "last_price": 0.0005127
+    "last_price": 0.0003899,
+    "last_liquidity": 46316.54
    }
   ],
   "closed": [
@@ -8024,9 +8029,48 @@
    [
     1795873197,
     272.5
+   ],
+   [
+    1795874398,
+    266.23
    ]
   ],
   "checks": [
+   {
+    "ts": 1795874398.7459579,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "EvN4RDyoqUTpCcrvz5QTAdHVqypgxV4MCR77Bfnjpump",
+     "symbol": "John",
+     "dex": "pumpswap",
+     "price": 1.745e-05,
+     "liquidity": 8284.85,
+     "fdv": 17452,
+     "vol_h1": 151123.02,
+     "buys_h1": 2915,
+     "sells_h1": 2153,
+     "chg_h1": -38.58,
+     "chg_h6": -38.58,
+     "age_h": 0.25320178541872235,
+     "url": "https://dexscreener.com/solana/dim3d4xcy8gmtkrar93bnsilyqmenk7lmmuazjtt8lx1",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $8,285 < $25,000"
+    ],
+    "score": null
+   },
    {
     "ts": 1795873197.5986586,
     "gate": "check_launch",
@@ -9428,45 +9472,17 @@
      "liquidity $18,271 < $25,000"
     ],
     "score": null
-   },
-   {
-    "ts": 1795853746.056251,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "RecRFwNXRbTuDwDnvokNv5h4hLQubaDZMJwKfshpump",
-     "symbol": "MOSTO",
-     "dex": "pumpswap",
-     "price": 2.703e-05,
-     "liquidity": 10418.33,
-     "fdv": 27036,
-     "vol_h1": 345.4,
-     "buys_h1": 13,
-     "sells_h1": 13,
-     "chg_h1": 0.98,
-     "chg_h6": -4.42,
-     "age_h": 24.30112782842583,
-     "url": "https://dexscreener.com/solana/6mbvqnyjf3unm3wsl2ncjna9ijre7tfrct6yhdmd7qvr",
-     "mint_authority": null,
-     "freeze_authority": null,
-     "rug_score": 0,
-     "lp_locked_pct": null,
-     "rug_danger": []
-    },
-    "choice": "reject",
-    "probabilities": {
-     "reject": 0.965,
-     "verify_more": 0.018,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "liquidity $10,418 < $25,000"
-    ],
-    "score": null
    }
   ],
-  "watching": 90,
+  "watching": 89,
   "graded": [
+   {
+    "ts": 1795874396.5264275,
+    "symbol": "TWORBIT",
+    "score": 4.0,
+    "choice": "accept",
+    "r": 2
+   },
    {
     "ts": 1795873179.4498918,
     "symbol": "Zhaki",
@@ -9669,13 +9685,6 @@
     "score": 1.5,
     "choice": "reject",
     "r": -1
-   },
-   {
-    "ts": 1795794515.7759695,
-    "symbol": "BIAO",
-    "score": 2.0,
-    "choice": "reject",
-    "r": 2
    }
   ],
   "stats": {
