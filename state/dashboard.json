@@ -1,5 +1,5 @@
 {
- "updated": 1795859828.2365513,
+ "updated": 1795861051.2602746,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 980.3309607173807,
- "equity_now": 986.2376304461186,
+ "equity_now": 986.229535202211,
  "open": [
   {
    "trade_id": 10,
@@ -1850,58 +1850,62 @@
   [
    1795859826,
    986.24
+  ],
+  [
+   1795861049,
+   986.23
   ]
  ],
  "scout": {
-  "ts": 1795859820.7665913,
+  "ts": 1795861043.2765248,
   "pairs": {
    "BONK/USD": {
     "last": 2.1e-06,
     "change_24h": -0.04977375565610864,
     "funding": 0.0001,
-    "open_interest": 483251200000.0
+    "open_interest": 481907600000.0
    },
    "WIF/USD": {
-    "last": 0.14078,
-    "change_24h": 0.0185211980900013,
+    "last": 0.14064,
+    "change_24h": 0.01347553505800958,
     "funding": 5e-05,
-    "open_interest": 23877474.0
+    "open_interest": 24020561.0
    },
    "POPCAT/USD": {
-    "last": 0.02715,
-    "change_24h": -0.017372421281215966,
-    "funding": -6.8108496819e-06,
-    "open_interest": 9989420.0
+    "last": 0.02714,
+    "change_24h": -0.014882032667876577,
+    "funding": 2.8876435188e-06,
+    "open_interest": 9974170.0
    },
    "PENGU/USD": {
-    "last": 0.00433,
-    "change_24h": -0.0426707937209817,
+    "last": 0.004326,
+    "change_24h": -0.0467166152490085,
     "funding": 5e-05,
-    "open_interest": 1081065700.0
+    "open_interest": 1079417500.0
    },
    "TRUMP/USD": {
-    "last": 0.7627,
-    "change_24h": -0.12983456930975457,
-    "funding": -0.0003673633686183,
-    "open_interest": 13364426.8
+    "last": 0.7607,
+    "change_24h": -0.13694122986158375,
+    "funding": -0.0003631389507737,
+    "open_interest": 13378952.4
    },
    "FARTCOIN/USD": {
-    "last": 0.07805,
-    "change_24h": -0.061560658891427145,
+    "last": 0.07785,
+    "change_24h": -0.062387089003974494,
     "funding": 5e-05,
-    "open_interest": 20036781.0
+    "open_interest": 20094500.0
    },
    "PNUT/USD": {
-    "last": 0.02644,
-    "change_24h": -0.036443148688046545,
-    "funding": 9.2781527407e-06,
-    "open_interest": 24911670.0
+    "last": 0.02648,
+    "change_24h": -0.03639010189228531,
+    "funding": 1.19346503604e-05,
+    "open_interest": 24980330.0
    },
    "MOODENG/USD": {
-    "last": 0.028904,
-    "change_24h": 0.005636350984621785,
+    "last": 0.028893,
+    "change_24h": 0.0018029888006656503,
     "funding": 5e-05,
-    "open_interest": 31765330.0
+    "open_interest": 31661190.0
    }
   }
  },
@@ -2975,7 +2979,7 @@
    "paper_only": true
   },
   "wallet": 101.0603204702592,
-  "equity_now": 274.2337854232304,
+  "equity_now": 284.93074399690704,
   "open": [
    {
     "trade_id": 170,
@@ -2991,8 +2995,8 @@
     "entry_liquidity": 291903.77,
     "stop": 0.0109383,
     "target": 0.0218766,
-    "last_price": 0.01804,
-    "last_liquidity": 325804.6
+    "last_price": 0.0172,
+    "last_liquidity": 318274.46
    },
    {
     "trade_id": 204,
@@ -3008,8 +3012,8 @@
     "entry_liquidity": 64703.25,
     "stop": 0.00033867825,
     "target": 0.0006773565,
-    "last_price": 0.0005768,
-    "last_liquidity": 74569.64
+    "last_price": 0.0006519,
+    "last_liquidity": 79540.91
    },
    {
     "trade_id": 206,
@@ -3025,8 +3029,8 @@
     "entry_liquidity": 70082.21,
     "stop": 0.00072060975,
     "target": 0.0014412195,
-    "last_price": 0.00102,
-    "last_liquidity": 72726.94
+    "last_price": 0.001122,
+    "last_liquidity": 76399.19
    },
    {
     "trade_id": 208,
@@ -3042,8 +3046,8 @@
     "entry_liquidity": 69077.99,
     "stop": 0.0007007632500000001,
     "target": 0.0014015265000000001,
-    "last_price": 0.001283,
-    "last_liquidity": 82092.73
+    "last_price": 0.001246,
+    "last_liquidity": 81000.42
    },
    {
     "trade_id": 209,
@@ -3059,8 +3063,8 @@
     "entry_liquidity": 50639.27,
     "stop": 0.00035867625,
     "target": 0.0007173525,
-    "last_price": 0.0004479,
-    "last_liquidity": 49453.84
+    "last_price": 0.0004984,
+    "last_liquidity": 52290.67
    },
    {
     "trade_id": 210,
@@ -3076,8 +3080,8 @@
     "entry_liquidity": 36363.38,
     "stop": 0.00017445225,
     "target": 0.0003489045,
-    "last_price": 0.0002585,
-    "last_liquidity": 38875.01
+    "last_price": 0.0002937,
+    "last_liquidity": 41572.82
    }
   ],
   "closed": [
@@ -7966,9 +7970,48 @@
    [
     1795859828,
     274.23
+   ],
+   [
+    1795861051,
+    284.93
    ]
   ],
   "checks": [
+   {
+    "ts": 1795861051.2569206,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "4newt1R5fGEoCKdf9XBgiR6B43iacmnVAR2d4Wt8pump",
+     "symbol": "Mojave",
+     "dex": "pumpswap",
+     "price": 2.817e-05,
+     "liquidity": 10946.14,
+     "fdv": 28133,
+     "vol_h1": 57343.76,
+     "buys_h1": 1131,
+     "sells_h1": 737,
+     "chg_h1": -2.19,
+     "chg_h6": -2.19,
+     "age_h": 0.14284842020935481,
+     "url": "https://dexscreener.com/solana/armqz5kmqecjv18c8jcjvmwvkbtrrpnliuachkwaarih",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 0,
+     "lp_locked_pct": null,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "reject": 0.965,
+     "verify_more": 0.018,
+     "accept": 0.018
+    },
+    "confidence": 0.965,
+    "reasons": [
+     "liquidity $10,946 < $25,000"
+    ],
+    "score": null
+   },
    {
     "ts": 1795858616.8388486,
     "gate": "check_launch",
@@ -9369,41 +9412,6 @@
      "LP 99% locked"
     ],
     "score": 3.0
-   },
-   {
-    "ts": 1795836731.05922,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "APmirEVL5wkbYVZ88TDdr9cwJ6WfRCWuzm4wQWyzpump",
-     "symbol": "BTCBALLS",
-     "dex": "pumpswap",
-     "price": 0.0004108,
-     "liquidity": 45140.34,
-     "fdv": 410855,
-     "vol_h1": 238620.81,
-     "buys_h1": 1568,
-     "sells_h1": 690,
-     "chg_h1": 1042,
-     "chg_h6": 1042,
-     "age_h": 0.19584321353170606,
-     "url": "https://dexscreener.com/solana/haz1ayku3rokaqq8g5qhuce1m4xb3zceu2wmwwyg4cvg",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 100,
-     "rug_danger": []
-    },
-    "choice": "verify_more",
-    "probabilities": {
-     "reject": 0.018,
-     "verify_more": 0.965,
-     "accept": 0.018
-    },
-    "confidence": 0.965,
-    "reasons": [
-     "only 12 min old, watching"
-    ],
-    "score": null
    }
   ],
   "watching": 90,
