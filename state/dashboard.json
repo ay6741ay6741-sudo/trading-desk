@@ -1,5 +1,5 @@
 {
- "updated": 1795870758.2898262,
+ "updated": 1795871989.8433938,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 980.3309607173807,
- "equity_now": 986.6484618827177,
+ "equity_now": 986.9703038372058,
  "open": [
   {
    "trade_id": 10,
@@ -1886,62 +1886,83 @@
   [
    1795870756,
    986.65
+  ],
+  [
+   1795871972,
+   986.97
   ]
  ],
  "scout": {
-  "ts": 1795870749.956224,
+  "ts": 1795871966.934881,
   "pairs": {
    "BONK/USD": {
     "last": 2.08e-06,
     "change_24h": -0.05882352941176472,
-    "funding": -1.37966573711e-05,
-    "open_interest": 482235200000.0
+    "funding": -5.56109495462e-05,
+    "open_interest": 482014000000.0
    },
    "WIF/USD": {
-    "last": 0.13975,
-    "change_24h": 0.0009310986964619072,
+    "last": 0.13979,
+    "change_24h": -0.01131621755428236,
     "funding": 5e-05,
-    "open_interest": 23945085.0
+    "open_interest": 23958782.0
    },
    "POPCAT/USD": {
-    "last": 0.02716,
-    "change_24h": -0.025125628140703515,
-    "funding": 3.61860560146e-05,
-    "open_interest": 9966650.0
+    "last": 0.0271,
+    "change_24h": -0.026929982046678624,
+    "funding": 5e-05,
+    "open_interest": 9947050.0
    },
    "PENGU/USD": {
-    "last": 0.004323,
-    "change_24h": -0.04842615012106555,
+    "last": 0.004299,
+    "change_24h": -0.05245757108221294,
     "funding": 5e-05,
-    "open_interest": 1089149400.0
+    "open_interest": 1088121200.0
    },
    "TRUMP/USD": {
-    "last": 0.7613,
-    "change_24h": -0.1369459244983562,
-    "funding": -0.0003886116254101,
-    "open_interest": 14364736.4
+    "last": 0.7561,
+    "change_24h": -0.1433265352368004,
+    "funding": -0.0003644797067112,
+    "open_interest": 14572863.6
    },
    "FARTCOIN/USD": {
-    "last": 0.07783,
-    "change_24h": -0.0653296505344062,
+    "last": 0.07775,
+    "change_24h": -0.062462317617267615,
     "funding": 5e-05,
-    "open_interest": 20152126.0
+    "open_interest": 20185201.0
    },
    "PNUT/USD": {
     "last": 0.02632,
-    "change_24h": -0.03871439006574151,
-    "funding": -0.0001034472518742,
-    "open_interest": 25059340.0
+    "change_24h": -0.04464609800362984,
+    "funding": -0.000155970110955,
+    "open_interest": 25092200.0
    },
    "MOODENG/USD": {
-    "last": 0.028795,
-    "change_24h": -0.020544916493758336,
-    "funding": -2.3852919204e-05,
-    "open_interest": 31796360.0
+    "last": 0.028545,
+    "change_24h": -0.04034291477559249,
+    "funding": -2.75689011161e-05,
+    "open_interest": 31557920.0
    }
   }
  },
  "decisions": [
+  {
+   "ts": 1795871989.84085,
+   "gate": "route_task",
+   "inputs": {
+    "brief_fresh": true
+   },
+   "choice": "trading_bot",
+   "probabilities": {
+    "stand_down": 0.045,
+    "SCOUT": 0.045,
+    "trading_bot": 0.909
+   },
+   "confidence": 0.909,
+   "reasons": [
+    "context fresh, bot running: bot trades, signal gate guards entries"
+   ]
+  },
   {
    "ts": 1795846487.388049,
    "gate": "check_signal",
@@ -2932,35 +2953,6 @@
     "BTC against the trade vs its daily open"
    ],
    "score": -1.0
-  },
-  {
-   "ts": 1795539619.6479304,
-   "gate": "check_signal",
-   "inputs": {
-    "pair": "PNUT/USD",
-    "direction": "short",
-    "volume_ratio": 1.092,
-    "trend_ok": true,
-    "btc_conflict": false,
-    "funding": 1.64852314158e-05,
-    "candle_age_h": 0,
-    "whitelisted": true,
-    "price": 0.02555,
-    "candle_ts": 1795536000
-   },
-   "choice": "accept",
-   "probabilities": {
-    "verify_more": 0.245,
-    "reject": 0.09,
-    "accept": 0.665
-   },
-   "confidence": 0.665,
-   "reasons": [
-    "volume 1.09x 20-day avg",
-    "trend agrees",
-    "funding neutral 0.0016%"
-   ],
-   "score": 2.5
   }
  ],
  "tuning": [],
@@ -2978,7 +2970,7 @@
  "reports": [
   {
    "day": "2026-11-28",
-   "text": "## 01:14 desk run\n- signal FARTCOIN/USD short @ 0.07805: **reject** (66%) - volume only 0.53x avg, trend agrees, funding neutral 0.0050%\n- signal PNUT/USD short @ 0.02644: **accept** (66%) - volume 1.55x 20-day avg, trend agrees, funding neutral 0.0040%\n- OPENED #13 PNUT/USD short $50 @ $0.02644, stop 0.0285552, target 0.0222096\n\n## 01:15 launch desk\n- LAUNCH CLOSED #197 Zhaki/USD: roi, +62.35% ($+15.59)\n- LAUNCH CLOSED #201 Memeball/USD: roi, +54.84% ($+13.71)\n- launch Memeball (5.8h old, liq $70,082): **accept** (87%) - liquidity $70,082, 1h volume 0.5x liquidity, buyers 964 vs sellers 564, momentum +10% 1h, LP 100% locked\n- LAUNCH OPENED #206 Memeball/USD $25 @ $0.000960813\n\n## 01:57 launch desk\n- launch SPSC (1.0h old, liq $26,466): **accept** (66%) - 1h volume 7.8x liquidity, buyers 2646 vs sellers 2060, momentum +411% 1h, LP 100% locked\n- LAUNCH OPENED #207 SPSC/USD $25 @ $0.000147157\n\n## 02:17 launch desk\n- launch BITCOINU (2.5h old, liq $69,078): **accept** (66%) - liquidity $69,078, 1h volume 1.3x liquidity, buyers 12065 vs sellers 3968, LP 100% locked\n- LAUNCH OPENED #208 BITCOINU/USD $25 @ $0.000934351\n\n## 02:35 launch desk\n- launch Fireball (17.4h old, liq $50,639): **accept** (66%) - liquidity $50,639, 1h volume 1.3x liquidity, buyers 3983 vs sellers 2389, LP 100% locked\n- LAUNCH OPENED #209 Fireball/USD $25 @ $0.000478235\n- launch WLFI (2.8h old, liq $36,363): **accept** (51%) - 1h volume 6.3x liquidity, buyers 3285 vs sellers 2705, momentum +6% 1h\n- LAUNCH OPENED #210 WLFI/USD $25 @ $0.000232603\n\n## 04:36 launch desk\n- LAUNCH CLOSED #207 SPSC/USD: stop_loss, -28.55% ($-7.14)\n\n## 05:58 launch desk\n- LAUNCH CLOSED #204 MoonBoy/USD: roi, +65.57% ($+16.39)\n\n## 06:38 launch desk\n- LAUNCH CLOSED #209 Fireball/USD: stop_loss, -58.85% ($-14.71)\n\n## 06:58 launch desk\n- LAUNCH CLOSED #210 WLFI/USD: roi, +54.80% ($+13.70)\n- launch MoonBoy (15.3h old, liq $90,245): **accept** (79%) - liquidity $90,245, 1h volume 1.6x liquidity, buyers 965 vs sellers 785, momentum +14% 1h\n- LAUNCH OPENED #211 MoonBoy/USD $25 @ $0.000837593\n\n"
+   "text": "## 01:14 desk run\n- signal FARTCOIN/USD short @ 0.07805: **reject** (66%) - volume only 0.53x avg, trend agrees, funding neutral 0.0050%\n- signal PNUT/USD short @ 0.02644: **accept** (66%) - volume 1.55x 20-day avg, trend agrees, funding neutral 0.0040%\n- OPENED #13 PNUT/USD short $50 @ $0.02644, stop 0.0285552, target 0.0222096\n\n## 01:15 launch desk\n- LAUNCH CLOSED #197 Zhaki/USD: roi, +62.35% ($+15.59)\n- LAUNCH CLOSED #201 Memeball/USD: roi, +54.84% ($+13.71)\n- launch Memeball (5.8h old, liq $70,082): **accept** (87%) - liquidity $70,082, 1h volume 0.5x liquidity, buyers 964 vs sellers 564, momentum +10% 1h, LP 100% locked\n- LAUNCH OPENED #206 Memeball/USD $25 @ $0.000960813\n\n## 01:57 launch desk\n- launch SPSC (1.0h old, liq $26,466): **accept** (66%) - 1h volume 7.8x liquidity, buyers 2646 vs sellers 2060, momentum +411% 1h, LP 100% locked\n- LAUNCH OPENED #207 SPSC/USD $25 @ $0.000147157\n\n## 02:17 launch desk\n- launch BITCOINU (2.5h old, liq $69,078): **accept** (66%) - liquidity $69,078, 1h volume 1.3x liquidity, buyers 12065 vs sellers 3968, LP 100% locked\n- LAUNCH OPENED #208 BITCOINU/USD $25 @ $0.000934351\n\n## 02:35 launch desk\n- launch Fireball (17.4h old, liq $50,639): **accept** (66%) - liquidity $50,639, 1h volume 1.3x liquidity, buyers 3983 vs sellers 2389, LP 100% locked\n- LAUNCH OPENED #209 Fireball/USD $25 @ $0.000478235\n- launch WLFI (2.8h old, liq $36,363): **accept** (51%) - 1h volume 6.3x liquidity, buyers 3285 vs sellers 2705, momentum +6% 1h\n- LAUNCH OPENED #210 WLFI/USD $25 @ $0.000232603\n\n## 04:36 launch desk\n- LAUNCH CLOSED #207 SPSC/USD: stop_loss, -28.55% ($-7.14)\n\n## 05:58 launch desk\n- LAUNCH CLOSED #204 MoonBoy/USD: roi, +65.57% ($+16.39)\n\n## 06:38 launch desk\n- LAUNCH CLOSED #209 Fireball/USD: stop_loss, -58.85% ($-14.71)\n\n## 06:58 launch desk\n- LAUNCH CLOSED #210 WLFI/USD: roi, +54.80% ($+13.70)\n- launch MoonBoy (15.3h old, liq $90,245): **accept** (79%) - liquidity $90,245, 1h volume 1.6x liquidity, buyers 965 vs sellers 785, momentum +14% 1h\n- LAUNCH OPENED #211 MoonBoy/USD $25 @ $0.000837593\n\n## Morning brief 08:19\nNext seat: **trading_bot** (91%) - context fresh, bot running: bot trades, signal gate guards entries\n\n| pair | last | 24h | funding/8h | open interest |\n|---|---|---|---|---|\n| BONK/USD | 2.08e-06 | -5.88% | -0.0056% | 482,014,000,000 |\n| WIF/USD | 0.13979 | -1.13% | +0.0050% | 23,958,782 |\n| POPCAT/USD | 0.0271 | -2.69% | +0.0050% | 9,947,050 |\n| PENGU/USD | 0.004299 | -5.25% | +0.0050% | 1,088,121,200 |\n| TRUMP/USD | 0.7561 | -14.33% | -0.0364% | 14,572,864 |\n| FARTCOIN/USD | 0.07775 | -6.25% | +0.0050% | 20,185,201 |\n| PNUT/USD | 0.02632 | -4.46% | -0.0156% | 25,092,200 |\n| MOODENG/USD | 0.028545 | -4.03% | -0.0028% | 31,557,920 |\n\n"
   },
   {
    "day": "2026-11-27",
@@ -3011,7 +3003,7 @@
    "paper_only": true
   },
   "wallet": 166.4395820683619,
-  "equity_now": 271.96542143291697,
+  "equity_now": 275.35248774593595,
   "open": [
    {
     "trade_id": 170,
@@ -3027,8 +3019,8 @@
     "entry_liquidity": 291903.77,
     "stop": 0.0109383,
     "target": 0.0218766,
-    "last_price": 0.01656,
-    "last_liquidity": 312249.07
+    "last_price": 0.01645,
+    "last_liquidity": 310947.49
    },
    {
     "trade_id": 206,
@@ -3044,8 +3036,8 @@
     "entry_liquidity": 70082.21,
     "stop": 0.00072060975,
     "target": 0.0014412195,
-    "last_price": 0.0007809,
-    "last_liquidity": 63659.55
+    "last_price": 0.000952,
+    "last_liquidity": 70394.73
    },
    {
     "trade_id": 208,
@@ -3061,8 +3053,8 @@
     "entry_liquidity": 69077.99,
     "stop": 0.0007007632500000001,
     "target": 0.0014015265000000001,
-    "last_price": 0.001177,
-    "last_liquidity": 78965.31
+    "last_price": 0.001181,
+    "last_liquidity": 79055.81
    },
    {
     "trade_id": 211,
@@ -3078,8 +3070,8 @@
     "entry_liquidity": 90245.2,
     "stop": 0.00062819475,
     "target": 0.0012563895,
-    "last_price": 0.0008843,
-    "last_liquidity": 93484.65
+    "last_price": 0.0008525,
+    "last_liquidity": 91837.72
    }
   ],
   "closed": [
@@ -8004,6 +7996,10 @@
    [
     1795870758,
     271.97
+   ],
+   [
+    1795871989,
+    275.35
    ]
   ],
   "checks": [
@@ -9439,7 +9435,7 @@
     "score": null
    }
   ],
-  "watching": 91,
+  "watching": 90,
   "graded": [
    {
     "ts": 1795870756.266159,
