@@ -1,5 +1,5 @@
 {
- "updated": 1795840368.4646375,
+ "updated": 1795841588.2254848,
  "limits": {
   "pairs": [
    "BONK/USD",
@@ -44,7 +44,7 @@
   ]
  },
  "wallet": 980.3309607173807,
- "equity_now": 978.7308496650328,
+ "equity_now": 981.445323009491,
  "open": [
   {
    "trade_id": 10,
@@ -1782,58 +1782,62 @@
   [
    1795840364,
    978.73
+  ],
+  [
+   1795841580,
+   981.45
   ]
  ],
  "scout": {
-  "ts": 1795840358.144421,
+  "ts": 1795841574.7729635,
   "pairs": {
    "BONK/USD": {
-    "last": 2.15e-06,
-    "change_24h": -0.013761467889908174,
-    "funding": -8.59555342827e-05,
-    "open_interest": 471198900000.0
+    "last": 2.14e-06,
+    "change_24h": -0.01834862385321101,
+    "funding": -7.28166817419e-05,
+    "open_interest": 474265900000.0
    },
    "WIF/USD": {
-    "last": 0.1398,
-    "change_24h": 0.021257944334867274,
+    "last": 0.14008,
+    "change_24h": 0.022631041027887377,
     "funding": 5e-05,
-    "open_interest": 24716035.0
+    "open_interest": 24657156.0
    },
    "POPCAT/USD": {
-    "last": 0.02803,
-    "change_24h": 0.014477017734346731,
+    "last": 0.0279,
+    "change_24h": 0.009771986970684043,
     "funding": 5e-05,
-    "open_interest": 10002070.0
+    "open_interest": 9955150.0
    },
    "PENGU/USD": {
-    "last": 0.004403,
-    "change_24h": -0.022207417277370745,
-    "funding": 4.74732401475e-05,
-    "open_interest": 1077682000.0
+    "last": 0.004394,
+    "change_24h": -0.024206084832333885,
+    "funding": 4.73503451481e-05,
+    "open_interest": 1076024500.0
    },
    "TRUMP/USD": {
-    "last": 0.8645,
-    "change_24h": -0.006892590465249815,
-    "funding": 5e-05,
-    "open_interest": 9945590.0
+    "last": 0.8243,
+    "change_24h": -0.0530729465824239,
+    "funding": 4.78489452072e-05,
+    "open_interest": 10097891.1
    },
    "FARTCOIN/USD": {
-    "last": 0.07956,
-    "change_24h": -0.040983606557377095,
+    "last": 0.07926,
+    "change_24h": -0.04459980713596923,
     "funding": 5e-05,
-    "open_interest": 19956169.0
+    "open_interest": 20019043.0
    },
    "PNUT/USD": {
-    "last": 0.02709,
-    "change_24h": -0.009868421052631526,
-    "funding": -2.72950664643e-05,
-    "open_interest": 25464400.0
+    "last": 0.02703,
+    "change_24h": -0.01206140350877194,
+    "funding": -3.5183466226e-06,
+    "open_interest": 25378900.0
    },
    "MOODENG/USD": {
-    "last": 0.029008,
-    "change_24h": -0.014205124719635753,
-    "funding": -2.2521513617e-06,
-    "open_interest": 31643290.0
+    "last": 0.029304,
+    "change_24h": -0.00414599333922383,
+    "funding": 5e-05,
+    "open_interest": 31501920.0
    }
   }
  },
@@ -2907,7 +2911,7 @@
    "paper_only": true
   },
   "wallet": 128.89969106455257,
-  "equity_now": 241.82750751155157,
+  "equity_now": 243.35962779442252,
   "open": [
    {
     "trade_id": 170,
@@ -2923,8 +2927,8 @@
     "entry_liquidity": 291903.77,
     "stop": 0.0109383,
     "target": 0.0218766,
-    "last_price": 0.01767,
-    "last_liquidity": 323331.04
+    "last_price": 0.0174,
+    "last_liquidity": 320872.85
    },
    {
     "trade_id": 197,
@@ -2940,8 +2944,8 @@
     "entry_liquidity": 28569.89,
     "stop": 0.00010998900000000001,
     "target": 0.00021997800000000001,
-    "last_price": 0.0001412,
-    "last_liquidity": 28462.7
+    "last_price": 0.0001682,
+    "last_liquidity": 31227.8
    },
    {
     "trade_id": 201,
@@ -2957,8 +2961,8 @@
     "entry_liquidity": 55484.06,
     "stop": 0.00045616650000000004,
     "target": 0.0009123330000000001,
-    "last_price": 0.0006573,
-    "last_liquidity": 58099.03
+    "last_price": 0.0007929,
+    "last_liquidity": 63974.95
    },
    {
     "trade_id": 204,
@@ -2974,8 +2978,8 @@
     "entry_liquidity": 64703.25,
     "stop": 0.00033867825,
     "target": 0.0006773565,
-    "last_price": 0.0005905,
-    "last_liquidity": 75042.44
+    "last_price": 0.000443,
+    "last_liquidity": 64876.12
    }
   ],
   "closed": [
@@ -7800,9 +7804,49 @@
    [
     1795840368,
     241.83
+   ],
+   [
+    1795841588,
+    243.36
    ]
   ],
   "checks": [
+   {
+    "ts": 1795841588.2188761,
+    "gate": "check_launch",
+    "inputs": {
+     "mint": "3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump",
+     "symbol": "RICE",
+     "dex": "pumpswap",
+     "price": 0.0001153,
+     "liquidity": 25145.94,
+     "fdv": 115226,
+     "vol_h1": 596776.11,
+     "buys_h1": 9896,
+     "sells_h1": 8426,
+     "chg_h1": 212,
+     "chg_h6": 212,
+     "age_h": 0.7666163508759605,
+     "url": "https://dexscreener.com/solana/382jzmn7ijo5csjmlz8cvk3dwfqqhctiylp6ulaivgh8",
+     "mint_authority": false,
+     "freeze_authority": false,
+     "rug_score": 1,
+     "lp_locked_pct": 69.86127311508841,
+     "rug_danger": []
+    },
+    "choice": "reject",
+    "probabilities": {
+     "verify_more": 0.307,
+     "reject": 0.506,
+     "accept": 0.186
+    },
+    "confidence": 0.506,
+    "reasons": [
+     "1h volume 23.7x liquidity",
+     "momentum +212% 1h"
+    ],
+    "score": 2.5
+   },
    {
     "ts": 1795840368.458591,
     "gate": "check_launch",
@@ -9217,47 +9261,9 @@
     ],
     "score": null,
     "final": true
-   },
-   {
-    "ts": 1795825777.7346525,
-    "gate": "check_launch",
-    "inputs": {
-     "mint": "2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump",
-     "symbol": "Zhaki",
-     "dex": "pumpswap",
-     "price": 0.0001452,
-     "liquidity": 28569.89,
-     "fdv": 145297,
-     "vol_h1": 51157.12,
-     "buys_h1": 635,
-     "sells_h1": 506,
-     "chg_h1": 32.73,
-     "chg_h6": 1725,
-     "age_h": 11.578961392442386,
-     "url": "https://dexscreener.com/solana/3vrhjgeag6ixpt58r3g1rim7zcguvszijlhktnrcz1kv",
-     "mint_authority": false,
-     "freeze_authority": false,
-     "rug_score": 1,
-     "lp_locked_pct": 98.59731198349331,
-     "rug_danger": []
-    },
-    "choice": "accept",
-    "probabilities": {
-     "verify_more": 0.245,
-     "reject": 0.09,
-     "accept": 0.665
-    },
-    "confidence": 0.665,
-    "reasons": [
-     "1h volume 1.8x liquidity",
-     "buyers 635 vs sellers 506",
-     "momentum +33% 1h",
-     "LP 99% locked"
-    ],
-    "score": 4.0
    }
   ],
-  "watching": 84,
+  "watching": 85,
   "graded": [
    {
     "ts": 1795840364.3400521,
