@@ -443,3 +443,19 @@ Traceback (most recent call last):
     raise URLError(err)
 urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 
+2026-11-27 19:09 launches
+Traceback (most recent call last):
+  File "C:\Users\ay674\Documents\trading-desk\desk\desk.py", line 288, in run
+    fn()
+    ~~^^
+  File "C:\Users\ay674\Documents\trading-desk\desk\desk.py", line 134, in launch_job
+    save_json("launch.json", st)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ay674\Documents\trading-desk\desk\desk.py", line 22, in save_json
+    tmp.write_text(json.dumps(data, indent=1))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ay674\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 810, in write_text
+    return f.write(data)
+           ~~~~~~~^^^^^^
+OSError: [Errno 28] No space left on device
+

@@ -1,53 +1,53 @@
 {
- "ts": 1795823357.9837801,
+ "ts": 1795825766.123815,
  "pairs": {
   "BONK/USD": {
    "last": 2.18e-06,
-   "change_24h": 0.004608294930875445,
-   "funding": -8.75099031119e-05,
-   "open_interest": 479068000000.0
+   "change_24h": -0.004566210045662267,
+   "funding": -4.19045583452e-05,
+   "open_interest": 476700700000.0
   },
   "WIF/USD": {
-   "last": 0.14232,
-   "change_24h": 0.047317683420413426,
+   "last": 0.14249,
+   "change_24h": 0.051043741240687446,
    "funding": 5e-05,
-   "open_interest": 25109772.0
+   "open_interest": 24960110.0
   },
   "POPCAT/USD": {
-   "last": 0.02783,
-   "change_24h": 0.02429149797570851,
+   "last": 0.02814,
+   "change_24h": 0.033798677443056535,
    "funding": 5e-05,
-   "open_interest": 10049570.0
+   "open_interest": 10260710.0
   },
   "PENGU/USD": {
-   "last": 0.004457,
-   "change_24h": 0.015724703737465706,
+   "last": 0.00447,
+   "change_24h": 0.015216897569838794,
    "funding": 5e-05,
-   "open_interest": 1078342700.0
+   "open_interest": 1080945000.0
   },
   "TRUMP/USD": {
-   "last": 0.876,
-   "change_24h": 0.01412363973141928,
-   "funding": 4.82803087099e-05,
-   "open_interest": 9737560.8
+   "last": 0.8732,
+   "change_24h": 0.007151095732410573,
+   "funding": 3.83220152675e-05,
+   "open_interest": 9842148.5
   },
   "FARTCOIN/USD": {
-   "last": 0.08027,
-   "change_24h": -0.013518495760108218,
+   "last": 0.0805,
+   "change_24h": -0.012996566944580623,
    "funding": 5e-05,
-   "open_interest": 19969000.0
+   "open_interest": 19932227.0
   },
   "PNUT/USD": {
-   "last": 0.02743,
-   "change_24h": 0.014423076923076872,
-   "funding": -5.408434957e-06,
-   "open_interest": 25230510.0
+   "last": 0.02739,
+   "change_24h": 0.012569316081330939,
+   "funding": -4.0692006917e-06,
+   "open_interest": 25370300.0
   },
   "MOODENG/USD": {
-   "last": 0.029556,
-   "change_24h": 0.040045041874868126,
+   "last": 0.029455,
+   "change_24h": 0.023631624674196328,
    "funding": 5e-05,
-   "open_interest": 30325450.0
+   "open_interest": 31232070.0
   }
  }
 }

@@ -103,3 +103,5 @@
 {"ts": 1795817613.5324554, "symbol": "HOLD", "score": 4.0, "choice": "accept", "r": -1}
 {"ts": 1795821268.1917655, "symbol": "CINU", "score": 4.0, "choice": "accept", "r": 2}
 {"ts": 1795822486.0285714, "symbol": "VIDA", "score": 0.5, "choice": "reject", "r": 0}
+{"ts": 1795825772.2610128, "symbol": "Vetocat", "score": 4.0, "choice": "accept", "r": -1}
+{"ts": 1795825772.2610128, "symbol": "TOGI", "score": 4.0, "choice": "accept", "r": -1}
